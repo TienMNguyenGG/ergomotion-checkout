@@ -1,0 +1,162 @@
+<div class="article-template pt-32">
+  <div class="container relative">
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'title'-%}
+      <div class="title-articles last-mb-none text-center md:max-w-450 md:mx-auto xl:mb-25 xl:max-w-770 2xl:mb-35 2xl:max-w-880" {{ block.shopify_attributes }}>
+        {%- if block.settings.blog_show_date -%}
+        <div class="text-dark-grey mb-7 md:mb-5 2xl:mb-8" itemprop="dateCreated pubdate datePublished">
+          {{ article.published_at | time_tag: format: 'date' }}
+        </div>
+        {%- endif -%}
+        
+        <h1 class="h2 px-10 md:leading-tight xl:text-h1-md 2xl:text-h2-v2-2xl" itemprop="headline">{{ article.title }}</h1>
+        {%- if block.settings.blog_show_author -%}
+        <div class="author-articles flex flex-col items-center justify-center xl:flex-row
+        {% if article.metafields.custom.option_author_image != blank or article.metafields.custom.option_author_name != blank %} mt-25 xl:mt-21 {% endif %}">
+          {% if article.metafields.custom.option_author_image != blank %}
+           <div class="bg-blue-400 bg-author bg bg-center lazy w-45 h-45 rounded-full overflow-hidden mb-5 md:mb-8 xl:mb-0 xl:mr-16" data-src="{{ article.metafields.custom.option_author_image | image_url }}"></div>
+          {%- endif -%}
+          {% if article.metafields.custom.option_author_name != blank %}
+          <h5 class="md:text-h5 xl:text-h5-md 2xl:text-h5" itemprop="author">{{ article.metafields.custom.option_author_name }}</h5>
+          {%- endif -%}
+        </div>
+        {%- endif -%}
+      </div>
+
+      {%- when 'share' -%}
+        <div class="share-articles xl:sticky xl:left-4 xl:top-50 xl:inline-block 2xl:left-0 1k8:ml-15" {{ block.shopify_attributes }}>
+          <ul class="list-none flex justify-center items-center mt-35 mb-7 p-0 md:mt-23 md:mb-5 xl:flex-col xl:m-0 xl:inline-flex">
+            <li class="order-2 xl:order-1 xl:mb-2">
+              <a rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" class="text-blue-400 no-underline p-8 xl:inline-block xl:p-5" href="https://twitter.com/share?text={{ article.title }}&amp;url={{ request.origin | append: article.url }}">
+                <span class="icomoon text-font-24 xl:text-h2 xl:inline-block icon-twitter"></span>
+                <span class="sr-only">Share Twitter</span>
+              </a>
+            </li>
+            <li class="order-1 xl:order-2 xl:mb-6">
+              <a rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" class="text-blue-400 no-underline p-8 xl:inline-block xl:p-5" href="https://www.facebook.com/sharer/sharer.php?u={{ request.origin | append: article.url }}">
+                <span class="icomoon text-font-24 xl:hidden icon-facebook"></span>
+                <span class="icomoon text-font-24 hidden xl:inline-block xl:text-font-29 icon-facebook-1"><span class="path1"></span><span class="path2"></span></span>
+                <span class="sr-only">Share facebook</span>
+              </a>
+            </li>
+            <li class="order-3 xl:mb-0">
+              <a rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" class="text-blue-400 no-underline p-8 xl:inline-block xl:p-5" href="mailto:?subject={{ article.title }}&amp;body={{ request.origin | append: article.url }}">
+                <span class="icomoon text-h4-md xl:text-font-24 xl:inline-block icon-mail-1"></span>
+                <span class="sr-only">Share Mail</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+    {%- endcase -%}
+  {%- endfor -%}
+  <div class="main-content-detail">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'featured_image'-%}
+          <div class="feature-image-articles" {{ block.shopify_attributes }}>
+              {%- if article.image -%}
+              <div class="relative pb-100per -mx-10 bg-blue-400 md:pb-52-8p xl:ml-50 xl:mr-2 xl:pb-49p 2xl:max-w-1331 2xl:pb-42p mb-32 md:mb-32 xl:mb-38 2xl:mb-60">
+                  <img src="{{ settings.IMAGE_BASE64 | escape }}" class="lazy object-cover absolute left-0 top-0 w-full h-full object-center mb-7" data-src="{{ article.image | image_url }}" alt="{{ article.image.alt | escape }}">
+              </div>
+              {% endif %}
+          </div>
+        {%- when 'content'-%}
+          <div class="content-articles last-mb-none px-16  md:max-w-684 md:mx-auto xl:max-w-816 2xl:max-w-990" itemprop="articleBody" {{ block.shopify_attributes }}>
+              {{ article.content }}
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+  </div>
+  
+
+    
+  {% comment %} <div class="article-template__back element-margin-top center">
+    <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
+      <span class="icon-wrap">{% render 'icon-arrow' %}</span>
+      {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
+    </a>
+  </div> {% endcomment %}
+</div>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "headline": {{ article.title | json }},
+    {% if article.image %}
+      "image": [
+        {{ article | image_url: width: article.image.width | prepend: "https:" | json }}
+      ],
+    {% endif %}
+    "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+    "author": [{
+      "@type": "Organization",
+      "name": "ERGOMOTION",
+      "url": "https://www.ERGOMOTION.com/"
+    }]
+  }
+</script>
+
+
+{% schema %}
+{
+  "name":"t:sections.main-article.name",
+  "tag":"section",
+  "class":"section",
+  "blocks":[
+    {
+      "type":"title",
+      "name":"t:sections.main-article.blocks.title.name",
+      "limit":1,
+      "settings":[
+        {
+          "type":"checkbox",
+          "id":"blog_show_date",
+          "default":true,
+          "label":"t:sections.main-article.blocks.title.settings.blog_show_date.label"
+        },
+        {
+          "type":"checkbox",
+          "id":"blog_show_author",
+          "default":false,
+          "label":"t:sections.main-article.blocks.title.settings.blog_show_author.label"
+        }
+      ]
+    },
+    {
+      "type":"share",
+      "name":"t:sections.main-article.blocks.share.name",
+      "limit":1,
+      "settings":[
+        {
+          "type":"text",
+          "id":"share_label",
+          "label":"t:sections.main-article.blocks.share.settings.text.label",
+          "default":"Share"
+        },
+        {
+          "type":"paragraph",
+          "content":"t:sections.main-article.blocks.share.settings.featured_image_info.content"
+        },
+        {
+          "type":"paragraph",
+          "content":"t:sections.main-article.blocks.share.settings.title_info.content"
+        }
+      ]
+    },
+    {
+      "type":"featured_image",
+      "name":"t:sections.main-article.blocks.featured_image.name",
+      "limit":1
+    },
+    {
+      "type":"content",
+      "name":"t:sections.main-article.blocks.content.name",
+      "limit":1
+    }
+  ]
+}
+{% endschema %}

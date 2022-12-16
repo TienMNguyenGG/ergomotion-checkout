@@ -1,0 +1,170 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module mod-video-slider section-{{ section.id }}-padding">
+  <div class="container px-12 xl:px-10 2xl:px-24 1k8:px-10">
+    <div class="row">
+      <div class="col w-full xl:w-1/2">
+        <div class="video-slider-left max-w-502 mx-auto xl:ml-0 xl:max-w-466 2xl:max-w-none 1k8:-ml-2 1k8:-mr-4 {%if section.blocks.size < 2%}hide-dots{% endif %}">
+          <div class="js-video-slider" dir="rtl">
+            {%- for block in section.blocks -%}
+            <div class="video-sl-item overflow-hidden rounded-4 {% if block.settings.image == blank %} border-2 border-transparent {% endif %} {% if forloop.index == 2 %} lv2-special {% endif %}">
+              <div class="relative pb-video h-full rounded-4 {% if block.settings.image == blank %} bg-blue-400 {% endif %}">
+                {% if block.settings.image != blank %}
+                <img class="lazy absolute inset-0 w-full h-full object-cover {{ block.settings.image_position }}" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}">
+                {% endif %}
+                {% if block.settings.video != blank %}
+                <a href="{{ block.settings.video }}" data-id="" data-popup="video" data-htmlclass="html-popup-video" class="popup-is-open no-underline absolute inset-0 flex items-center justify-center"><span class="icomoon icon-play text-white text-font-38"> </span><span class="sr-only text-black bg-white">Play Video {{ block.settings.title }}</span></a>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="relative arrows-append-for text-right mt-19 mb-35 pr-12 md:mt-15 md:mb-45 md:-mr-2 md:pr-0 xl:hidden"></div>
+        </div>
+      </div>
+      <div class="col w-full xl:w-1/2 flex items-center xl:pl-4">
+        <div class="video-slider-right w-full px-12 relative max-w-576 mx-auto xl:max-w-none xl:px-0 2xl:max-w-522 2xl:pb-14 {%if section.blocks.size < 2%}hide-dots{% endif %}">
+          <div class="slider-right-heading mb-22 md:mb-11 xl:mb-17 2xl:mb-33">
+              {% if section.settings.heading != blank %}
+              <h2 class="h3 xl:text-font-24 2xl:text-h1">{{ section.settings.heading }}</h2>
+              {% endif %}
+            
+          </div>
+          <div class="js-content-slider w-full leading-1-8 down_xl:static xl:mb-15">
+            {%- for block in section.blocks -%}
+            <div class="content-sl-item last-mb-none" {{ block.shopify_attributes }}>
+              {% if block.settings.title != blank %}
+              <h3>{{ block.settings.title }}</h3>
+              {% endif %}
+              {% if block.settings.content != blank  %}
+                {{ block.settings.content }}
+              {% endif %}
+              </div>
+          {%- endfor -%}
+          </div>
+          <div class="relative hidden xl:inline-block arrows-append-for xl:-top-9 xl:-left-4 2xl:top-4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name":"Video Slider",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"text",
+      "id":"heading",
+      "label":"Heading",
+      "default":"Social Influencer Videos Headline"
+    },
+    {
+      "type":"header",
+      "content":"Section Padding"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"video_gallery_item",
+      "name":"Video Gallery Item",
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"image",
+          "label":"Image"
+        },
+        {
+          "type":"select",
+          "id":"image_position",
+          "options":[
+            {
+              "value":"object-center",
+              "label":"Center"
+            },
+            {
+              "value":"object-left-top",
+              "label":"Top Left"
+            },
+            {
+              "value":"object-right-top",
+              "label":"Top Right"
+            },
+            {
+              "value":"object-left-bottom",
+              "label":"Bottom Left"
+            },
+            {
+              "value":"object-right-bottom",
+              "label":"Bottom Right"
+            }
+          ],
+          "default":"object-center",
+          "label":"Image Position"
+        },
+        {
+          "type":"text",
+          "id":"title",
+          "label":"Title",
+          "default":"Social Influencer Name"
+        },
+        {
+          "type":"richtext",
+          "id":"content",
+          "label":"Content",
+          "default":"<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.</p>"
+        },
+        {
+          "type":"video_url",
+          "id":"video",
+          "label":"Link Video",
+          "accept": [
+            "youtube",
+            "vimeo"
+          ]
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Video Slider",
+      "blocks":[
+        {
+          "type":"video_gallery_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

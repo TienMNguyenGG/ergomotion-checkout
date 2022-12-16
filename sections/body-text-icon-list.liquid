@@ -1,0 +1,201 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+  <div class="module mod-content-features-callout {% if section.settings.background_color == 'blue' %} md:bg-blue-500 {% endif %} animation">
+    <div class="container container-v2 2xl:px-24 1k8:px-8">
+      <div class="text-hush-black xl:row xl:pr-8 xl:pl-10 2xl:pl-7p5 2xl:pr-8p5 {% if section.settings.background_color == 'blue' %} bg-blue-500 py-33p5 pl-25p5 pr-23 md:bg-transparent md:px-12 2xl:pt-47 2xl:pb-61 {% else %} px-16 {% endif %}">
+        <div class="left-features last-mb-none leading-1-8-125 mb-43 md:mb-32p5 xl:w-1/2 xl:max-w-464 2xl:max-w-660 anima-bottom">
+          {% if section.settings.heading != blank %}
+            <h3 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h3>
+          {% endif %}
+          {% if section.settings.text != blank %}
+            {{ section.settings.text }}
+          {% endif %}
+        </div>
+
+        <div class="xl:w-1/2 xl:ml-auto 2xl:mt-0p5 last-mb-none anima-bottom">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'text_icon_item' -%}
+                {% if  block.settings.text != blank %}
+                  <div class="right-features mb-28 md:pl-13 md:mb-27 2xl:mb-28 xl:pl-17" {{ block.shopify_attributes }}>
+                    <div class="right-features-item md:flex md:items-center">
+                      {% if block.settings.get_icon_url == true %}
+                        {% if block.settings.url_icon != blank %}
+                          <div class="img-right-features mb-20 min-w-70 md:mb-0">
+                            <img src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.url_icon }}" alt="" class="lazy max-w-65 max-h-56 no-alt">
+                          </div>
+                        {% endif %}
+                      {% else %}
+                        {% if block.settings.icon != blank %}
+                          <div class="img-right-features mb-20 min-w-70 md:mb-0">
+                            <img src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.icon | image_url }}" alt="{{ block.settings.icon.alt }}" class="lazy max-w-65 max-h-56 no-alt">
+                          </div>
+                        {% endif %}
+                      {% endif%}
+
+
+                      
+                      <div class="content-right-features last-mb-none md:leading-1-5 md:pl-22p5 md:pr-42">
+                        {{ block.settings.text }}
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+              {%- when 'note' -%}
+                {% if  block.settings.note != blank %}
+                <div class="des-features last-mb-none mb-10 text-footer-description xl:pl-4" {{ block.shopify_attributes }}>
+                  {{ block.settings.note }}
+                </div>
+                {% endif %}
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name":"Body Text/Icon List",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"text",
+      "id":"heading",
+      "default":"Eliminate snoring and deepen sleep",
+      "label":"t:sections.image-banner.blocks.heading.settings.heading.label"
+    },
+    {
+      "type":"select",
+      "id":"heading_size",
+      "options":[
+        {
+          "value":"h2",
+          "label":"h2"
+        },
+        {
+          "value":"h3",
+          "label":"h3"
+        },
+        {
+          "value":"h4",
+          "label":"h5"
+        }
+      ],
+      "default":"h3",
+      "label":"t:sections.all.heading_size.label"
+    },
+    {
+      "type":"richtext",
+      "id":"text",
+      "default":"<p>Snoring is more common than most people think, and it often goes unnoticed. This symptom prevents people from entering deeper sleep which can contribute to more serioues health issues. * Positions like Zero-Gravity allows your nasal passages to stay fully open and keeps your tongue from putting pressure on your throat. In this position, you can experience a deeper more restfull sleep.</p>",
+      "label":"t:sections.image-banner.blocks.text.settings.text.label"
+    },
+    {
+      "type":"select",
+      "id":"background_color",
+      "options":[
+        {
+          "value":"white",
+          "label":"White"
+        },
+        {
+          "value":"blue",
+          "label":"Light Blue"
+        }
+      ],
+      "default":"white",
+      "label":"Background Color"
+    },
+    {
+      "type":"header",
+      "content":"Section Padding"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"text_icon_item",
+      "name":"Text icon Item",
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"icon",
+          "label":"Icon"
+        },
+        {
+          "type": "checkbox",
+          "id": "get_icon_url",
+          "label": "Get icon from url"
+        },
+        {
+          "type": "text",
+          "id": "url_icon",
+          "label": "Url Icon"
+        },
+        {
+          "type":"richtext",
+          "id":"text",
+          "default":"<p>Not allowing your body to enter deeper sleep can contribute to memory loss, diabetes, depression, lack of focus, high blood pressure, heart disease, and a weak immune system.</p>",
+          "label":"Text"
+        }
+      ]
+    },
+    {
+      "type":"note",
+      "name":"Note",
+      "settings":[
+        {
+          "type":"richtext",
+          "id":"note",
+          "default":"<p>*The FDA has noted that adjustable bases can aid in the treatment of a number of medical afflictions and illnesses. Normally adjusting the upper part of the bed to a higher position eliminates or reduces snoring. For some patients, snoring will prevent you from reaching a deep restful sleep, known as REM sleep.</p>",
+          "label":"t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Body Text/Icon List",
+      "blocks":[
+        {
+          "type":"text_icon_item"
+        },
+        {
+          "type":"note"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

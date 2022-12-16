@@ -1,0 +1,167 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding section-main module mod-large-features-banner px-12 md:px-24 animation">
+  <div class="anima-bottom {% if template == 'index' %} delay-4 {% else %} delay-1 {% endif %}">
+    <div class="container bg-midnight-blue text-white pt-32 px-15 pb-36 md:pb-28 md:px-24 md:pl-39 md:pr-40 xl:px-34 md:pt-32 xl:pb-16 2xl:pt-60 2xl:pb-30 xl:max-w-1136 2xl:max-w-1600 2xl:rounded-4 transition-transform" data-paroller-factor="{% if template == 'index' %} 0.2 {% else %} 0.1 {% endif %}" data-paroller-type="foreground">
+      <div class="content text-inherit-child  last-mb-none text-center mb-12 md:mb-12 max-w-1344 mx-auto h2-v2">
+        {% if section.settings.heading != empty %}
+          <h2 class="{{ section.settings.heading_size }}" data-cy="heading">{{ section.settings.heading }}</h2>
+        {% endif %}
+        {{ section.settings.content }}
+      </div>
+  
+      <div class="row max-w-1344 mx-auto xl:justify-center">
+        {%- for block in section.blocks -%}
+        <div class="w-full md:w-1/2 xl:w-1/{{section.settings.columns}} md:px-4" {{ block.shopify_attributes }}>
+          <div class="max-w-174 md:max-w-full pt-24 md:pt-16 2xl:mb-30 md:mb-16 text-center mx-auto last-mb-none h5-v2 font-medium">
+            {% if block.settings.get_icon_url == true %}
+              {% if block.settings.url_icon != blank %}
+               <div class=" min-h-91 flex items-center justify-center p-5 mb-8">
+                <img data-src="{{ block.settings.url_icon }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ block.settings.content | escape }}" class="lazy no-alt max-w-91 max-h-91 icon-features">
+              </div>
+              {% endif %}
+            {% else %}
+              {% if block.settings.icon != blank %}
+              <div class=" min-h-91 flex items-center justify-center p-5 mb-8">
+                <img data-src="{{ block.settings.icon | image_url }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ block.settings.icon.alt }}" class="lazy no-alt max-w-91 max-h-91 icon-features">
+              </div>
+              {% endif %}
+            {% endif%}
+            <div class="last-mb-none" data-cy="content-{{ forloop.index }}">{{ block.settings.content_new }}</div>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Features Callout",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h2",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+     {
+      "type": "select",
+      "id": "columns",
+      "options": [
+        {
+          "value": "2",
+          "label": "Two Column"
+        },
+        {
+          "value": "3",
+          "label": "Three Column"
+        },
+        {
+          "value": "4",
+          "label": "Four Column"
+        }
+      ],
+      "default": "4",
+      "label": "Layout Columns"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item_features_banner",
+      "name": "Features Callout Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "checkbox",
+          "id": "get_icon_url",
+          "label": "Get icon from url"
+        },
+        {
+          "type": "text",
+          "id": "url_icon",
+          "label": "Url Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "content_new",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Features Callout",
+      "blocks": [
+        {
+          "type": "item_features_banner"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

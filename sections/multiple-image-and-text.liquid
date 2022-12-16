@@ -1,0 +1,178 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding module mod-image-and-text">
+    <div class="container container-v2 2xl:px-24 1k8:px-8">
+      <div class="row flex-col-reverse xl:flex-row">
+        <div class="col w-full xl:w-2/5">
+          <div class="pt-28 md:pt-33 px-15 md:px-37 xl:px-0 last-mb-none text-left md:text-left md:leading-6 xl:leading-1-8 xl:pt-1 2xl:pt-25 left-content-two">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+              {%- when 'heading' -%}
+                <h2 {{ block.shopify_attributes }}>{{ block.settings.heading }}</h2>
+              {%- when 'text' -%}
+                <div class="mb-10" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              {%- endcase -%}
+            {%- endfor -%} 
+            </div>
+        </div>
+        <div class="col w-full xl:w-3/5 xl:flex">
+          <div class="relative md:overflow-hidden pl-5 xl:pl-13p pr-2p 2xl:pl-17p 2xl:pr-0 w-full">
+            {% if section.settings.image != blank %}
+            <div class="bg-multiple-image w-full rounded-4 pb-104p md:pb-51p md:ml-auto md:mr-0 md:w-80p xl:w-full xl:pb-85p 2xl:pb-98p lazy bg-no-repeat h-full bg-center bg-cover {{ section.settings.image_position }}" data-src="{{ section.settings.image | image_url }}">
+              {% if section.settings.imageSmall != blank %}
+                <div class="absolute w-40p 2xl:w-43p bottom-0 md:bottom-9p xl:bottom-7p -left-4p md:left-6p xl:left-2p bg pb-30p xl:pb-22p 2xl:pb-26p lazy {{ section.settings.image_position }}" data-src="{{ section.settings.imageSmall | image_url }}">
+                </div>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+  </div>
+
+</div>
+{% schema %}
+{
+  "name": "Multiple Image and Text",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image Primary"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageSmall",
+      "label": "Image Small"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "options": [
+        {
+          "value": "bg-center",
+          "label": "Center"
+        },
+        {
+          "value": "bg-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "bg-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "bg-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bg-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "bg-center",
+      "label": "Image Position"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Sleep better with the benefits of Zero Gravity",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h1",
+              "label": "h1"
+            },
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h4"
+            }
+          ],
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Inspired by NASA's zero-gravity research, each Ergomotion bed is designed to help you find weightless relief right at home. More than just a cool feature, this built-in preset is the key to unlocking deeper sleep for more restorative wellness. With the touch of a button, you can enter zero gravity – quickly alleviating tension in the neck, lower back pain, joint pressure, and any swelling in the feet.</p>",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multiple Image/Text",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

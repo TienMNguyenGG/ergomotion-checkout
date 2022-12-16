@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Thank you!",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "padding_bottom": 60,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32"
+  ]
+}

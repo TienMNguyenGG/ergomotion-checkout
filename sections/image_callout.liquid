@@ -1,0 +1,152 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+  <div class="module mod-image-callout">
+    {% if section.settings.image != blank %}
+    <div class="bg bg-callout pb-71p md:pb-62p xl:pb-47p 2xl:pb-36p lazy {{ section.settings.image_position }} {% if section.settings.imageMB != blank %} down_md:hidden {% endif %}" data-src="{{  section.settings.image | image_url }}"></div>
+    {% endif %}
+    {% if section.settings.imageMB != blank %}
+    <div class="bg bg-callout pb-71p md:pb-62p xl:pb-47p 2xl:pb-36p lazy hidden down_md:block {{ section.settings.imageMB_position }}" data-src="{{ section.settings.imageMB | image_url }}"></div>
+    {% endif %}
+    <div class="container px-12 md:px-24 xl:px-10 2xl:max-w-1404">
+      <div class="box-content -mt-30 md:-mt-58 xl:-mt-51 2xl:-mt-64 bg-soft-blue py-32 px-24 md:px-15 md:py-33 xl:py-33 xl:px-67 2xl:py-67 max-w-678 2xl:max-w-1328 mx-auto text-center">
+        {%- for block in section.blocks -%}
+        <strong class="title block text-hush-black text-xl md:text-h2-md 2xl:text-h1-md leading-relaxed" {{ block.shopify_attributes }}>{{ block.settings.heading }}</strong>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Image Callout",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "options": [
+        {
+          "value": "bg-center",
+          "label": "Center"
+        },
+        {
+          "value": "bg-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "bg-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "bg-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bg-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "bg-center",
+      "label": "Image Position"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageMB",
+      "label": "Image Mobile"
+    },
+    {
+      "type": "select",
+      "id": "imageMB_position",
+      "options": [
+        {
+          "value": "bg-center",
+          "label": "Center"
+        },
+        {
+          "value": "bg-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "bg-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "bg-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bg-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "bg-center",
+      "label": "Image Mobile Position"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+   "blocks": [
+    {
+      "type": "image_callout",
+      "name": "Image Callout Item",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Join the 7,000,000+ Happy Sleepers with an Ergomotion Adjustable Base Headline",
+          "label": "Heading"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Callout",
+      "blocks": [
+        {
+          "type": "image_callout"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

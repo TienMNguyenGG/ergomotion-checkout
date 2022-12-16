@@ -1,0 +1,28 @@
+.wrap-instagram-image {
+  transform: translateX(-10.8%) !important;
+
+  .instafeed-shopify .instafeed-container {
+    @apply block;
+  }
+  .instafeed-shopify {
+    @apply m-0;
+    a.instagram-link {
+      text-decoration: underline !important;
+    }
+  }
+  .instafeed-overlay {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    @apply z-1;
+  }
+}
+.mod-instagram-feed {
+  .title {
+    @apply xl_to_2xl:text-h3-md;
+  }
+}
+
+@screen md {
+  .wrap-instagram-image {
+    transform: translateX(0) !important;
+  }
+}

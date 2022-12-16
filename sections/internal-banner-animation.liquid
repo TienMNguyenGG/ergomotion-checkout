@@ -1,0 +1,177 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="mod-banner-animation section-{{ section.id }}-padding hide-bed-anim ani-75per">
+  <div class="container">
+    <div class="row">
+      <div class="col w-full xl:w-1/2 xl:flex xl:items-center">
+        <div class="ban-left-anim px-16 last-mb-none text-center md:text-left md:px-32 md:leading-6 xl:max-w-466 xl:px-0 xl:ml-auto xl:-mr-5 xl:leading-1-8 xl:py-10 2xl:max-w-none 2xl:ml-52">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'heading' -%}
+                {% if block.settings.heading != blank %}
+                 <h1 class="mb-12 md:mb-16 xl:mb-20 2xl:mb-14 {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{  block.settings.heading }}</h1>
+                {% endif %}
+              {%- when 'text' -%}
+                {% if block.settings.text != blank %}
+                <div class="mb-8" {{ block.shopify_attributes }}>
+                  {{ block.settings.text }}
+                </div>
+                {% endif %}
+              {%- when 'buttons' -%}
+                {% if block.settings.button_label != blank and block.settings.button_link != blank %}
+                <a href="{{ block.settings.button_link }}" {{ block.shopify_attributes }} class="btn btn-primary">{{ block.settings.button_label }}</a>
+                {% endif %}
+              {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+      <div class="col w-full xl:w-1/2 xl:flex xl:items-end">
+        <div class="bed-cover relative pt-35 mt-24 -mx-8 overflow-hidden md:mt-24 md:pt-4 xl:mx-0 xl:flex xl:items-end xl:pt-40 xl:flex-1 2xl:pt-82">
+          <div class="bed-bg-color bg-sky-light-blue absolute bottom-0 left-0 top-0 w-110 rounded-t-full rounded-b-4 ml-23p opacity-20 md:bg-blue-50 md:opacity-100 md:ml-17p md:w-115 xl:opacity-20 xl:ml-13p xl:w-120 2xl:w-155 2xl:ml-9p 2xl:opacity-100"></div>
+          <div class="js-bed-img relative ml-21p h-120 md:h-114 lg:h-141 xl:ml-13p xl:-mr-13 xl:overflow-hidden xl:w-full xl:flex-1 xl:h-122 2xl:h-178 2xl:ml-9p">
+            {% if section.settings.imageMB != blank %}
+            <img class="bed-img lazy h-full w-auto max-w-none absolute inset-0 right-auto xl:hidden" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ section.settings.imageMB | image_url }}" alt="{{section.settings.imageMB.alt}}">
+            {% endif %}
+            {% if section.settings.image != blank %}
+            <img class="bed-img {% if section.settings.imageMB != blank %} hidden {% endif %} xl:block lazy h-full w-auto max-w-none absolute inset-0 right-auto xl:max-w-full xl:w-full xl:object-contain xl:object-bottom" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ section.settings.image | image_url }}" alt="{{section.settings.image.alt}}">
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Internal Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageMB",
+      "label": "Image Mobile"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+   "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Setup Videos",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h4"
+            }
+          ],
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum id sed aenean porta lorem malesuada vitae rhoncus quis. Mattis id ac risus arcu lectus eget posuere vitae consectetur. Lacus velit pharetra, ultricies turpis eget placerat ac ac. Ante donec morbi fermentum mauris adipiscing volutpat augue.</p>",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Internal Banner",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

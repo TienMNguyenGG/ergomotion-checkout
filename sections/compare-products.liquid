@@ -1,0 +1,239 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding mod-compare-products animation">
+  <div class="container md:px-19 lg:px-8 2xl:px-24 1k8:px-8 1k8:max-w-1650 anima-bottom delay-2">
+    <div class="control-table control-primary px-15 md:px-4 md:mr-0 md:ml-auto md:max-w-322 xl:hidden">
+      <div class="relative flex justify-end items-center mb-10">
+        <button class="slick-prev arrows h1 text-blue-300 slick-arrow prev mr-3">
+          <span class="icomoon icon-chevron-left"></span>
+          <span class="sr-only">arrow left</span>
+        </button>
+        <button class="slick-next arrows h1 text-blue-300 slick-arrow next">
+          <span class="icomoon icon-chevron-left"></span>
+          <span class="sr-only">arrow right</span>
+        </button>
+      </div>
+      <ul class="slick-dots mt-9 md:mt-11">
+        {%- for block in section.blocks -%}
+          <li><button type="button" class="{% if forloop.index == 1%} active {% endif %}" tabindex="-1">col {{ forloop.index }}</button></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="table-wrap table-wrap-compare">
+      <div class="pin-name-product fixed w-full top-0 bg-white opacity-0 pointer-events-none z-10">
+        <div class="max-w-full hidden xl:block wrap-desktop overflow-hidden">
+          <table class="max-w-full last-mb-none">
+            <tr>
+                {%- for block in section.blocks -%}
+                  <th class="col{{ forloop.index }} py-8 px-17 md:px-14 2xl:px-17" id ="accordion-th-{{ forloop.index }}">
+                    {% comment %} <span class="h5 block">{{block.settings.title}}</span> {% endcomment %}
+                    <span class="h3 block">
+                     {% if block.settings.name != blank %}
+                      {{ block.settings.name }}
+                    {% else %}
+                      {{block.settings.product.title }}
+                    {% endif %}
+                    </span>
+                  </th>
+                {% endfor %}
+            </tr>
+            <tr class="pin-shop hidden">
+              {%- for block in section.blocks -%}
+              <td class="px-17 pt-8 pb-15 md:px-14 2xl:px-17">
+                <a href="{{block.settings.product.url}}" class="no-underline btn btn btn-primary mb-5 btn-hidden" data-cy="button" tabindex="-1">
+                  {% if block.settings.titleButton != blank %}
+                    {{ block.settings.titleButton }}
+                  {% else %}
+                    Shop {{ block.settings.product.title }}
+                  {% endif %}
+                  </a>
+              </td>
+            {% endfor %}
+            </tr>
+          </table>
+        </div>
+        <div class="wrap-mb xl:hidden">
+          <div class="list-name-mb">
+            {%- for block in section.blocks -%}
+            <div class="item-name last-mb-none">
+             <h3>{{block.settings.product.title }}</h3>
+            </div>
+            {% endfor %}
+          </div>
+           <div class="control-table xl:hidden">
+            <div class="wrap-btn relative flex justify-center items-center">
+              <button class="slick-prev arrows h1 text-blue-300 slick-arrow prev" tabindex="-1">
+                <span class="icomoon icon-chevron-left"></span>
+                <span class="sr-only">arrow left</span>
+              </button>
+              <button class="slick-next arrows h1 text-blue-300 slick-arrow next" tabindex="-1">
+                <span class="icomoon icon-chevron-left"></span>
+                <span class="sr-only">arrow right</span>
+              </button>
+            </div>
+            <ul class="slick-dots">
+              {%- for block in section.blocks -%}
+                <li><button type="button" class="{% if forloop.index == 1%} active {% endif %}" tabindex="-1">col {{ forloop.index }}</button></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <table class="w-full last-mb-none md:mb-20 xl:mb-15 2xl:mb-20">
+        <tr>
+          {%- for block in section.blocks -%}
+            <th scope="col" class="col th-table text-h5-v2 xl:text-base 2xl:text-h5-v2 font-semibold pb-14 md:pb-7 2xl:pb-13" {{ block.shopify_attributes }}>
+              {{block.settings.title }}
+            </th>
+          {% endfor %}
+        </tr>
+        <tr>
+          {%- for block in section.blocks -%}
+            <td class="col">
+              <div class="bg-compare relative bg bg-center pb-64p md:pb-91p lg:pb-78p rounded-4 overflow-hidden">
+                {% if block.settings.product.metafields.custom.feature_image != blank %}
+                  <img class="lazy absolute top-0 left-0 w-full h-full object-cover no-alt" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.product.metafields.custom.feature_image | image_url }}" alt="">
+                {% else %}
+                  <img class="lazy absolute top-0 left-0 w-full h-full object-cover no-alt" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.product.media[0] | image_url }}" alt="">
+                {% endif %}
+              </div>
+             <div class="name-product col{{ forloop.index }} pt-24 pb-8 px-13 md:pt-14 md:px-9 xl:pt-11 xl:px-9 2xl:pt-24">
+                <h3>
+                  {% if block.settings.name != blank %}
+                    {{ block.settings.name }}
+                  {% else %}
+                    {{block.settings.product.title }}
+                  {% endif %}
+                </h3>
+              </div>
+            </td>
+          {% endfor %}
+        </tr>
+        <tr>
+          {%- for block in section.blocks -%}
+            <td class="px-17 md:px-14 2xl:px-17">
+              {{block.settings.product.description }}
+            </td>
+          {% endfor %}
+        </tr>
+        <tr>
+          {%- for block in section.blocks -%}
+            <td class="pb-19 px-17 pt-15 md:pb-8 md:pt-7 md:px-14 2xl:px-17 2xl:pt-15 2xl:pb-16">
+              <p class="font-semibold">{{block.settings.available }}</p>
+            </td>
+          {% endfor %}
+        </tr>
+        <tr>
+          {%- for block in section.blocks -%}
+            <td class="px-17 pb-19 md:px-14 xl:pb-10 2xl:pb-19 2xl:px-17">
+              <p class="font-semibold">{{block.settings.price }}</p>
+            </td>
+          {% endfor %}
+        </tr>
+        <tr>
+          {%- for block in section.blocks -%}
+            <td class="px-17 md:px-14 2xl:px-17">
+              <a href="{{block.settings.product.url}}" class="no-underline btn btn btn-primary mb-5 compare-button compare-button-{{ forloop.index }}" data-cy="button"> 
+                {% if block.settings.titleButton != blank %}
+                  {{ block.settings.titleButton }}
+                {% else %}
+                  Shop {{ block.settings.product.title }}
+                {% endif %}
+              </a>
+            </td>
+          {% endfor %}
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name":"Compare Products",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"header",
+      "content":"Section Padding"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":4,
+      "unit":"px",
+      "label":"t:sections.all.padding.padding_bottom",
+      "default":0
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"compare_product",
+      "name":"Compare Product Item",
+      "settings":[
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type":"text",
+          "id":"name",
+          "label":"Name Product"
+        },
+        {
+          "type":"product",
+          "id":"product",
+          "label":"product"
+        },
+        {
+          "type":"text",
+          "id":"available",
+          "label":"Available"
+        },
+        {
+          "type":"text",
+          "id":"price",
+          "label":"Price"
+        },
+        {
+          "type":"text",
+          "id":"titleButton",
+          "label":"Title Button"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Compare Products",
+      "blocks":[
+        {
+          "type":"compare_product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

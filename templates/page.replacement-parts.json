@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "5445108f-60c8-4a74-b032-faba3338be6a": {
+      "type": "text-center",
+      "blocks": {
+        "template--16588398559453__5445108f-60c8-4a74-b032-faba3338be6a-16666721547445735b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quest Product Replacement Parts",
+            "heading_size": "h1"
+          }
+        },
+        "template--16588398559453__5445108f-60c8-4a74-b032-faba3338be6a-16666721547445735b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All warranty claims are processed by Ergomotion Customer Service. In order to start your claim, please call a representative at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1-888-550-ERGO (3746)<\/a>.<\/p><p>Please have your bed base serial number (located on your warranty card, owner’s manual, and the metal frame for your convenience) and proof of purchase readily available for assistance.<\/p><p>A Customer Service Representative can also be contacted via <a href=\"\/pages\/contact\" title=\"Contact\">Contact Us<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398559453__5445108f-60c8-4a74-b032-faba3338be6a-16666721547445735b-0",
+        "template--16588398559453__5445108f-60c8-4a74-b032-faba3338be6a-16666721547445735b-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "5359b2e8-40a5-4158-9756-48ae0b76fa14": {
+      "type": "help-banner",
+      "blocks": {
+        "template--16591412691165__5359b2e8-40a5-4158-9756-48ae0b76fa14-16668611986c053633-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "6eec805d-54dc-447c-824b-af6bd36d6880": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "1705de17-9fa2-487d-bec2-cf208e7c3d4a": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16591412691165__5359b2e8-40a5-4158-9756-48ae0b76fa14-16668611986c053633-0",
+        "6eec805d-54dc-447c-824b-af6bd36d6880",
+        "1705de17-9fa2-487d-bec2-cf208e7c3d4a"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "883a3e4f-2d5c-4faf-9f9f-3574db1d0d48": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "5445108f-60c8-4a74-b032-faba3338be6a",
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b",
+    "5359b2e8-40a5-4158-9756-48ae0b76fa14",
+    "883a3e4f-2d5c-4faf-9f9f-3574db1d0d48"
+  ]
+}

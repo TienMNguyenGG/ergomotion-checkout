@@ -1,0 +1,182 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="module mod-product-columns section-{{ section.id }}-padding">
+	<div class="container px-12 md:px-24 xl:px-10 2xl:px-24 2xl:max-w-1600 1k8:px-0">
+    {% if section.settings.heading != empty %}
+		<div class="title-product-col mb-25 md:mb-19 md:pr-5 xl:mr-8 xl:mb-20 2xl:mb-35 last-mb-none">
+      <h3 class="{{ section.settings.heading_size }}" data-cy="heading">{{ section.settings.heading }}</h3>
+    </div>
+    {% endif %}
+
+		<div class="box-products row -mx-4 last-mb-none">
+      {%- for block in section.blocks -%}
+      <div class="item-product relative px-4 md:w-1/2 mb-41 down_md:last:mb-0 md:mb-36 xl:w-1/3 xl:mb-35 2xl:mb-15" {{ block.shopify_attributes }}>
+        {%- if block.settings.link_url != blank %}
+          {%- if block.settings.image != blank -%}
+            <a href="{{ block.settings.link_url }}" class="block relative image-product mb-16 md:mb-16 xl:mb-12 2xl:mb-15" tabindex="-1">
+              <div class="pb-product-col relative overflow-hidden">
+                <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}" class="object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+              </div>
+            </a>
+          {% endif %}
+        {% else %}
+          <div class="block relative image-product mb-16 md:mb-16 xl:mb-12 2xl:mb-15">
+            {%- if block.settings.image != blank -%}
+            <div class="pb-product-col relative overflow-hidden">
+              <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}" class="object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+            </div>
+            {% endif %}
+          </div>
+        {% endif %}
+
+				<div class="detail-product px-12 md:px-8 md:pr-16 lg:px-0 xl:max-w-320 2xl:max-w-490">
+          {% if block.settings.headline != empty %}
+          <div class="title-product mb-8 md:mb-4 xl:mb-8 2xl:mb-12 last-mb-none">
+            <h3 class="h5" data-cy="title-{{ forloop.index }}">
+              {%- if block.settings.link_url != blank %}
+                <a href="#" class="no-underline">
+                  {{ block.settings.headline }}
+                </a>
+              {% else %}
+                {{ block.settings.headline }}
+              {% endif %}
+            </h3>
+          </div>
+          {% endif %}
+
+          {% if block.settings.content != empty %}
+					<div class="last-mb-none mb-11 md:mb-10 xl:mb-6 2xl:mb-14 text-dark-grey" data-cy="content-{{ forloop.index }}">
+            {{ block.settings.content }}
+					</div>
+          {% endif %}
+          {%- if block.settings.link_label != empty and block.settings.link_url != blank  -%}
+          <div>
+            <a href="{{ block.settings.link_url }}" class="link-arrow btn" data-cy="link-{{ forloop.index }}">
+              {{ block.settings.link_label }}
+              <span class="icomoon icon-link-arrow"></span>
+            </a>
+          </div>
+          {% endif %}
+				</div>
+			</div>
+      {%- endfor -%}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+  "name": "Product Column",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Additional product categories you may like headline"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item_product",
+      "limit": 3,
+      "name": "Product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "headline",
+          "default": "Headline",
+          "label": "Headline"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.</p>",
+          "label": "Content"
+        },
+        {
+          "type": "text",
+          "id": "link_label",
+          "default": "Text button",
+          "label": "Link label"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Column",
+      "blocks": [
+        {
+          "type": "item_product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

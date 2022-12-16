@@ -1,0 +1,182 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign products_to_display = section.settings.collection.all_products_count
+
+  if section.settings.collection.all_products_count > section.settings.products_to_show
+    assign products_to_display = section.settings.products_to_show
+    assign more_in_collection = true
+  endif
+
+-%}
+
+<div class="color-{{ section.settings.color_scheme }} isolate gradient">
+  <div class="collection section-{{ section.id }}-padding">
+    <div class="container">
+        <div class="title xl:flex mb-27 md:mb-19 xl:mb-20 pr-20 xl:pr-0">
+          <div class="flex-1 mb-10 xl:mr-8 xl:mb-0 md:mb-7 last-mb-none">
+             {%- if section.settings.title != blank -%}
+              <h3 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h3>
+            {%- endif -%}
+          </div>
+          <div class="flex-none">
+            {%- if more_in_collection -%}
+              <a href="{{ section.settings.collection.url }}" class="link-arrow btn xl:mt-1p5 xl:mr-1p5 2xl:mt-8 2xl:mr-0">
+                {{ 'sections.featured_collection.view_all' | t }}
+                <span class="icomoon icon-link-arrow"></span>
+              </a>
+            {%- endif -%} 
+          </div>
+        </div>
+        <div class="box-products row -mx-4 last-mb-none">
+          {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+            <div class="item-product relative px-4 w-full md:w-1/2 mb-41 down_md:last:mb-0 md:mb-36 xl:w-1/3 xl:mb-35 2xl:mb-15" >
+              {%- if product.url != blank %}
+                {%- if product.featured_media != blank -%}
+                  <a href="{{ product.url }}" class="block relative image-product mb-16 md:mb-16 xl:mb-12 2xl:mb-15" tabindex="-1">
+                    <div class="pb-product-col relative overflow-hidden">
+                      <img src="{{ product.featured_media | image_url }}" alt="{{ product.featured_media.alt }}" class="object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+                    </div>
+                  </a>
+                {% endif %}
+              {% else %}
+                <div class="block relative image-product mb-16 md:mb-16 xl:mb-12 2xl:mb-15">
+                  {%- if product.featured_media != blank -%}
+                  <div class="pb-product-col relative overflow-hidden">
+                    <img src="{{ product.featured_media | image_url }}" alt="{{ product.featured_media.alt }}" class="object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+                  </div>
+                  {% endif %}
+                </div>
+              {% endif %}
+
+              <div class="detail-product px-12 md:px-8 md:pr-16 lg:px-0 xl:max-w-320 2xl:max-w-490">
+                {% if product.title != empty %}
+                <div class="title-product mb-8 md:mb-4 xl:mb-8 2xl:mb-12 last-mb-none">
+                  <h3 class="h5" data-cy="title-{{ forloop.index }}">
+                    {%- if product.url != blank %}
+                      <a href="{{ product.url }}" class="no-underline">
+                        {{ product.title }}
+                      </a>
+                    {% else %}
+                      {{ product.title }}
+                    {% endif %}
+                  </h3>
+                  <h5>{{ product.price | money }}</h5>
+                </div>
+                {% endif %}
+
+              </div>
+            </div>
+          {%- else -%}
+            {%- for i in (1..4) -%}
+            {% assign price_default = 1999 %}
+              <div class="item-product relative px-4 md:w-1/2 mb-41 down_md:last:mb-0 md:mb-36 xl:w-1/3 xl:mb-35 2xl:mb-15" >
+                <div class="block relative image-product mb-16 md:mb-16 xl:mb-12 2xl:mb-15">
+                  <div class="bg-blue-400 object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4"></div>
+                  <div class="pb-product-col relative overflow-hidden"></div>
+                </div>
+
+                <div class="detail-product px-12 md:px-8 md:pr-16 lg:px-0 xl:max-w-320 2xl:max-w-490">
+                  <h5>{{ price_default | money }}</h5>
+                </div>
+              </div>
+            {%- endfor -%}
+          {%- endfor -%}
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+{% schema %}
+{
+  "name": "t:sections.featured-collection.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Featured collection",
+      "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured-collection.settings.collection.label"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "default": 4,
+      "label": "t:sections.featured-collection.settings.products_to_show.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.featured-collection.presets.name"
+    }
+  ]
+}
+{% endschema %}

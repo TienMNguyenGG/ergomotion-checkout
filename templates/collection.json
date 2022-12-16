@@ -1,0 +1,455 @@
+{
+  "sections": {
+    "1664163849dda46c9d": {
+      "type": "text-center",
+      "blocks": {
+        "1664163849f77d540f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quest",
+            "heading_size": "h1"
+          }
+        },
+        "1664163849f77d540f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your bed should be an active part of a healthy lifestyle. Getting enough sleep is one factor. But so is turning your bedroom into a revitalizing sanctuary, a place that restores your mental health as well as your physical health. Ergomotion’s Quest adjustable bases help you do just that, and at a price point that’s conscious of your financial health too. With three models in our line, you’re sure to find one that’s right for you. Quest adjustable bases—they’ll help you turn your bedroom into your best room.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664163849f77d540f-0",
+        "1664163849f77d540f-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "padding_bottom": 70,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664164419eaa1e920": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-banner-desktop-v2.jpg",
+        "image_position": "object-left-bottom",
+        "imageMB": "shopify:\/\/shop_images\/hero-banner-mb-v1.jpg",
+        "image_position_mobile": "object-left-bottom",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16641644490b0131fc": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 95,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166416446704a62aeb": {
+      "type": "large-features-banner",
+      "blocks": {
+        "16641644672cbf6dd2-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_78_2.png",
+            "content": "Pay as little as $56.65\/mo for 12 months with Affirm."
+          }
+        },
+        "6126f645-11a3-4809-8869-0409d778dc27": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_86_2.png",
+            "content": "10-year limited warranty"
+          }
+        },
+        "376775cb-8a1d-4adf-80f4-d37d2688db78": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Headset_Icon_2.png",
+            "content": "24\/7, US-based customer service"
+          }
+        },
+        "9bb025b7-b099-43e9-9b9c-85f0b549c2ca": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Truck_Icon_18fe554d-8f98-4474-b3a6-5119486872dc.png",
+            "content": "Free, no contact dACelivery"
+          }
+        }
+      },
+      "block_order": [
+        "16641644672cbf6dd2-0",
+        "6126f645-11a3-4809-8869-0409d778dc27",
+        "376775cb-8a1d-4adf-80f4-d37d2688db78",
+        "9bb025b7-b099-43e9-9b9c-85f0b549c2ca"
+      ],
+      "settings": {
+        "heading": "10 million + adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "padding_bottom": 70,
+        "padding_bottom_mb": 0
+      }
+    },
+    "166416457096fa6d2f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 40
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "heading": "Meet the Quest product line headline",
+        "heading_size": "h3",
+        "label_link": "Compare all Quest adjustable bases",
+        "link_url": "shopify:\/\/pages\/compare-bases",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "16641646325f673c51": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "166416463197dd7546-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Text based call to action.",
+            "heading_size": "h2"
+          }
+        },
+        "166416463197dd7546-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call to action call out for compare or financing or find a store, etc. Lorem ipsum delor iusy pelo ius belus<\/p>"
+          }
+        },
+        "166416463197dd7546-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Text button",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "166416463197dd7546-0",
+        "166416463197dd7546-1",
+        "166416463197dd7546-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "166416468177526004": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664164705aa7653ea": {
+      "type": "feature-benefit",
+      "blocks": {
+        "1664164705493fac4a-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-1_520x500_c9ac94d6-afdc-4f9b-94a7-4c114474b383.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "285b388c-68a5-41d7-b042-917fc9c20403": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-2_520x500_9a00b52b-b0f1-4bdc-8556-bddd44d55eaf.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "c9cbfaa8-712c-4bcc-b909-fe8457fba44f": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-3_520x500_a1a514a0-f20d-439c-b7bb-a6ccb92dee7b.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664164705493fac4a-0",
+        "285b388c-68a5-41d7-b042-917fc9c20403",
+        "c9cbfaa8-712c-4bcc-b909-fe8457fba44f"
+      ],
+      "settings": {
+        "heading": "Feature benefit section",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664265522fa39e698": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166416476426587e53": {
+      "type": "half-text-image",
+      "blocks": {
+        "1664164764a407b859-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "See all of our reviews headline",
+            "heading_size": "h2"
+          }
+        },
+        "1664164764a407b859-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pellentesque nibh cras ac. <\/p>"
+          }
+        },
+        "1664164764a407b859-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "1664164764a407b859-0",
+        "1664164764a407b859-1",
+        "1664164764a407b859-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "padding_bottom": 90,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166416482047abb5c0": {
+      "type": "help-banner",
+      "blocks": {
+        "1664164820150e85b7-0": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_6.png",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "#",
+            "link_phone": false
+          }
+        },
+        "663e8f18-8f4f-445c-88ec-032726e687b3": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_7.png",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "",
+            "link_phone": true
+          }
+        },
+        "f5abda70-4397-4622-afad-891ace293205": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_8.png",
+            "headline_help": "Product Support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "1664164820150e85b7-0",
+        "663e8f18-8f4f-445c-88ec-032726e687b3",
+        "f5abda70-4397-4622-afad-891ace293205"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664164976b3cbf803": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664164989a0b776d5": {
+      "type": "testimonials-slider",
+      "blocks": {
+        "506abb8e-c56b-443b-bba1-9c4e4e0817c2": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Love my Ergomotion Bed!",
+            "content": "<p>We are very happy with the customer service we received from start to finish with Ergomotion and the bed we ordered with them. Never thought we'd use an adjustable bed frame but now that we've had ours for almost 6 months now we can't believe we went so long without it. It was a great investment we made for our quality of sleep and our rest time. I'd highly recommend Ergomotion.<\/p>",
+            "author": "Randee"
+          }
+        },
+        "74b6d64f-a2c9-4472-bad0-a1644fdbe09b": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Drap flanelle",
+            "content": "<p>Je me suis procurée les draps de flanelle et je suis entièrement satisfaite. Leur douceur exceptionnelle les rendent confortable pour une nuit de sommeil toute en douceur. Merci<\/p>",
+            "author": "Linda"
+          }
+        },
+        "7f077dd4-dbce-4456-be3a-e0e557811570": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "I should have got this sooner",
+            "content": "<p>Now that I have a Quest 2.5 from Ergomotion, I can say this is an AMAZING bed! I am getting sleep better than I have had for years. Playing hard for years I have a pretty roughed up body and this gives me the ability for a good nights sleep. Thank you! It was super easy to assemble and this could not have been a better experience!<\/p>",
+            "author": "Eric G"
+          }
+        },
+        "315bf3e5-6419-4a5f-9628-342de74234ba": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Simple Gift",
+            "content": "<p>My mom needed a way to prop her head-up and this is the best solution. <\/p>",
+            "author": "Louise"
+          }
+        },
+        "c1b20192-e55a-40fb-9de1-c47d9fb06f0b": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "So easy to set-up and use",
+            "content": "<p>Quest 2.5 was very easy to setup and use. We got it for our guest bedroom, works perfect as a bed, just added the mattress. Voice Activation is very handy.<\/p>",
+            "author": "Thomas S."
+          }
+        },
+        "93ca5398-4bea-401c-acab-d6df79f349b4": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Exactly what I needed",
+            "content": "<p>Easy set-up, lets me sleep with my head slightly elevated, does exactly what I needed. Never lose the wired remote.<\/p>",
+            "author": "Mike"
+          }
+        }
+      },
+      "block_order": [
+        "506abb8e-c56b-443b-bba1-9c4e4e0817c2",
+        "74b6d64f-a2c9-4472-bad0-a1644fdbe09b",
+        "7f077dd4-dbce-4456-be3a-e0e557811570",
+        "315bf3e5-6419-4a5f-9628-342de74234ba",
+        "c1b20192-e55a-40fb-9de1-c47d9fb06f0b",
+        "93ca5398-4bea-401c-acab-d6df79f349b4"
+      ],
+      "settings": {
+        "heading": "Testimonials Headline Here",
+        "heading_size": "h3",
+        "link_label": "View all reviews",
+        "link_url": "#",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "16641650073ad97184": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166416547908fdc202": {
+      "type": "two-column-banner",
+      "blocks": {
+        "1664165479b449fc2d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/large-banner.jpg"
+          }
+        },
+        "1664165479b449fc2d-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>“If you’re a “bells sand whistles” kind of person, think of this high-tech wonder as the Cadillac of platform bed frames.”<\/p>"
+          }
+        },
+        "1664165479b449fc2d-2": {
+          "type": "icon",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1664165479b449fc2d-0",
+        "1664165479b449fc2d-1",
+        "1664165479b449fc2d-2"
+      ],
+      "settings": {
+        "padding_bottom": 68,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664852145695db796": {
+      "type": "content-slider",
+      "blocks": {
+        "1664852145e2d817df-0": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/image_12.jpg",
+            "image_position": "object-center",
+            "title": "Lifestyle benefits of your ergomotion bed",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit. Pulvinar dolor, proin faucibus aliquam id arcu pretium.<\/p>",
+            "button_label": "Read more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664852145e2d817df-0"
+      ],
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    }
+  },
+  "order": [
+    "1664163849dda46c9d",
+    "1664164419eaa1e920",
+    "16641644490b0131fc",
+    "166416446704a62aeb",
+    "166416457096fa6d2f",
+    "product-grid",
+    "16641646325f673c51",
+    "166416468177526004",
+    "1664164705aa7653ea",
+    "1664265522fa39e698",
+    "166416476426587e53",
+    "166416482047abb5c0",
+    "1664164976b3cbf803",
+    "1664164989a0b776d5",
+    "16641650073ad97184",
+    "166416547908fdc202",
+    "1664852145695db796"
+  ]
+}

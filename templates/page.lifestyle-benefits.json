@@ -1,0 +1,394 @@
+{
+  "sections": {
+    "43dab4b1-d896-4e43-8e39-d4f9ec3a70b2": {
+      "type": "text-center",
+      "blocks": {
+        "template--16588398166237__43dab4b1-d896-4e43-8e39-d4f9ec3a70b2-166667230281bed0f2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Adjust to amazing",
+            "heading_size": "h1"
+          }
+        },
+        "template--16588398166237__43dab4b1-d896-4e43-8e39-d4f9ec3a70b2-166667230281bed0f2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's time to live a lifestyle unrestrained by limits and conformity. With an Ergomotion adjustable bedframe, you can finally break free from traditional pain points of sleep with a restorative solution, adjusted specifically to your needs. Night after night, you can enjoy the luxury of customized relaxation with unique features and presets designed to elevate your holistic wellness.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398166237__43dab4b1-d896-4e43-8e39-d4f9ec3a70b2-166667230281bed0f2-0",
+        "template--16588398166237__43dab4b1-d896-4e43-8e39-d4f9ec3a70b2-166667230281bed0f2-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "3750b31a-0b4a-40d0-bbc1-a51ab42a9ecc": {
+      "type": "large-features-banner",
+      "blocks": {
+        "0cc2f90c-3572-4319-916f-7e44e15fe817": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
+            "content_new": "<p>10-year limited warranty<\/p>"
+          }
+        },
+        "c04e7715-7e49-4cbf-b822-5ede04aae53f": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
+            "content_new": "<p>US Based - Call us at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1.888.550.3746<\/a><\/p>"
+          }
+        },
+        "d5d025e4-0617-4838-84ae-e54d549e39f2": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Truck_Icon.svg?v=1665539537",
+            "content_new": "<p>Free, no contact delivery<\/p>"
+          }
+        },
+        "template--16585187131613__3750b31a-0b4a-40d0-bbc1-a51ab42a9ecc-1666600574d52510ee-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
+            "content_new": "<p>Pay over time with Affirm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0cc2f90c-3572-4319-916f-7e44e15fe817",
+        "c04e7715-7e49-4cbf-b822-5ede04aae53f",
+        "d5d025e4-0617-4838-84ae-e54d549e39f2",
+        "template--16585187131613__3750b31a-0b4a-40d0-bbc1-a51ab42a9ecc-1666600574d52510ee-0"
+      ],
+      "settings": {
+        "heading": "10 million+ adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "<p><\/p>",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "088c4cfe-6bac-455b-93e5-348d9d0522a3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "9cc91dc9-16e7-49f2-91c5-1f6b273286e7": {
+      "type": "body-text-icon-list",
+      "blocks": {
+        "template--16588398166237__9cc91dc9-16e7-49f2-91c5-1f6b273286e7-1667183712be8d6a8d-0": {
+          "type": "text_icon_item",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/hand_holding_book-02.svg?v=1670481861",
+            "text": "<p>Watching tv, reading, using your tablet and making phone calls all made peaceful with an adjustable base.<\/p>"
+          }
+        },
+        "82d14dc3-52e5-4d32-b23e-7bf299b73f5a": {
+          "type": "text_icon_item",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/working_icon_-02.svg?v=1670481861",
+            "text": "<p>When the occasion calls for it, working from your bed is a totally natural and healthy alternative with Ergomotion.<\/p>"
+          }
+        },
+        "aea2b2e2-fe07-460f-90ae-243714792ccf": {
+          "type": "text_icon_item",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/relaxation_icon-02.svg?v=1670481861",
+            "text": "<p>Immerse yourself in moments of deep relaxation and meditation by unwinding with your adjustable bed base.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398166237__9cc91dc9-16e7-49f2-91c5-1f6b273286e7-1667183712be8d6a8d-0",
+        "82d14dc3-52e5-4d32-b23e-7bf299b73f5a",
+        "aea2b2e2-fe07-460f-90ae-243714792ccf"
+      ],
+      "settings": {
+        "heading": "We get how you live",
+        "heading_size": "h3",
+        "text": "<p>Read more, relax more, meditate more – watch movies without a million pillows at your back. Whatever you're looking for, Ergomotion is ready to elevate your wind-down routine with adjustable bed technology perfectly suited for your lifestyle. Add smart home integrations, health sensor sleep tracking, and more for a truly holistic connected wellness experience.<\/p>",
+        "background_color": "blue",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "c4c9a057-d09e-458b-a166-155e95202607": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "6393ab36-40ff-42bc-b69c-6c08413e849e": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meditate, read, stream, sleep",
+            "heading_size": "h2"
+          }
+        },
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you like to unwind with a massage, by reading a book, or by watching your favorite show, an Ergomotion adjustable bed makes every pre-sleep ritual more comfortable than ever before. An elevated headrest is also better for the spine, easier on the neck, and more sustainable for your body long-term. When it's time to sleep, enter Zero-G, lower the legs, or jump to your favorite nighttime preset with the click of a button – or voice command.<\/p>"
+          }
+        },
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-0",
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-1",
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Meditate_02f75d14-315a-4420-8ed6-59666215b3aa.jpg",
+        "image_position": "bg-right-top",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "883a3e4f-2d5c-4faf-9f9f-3574db1d0d48": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "18cfd7fe-dae7-4c81-b979-f07730f124af": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16585187131613__18cfd7fe-dae7-4c81-b979-f07730f124af-16666028396b686711-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Work from home, in bed",
+            "heading_size": "h2"
+          }
+        },
+        "template--16585187131613__18cfd7fe-dae7-4c81-b979-f07730f124af-16666028396b686711-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With an Ergomotion adjustable bed, you can easily prop up your head and chest to use your laptop without causing neck strain. Though chiropractors don't recommend working from your bed long-term, it has its benefits when needed. Your adjustable base is the center of your wellness routine and the place your mind is most at ease. Therefore, many people under stress find their \"ergonomic office\" to be the ultimate focus zone that allows them to get more done due to its calming benefits.<\/p>"
+          }
+        },
+        "template--16585187131613__18cfd7fe-dae7-4c81-b979-f07730f124af-16666028396b686711-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16585187131613__18cfd7fe-dae7-4c81-b979-f07730f124af-16666028396b686711-0",
+        "template--16585187131613__18cfd7fe-dae7-4c81-b979-f07730f124af-16666028396b686711-1",
+        "template--16585187131613__18cfd7fe-dae7-4c81-b979-f07730f124af-16666028396b686711-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/iStock-1133794421.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "41ae61b8-3ed5-4472-818f-11ea0337c7fa": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "567c2fb0-6cbe-4966-b708-9d8852caeeaf": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588398166237__567c2fb0-6cbe-4966-b708-9d8852caeeaf-16666038275370bb2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unwind with the relaxation you deserve",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588398166237__567c2fb0-6cbe-4966-b708-9d8852caeeaf-16666038275370bb2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Due to daily stress from work, family, and daily physical strain, our bodies need more than sleep. As you work hard, your adjustable bed will work just as hard to help you recover muscle strength, mental strength, and emotional well-being. We recommend people use their Ergomotion massage settings at least once a day, ideally with dimmed lights, soothing music, and free of distraction. And if stress levels are higher, it's even better to unwind with a massage twice a day – especially positioned in our weightless, Zero-Gravity setting.<\/p>"
+          }
+        },
+        "template--16588398166237__567c2fb0-6cbe-4966-b708-9d8852caeeaf-16666038275370bb2a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398166237__567c2fb0-6cbe-4966-b708-9d8852caeeaf-16666038275370bb2a-0",
+        "template--16588398166237__567c2fb0-6cbe-4966-b708-9d8852caeeaf-16666038275370bb2a-1",
+        "template--16588398166237__567c2fb0-6cbe-4966-b708-9d8852caeeaf-16666038275370bb2a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-karolina-grabowska-6660783.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "4f6ca77f-a5e5-40d0-bce3-7ccb59916b45": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Everyday comfort & meditation",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore our extensive product features that make each Ergomotion adjustable bed unique and transformative.<\/p>"
+          }
+        },
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Adjustable Bed Features",
+            "button_link": "shopify:\/\/pages\/features",
+            "target": false,
+            "hiddenText": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-0",
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-1",
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "5ff10466-bed0-43ea-bc48-3f16972bd448": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "0d85f869-b530-4f66-8bc3-7a3615000daf": {
+      "type": "feature-benefit",
+      "blocks": {
+        "template--16588398166237__0d85f869-b530-4f66-8bc3-7a3615000daf-166718408346ef89e3-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/shutterstock_731711026.jpg",
+            "headline_benefit": "Transform the way you relax",
+            "content_benefit": "<p>Our adjustable bedframes allow people to customize the position of their beds to meet every desire – optimizing sleep, meditation, time alone, and watching your favorite movie<\/p>",
+            "label_benefit": "Sleep benefits",
+            "link_benefit": "shopify:\/\/pages\/sleep-benefits"
+          }
+        },
+        "7ed6a547-fd05-4e5f-a031-0a0dcf5586b1": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/cmp_3Qtr_A_bed_210323_2_1.jpg",
+            "headline_benefit": "Enhance your health with Ergomotion",
+            "content_benefit": "<p>Our adjustable bed products can transform your bedroom into a foundation for holistic health – encouraging you to find balance, reduce ailments, and optimize sleep performance.<\/p>",
+            "label_benefit": "Health benefits",
+            "link_benefit": "shopify:\/\/pages\/health-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398166237__0d85f869-b530-4f66-8bc3-7a3615000daf-166718408346ef89e3-0",
+        "7ed6a547-fd05-4e5f-a031-0a0dcf5586b1"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "columns": "2",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "a60d6786-81b3-4c9e-a5f4-469f6650f3ba": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "43dab4b1-d896-4e43-8e39-d4f9ec3a70b2",
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b",
+    "3750b31a-0b4a-40d0-bbc1-a51ab42a9ecc",
+    "088c4cfe-6bac-455b-93e5-348d9d0522a3",
+    "9cc91dc9-16e7-49f2-91c5-1f6b273286e7",
+    "c4c9a057-d09e-458b-a166-155e95202607",
+    "6393ab36-40ff-42bc-b69c-6c08413e849e",
+    "883a3e4f-2d5c-4faf-9f9f-3574db1d0d48",
+    "18cfd7fe-dae7-4c81-b979-f07730f124af",
+    "41ae61b8-3ed5-4472-818f-11ea0337c7fa",
+    "567c2fb0-6cbe-4966-b708-9d8852caeeaf",
+    "4f6ca77f-a5e5-40d0-bce3-7ccb59916b45",
+    "5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9",
+    "5ff10466-bed0-43ea-bc48-3f16972bd448",
+    "0d85f869-b530-4f66-8bc3-7a3615000daf",
+    "a60d6786-81b3-4c9e-a5f4-469f6650f3ba"
+  ]
+}

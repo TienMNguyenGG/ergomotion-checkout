@@ -1,0 +1,128 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module section-main mod-two-column-content section-{{ section.id }}-padding animation">
+  <div class="container">
+    <div class="row px-16 md:max-w-608 md:mx-auto md:px-12 xl:px-41 xl:max-w-none 2xl:pl-41 2xl:pr-43 anima-bottom">
+       {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'heading' -%}
+              <div {{ block.shopify_attributes }} class="col wrap-col-left  h1-same-h2 last-mb-none content-base-style  mb-16 md:mb-15 md:text-center xl:text-left xl:pr-50 xl:w-1/2 2xl:pr-50" data-cy="left-content">
+                <{{ block.settings.heading_size }}>{{ block.settings.heading }}</{{ block.settings.heading_size }}>
+              </div>
+            {%- when 'content' -%}
+              <div {{ block.shopify_attributes }} class="col wrap-col-right max-w-335 last-mb-none content-base-style leading-1-5 md:leading-1-7 md:text-center md:max-w-none xl:text-left xl:w-1/2 xl:leading-1-8-125 xl:pl-1p5 2xl:pl-4 2xl:pt-3p5" data-cy="right-content">
+                {{ block.settings.content }}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Two Column Text Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Attention Grabbing Page Headline at the Top of the Page",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h1",
+              "label": "h1"
+            },
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h4"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Content",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio ultricies in sodales in tristique pulvinar pellentesque pellentesque. In viverra sed aliquet nisl tristique scelerisque placerat.</p>",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Column Text Banner",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "content"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

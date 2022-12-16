@@ -1,0 +1,57 @@
+.wrap-accordion {
+  tr:nth-child(even) {
+    @apply bg-blue-500;
+  }
+  td,
+  th {
+    @apply font-normal;
+  }
+  td {
+    @apply px-17 py-5 h-25;
+  }
+  tr.no-bg {
+    @apply bg-transparent;
+  }
+}
+.title-accordion {
+  .icomoon {
+    font-size: 22px;
+    @apply top-2p5 -left-1 absolute;
+  }
+}
+.open-table {
+  .wrap-table-accordion {
+    max-height: 1000px;
+  }
+  .icon-plus {
+    &::before {
+      content: "\e927";
+    }
+  }
+}
+.table-wrap {
+  @apply max-w-full overflow-auto;
+  td,
+  th {
+    @apply text-left;
+  }
+  td {
+    @apply w-1/4;
+    vertical-align: top;
+  }
+}
+.mod-accordion {
+  @apply hidden;
+}
+.designMode {
+  .mod-accordion {
+    @apply block;
+  }
+  .wrap-accordion {
+    @apply hidden;
+  }
+}
+.wrap-table-accordion {
+  @apply overflow-hidden inline-block max-w-none max-h-0;
+  transition: all .3s;
+}

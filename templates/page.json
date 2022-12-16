@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Capitalize Customer Support",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our US-based team is ready to answer your questions and concerns. Call or send us a message today.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 25
+      }
+    },
+    "b26512e5-0557-4dd2-a983-42805b75fce8": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "d1cde528-1227-4d24-91bb-1de4ef453aac": {
+      "type": "feature-benefit",
+      "blocks": {
+        "template--16478365417693__d1cde528-1227-4d24-91bb-1de4ef453aac-166675396095bdf41e-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Customer Support",
+            "content_benefit": "<p>Our US-based team is ready to answer your questions and concerns. Call or send us a message today.<\/p>",
+            "label_benefit": "Contact us",
+            "link_benefit": "shopify:\/\/pages\/contact"
+          }
+        },
+        "0be956a1-7ecd-4aa3-8b72-71de8f0fbf6d": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Track Your Order",
+            "content_benefit": "<p> Excited to receive your new Ergomotion product? Track its progress through our shipping portal.<\/p>",
+            "label_benefit": "See progress",
+            "link_benefit": "\/account"
+          }
+        },
+        "5ef0c8f4-ba75-4a58-9c6e-13db4d375cbc": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Fulfillment + Returns",
+            "content_benefit": "<p>View our shipping time estimates and return policies should there be any fulfillment issues or product concerns.<\/p>",
+            "label_benefit": "Learn more",
+            "link_benefit": "shopify:\/\/pages\/fulfillment-returns"
+          }
+        },
+        "007c5086-72c4-406c-8579-6159c13b0bed": {
+          "type": "featured_benefit",
+          "disabled": true,
+          "settings": {
+            "headline_benefit": "",
+            "content_benefit": "",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "a5efc5a3-8d3a-4846-8c40-27ed3157d9ad": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Warranties",
+            "content_benefit": "<p>Our extensive three-tier product warranties ensure you get the peace of mind you deserve with each purchase.<\/p>",
+            "label_benefit": "See warranties",
+            "link_benefit": "shopify:\/\/pages\/product-warranties"
+          }
+        },
+        "f4e59e10-d6f5-48ef-9200-30e8347dcb6a": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Replacement Parts",
+            "content_benefit": "<p>Learn more about ordering replacement parts and view our warranties for full coverage of costs.<\/p>",
+            "label_benefit": "Learn more",
+            "link_benefit": "shopify:\/\/pages\/replacement-parts"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365417693__d1cde528-1227-4d24-91bb-1de4ef453aac-166675396095bdf41e-0",
+        "0be956a1-7ecd-4aa3-8b72-71de8f0fbf6d",
+        "5ef0c8f4-ba75-4a58-9c6e-13db4d375cbc",
+        "007c5086-72c4-406c-8579-6159c13b0bed",
+        "a5efc5a3-8d3a-4846-8c40-27ed3157d9ad",
+        "f4e59e10-d6f5-48ef-9200-30e8347dcb6a"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "c2c0d763-a5af-41a9-b5ed-c94296097deb": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "e849c4e3-e905-460e-b601-9dc5f2ad9067": {
+      "type": "internal-banner-animation-html",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "",
+        "link_url": "",
+        "padding_bottom": 36,
+        "padding_bottom_mb": 40
+      }
+    },
+    "ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our FAQs",
+            "heading_size": "h2"
+          }
+        },
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find a list of commonly asked questions and answers about Ergomotion adjustable bases.<\/p>"
+          }
+        },
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "\/community\/faq",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-0",
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-1",
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-2"
+      ],
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32",
+    "b26512e5-0557-4dd2-a983-42805b75fce8",
+    "d1cde528-1227-4d24-91bb-1de4ef453aac",
+    "c2c0d763-a5af-41a9-b5ed-c94296097deb",
+    "e849c4e3-e905-460e-b601-9dc5f2ad9067",
+    "ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e"
+  ]
+}

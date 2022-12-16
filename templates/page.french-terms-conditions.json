@@ -1,0 +1,339 @@
+{
+  "sections": {
+    "d80814aa-8992-49e7-a098-145f3724c8c0": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 75,
+        "padding_bottom_mb": 60
+      }
+    },
+    "d126ecae-fea0-4643-8a42-15249d556938": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__d126ecae-fea0-4643-8a42-15249d556938-16686493319eb00a04-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "TERMES D'USAGE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__d126ecae-fea0-4643-8a42-15249d556938-16686493319eb00a04-0"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Acceptation des termes et conditions",
+            "heading_size": "h3"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion, Inc. (ci-après dénommée \" Ergomotion \") exploite le site www.ergomotion.us et d'autres sites Web (ci-après dénommés collectivement le \" site Web \"). Votre accès et votre utilisation de www.ergomotion.us et de tout autre site Web sont exclusivement soumis aux présentes conditions. Vous n'utiliserez pas le site web à des fins illégales ou interdites par les présentes conditions générales. En utilisant le site web, vous acceptez pleinement les termes, conditions et clauses de non-responsabilité contenus dans le présent avis. Si vous n'acceptez pas l'une de ces conditions, il vous est interdit d'utiliser ou d'accéder à ce site.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1f46cd2f-2c7f-422a-be25-5fa05b2b309b": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__1f46cd2f-2c7f-422a-be25-5fa05b2b309b-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conseils",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__1f46cd2f-2c7f-422a-be25-5fa05b2b309b-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le contenu du site Web d'Ergomotion ne constitue pas un conseil et ne doit pas être invoqué pour prendre ou s'abstenir de prendre une décision.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__1f46cd2f-2c7f-422a-be25-5fa05b2b309b-1668557317456cdada-0",
+        "template--16607987499229__1f46cd2f-2c7f-422a-be25-5fa05b2b309b-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "759d811b-dd7f-45be-a19c-f0d8e08abb4f": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__759d811b-dd7f-45be-a19c-f0d8e08abb4f-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Changement d'usage",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__759d811b-dd7f-45be-a19c-f0d8e08abb4f-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion se réserve le droit de modifier ou de supprimer (temporairement ou définitivement) le site Web ou toute partie de celui-ci sans préavis et vous confirmez qu'Ergomotion ne sera pas responsable envers vous d'une telle modification ou suppression et des présentes conditions générales à tout moment, et votre utilisation continue du site Web après toute modification sera considérée comme votre acceptation de cette modification.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__759d811b-dd7f-45be-a19c-f0d8e08abb4f-1668557317456cdada-0",
+        "template--16607987499229__759d811b-dd7f-45be-a19c-f0d8e08abb4f-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "b05bd78c-a076-4a83-b2f7-ac8b420a2eeb": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__b05bd78c-a076-4a83-b2f7-ac8b420a2eeb-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Liens vers des sites Web de tiers",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__b05bd78c-a076-4a83-b2f7-ac8b420a2eeb-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Notre site web peut inclure des liens vers des sites web de tiers qui sont contrôlés et maintenus par d'autres. Tout lien vers d'autres sites web ne constitue pas une approbation de ces sites et vous reconnaissez et acceptez que nous ne sommes pas responsables du contenu ou de la disponibilité de ces sites.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__b05bd78c-a076-4a83-b2f7-ac8b420a2eeb-1668557317456cdada-0",
+        "template--16607987499229__b05bd78c-a076-4a83-b2f7-ac8b420a2eeb-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "3dbeae47-3431-4270-93e6-00d002c4e5ef": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__3dbeae47-3431-4270-93e6-00d002c4e5ef-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Copyright",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__3dbeae47-3431-4270-93e6-00d002c4e5ef-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tous les droits d'auteur, les marques de commerce et tous les autres droits de propriété intellectuelle du site Web et de son contenu (y compris, sans s'y limiter, la conception du site Web, le texte, les graphiques et tous les logiciels et codes sources liés au site Web) sont détenus par Ergomotion ou lui sont concédés sous licence ou sont utilisés par Ergomotion dans les limites autorisées par la loi. En accédant au site Web, vous acceptez d'accéder au contenu uniquement pour votre usage personnel et non commercial. Aucun contenu ne peut être téléchargé, copié, reproduit, transmis, stocké, vendu ou distribué sans le consentement écrit préalable du détenteur du droit d'auteur. Cela exclut le téléchargement, la copie et\/ou l'impression de pages du site Web pour un usage personnel et non commercial à domicile uniquement.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__3dbeae47-3431-4270-93e6-00d002c4e5ef-1668557317456cdada-0",
+        "template--16607987499229__3dbeae47-3431-4270-93e6-00d002c4e5ef-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "faeafce9-455c-4ee0-bfcb-959affc8654b": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__faeafce9-455c-4ee0-bfcb-959affc8654b-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Violation des droits d'auteur",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__faeafce9-455c-4ee0-bfcb-959affc8654b-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour toute réclamation relative à une violation du droit d'auteur, veuillez contacter :<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Ergomotion,+Inc.\/@34.4808474,-119.5271854,8z\/data=!4m6!3m5!1s0x80e940a405356315:0x42884d778f583896!8m2!3d34.4808474!4d-119.5271854!16s%2Fg%2F11clvtpdx8\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Ergomotion,+Inc.\/@34.4808474,-119.5271854,8z\/data=!4m6!3m5!1s0x80e940a405356315:0x42884d778f583896!8m2!3d34.4808474!4d-119.5271854!16s%2Fg%2F11clvtpdx8\">Ergomotion, Inc. <br\/> 6790 Navigator Drive <br\/> Goleta, CA 93117 <\/a><br\/> E-mail : <a href=\"mailto:info@ergomotion.com\">info@ergomotion.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__faeafce9-455c-4ee0-bfcb-959affc8654b-1668557317456cdada-0",
+        "template--16607987499229__faeafce9-455c-4ee0-bfcb-959affc8654b-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "fd04c019-035b-4fbd-b000-6fff3fa7e328": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__fd04c019-035b-4fbd-b000-6fff3fa7e328-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Avis de non-responsabilité et limitation de la responsabilité",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__fd04c019-035b-4fbd-b000-6fff3fa7e328-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le site Web est fourni TEL QUEL et TEL QUE DISPONIBLE, sans représentation ni endossement et sans garantie d'aucune sorte, qu'elle soit expresse ou implicite, y compris, mais sans s'y limiter, les garanties implicites de qualité satisfaisante, d'adaptation à un usage particulier, de non-violation, de compatibilité, de sécurité et d'exactitude. Dans la mesure permise par la loi, Ergomotion Inc. ne sera pas responsable des pertes ou dommages indirects ou consécutifs quels qu'ils soient (y compris, mais sans s'y limiter, la perte d'affaires, d'opportunités, de données, de profits) découlant de l'utilisation du site Web ou en relation avec celle-ci. Ergomotion ne garantit pas que la fonctionnalité du site Web sera ininterrompue ou exempte d'erreurs, que les défauts seront corrigés ou que le site Web ou le serveur qui le rend disponible sont exempts de virus ou de toute autre chose qui pourrait être nuisible ou destructive. Aucune disposition des présentes conditions générales ne doit être interprétée de manière à exclure ou à limiter la responsabilité d'Ergomotion en cas de décès ou de préjudice corporel résultant de la négligence d'Ergomotion ou de celle de ses employés ou agents.<\/p><p><strong>Conditions d'utilisation des messages téléphoniques, SMS et MMS<\/strong><\/p><p>En consentant au marketing par SMS d'Ergomotion, et de ses marques, lors du passage à la caisse et de l'initialisation d'un achat ou de l'inscription via nos outils d'abonnement, vous acceptez de recevoir des notifications textuelles récurrentes (pour votre commande, y compris les rappels d'abandon de caisse), des offres de marketing par SMS et des textes transactionnels, y compris des demandes d'évaluation de notre part, même si votre numéro de mobile est inscrit sur une liste d'exclusion nationale ou fédérale. Quelle que soit la méthode utilisée pour adhérer au programme, vous acceptez que le présent accord s'applique à votre participation au programme. La fréquence des messages varie. Le consentement n'est pas une condition d'achat.<br\/> Votre utilisation des programmes est régie par les termes et conditions ci-dessous. L'utilisation des programmes constitue votre acceptation de ces conditions, qui prennent effet au moment de votre inscription. Si vous n'acceptez pas ces conditions, veuillez ne pas vous inscrire à un programme. Une fois inscrit à un programme, vous aurez la possibilité de refuser le service en l'indiquant lors d'un appel téléphonique ou en répondant à un message texte que vous avez reçu et qui dit STOP. Si vous souhaitez vous désabonner de la réception de messages et de notifications de marketing par SMS, répondez par STOP à tout message mobile envoyé par nous ou utilisez le lien de désabonnement que nous vous avons fourni dans l'un de nos messages. Vous comprenez et acceptez que les méthodes alternatives de désinscription, telles que l'utilisation de mots ou de demandes différents, ne seront pas considérées comme un moyen raisonnable de désinscription. Nous ne facturons pas le service, mais vous êtes responsable de tous les frais et droits associés à la messagerie texte imposés par votre fournisseur de services sans fil. Les tarifs des messages et des données peuvent s'appliquer.<br\/> Pour toute question, veuillez envoyer un SMS indiquant HELP au numéro qui vous a envoyé les messages. Vous pouvez également nous contacter à l'adresse <a href=\"mailto:info@ergomotion.com\" target=\"_blank\">info@ergomotion.com<\/a> pour plus d'informations.<br\/> Nous avons le droit de modifier à tout moment tout numéro de téléphone ou code court que nous utilisons pour exploiter le service. Vous en serez informé à cette occasion. Vous acceptez que tout message que vous envoyez à un numéro de téléphone ou à un code court que nous avons modifié, y compris toute demande STOP ou HELP, puisse ne pas être reçu, et nous ne serons pas tenus d'honorer les demandes formulées dans ces messages.<br\/> Dans la mesure où la loi applicable le permet, vous acceptez que nous ne soyons pas responsables de l'échec, du retard ou du mauvais acheminement de toute information envoyée par l'intermédiaire du service, de toute erreur dans cette information et\/ou de toute action que vous pouvez ou ne pouvez pas entreprendre en vous fiant à l'information ou au service.<br\/> Votre droit à la confidentialité est important pour nous. Vous pouvez consulter notre politique de confidentialité [www.ergomotion.com\/PrivacyPolicy] pour déterminer comment nous recueillons et utilisons vos informations personnelles.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__fd04c019-035b-4fbd-b000-6fff3fa7e328-1668557317456cdada-0",
+        "template--16607987499229__fd04c019-035b-4fbd-b000-6fff3fa7e328-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "94c820df-2d41-4702-9b69-0367916c454b": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__94c820df-2d41-4702-9b69-0367916c454b-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Indemnité",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__94c820df-2d41-4702-9b69-0367916c454b-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vous acceptez d'indemniser et de dégager Ergomotion Inc. et ses employés et agents de toute responsabilité, frais juridiques, dommages, pertes, coûts et autres dépenses liés à toute réclamation ou action intentée contre Ergomotion Inc. découlant de toute violation de votre part des présentes conditions générales ou de toute autre responsabilité découlant de votre utilisation de ce site Web.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__94c820df-2d41-4702-9b69-0367916c454b-1668557317456cdada-0",
+        "template--16607987499229__94c820df-2d41-4702-9b69-0367916c454b-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Indemnité de départ",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si l'une des présentes conditions générales est jugée invalide, illégale ou inapplicable pour quelque raison que ce soit par un tribunal de la juridiction compétente, cette condition sera supprimée et les autres conditions générales resteront en vigueur et continueront à être contraignantes et applicables.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4-1668557317456cdada-0",
+        "template--16607987499229__6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "f6cf1485-9501-4d14-9c10-2024ee4abb20": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__f6cf1485-9501-4d14-9c10-2024ee4abb20-1668557672e33b35c3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Droit applicable ; compétence juridictionnelle",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__f6cf1485-9501-4d14-9c10-2024ee4abb20-1668557672e33b35c3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ce site (à l'exclusion de tout site lié) est contrôlé par nous depuis nos bureaux situés dans l'État de Californie, aux États-Unis d'Amérique. Il est accessible depuis les 50 États américains, ainsi que depuis d'autres pays du monde. Comme chacun de ces endroits a des lois qui peuvent différer de celles de la Californie, en accédant à ce site, nous acceptons tous deux de nous soumettre aux statuts et aux lois de l'État de Californie, sans tenir compte des principes de conflits de lois.<\/p><p>Les parties conviennent que le forum pour la résolution de tout litige entre les parties concernant la formation, l'interprétation ou l'exécution des présentes conditions générales, ou tout autre litige lié de quelque manière que ce soit aux présentes conditions générales ou aux services, sera la Cour supérieure de l'État de Californie pour le comté de Santa Barbara ou la Cour de district des États-Unis pour le district central de Californie en ce qui concerne ces questions.<\/p><p>Pour toute information complémentaire, veuillez envoyer un courriel à <a href=\"mailto:info@ergomotion.com\" target=\"_blank\" title=\"mailto:info@ergomotion.com\">info@ergomotion.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__f6cf1485-9501-4d14-9c10-2024ee4abb20-1668557672e33b35c3-0",
+        "template--16607987499229__f6cf1485-9501-4d14-9c10-2024ee4abb20-1668557672e33b35c3-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    }
+  },
+  "order": [
+    "d80814aa-8992-49e7-a098-145f3724c8c0",
+    "d126ecae-fea0-4643-8a42-15249d556938",
+    "16637401650be15f32",
+    "1f46cd2f-2c7f-422a-be25-5fa05b2b309b",
+    "759d811b-dd7f-45be-a19c-f0d8e08abb4f",
+    "b05bd78c-a076-4a83-b2f7-ac8b420a2eeb",
+    "3dbeae47-3431-4270-93e6-00d002c4e5ef",
+    "faeafce9-455c-4ee0-bfcb-959affc8654b",
+    "fd04c019-035b-4fbd-b000-6fff3fa7e328",
+    "94c820df-2d41-4702-9b69-0367916c454b",
+    "6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4",
+    "f6cf1485-9501-4d14-9c10-2024ee4abb20"
+  ]
+}

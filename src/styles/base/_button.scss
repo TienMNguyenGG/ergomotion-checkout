@@ -1,0 +1,62 @@
+@layer base {
+  .btn {
+    @apply text-btn px-15 font-bold inline-block select-none align-middle rounded-4 py-6p5 border-2 no-underline mb-6 mr-6;
+    transition: .25s all;
+    &:focus:not(.mouse) {
+      outline: 1px solid #043673;
+      outline-offset: 3px;
+    }
+    &[disabled="disabled"],
+    &[disabled] {
+      @apply opacity-50;
+      cursor: not-allowed;
+    }
+  }
+  .slick-arrow:focus:not(.mouse) {
+    outline: 2px solid #043673;
+    outline-offset: 3px;
+  }
+  .btn-outline-primary {
+    @apply text-blue-300 border-blue-300 hover:border-blue-500 hover:bg-blue-500;
+  }
+  .btn-primary {
+    @apply text-white bg-blue-300 border-blue-300 hover:bg-blue-400 hover:border-blue-400 hover:text-white;
+  }
+
+  .btn-outline-light {
+    @apply text-white border-white hover:bg-blue-500 hover:border-blue-500 hover:text-blue-300;
+  }
+  .btn-light {
+    @apply text-blue-300 border-white bg-white hover:bg-blue-400 hover:text-white;
+  }
+  .link-arrow {
+    @apply text-midnight-blue border-none no-underline p-0 m-0 hover:text-midnight-blue relative pr-15;
+    &.no-arrow {
+      @apply hover:text-blue-400 pr-0;
+    }
+    &.white,
+    &.reverse {
+      @apply text-white hover:text-white;
+    }
+    .icomoon {
+      @apply ml-4 duration-100 text-wellness-blue absolute top-50p right-0;
+      transform: translateY(-50%);
+    }
+    &:focus:not(.mouse) {
+      outline: 1px solid #000;
+      outline-offset: 6px;
+    }
+    &:hover {
+      .icomoon {
+        @apply text-midnight-blue;
+      }
+      &.white,
+      &.reverse {
+        .icomoon {
+          @apply text-white;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,11 @@
+.mod-similar-posts {
+  &:not(.done-render) {
+    .blog-articles__article {
+      @apply hidden;
+      &:first-child,
+      &:nth-child(2) {
+        @apply block;
+      }
+    }
+  }
+}

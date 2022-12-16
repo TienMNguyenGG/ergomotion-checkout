@@ -1,0 +1,639 @@
+{
+  "sections": {
+    "166391467135f270f9": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 60
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "b5a66e63-ce3f-4969-856d-947b6dcb3d85": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "51317406-7470-4ec3-90ab-a1de1b111593": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "379c2216-5f85-463b-a78a-dac87adc2743": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "8bc8af80-6bc2-45b3-b408-2de3d1748f89": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "23744576-06eb-422a-8381-950b68502efd": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f": {
+          "type": "cart_button",
+          "settings": {
+          }
+        },
+        "436d47d0-40c1-4ce1-92f8-be8fa79448ac": {
+          "type": "affirm",
+          "settings": {
+          }
+        },
+        "762c57e4-fce2-4eb5-b3bd-9f5ba15b9f1f": {
+          "type": "link",
+          "settings": {
+            "button_label": "Buy now on Amazon",
+            "image_link": "shopify:\/\/shop_images\/amazon-new.png",
+            "get_image_url": false,
+            "url_image": "",
+            "link_url": "https:\/\/www.amazon.com\/dp\/B0972B7VKS?maas=maas_adg_E30E824B2FF351C9B4714AE9E719E175_afap_abs&ref_=aa_maas&tag=maas",
+            "target": true
+          }
+        },
+        "8dd73344-a0cd-4179-9bce-60aba4ee43dc": {
+          "type": "link",
+          "settings": {
+            "button_label": "Find retailer",
+            "get_image_url": false,
+            "url_image": "",
+            "link_url": "shopify:\/\/pages\/stores",
+            "target": false
+          }
+        },
+        "507702a8-901e-44da-aa82-5d948bc2b816": {
+          "type": "related_products",
+          "settings": {
+            "title_related_products": "Add to Your Base",
+            "show_description_related": true,
+            "show_description_add_ons": false
+          }
+        }
+      },
+      "block_order": [
+        "b5a66e63-ce3f-4969-856d-947b6dcb3d85",
+        "51317406-7470-4ec3-90ab-a1de1b111593",
+        "379c2216-5f85-463b-a78a-dac87adc2743",
+        "8bc8af80-6bc2-45b3-b408-2de3d1748f89",
+        "23744576-06eb-422a-8381-950b68502efd",
+        "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f",
+        "436d47d0-40c1-4ce1-92f8-be8fa79448ac",
+        "762c57e4-fce2-4eb5-b3bd-9f5ba15b9f1f",
+        "8dd73344-a0cd-4179-9bce-60aba4ee43dc",
+        "507702a8-901e-44da-aa82-5d948bc2b816"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16641566120de0104f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 75,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 65
+      }
+    },
+    "1663914873d4c040da": {
+      "type": "large-features-banner",
+      "blocks": {
+        "b7530dcb-98ee-4aed-9aa5-a8c922f89d63": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
+            "content_new": "<p>10-year limited warranty<\/p>"
+          }
+        },
+        "db590323-eb87-4992-93af-074918d609c9": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
+            "content_new": "<p>US Based - Call us at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1.888.550.3746<\/a><\/p>"
+          }
+        },
+        "3aa37cbf-9d52-4eda-84ac-ca90fa8ca278": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Truck_Icon.svg?v=1665539537",
+            "content_new": "<p>Courier-friendly shipping<\/p>"
+          }
+        },
+        "166391487300dd0dd4-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
+            "content_new": "<p>Payments starting at $73\/mo for 12 months<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b7530dcb-98ee-4aed-9aa5-a8c922f89d63",
+        "db590323-eb87-4992-93af-074918d609c9",
+        "3aa37cbf-9d52-4eda-84ac-ca90fa8ca278",
+        "166391487300dd0dd4-0"
+      ],
+      "settings": {
+        "heading": "10 million+ adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "<p><\/p>",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16639152549b9db015": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 60,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166476156496b1bddf": {
+      "type": "quest-feature",
+      "blocks": {
+        "166476156465a7a472-0": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Quest_1.0_Side_View_01.png",
+            "icon": "shopify:\/\/shop_images\/icons_HEAD_ARTICULATION-5_de95ed28-4215-4cf0-a677-ec68115508b5.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "title": "Head Articulation",
+            "content": "<p>Quest 1.0 offers the flexibility to elevate the head of your adjustable bedframe to read, watch television, relieve back pain, reduce snoring, and meditate in your own relaxation zone.<\/p>"
+          }
+        },
+        "57794c7d-8b8d-4c55-9f5c-78a1357dc3d6": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Quest_1.0_Side_View_03.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>The Quest 1.0 adjustable bedframe features a slow and controlled return to the flat position with the click of a button.<\/p>"
+          }
+        },
+        "487b7629-bc1f-47b3-888f-644681c74083": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image-1.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_30.svg?v=1669691380",
+            "title": "12\" Stackable Legs",
+            "content": "<p>The base can be set to a variety of heights to accommodate different style preferences or allow for under-bed storage.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166476156465a7a472-0",
+        "57794c7d-8b8d-4c55-9f5c-78a1357dc3d6",
+        "487b7629-bc1f-47b3-888f-644681c74083"
+      ],
+      "settings": {
+        "section_ID": "",
+        "heading": "Wired Remote",
+        "heading_size": "h3",
+        "content": "<p>Two-button wired remote offers supreme ease of operation — one for “up,” and another for “down.”<\/p>",
+        "imgRemote": "shopify:\/\/shop_images\/Quest_1.0_Black_Remote_1.png",
+        "button_label": "",
+        "button_link": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664813893c5762023": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1663904222d782af81": {
+      "type": "grid",
+      "blocks": {
+        "1663904222b88e6306-0": {
+          "type": "item_grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons_HEAD_ARTICULATION-5_de95ed28-4215-4cf0-a677-ec68115508b5.png",
+            "get_image_url": false,
+            "url_image_update": "",
+            "title": "Head Articulation",
+            "content": "<p>Quest 1.0 offers the flexibility to elevate the head of your mattress to read, watch television, relieve back pain, reduce snoring, and meditate in your own relaxation zone.<\/p>"
+          }
+        },
+        "324958df-e932-4022-8abc-b0e8ed188d9d": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Wired_Remote.svg?v=1666919718",
+            "title": "Wired Remote",
+            "content": "<p>Our two-button wired remote offers up-down ease of operation for quick and gentle adjustments that don't jolt your neck or spine.<\/p>"
+          }
+        },
+        "2d651f55-fad4-4adf-990c-2bc27be9b76e": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_7.svg?v=1670302150",
+            "title": "Silent Drive Motors",
+            "content": "<p>Our patented and reliable adjustable bed silent motors are designed for quiet operation so you won’t be disturbed while lounging, reading, or sleeping.<\/p>"
+          }
+        },
+        "ffb8af0d-a43a-4bc2-a48e-67ae1dc7392f": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Each Ergomotion adjustable bedframe features a slow and controlled return to the flat position with the click of a button, powered only by gravity to minimize pinch points.<\/p>"
+          }
+        },
+        "9b264c33-7530-4e49-8c89-c964c6e66d51": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_20_61d205fe-0792-4821-972a-cd8abda68e25.svg?v=1670302010",
+            "title": "Zero Standby Power System",
+            "content": "<p>Rest easy with energy-efficient technology that helps reduce your energy bills and cut your carbon footprint. When not in use, your Ergomotion bed consumes less than 1 watt of energy.<\/p>"
+          }
+        },
+        "fe8cbc31-a110-49de-8670-2a5d2dc6ee59": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Power_Outage_Protection.svg?v=1665135019",
+            "title": "Power Outage Protection",
+            "content": "<p>If electrical power is lost, you can bring your adjustable bed to a flat position with its built-in power reserves.<\/p>"
+          }
+        },
+        "f9c14071-bac5-4f23-be3b-968345c531ac": {
+          "type": "item_grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons_COURIER_FRIENDLY.png",
+            "get_image_url": false,
+            "url_image_update": "",
+            "title": "Courier Friendly",
+            "content": "<p>Due to our well-established supply chain, we are able to ship your Ergomotion product with UPS, without the need for a special delivery appointment.<\/p>"
+          }
+        },
+        "b3bd9e76-3a71-4cad-8225-ac1d09c6caa4": {
+          "type": "item_grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons_FOLDABLE.png",
+            "get_image_url": false,
+            "url_image_update": "",
+            "title": "Foldable",
+            "content": "<p>Once shipped, your adjustable bed fits easily through doorways as it is packaged to fold in half during delivery. Moving soon? Easily fold your bed in half for easy mobility and stowing.<\/p>"
+          }
+        },
+        "248a0e7d-d6fa-4e8e-aa43-2b3235d4757b": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_32.svg?v=1669691462",
+            "title": "Headboard Brackets",
+            "content": "<p>Connect your adjustable bed to your favorite headboard with our universal brackets, designed to accommodate any frame for a polished and elevated look.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663904222b88e6306-0",
+        "324958df-e932-4022-8abc-b0e8ed188d9d",
+        "2d651f55-fad4-4adf-990c-2bc27be9b76e",
+        "ffb8af0d-a43a-4bc2-a48e-67ae1dc7392f",
+        "9b264c33-7530-4e49-8c89-c964c6e66d51",
+        "fe8cbc31-a110-49de-8670-2a5d2dc6ee59",
+        "f9c14071-bac5-4f23-be3b-968345c531ac",
+        "b3bd9e76-3a71-4cad-8225-ac1d09c6caa4",
+        "248a0e7d-d6fa-4e8e-aa43-2b3235d4757b"
+      ],
+      "settings": {
+        "padding_bottom": 25,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7b25c547-d4b1-41d5-aae9-551353ef2ccd": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 80
+      }
+    },
+    "166476881567f0f1fe": {
+      "type": "content-slider",
+      "blocks": {
+        "1664768815e19e0a14-0": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/Transform-the-way-you-sleep-top.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/Transform-the-way-you-sleep-middle.jpg",
+            "imageThird": "shopify:\/\/shop_images\/Transform-the-way-you-sleep-bottom.jpg",
+            "image_position": "object-center",
+            "title": "Transform the way you sleep",
+            "content": "<p>An Ergomotion adjustable bed base  is not limited to enhancing health and wellness. Each adjustable base is designed to deliver exceptional comfort, elevated sleep performance, and a rich sense of relaxation.<\/p>",
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/sleep-benefits"
+          }
+        },
+        "378ba4af-0431-46eb-b8e4-c95618d56c92": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/Enhace-your-health-through-innovation-top.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/Enhace-your-health-through-innovation-middle.jpg",
+            "imageThird": "shopify:\/\/shop_images\/Enhace-your-health-through-innovation-bottom.jpg",
+            "image_position": "object-center",
+            "title": "Enhance your health through innovation",
+            "content": "<p>Our products transform your bedroom into a foundation for holistic health – encouraging you to find balance, reduce ailments, and optimize sleep performance.<\/p>",
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/health-benefits"
+          }
+        },
+        "8019b8f6-b1e4-4b00-9781-fb8cd21b042e": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/Lifestyle_Images_1_0_D_71ccfffe-276c-4c69-895c-573ddcbfa2eb.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/Ergomotion-Batch2-5.jpg",
+            "imageThird": "shopify:\/\/shop_images\/Text_Image-Widget_Quest-1.jpg",
+            "image_position": "object-center",
+            "title": "Adjust to amazing",
+            "content": "<p>It's time to finally break free from the traditional pain points of sleep. Night after night, you can enjoy the luxury of customized relaxation with unique features and presets designed to elevate your holistic wellness.<\/p>",
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/lifestyle-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "1664768815e19e0a14-0",
+        "378ba4af-0431-46eb-b8e4-c95618d56c92",
+        "8019b8f6-b1e4-4b00-9781-fb8cd21b042e"
+      ],
+      "settings": {
+        "sub_heading": "Quest 1.0 Adjustable Bed",
+        "heading": "Core benefits of Quest 1.0",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1663915378d645ee33": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "68e5e93e-7389-413f-bd98-fdb95619ab0b": {
+      "type": "large-features-banner",
+      "blocks": {
+        "template--16578672361693__68e5e93e-7389-413f-bd98-fdb95619ab0b-16657307691b3f4db0-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Alleviate_back_pain.svg?v=1665731076",
+            "content_new": "<p>Alleviate back pain<\/p>"
+          }
+        },
+        "deea7933-803c-473e-b12d-330983a8f0e6": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/improve_circulation_cc1ef814-6516-4ce4-8285-290568326f29.svg?v=1669259227",
+            "content_new": "<p>Improve circulation<\/p>"
+          }
+        },
+        "88eff54a-fe5f-4732-baa2-8680920ebde0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Maximize_REM_sleep.svg?v=1665731076",
+            "content_new": "<p>Maximize REM sleep<\/p>"
+          }
+        },
+        "ea18478b-e8b3-4357-902a-b31ec0bc98cc": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Reduce_snoring.svg?v=1665731077",
+            "content_new": "<p>Reduce snoring<\/p>"
+          }
+        },
+        "e0e2cb64-e721-4b41-a304-47f5147a57b3": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Address_acid_reflux.svg?v=1665731077",
+            "content_new": "<p>Address acid reflux<\/p>"
+          }
+        },
+        "7f10ff67-816f-4182-9024-943a96a9dc6d": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Promote_muscle_recovery.svg?v=1665731077",
+            "content_new": "<p>Promote muscle recovery<\/p>"
+          }
+        },
+        "8500f4f6-90e0-4281-aa71-3e7801113666": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Enhance_mobility.svg?v=1665731076",
+            "content_new": "<p>Enhance mobility<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16578672361693__68e5e93e-7389-413f-bd98-fdb95619ab0b-16657307691b3f4db0-0",
+        "deea7933-803c-473e-b12d-330983a8f0e6",
+        "88eff54a-fe5f-4732-baa2-8680920ebde0",
+        "ea18478b-e8b3-4357-902a-b31ec0bc98cc",
+        "e0e2cb64-e721-4b41-a304-47f5147a57b3",
+        "7f10ff67-816f-4182-9024-943a96a9dc6d",
+        "8500f4f6-90e0-4281-aa71-3e7801113666"
+      ],
+      "settings": {
+        "heading": "The health benefits of your adjustable bedframe",
+        "heading_size": "h2",
+        "content": "<p>We've found that Ergomotion customers interact daily with their adjustable bed beyond just using it for sleep. Each Quest product becomes a relaxation zone, a reading nook, and a dedicated meditation center. But at the core of what Quest does best, its adjustable base technology helps improve overall sleep quality - enhancing REM sleep, alleviating joint pain, improving cardiovasular circulation, and enhancing muscle recovery.<\/p>",
+        "columns": "4",
+        "padding_bottom": 30,
+        "padding_bottom_mb": 0
+      }
+    },
+    "166391543682cfdb8f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 80
+      }
+    },
+    "166729094157c6d057": {
+      "type": "apps",
+      "blocks": {
+        "461de210-ccaa-47f0-b1f7-432455b398db": {
+          "type": "shopify:\/\/apps\/store-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
+          "settings": {
+            "heading": "Quest 1.0 Product Specs",
+            "heading_text_type": "h2",
+            "heading_alignment": "left",
+            "faq_embed_code": "<div class=\"ef-faqs-plus-app-cats-content\" data-category=\"Quest 1-0\" id=\"ef-faqs-6360d6b54b2542c53ff4c42e\"><\/div>",
+            "faqs_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "461de210-ccaa-47f0-b1f7-432455b398db"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "62d353d7-a78e-4a05-9b94-94c5db253d40": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 30,
+        "padding_bottom_mb": 0
+      }
+    },
+    "63ebe92d-ff1f-4542-ac3c-4d63fcb84807": {
+      "type": "review-module",
+      "settings": {
+      }
+    },
+    "1669271007a01f1605": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "f9e7efcc-366d-4db5-991b-9992743865f3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 50
+      }
+    },
+    "16638080172b862644": {
+      "type": "help-banner",
+      "blocks": {
+        "16638080174807cfa3-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "24383217-0420-45b7-81a0-5ca4fe2f9981": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<br\/><\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "4f52fadd-20d1-46ea-858c-e795e669aef9": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "16638080174807cfa3-0",
+        "24383217-0420-45b7-81a0-5ca4fe2f9981",
+        "4f52fadd-20d1-46ea-858c-e795e669aef9"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664864950411c9ca8": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 75
+      }
+    },
+    "16642412276bf9f84e": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Explore other popular Quest products",
+        "heading_size": "h3",
+        "collection": "",
+        "padding_bottom": 48,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664781597a4b17603": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 60
+      }
+    }
+  },
+  "order": [
+    "166391467135f270f9",
+    "main",
+    "16641566120de0104f",
+    "1663914873d4c040da",
+    "16639152549b9db015",
+    "166476156496b1bddf",
+    "1664813893c5762023",
+    "1663904222d782af81",
+    "7b25c547-d4b1-41d5-aae9-551353ef2ccd",
+    "166476881567f0f1fe",
+    "1663915378d645ee33",
+    "68e5e93e-7389-413f-bd98-fdb95619ab0b",
+    "166391543682cfdb8f",
+    "166729094157c6d057",
+    "62d353d7-a78e-4a05-9b94-94c5db253d40",
+    "63ebe92d-ff1f-4542-ac3c-4d63fcb84807",
+    "1669271007a01f1605",
+    "f9e7efcc-366d-4db5-991b-9992743865f3",
+    "16638080172b862644",
+    "1664864950411c9ca8",
+    "16642412276bf9f84e",
+    "1664781597a4b17603"
+  ]
+}

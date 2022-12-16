@@ -1,0 +1,400 @@
+{
+  "sections": {
+    "1664163849dda46c9d": {
+      "type": "text-center",
+      "blocks": {
+        "1664163849f77d540f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quest",
+            "heading_size": "h1"
+          }
+        },
+        "1664163849f77d540f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your bed should be an active part of a healthy lifestyle. Getting enough sleep is one factor. But so is turning your bedroom into a revitalizing sanctuary, a place that restores your mental health as well as your physical health. Ergomotion’s Quest adjustable bases help you do just that, and at a price point that’s conscious of your financial health too. With three models in our line, you’re sure to find one that’s right for you. Quest adjustable bases—they’ll help you turn your bedroom into your best room.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664163849f77d540f-0",
+        "1664163849f77d540f-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "4c208879-9951-4c29-a116-0c56f3d56527": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 10
+      }
+    },
+    "1664164419eaa1e920": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+        "image_position": "object-left-top",
+        "image_position_mobile": "object-left-bottom",
+        "video_link": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16641644490b0131fc": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166416446704a62aeb": {
+      "type": "large-features-banner",
+      "blocks": {
+        "16641644672cbf6dd2-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_78_2.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "content": "Pay as little as $56.65\/mo for 12 months with Affirm.",
+            "content_new": "<p>Pay as little as $56.65\/mo for 12 months with Affirm.<\/p>"
+          }
+        },
+        "6126f645-11a3-4809-8869-0409d778dc27": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_86_2.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "content": "10-year limited warranty",
+            "content_new": ""
+          }
+        },
+        "376775cb-8a1d-4adf-80f4-d37d2688db78": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Headset_Icon_2.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "content": "24\/7, US-based customer service",
+            "content_new": ""
+          }
+        },
+        "9bb025b7-b099-43e9-9b9c-85f0b549c2ca": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Truck_Icon_18fe554d-8f98-4474-b3a6-5119486872dc.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "content": "Free, no contact dACelivery",
+            "content_new": ""
+          }
+        }
+      },
+      "block_order": [
+        "16641644672cbf6dd2-0",
+        "6126f645-11a3-4809-8869-0409d778dc27",
+        "376775cb-8a1d-4adf-80f4-d37d2688db78",
+        "9bb025b7-b099-43e9-9b9c-85f0b549c2ca"
+      ],
+      "settings": {
+        "heading": "10 million+ adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "166416457096fa6d2f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 55
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "heading": "Meet the product",
+        "heading_size": "h3",
+        "label_link": "Compare all Quest adjustable bases",
+        "link_url": "shopify:\/\/pages\/compare-bases",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "16641646325f673c51": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "166416463197dd7546-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Text based call to action.",
+            "heading_size": "h2"
+          }
+        },
+        "166416463197dd7546-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call to action call out for compare or financing or find a store, etc. Lorem ipsum delor iusy pelo ius belus<\/p>"
+          }
+        },
+        "166416463197dd7546-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Text button",
+            "button_link": "#",
+            "target": false,
+            "hiddenText": ""
+          }
+        }
+      },
+      "block_order": [
+        "166416463197dd7546-0",
+        "166416463197dd7546-1",
+        "166416463197dd7546-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "166416468177526004": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664164705aa7653ea": {
+      "type": "feature-benefit",
+      "blocks": {
+        "1664164705493fac4a-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-1_520x500_c9ac94d6-afdc-4f9b-94a7-4c114474b383.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "285b388c-68a5-41d7-b042-917fc9c20403": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-2_520x500_9a00b52b-b0f1-4bdc-8556-bddd44d55eaf.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "c9cbfaa8-712c-4bcc-b909-fe8457fba44f": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-3_520x500_a1a514a0-f20d-439c-b7bb-a6ccb92dee7b.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664164705493fac4a-0",
+        "285b388c-68a5-41d7-b042-917fc9c20403",
+        "c9cbfaa8-712c-4bcc-b909-fe8457fba44f"
+      ],
+      "settings": {
+        "heading": "Feature benefit section",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166416476426587e53": {
+      "type": "half-text-image",
+      "blocks": {
+        "1664164764a407b859-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "See all of our reviews headline",
+            "heading_size": "h2"
+          }
+        },
+        "1664164764a407b859-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pellentesque nibh cras ac. <\/p>"
+          }
+        },
+        "1664164764a407b859-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "1664164764a407b859-0",
+        "1664164764a407b859-1",
+        "1664164764a407b859-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style1",
+        "padding_bottom": 70,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166416482047abb5c0": {
+      "type": "help-banner",
+      "blocks": {
+        "1664164820150e85b7-0": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_6.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "#",
+            "link_phone": false
+          }
+        },
+        "663e8f18-8f4f-445c-88ec-032726e687b3": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_7.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "",
+            "link_phone": true
+          }
+        },
+        "f5abda70-4397-4622-afad-891ace293205": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_8.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Product Support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "1664164820150e85b7-0",
+        "663e8f18-8f4f-445c-88ec-032726e687b3",
+        "f5abda70-4397-4622-afad-891ace293205"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664164976b3cbf803": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664164989a0b776d5": {
+      "type": "testimonials-slider",
+      "settings": {
+        "heading": "Testimonials Headline Here",
+        "heading_size": "h3",
+        "link_label": "View all reviews",
+        "link_url": "#",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "16641650073ad97184": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166416547908fdc202": {
+      "type": "two-column-banner",
+      "blocks": {
+        "1664165479b449fc2d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/large-banner.jpg"
+          }
+        },
+        "1664165479b449fc2d-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>“If you’re a “bells and whistles” kind of person, think of this high-tech wonder as the Cadillac of platform bed frames.”<\/p>"
+          }
+        },
+        "1664165479b449fc2d-2": {
+          "type": "icon",
+          "settings": {
+            "get_icon_url": false,
+            "url_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664165479b449fc2d-0",
+        "1664165479b449fc2d-1",
+        "1664165479b449fc2d-2"
+      ],
+      "settings": {
+        "padding_bottom": 68,
+        "padding_bottom_mb": 40
+      }
+    }
+  },
+  "order": [
+    "1664163849dda46c9d",
+    "4c208879-9951-4c29-a116-0c56f3d56527",
+    "1664164419eaa1e920",
+    "16641644490b0131fc",
+    "166416446704a62aeb",
+    "166416457096fa6d2f",
+    "product-grid",
+    "16641646325f673c51",
+    "166416468177526004",
+    "1664164705aa7653ea",
+    "166416476426587e53",
+    "166416482047abb5c0",
+    "1664164976b3cbf803",
+    "1664164989a0b776d5",
+    "16641650073ad97184",
+    "166416547908fdc202"
+  ]
+}

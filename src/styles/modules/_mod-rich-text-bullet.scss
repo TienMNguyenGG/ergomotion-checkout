@@ -1,0 +1,42 @@
+.left-content-highlight {
+  h3,
+  .h3 {
+    @apply mb-12 xl:text-font-24-38 2xl:text-h3-2xl 2xl:mb-12;
+  }
+
+  p {
+    @apply pr-22 mb-10 md:pr-47 xl:pr-30;
+  }
+}
+
+.right-content-highlight {
+  h5,
+  .h5 {
+    @apply mb-16 md:text-h5-v2 md:font-medium md:mb-15 2xl:font-bold 2xl:text-h4-xl 2xl:mb-15;
+  }
+
+  ul {
+    @apply pl-12 md:text-h5-v2 md:font-normal md:pl-13p5 2xl:text-h4-xl 2xl:pl-15;
+
+    li {
+      @apply mb-12 md:mb-0 2xl:mb-12;
+    }
+  }
+}
+
+.style-blue{
+  .right-content-highlight{
+     @apply bg-blue-300 text-white;
+     .h5{
+      @apply text-white
+     }
+  }
+}
+
+@screen 2xl {
+  .right-content-highlight {
+    ul {
+      letter-spacing: -0.12px;
+    }
+  }
+}

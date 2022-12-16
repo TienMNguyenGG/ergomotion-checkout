@@ -1,0 +1,223 @@
+<footer id="footer" class="module 2xl:py-48 bg-white 2xl:px-24">
+  <div class="container xl:flex max-w-1600 px-0">
+    <div class="footer-left flex bg-blue-600 md:rounded-none 2xl:rounded-4 text-white md:min-h-0 xl:min-h-512 2xl:min-h-835 items-center flex-col md:flex-row xl:flex-col md:flex-wrap justify-between md:justify-center xl:justify-between
+    xl:w-172 2xl:w-256 xl:flex-none
+    pt-40 pb-50 px-12 md:py-18 md:px-27 xl:px-12 xl:pt-32 xl:pb-31 2xl:pb-49 2xl:pt-40">
+      <div class="md:w-full mb-38 md:mb-20 xl:mb-0">
+        <a href="{{ routes.root_url }}">
+          {% if section.settings.logo %}
+            <img data-src="{{ section.settings.logo | image_url }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ section.settings.logo.alt }}" class="mx-auto md:max-w-117 lg:max-w-none lazy">
+          {% else %}
+            <img data-src="{{'logo-footer.svg' | asset_url}}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="Ergomotion" class="mx-auto md:max-w-117 lg:max-w-none lazy">
+          {% endif %}
+        </a>
+      </div>
+
+      <div class="footer-form-contact mb-36 md:mb-20 xl:-mb-44 w-full">
+       {%- if section.settings.newsletter_heading != blank -%}
+       <div class="footer-form-description last-mb-none mb-9 text-font-19 md:mb-10p5 xl:mb-7 text-center font-semibold">
+          <p>{{ section.settings.newsletter_heading }}</p>
+        </div>
+        {%- endif -%}
+         <!-- Begin Mailchimp Signup Form -->
+        {% comment %} <div id="mc_embed_signup">
+          {{ section.settings.newsletter_html }}
+        </div> {% endcomment %}
+        <!--End mc_embed_signup-->
+        {% if section.settings.newsletter_shortcode != blank %}
+          {{ section.settings.newsletter_shortcode }}
+        {% endif %}
+      </div>
+      {%- if section.settings.phone != blank -%}
+      <div class="w-full md:w-1/2 xl:w-full text-center md:text-left xl:text-center mb-37 md:mb-0">
+        <a href="tel:+{{section.settings.phone}}" class="no-underline text-white font-medium text-tel-footer md:text-h4 xl:text-tel-footer hover:text-white hover:underline">{{section.settings.phone}}</a>
+      </div>
+       {%- endif -%}
+
+      {%- if section.settings.show_social -%}
+      <div class="social-footer flex w-full md:w-1/2 xl:w-full justify-center md:justify-end xl:justify-center md:mt-3 xl:mt-0">
+        {%- if settings.social_facebook_link != blank -%}
+        <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_facebook_link }}" class="no-underline text-white mx-7 md:ml-18 xl:mx-6 2xl:mx-9 md:mr-0 hover:text-white">
+          <span class="icomoon text-font-24 md:text-footer-social-md xl:text-font-24 icon-facebook"></span>
+          <span class="sr-only bg-black">Social Facebook</span>
+        </a>
+        {%- endif -%}
+        {%- if settings.social_twitter_link != blank -%}
+        <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_twitter_link }}" class="no-underline text-white mx-7 md:ml-18 xl:mx-6 2xl:mx-9 md:mr-0 hover:text-white">
+          <span class="icomoon text-font-24 md:text-footer-social-md xl:text-font-24 icon-twitter"></span>
+          <span class="sr-only bg-black">Social Twitter</span>
+        </a>
+        {%- endif -%}
+        {%- if settings.social_youtube_link != blank -%}
+        <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_youtube_link }}" class="no-underline text-white mx-7 md:ml-18 xl:mx-6 2xl:mx-9 md:mr-0 hover:text-white">
+          <span class="icomoon text-font-24 md:text-footer-social-md xl:text-font-24 icon-youtube"></span>
+          <span class="sr-only bg-black">Social Youtube</span>
+        </a>
+        {%- endif -%}
+        {%- if settings.social_instagram_link != blank -%}
+        <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_instagram_link }}" class="no-underline text-white mx-7 md:ml-18 xl:mx-6 2xl:mx-9 md:mr-0 hover:text-white">
+          <span class="icomoon text-font-24 md:text-footer-social-md xl:text-font-24 icon-instagram"></span>
+          <span class="sr-only bg-black">Social Instagram</span>
+        </a>
+         {%- endif -%}
+        {%- if settings.social_linkedin_link != blank -%}
+        <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_linkedin_link }}" class="no-underline text-white mx-7 md:ml-18 xl:mx-6 2xl:mx-9 md:mr-0 hover:text-white">
+          <span class="icomoon text-font-24 md:text-footer-social-md xl:text-font-24 icon-linkedin2"></span>
+          <span class="sr-only bg-black">Social Linkedin</span>
+        </a>
+        {%- endif -%}
+        {%- if settings.social_tiktok_link != blank -%}
+        <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_tiktok_link }}" class="no-underline text-white mx-7 md:ml-18 xl:mx-6 2xl:mx-9 md:mr-0 hover:text-white">
+          <span class="icomoon text-font-24 md:text-footer-social-md xl:text-font-24 icon-tiktok"></span>
+          <span class="sr-only bg-black">Social Tiktok</span>
+        </a>
+        {%- endif -%}
+      </div>
+      {%- endif -%}
+    </div>
+    <div class="footer-right xl:flex-1 px-28 md:px-24 pt-40 pb-60 md:pb-36 md:pt-32 xl:px-32 2xl:pl-space-footer-2xl 2xl:pr-0 xl:pt-28 xl:pb-40 2xl:pb-40 2xl:pt-20 1k8:pl-space-footer-1k8">
+      <div class="md:flex footer-list-menu flex-wrap xl:justify-between mb-43 md:mb-6 xl:mb-17 2xl:mb-59">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+          {%- when 'link_list' -%}
+          {% assign mod = forloop.index | modulo: 2 %}
+            <div class="item-menu mb-40p5 md:px-12 md:w-1/2 xl:w-auto md:mb-20 xl:px-0 xl:mb-0 {% if mod == 0 %} md:pl-16 {% endif %}" {{ block.shopify_attributes }}>
+              <p class="title font-bold h5 md:text-h5 xl:text-h5-md 2xl:mb-17 2xl:text-h5 mb-17 md:mb-12 text-hush-black">{{ block.settings.heading }}</p>
+              <ul class="list-none footer-list-menu-item last-mb-none p-0 text-dark-grey font-semibold mb-0">
+                {%- for link in block.settings.menu.links -%}
+                  <li class="mb-10p5 md:mb-4 2xl:mb-8"><a href="{{ link.url }}" {% if link.url contains 'http://' or link.url contains 'https://' %}target="_blank" rel="noopener noreferrer" {% endif %} class="no-underline text-inherit">{{ link.title }}</a></li>
+                {%- endfor -%}
+              </ul>
+            </div>
+           {%- endcase -%}
+        {%- endfor -%}
+      </div>
+
+       {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'list_link_privacy' -%}
+            <ul class="footer-info list-none p-0 footer-list-menu-item last-mb-none mb-37 md:flex font-semibold">
+              {%- for link in block.settings.menu_privacy.links -%}
+                <li class="md:min-w-156 xl:min-w-160 mb-10p5 md:mr-8 xl:mr-24 md:mb-0 last:mr-0"><a href="{{ link.url }}" {% if link.url contains 'http://' or link.url contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %} class="no-underline text-inherit">{{ link.title }}</a></li>
+              {%- endfor -%}
+            </ul>
+          {%- endcase -%}
+        {%- endfor -%}
+
+      <div class="footer-copyright last-mb-none   text-footer-description 2xl:mt-35">
+        {{ section.settings.copyright }} 
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- endblock -->
+<noscript>
+  <div id="mod-noscript" class="mod-noscript bg-black text-white fixed inset-0 z-200">
+    <div class="table w-full h-full">
+      <div class="table-cell align-middle text-center">
+        <div class="container last-mb-none">
+          <h3 class="text-white">To use web better, please enable Javascript.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</noscript>
+
+{% schema %}
+{
+  "name": "t:sections.footer.name",
+  "blocks": [
+     {
+      "type": "link_list",
+      "name": "t:sections.footer.blocks.link_list.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Menu Footer",
+          "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "default": "footer",
+          "label": "t:sections.footer.blocks.link_list.settings.menu.label",
+          "info": "t:sections.footer.blocks.link_list.settings.menu.info"
+        }
+      ]
+    },
+    {
+      "type": "list_link_privacy",
+      "name": "Menu Privacy",
+      "settings": [
+         {
+          "type": "link_list",
+          "id": "menu_privacy",
+          "label": "t:sections.footer.blocks.link_list.settings.menu.label"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },
+    {
+      "type": "link_list",
+      "id": "menu_privacy_policy",
+      "label": "Menu Pivacy Policy"
+    },
+    {
+      "type" : "richtext",
+      "id": "copyright",
+      "label": "Copyright",
+      "default":"<p>Copyright © 2022 ergomotion. All rights reserved.</p><p>Purchase of an adjustable bed frame does not include mattresses. Free ground shipping to the contiguous United States (48 states) excluding Alaska, Hawaii, Puerto Rico and the U.S. Virgin Islands for purchases made through ergomotion.com.</p>" 
+    },
+    {
+      "type" : "text",
+      "id": "phone",
+      "label": "Phone Number",
+      "default":"1.888.550.3746" 
+    },
+    {
+      "type": "header",
+      "content": "Form Footer"
+    },
+    {
+      "type": "html",
+      "id": "newsletter_shortcode",
+      "label": "Short Code"
+    },
+    {
+      "type": "text",
+      "id": "newsletter_heading",
+      "default": "Sign up for great promotions and good news",
+      "label": "t:sections.footer.settings.newsletter_heading.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.settings.header__2.content",
+      "info": "t:sections.footer.settings.header__2.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_social",
+      "default": false,
+      "label": "t:sections.footer.settings.show_social.label"
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "link_list"
+      },
+      {
+        "type": "list_link_privacy"
+      }
+    ]
+  }
+}
+{% endschema %}

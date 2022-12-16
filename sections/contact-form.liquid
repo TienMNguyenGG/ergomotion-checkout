@@ -1,0 +1,292 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+  <div class="module mod-contact-banner animation">
+    <div class="container container-v2 anima-bottom">
+      <div class="wrap-content-socials px-12 max-w-770 mb-22 md:mb-28 xl:mb-32p5 1k8:mb-41 md:px-0 md:mx-auto xl:max-w-752 2xl:max-w-792">
+        <div class="wrap-content-contact text-center last-mb-none mb-28 md:mb-36 xl:mb-26p5 1k8:mb-22">
+          {% if section.settings.heading != blank %}
+            <h1 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h1>
+          {% endif %}
+          {{ section.settings.content }}
+        </div>
+        {%- if section.settings.show_social == true -%}
+          <div class="wrap-socials flex w-full justify-center md:mt-3 xl:mt-0">
+            {%- if settings.social_facebook_link != blank -%}
+            <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_facebook_link }}" class="no-underline text-wellness-blue ml-9 mr-10 1k8:mx-9 hover-scale">
+              <span class="icomoon text-font-24 xl:text-font-24 icon-facebook"></span>
+              <span class="sr-only bg-black">Social Facebook</span>
+            </a>
+            {%- endif -%}
+            {%- if settings.social_twitter_link != blank -%}
+            <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_twitter_link }}" class="no-underline text-wellness-blue ml-9 mr-10 1k8:mx-9 hover-scale">
+              <span class="icomoon text-font-24 xl:text-font-24 icon-twitter"></span>
+              <span class="sr-only bg-black">Social Twitter</span>
+            </a>
+            {%- endif -%}
+            {%- if settings.social_youtube_link != blank -%}
+            <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_youtube_link }}" class="no-underline text-wellness-blue ml-9 mr-10 1k8:mx-9 hover-scale">
+              <span class="icomoon text-font-24 xl:text-font-24 icon-youtube"></span>
+              <span class="sr-only bg-black">Social Youtube</span>
+            </a>
+            {%- endif -%}
+            {%- if settings.social_instagram_link != blank -%}
+            <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_instagram_link }}" class="no-underline text-wellness-blue ml-9 mr-10 1k8:mx-9 hover-scale">
+              <span class="icomoon text-font-24 xl:text-font-24 icon-instagram"></span>
+              <span class="sr-only bg-black">Social Instagram</span>
+            </a>
+            {%- endif -%}
+            {%- if settings.social_linkedin_link != blank -%}
+            <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_linkedin_link }}" class="no-underline text-wellness-blue ml-9 mr-10 1k8:mx-9 hover-scale">
+              <span class="icomoon text-font-24 xl:text-font-24 icon-linkedin2"></span>
+              <span class="sr-only bg-black">Social Linkedin</span>
+            </a>
+            {%- endif -%}
+            {%- if settings.social_tiktok_link != blank -%}
+            <a target="_blank" rel="noopener noreferrer" href="{{ settings.social_tiktok_link }}" class="no-underline text-wellness-blue ml-9 mr-10 1k8:mx-9 hover-scale">
+              <span class="icomoon text-font-24 xl:text-font-24 icon-tiktok"></span>
+              <span class="sr-only bg-black">Social Tiktok</span>
+            </a>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="relative xl:ml-60 1k8:ml-135 xl:py-0p5 xl:min-h-482 1k8:min-h-585">
+        <div class="wrap-bg-contact w-100vw xl:w-auto relative xl:static min-h-384 md:min-h-450 xl:min-h-0">
+          {% if section.settings.image != blank %}
+          <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}" class="{% if section.settings.imageMB != blank %} hidden md:block {%- endif -%}  object-cover absolute left-0 top-0 w-full h-full {{ section.settings.image_position }}">
+          {%- endif -%}
+          {% if section.settings.imageMB != blank %}
+          <img src="{{ section.settings.imageMB | image_url }}" alt="{{ section.settings.imageMB.alt }}" class="md:hidden object-cover absolute left-0 top-0 w-full h-full {{ section.settings.image_position }}">
+          {%- endif -%}
+        </div>
+        {% assign size = section.blocks | size %}
+        {% if size > 0 %}
+          <div class="callout-wrap relative z-2 last-mb-none bg-white -mt-63 py-36 px-20 md:-mt-77 md:max-w-500 mx-auto md:py-28 md:px-24 xl:max-w-466 xl:-ml-60 xl:w-full xl:mt-46 xl:mb-52 xl:p-20 1k8:max-w-660 1k8:mt-36 1k8:mb-47 1k8:-ml-135 1k8:py-44 1k8:pl-44 1k8:pr-75">
+            
+            {%- for block in section.blocks -%}
+              <div class="text-hush-black flex mb-28 md:mb-20 xl:mb-21 1k8:mb-28" {{ block.shopify_attributes }}>
+                <div class="callout-icon">
+                  <div class="max-w-32">
+                    {% if block.settings.get_icon_url == true %}
+                      {% if block.settings.url_icon != blank %}
+                        <img src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.url_icon }}" alt="" class="lazy no-alt">
+                      {% endif %}
+                    {% else %}
+                      {% if block.settings.icon != blank %}
+                        <img src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.icon | image_url }}" alt="{{ block.settings.icon.alt }}" class="lazy">
+                      {% endif %}
+                    {% endif%}
+                  </div>
+                </div>
+                {% if block.settings.content != blank %}
+                <div class="flex-grow font-medium last-mb-none text-lg leading-1-8 xl:text-base 1k8:text-lg">
+                  <p>
+                    {% if block.settings.link != blank %}
+                      <a href="{{ block.settings.link }}" class="no-underline">{{ block.settings.content }}</a>
+                    {% else %}
+                      {{ block.settings.content }}
+                    {% endif %}
+                  </p>
+                </div>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="h-30 md:h-40 2xl:h-65"></div>
+  <div class="module mod-form-contact animation">
+    <div class="container container-v2 md_to_xl:px-36 container-small anima-bottom">
+      <div class="lg:mx-auto lg:max-w-752 2xl:max-w-1064">
+        {{ section.settings.shortcode }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name":"t:sections.contact-form.name",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"header",
+      "content":"Banner"
+    },
+    {
+      "type":"text",
+      "id":"heading",
+      "default":"Contact Us",
+      "label":"Heading"
+    },
+    {
+      "type":"select",
+      "id":"heading_size",
+      "options":[
+        {
+          "value":"h1",
+          "label":"h1"
+        },
+        {
+          "value":"h2",
+          "label":"h2"
+        },
+        {
+          "value":"h3",
+          "label":"h3"
+        }
+      ],
+      "default":"h2",
+      "label":"t:sections.all.heading_size.label"
+    },
+    {
+      "type":"richtext",
+      "id":"content",
+      "default":"<p>We would love to hear from you. Contact us today.</p>",
+      "label":"Content"
+    },
+    {
+      "type":"checkbox",
+      "id":"show_social",
+      "default":true,
+      "label":"Showing Social"
+    },
+    {
+      "type":"image_picker",
+      "id":"image",
+      "label":"Image"
+    },
+    {
+      "type":"image_picker",
+      "id":"imageMb",
+      "label":"Image Mobile"
+    },
+    {
+      "type":"select",
+      "id":"image_position",
+      "options":[
+        {
+          "value":"object-center",
+          "label":"Center"
+        },
+        {
+          "value":"object-left-top",
+          "label":"Top Left"
+        },
+        {
+          "value":"object-right-top",
+          "label":"Top Right"
+        },
+        {
+          "value":"object-left-bottom",
+          "label":"Bottom Left"
+        },
+        {
+          "value":"object-right-bottom",
+          "label":"Bottom Right"
+        }
+      ],
+      "default":"object-center",
+      "label":"Image Position"
+    },
+    {
+      "type":"header",
+      "content":"Form"
+    },
+    {
+      "type":"html",
+      "id":"shortcode",
+      "default":"<div style='margin:0 auto;' class='pxFormGenerator' id='SWhbMUGMWjPxQOgSIHPfmQ'></div>",
+      "label":"Short Code"
+    },
+    {
+      "type":"header",
+      "content":"t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    },
+    {
+      "type":"header",
+      "content":"Schema in Page Contact"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"information",
+      "name":"Information",
+      "limit":3,
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"icon",
+          "label":"Icon"
+        },
+        {
+          "type":"checkbox",
+          "id":"get_icon_url",
+          "label":"Get icon from url"
+        },
+        {
+          "type":"text",
+          "id":"url_icon",
+          "label":"Url Icon"
+        },
+        {
+          "type":"text",
+          "id":"content",
+          "label":"Content"
+        },
+        {
+          "type":"url",
+          "id":"link",
+          "label":"Link"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"t:sections.contact-form.presets.name",
+      "blocks":[
+        {
+          "type":"information"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

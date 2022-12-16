@@ -1,0 +1,244 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+  <div class="section module mod-quest-feature section-{{ section.id }}-padding"  {% if section.settings.section_ID != blank %} id="{{ section.settings.section_ID }}" {% endif%}>
+    <div class="container px-12 md:px-24 xl:px-10 2xl:max-w-1370 xl:pt-24">
+      <div class="flex-quest-image flex flex-wrap flex-top -mx-8 relative z-2 2xl:pt-24">
+        <div class="w-full lg:w-3/5 px-8">
+          <div class="list-image pb-44p xl:pb-0 xl:ml-16 mb-24 xl:mb-0 xl:max-w-545 xl:mt-39 2xl:mt-0 2xl:max-w-none 2xl:-ml-22">
+          <div class="pin-quest-mb py-8 -mx-8 px-8 md:mx-0 md:px-0 md:py-0 z-3 bg-white xl:bg-transparent absolute left-0 right-0 top-0 xl:top-auto lg:static">
+              {%- for block in section.blocks -%}
+              <div id="tabpanel-feature-{{forloop.index}}" role="tabpanel" aria-labelledby="tab-feature-{{forloop.index}}" class="item {% if forloop.index > 1 %} hidden {% endif%}" >
+                <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}">
+              </div>
+              {% endfor %}
+          </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-2/5 px-8">
+          <div class="list-item-content text-hush-black max-w-460 ml-auto leading-6 mr-12 2xl:-mt-24 xl:pr-25 md:mx-auto xl:-ml-12 2xl:pr-0 2xl:ml-auto 1k8:-mr-40 transition-transform" data-paroller-factor="0.1" data-paroller-type="foreground" role="tablist">
+            {%- for block in section.blocks -%}
+            <div id="tab-feature-{{forloop.index}}" tabindex="0" role="tab" aria-controls="tabpanel-feature-{{forloop.index}}" {% if forloop.index == 1 %} aria-selected="true" {%else%} aria-selected="false" {% endif%} class="flex item-content text-left items-start pt-13 xl:pt-0 xl:mb-13 cursor-pointer flex-print {% if forloop.index == 1 %} active {% endif%}" {{ block.shopify_attributes }}>
+              
+              {% if block.settings.get_icon_url == true %}
+                {% if block.settings.url_icon != blank %}
+                  <img class="mt-3 max-w-66 no-alt" src="{{ block.settings.url_icon }}" alt="">
+                {% endif %}
+              {% else %}
+                {% if block.settings.icon != blank %}
+                  <img class="mt-3 max-w-66 no-alt" src="{{ block.settings.icon | image_url }}" alt="">
+                {% endif %}
+              {% endif%}
+
+              <div class="content block last-mb-none pl-14 pointer-events-none">
+                {% if block.settings.title != blank %}
+                <h6>{{ block.settings.title }}</h6>
+                {% endif %}
+                {% if block.settings.content != blank %}
+                  {{ block.settings.content }}
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+            {% if section.settings.button_link != blank %}
+            <a href="{{ section.settings.button_link }}" class="link-arrow btn -mt-6 -ml-3" data-cy="link">
+              {{ section.settings.button_label }}
+              <span class="icomoon icon-link-arrow"></span>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap flex-bottom -mx-8 mt-34 2xl:mt-94">
+        <div class="w-full lg:w-1/2 px-8 1k8:px-10 last-mb-none transition-transform order-2 xl:order-1" data-paroller-factor="0.2" data-paroller-type="foreground">
+          {% if section.settings.heading != blank %}
+          <h3 class={{ section.settings.heading_size }}>{{ section.settings.heading }}</h3>
+          {% endif %}
+          {% if section.settings.content != blank %}
+            {{ section.settings.content }}
+          {% endif %}
+        </div>
+        <div class="w-full lg:w-1/2 px-8 order-1 mb-30 xl:mb-0">
+          <div class="item-remote xl:max-w-440 xl:-mt-34 xl:ml-5 2xl:max-w-none 2xl:mt-0 xl:h-245 2xl:h-274 2xl:ml-0 relative 1k8:h-h-245 1k8:-mb-86">
+            <div class="list-icon-touch hidden">
+            {%- for block in section.blocks -%}
+              {%- case forloop.index -%}
+                  {%- when 1 -%}
+                    <span class="icon-blue icon-blue-1 left-41p top-28p 2xl:left-39p 2xl:top-30p absolute w-5-half h-5-half 2xl:w-8 2xl:h-8 rounded-full bg-blue-400 block">
+                      <span class="border-1 rounded-full border-blue-400 absolute transform-center-middle w-11 h-11 2xl:w-16 2xl:h-16 block"></span>
+                    </span>
+                  {%- when 2 -%}
+                    <span class="icon-blue icon-blue-2 left-57p top-33p 2xl:top-32p absolute w-5-half h-5-half 2xl:w-8 2xl:h-8 rounded-full bg-blue-400 block">
+                      <span class="border-1 rounded-full border-blue-400 absolute transform-center-middle w-11 h-11 2xl:w-16 2xl:h-16 block"></span>
+                    </span>
+                  {%- when 3 -%}
+                    <span class="icon-blue icon-blue-3 right-15p bottom-35p 2xl:right-21p 2xl:bottom-38p absolute w-5-half h-5-half 2xl:w-8 2xl:h-8 rounded-full bg-blue-400 block">
+                      <span class="border-1 rounded-full border-blue-400 absolute transform-center-middle w-11 h-11 2xl:w-16 2xl:h-16 block"></span>
+                    </span>
+                {%- endcase -%}
+              {%- endfor -%}
+            </div>
+            <div class="list-elect">
+              <div class="absolute eclect-item opacity-0 w-86 -top-20p -left-5p">
+                <img src="{{'electron.svg' | asset_url}}" alt="electron">
+              </div>
+              <div class="absolute eclect-item opacity-0 w-65 -top-12p left-3p">
+                <img src="{{'electron.svg' | asset_url}}" alt="" class="no-alt">
+              </div>
+              <div class="absolute eclect-item opacity-0 w-50 left-10p -top-5p">
+                <img src="{{'electron.svg' | asset_url}}" alt="" class="no-alt">
+              </div>
+              <div class="absolute eclect-item opacity-0 w-38 top-2p left-16p">
+                <img src="{{'electron.svg' | asset_url}}" alt="" class="no-alt">
+              </div>
+            </div>
+            {% if section.settings.imgRemote != blank %}
+              <img src="{{section.settings.imgRemote | image_url}}" alt="Remote bed">
+            {% else %}
+              <img src="{{'Remote-Image.png' | asset_url}}" alt="Remote bed">
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% schema %}
+{
+  "name": "Quest Features",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+     {
+      "type":"text",
+      "id":"section_ID",
+      "label":"Section ID"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Full-featured wireless remote"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "image_picker",
+      "id": "imgRemote",
+      "label": "Image Remote"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "default": "Label link",
+      "label": "Label link"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Link Url"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+     {
+      "type": "item_text_image",
+      "name": "Text Image Item",
+      "limit": 3,
+      "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "icon",
+        "label": "Icon"
+      },
+      {
+        "type": "checkbox",
+        "id": "get_icon_url",
+        "label": "Get icon from url"
+      },
+      {
+        "type": "text",
+        "id": "url_icon",
+        "label": "Url Icon"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "label": "Content"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quest Features",
+      "blocks": [{
+        "type": "item_text_image"
+      }]
+    }
+  ]
+}
+{% endschema %}

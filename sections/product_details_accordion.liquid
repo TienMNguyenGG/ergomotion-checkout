@@ -1,0 +1,141 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+  <div class="module mod-product-details-accordion bg-soft-blue">
+    <div class="container">
+      <div class="wrap-product-details px-12 pb-1 md:pl-16 md:pr-15 md:pb-19 xl:row xl:pt-32 xl:pl-2 2xl:pt-71 2xl:pb-31">
+        {% if div.settings.heading != empty %}
+        <div class="title-details-accordion pt-32 mb-24 md:mb-26 xl:col xl:w-1/3 xl:pt-0 2xl:w-5/12 2xl:pl-57">
+          <h2 class="{{ section.settings.heading_size }}" data-cy="heading">{{ section.settings.heading}} </h2>
+        </div>
+        {% endif %}
+        <div class="wrap-list-accordion last-mb-none pr-1 xl:col xl:w-2/3 xl:pt-7 xl:pl-10 2xl:w-7/12 2xl:pl-6 2xl:pt-8 2xl:pr-30 transition-transform" data-paroller-factor="0.2" data-paroller-type="foreground">
+          {%- for block in section.blocks -%}
+            {% if block.settings.question != empty  %}
+              <div class="item-accordion pb-27 md:pb-10 2xl:pb-33p5" {{ block.shopify_attributes }}>
+                <button aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="sect-faqs-{{forloop.index}}" id="accordion-faqs-{{forloop.index}}id" class="title-accordion js-accordion-control flex mb-7 cursor-pointer relative text-left md:mb-15">
+                  <span class="close-accordion absolute top-4 left-1 w-9 h-9">
+                    <span class="span-v1 bg-wellness-blue"></span>
+                    <span class="span-v2 bg-wellness-blue"></span>
+                  </span>
+                  <span class="pl-24 last-mb-none">
+                    <span data-cy="title-{{ forloop.index }}" class="h5">{{ block.settings.question }}</span>
+                  </span>
+                </button>
+
+                <div id="sect-faqs-{{forloop.index}}" role="region" aria-labelledby="accordion-faqs-{{forloop.index}}id" class="content-accordion text-hush-black last-mb-none pl-24 leading-1-8-125 hidden" data-cy="content-{{ forloop.index }}">
+                  {% if block.settings.answerIMG != blank %}
+                    <img src="{{ block.settings.answerIMG | image_url }}" class="block mb-8" alt="{{ block.settings.answerIMG.alt }}">
+                  {% endif %}
+                  {{ block.settings.answer }}
+                </div>
+              </div>
+            {% endif %}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Accordion",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "All the details"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item_accordion",
+      "name": "Item Details Accordion",
+      "settings": [
+      {
+        "type": "text",
+        "id": "question",
+        "label": "Question",
+        "default": "Lorem ipsum dolor sit amet elits helu adiustacom"
+      },
+      {
+        "type": "richtext",
+        "id": "answer",
+        "label": "Answer",
+        "default": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. </p>"
+      },
+      {
+        "type": "image_picker",
+        "id": "answerIMG",
+        "label": "Picture Answer"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Accordion",
+      "blocks": [{
+        "type": "item_accordion"
+      }]
+    }
+  ]
+}
+{% endschema %}

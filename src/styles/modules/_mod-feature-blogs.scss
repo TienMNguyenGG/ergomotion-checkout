@@ -1,0 +1,26 @@
+.feature-control-dots {
+  .slick-dots {
+    @apply justify-end xl:mt-0;
+  }
+  li {
+    @apply md:mx-2 xl:mr-0 xl:ml-1p5;
+  }
+}
+
+.feature-blogs-list {
+  .slick-list {
+    @apply xl:overflow-visible;
+  }
+}
+
+.feature-list-custom{
+  h4{
+    @apply text-font-22 md:leading-1-5 2xl:text-font-24;
+  }
+}
+
+@screen xl {
+  .feature-list-wrap {
+    width: calc(50vw + 50%);
+  }
+}

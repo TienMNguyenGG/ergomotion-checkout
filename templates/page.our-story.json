@@ -1,0 +1,297 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Established in Santa Barbara, California in 2006, Ergomotion is a global sleep technology company renowned for exceptional product quality, design, and customer service. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 45,
+        "padding_bottom_mb": 30
+      }
+    },
+    "5e7c0543-1573-47bc-9eb9-2293d8c143c6": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ergomotion-Team-Shot.jpg",
+        "image_position": "object-left-bottom",
+        "image_position_mobile": "object-left-bottom",
+        "video_link": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "b26512e5-0557-4dd2-a983-42805b75fce8": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1f319542-ad45-46f6-b717-2f217a7e2cc3": {
+      "type": "text-block",
+      "blocks": {
+        "template--16603887010013__1f319542-ad45-46f6-b717-2f217a7e2cc3-1668116205dc88285a-0": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We help people live better lives."
+          }
+        },
+        "6d770e1b-3b51-4242-a0ad-e50b48f31783": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We power the adjustable bed and smart bed industries."
+          }
+        },
+        "3e26b5a2-d76f-4430-a377-68c9f44e6b8d": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We are the world’s largest producer of adjustable bases with proprietary ergonomic technology."
+          }
+        },
+        "ad19a87c-da7f-4548-bb38-5e57ea9ab84b": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We follow a simple guiding principle: create holistic wellness through design, comfort, and technology."
+          }
+        }
+      },
+      "block_order": [
+        "template--16603887010013__1f319542-ad45-46f6-b717-2f217a7e2cc3-1668116205dc88285a-0",
+        "6d770e1b-3b51-4242-a0ad-e50b48f31783",
+        "3e26b5a2-d76f-4430-a377-68c9f44e6b8d",
+        "ad19a87c-da7f-4548-bb38-5e57ea9ab84b"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "c2c0d763-a5af-41a9-b5ed-c94296097deb": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "32acdaa8-4896-453e-941c-67f400c055ed": {
+      "type": "long-image-text-module",
+      "blocks": {
+        "template--16603887010013__32acdaa8-4896-453e-941c-67f400c055ed-166811641142de6c7f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspired by Limited-edition Luxury",
+            "heading_size": "h3"
+          }
+        },
+        "template--16603887010013__32acdaa8-4896-453e-941c-67f400c055ed-166811641142de6c7f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 2005, engineer and founder Alain Clénet developed the first ergonomic adjustable bed base at his home in Santa Ynez, California. Having previously founded Clénet Coachworks, Inc. – a designer and manufacturer of limited-edition neoclassic automobiles – Clénet’s track record of creating luxury products was already well-established.<\/p><p>Within a year of developing his adjustable bed base prototype, Alain and his son Kelly started Ergomotion – the first sleep solution for a traditional mattress that married style with innovation.<\/p><p>Today, Clénet's vision is a reality with nearly eight million adjustable beds sold across more than 30 countries worldwide. Over the years, Ergomotion has partnered with more than 250 major brands and has collaborated with countless innovators like Garmin, Sonos, and TempurPedic.<\/p><p>Ergomotion has become the leading global manufacturer and supplier of adjustable beds, with over eight million products sold across 30 countries. And, as the owner of the global adjustable bed base supply chain, we are able to ensure premium product quality, sustainability, and affordability so people around the world can enjoy the wellness benefits provided by restorative sleep.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16603887010013__32acdaa8-4896-453e-941c-67f400c055ed-166811641142de6c7f-0",
+        "template--16603887010013__32acdaa8-4896-453e-941c-67f400c055ed-166811641142de6c7f-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alain2.jpg",
+        "image_position": "object-center",
+        "image_placement": "left",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "e849c4e3-e905-460e-b601-9dc5f2ad9067": {
+      "type": "internal-banner-animation-html",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "",
+        "link_url": "",
+        "padding_bottom": 36,
+        "padding_bottom_mb": 40
+      }
+    },
+    "c7577bea-8d95-4be5-aab0-e58bfaee73ad": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 75
+      }
+    },
+    "ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore the Quest product line",
+            "heading_size": "h2"
+          }
+        },
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience restorative adjustable bed technology with Ergomotion.<\/p>"
+          }
+        },
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "target": false,
+            "hiddenText": "Explore the Quest product line"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-0",
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-1",
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "c33d9e6d-0a35-4512-a386-717758b6027a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "693df725-df6e-42be-8e81-6b014e12fac5": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16603887010013__693df725-df6e-42be-8e81-6b014e12fac5-1668116745f7775452-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transforming Sleep Health from California's Tech Coast",
+            "heading_size": "h2"
+          }
+        },
+        "template--16603887010013__693df725-df6e-42be-8e81-6b014e12fac5-1668116745f7775452-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion has been shaping the conversation around sleep health technology long before it was a known science.<\/p><p>Since our 2006 founding in southern California, our goal has always been to combine the elegant simplicity of our Santa Barbara culture with innovative WellTech solutions. For us, an adjustable base isn't just an add-on or upsell – it's the core foundation of the modern sleep experience.<\/p><p>Today, we're leveraging expert research, extensive testing, and rigorous customer feedback to develop the latest product innovations that fulfill our vision of optimizing sleep health for everyone.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16603887010013__693df725-df6e-42be-8e81-6b014e12fac5-1668116745f7775452-0",
+        "template--16603887010013__693df725-df6e-42be-8e81-6b014e12fac5-1668116745f7775452-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/adjustable_base_feature.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "2da8290e-8a44-4611-99b1-b132cb532074": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "a445c604-0bb8-4432-ab29-bbb9f2dc0779": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16603887010013__a445c604-0bb8-4432-ab29-bbb9f2dc0779-1668116745f7775452-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Scaling Production for the Future",
+            "heading_size": "h2"
+          }
+        },
+        "template--16603887010013__a445c604-0bb8-4432-ab29-bbb9f2dc0779-1668116745f7775452-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion is led by President and CEO Jack Tang, who oversees global manufacturing through the Keeson Technology Corporation in Jiaxing City, China.<\/p><p>Tang's global team has grown the Ergomotion brand exponentially while maintaining Alain Clénet’s tenets of innovation, quality, and exceptional customer service. With a state-of-the-art manufacturing facility and a globally focused supply chain, we produce two million products each year with plans to expand production into new regions as demand grows.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16603887010013__a445c604-0bb8-4432-ab29-bbb9f2dc0779-1668116745f7775452-0",
+        "template--16603887010013__a445c604-0bb8-4432-ab29-bbb9f2dc0779-1668116745f7775452-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Marie-Solis-2.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "3f471e48-4646-4272-843f-57308d169a65": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 75
+      }
+    },
+    "d4d1794c-26fd-4072-a122-5ac3a31c94b0": {
+      "type": "instafeed-feed",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "@ergomotion",
+        "link_url": "https:\/\/www.instagram.com\/ergomotion\/",
+        "target": true,
+        "hiddenText": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32",
+    "5e7c0543-1573-47bc-9eb9-2293d8c143c6",
+    "b26512e5-0557-4dd2-a983-42805b75fce8",
+    "1f319542-ad45-46f6-b717-2f217a7e2cc3",
+    "c2c0d763-a5af-41a9-b5ed-c94296097deb",
+    "32acdaa8-4896-453e-941c-67f400c055ed",
+    "e849c4e3-e905-460e-b601-9dc5f2ad9067",
+    "c7577bea-8d95-4be5-aab0-e58bfaee73ad",
+    "ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e",
+    "c33d9e6d-0a35-4512-a386-717758b6027a",
+    "693df725-df6e-42be-8e81-6b014e12fac5",
+    "2da8290e-8a44-4611-99b1-b132cb532074",
+    "a445c604-0bb8-4432-ab29-bbb9f2dc0779",
+    "3f471e48-4646-4272-843f-57308d169a65",
+    "d4d1794c-26fd-4072-a122-5ac3a31c94b0"
+  ]
+}

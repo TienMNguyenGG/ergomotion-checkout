@@ -1,0 +1,279 @@
+{
+  "sections": {
+    "929b0980-2995-420e-b6ea-c0617891e2be": {
+      "type": "text-center",
+      "blocks": {
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why buy Ergomotion?",
+            "heading_size": "h1"
+          }
+        },
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you consider how demanding our lifestyles can be, it's important to prioritize sleep health and holistic wellness. Every Ergomotion product is designed to help alleviate back pain, reduce snoring, and cater to specific health concerns. No matter your wellness goals, our proprietary adjustable bed base technology is built to help you achieve greater, more restorative sleep results. And with over 10 million adjustable beds sold globally with millions of satisfied customers, you can trust that we have a unique Ergomotion product for every<strong>&nbsp;<\/strong>customer.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-0",
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "6393ab36-40ff-42bc-b69c-6c08413e849e": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sleep gets smarter with Ergomotion",
+            "heading_size": "h2"
+          }
+        },
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With innovative features like Zero Gravity, Wise-to-Wake, and Quiet Nite (Anti-snore technology), Ergomotion creates unprecedented wellness solutions that can transform your lifestyle. And when you combine our latest smart home technology with our non-contact health sensor integration, you get a fully-automated wellness ecosystem that can track vital health data and improve your ailments with a more scientific approach to sleep.<\/p>"
+          }
+        },
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Smart Bed Features",
+            "button_link": "shopify:\/\/pages\/features"
+          }
+        }
+      },
+      "block_order": [
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-0",
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-1",
+        "template--16585187131613__6393ab36-40ff-42bc-b69c-6c08413e849e-16666007311fc97bb1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ergo_Q3-10.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "a6010a37-ec5b-45eb-ad2d-427be21d0dfb": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "977796dc-0436-4d35-a6cc-91a3954d9513": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588438569181__977796dc-0436-4d35-a6cc-91a3954d9513-16666074520bd7e5aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Restorative adjustable bed technology",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588438569181__977796dc-0436-4d35-a6cc-91a3954d9513-16666074520bd7e5aa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From concept to design and product development, Ergomotion adjustable beds are purpose-built to address your unique wellness needs. Through extensive product testing, feedback, and continued research, we're constantly refining our restorative sleep solutions and developing new product innovations that answer your demands for elevated wellness experiences.<\/p>"
+          }
+        },
+        "template--16588438569181__977796dc-0436-4d35-a6cc-91a3954d9513-16666074520bd7e5aa-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Adjustable Bed Benefits",
+            "button_link": "shopify:\/\/pages\/adjustable-base-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588438569181__977796dc-0436-4d35-a6cc-91a3954d9513-16666074520bd7e5aa-0",
+        "template--16588438569181__977796dc-0436-4d35-a6cc-91a3954d9513-16666074520bd7e5aa-1",
+        "template--16588438569181__977796dc-0436-4d35-a6cc-91a3954d9513-16666074520bd7e5aa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ergomotion-Batch1-V1-10.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "c94ace42-570b-4bbc-80fc-1282c3809044": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "08a4c178-90f8-4326-95cb-f0d24363f769": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eco-conscious product development",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With the help of our expert engineering staff, we've developed sustainable production workflows that reduce raw material waste without hindering time-to-market for our retailers. And with an efficient global supply chain feeding our manufacturing facilities with materials in as little as four hours, we're able to spend more time testing product quality, functionality, and long-term durability.<\/p>"
+          }
+        },
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Sustainability",
+            "button_link": "shopify:\/\/pages\/sustainability"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-0",
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-1",
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-cottonbro-studio-4108807.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "883a3e4f-2d5c-4faf-9f9f-3574db1d0d48": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore the Quest product line",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience restorative adjustable bed technology with Ergomotion.<\/p>"
+          }
+        },
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "target": false,
+            "hiddenText": "Explore the Quest product line"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-0",
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-1",
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "09448f82-ee8f-4419-bfc4-33e1b32709da": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "0b17cc88-d529-4593-ba40-d59bf5423dca": {
+      "type": "featured-blogs-module",
+      "blocks": {
+        "87a6e8e6-15f0-473e-9df8-7e993dfbbef1": {
+          "type": "featured_blogs_items",
+          "settings": {
+            "article": "ergomotion-blog\/whats-your-position-breaking-down-adjustable-bases-for-side-and-back-sleepers"
+          }
+        },
+        "787c9dff-16a1-4ebf-af55-487f3b9b5429": {
+          "type": "featured_blogs_items",
+          "settings": {
+            "article": "ergomotion-blog\/myth-busters-rethinking-the-adjustable-bed"
+          }
+        },
+        "c4f852e0-0d29-41f4-ba2b-af0e80ec9934": {
+          "type": "featured_blogs_items",
+          "settings": {
+            "article": "ergomotion-blog\/how-you-can-lighten-leg-swelling1"
+          }
+        }
+      },
+      "block_order": [
+        "87a6e8e6-15f0-473e-9df8-7e993dfbbef1",
+        "787c9dff-16a1-4ebf-af55-487f3b9b5429",
+        "c4f852e0-0d29-41f4-ba2b-af0e80ec9934"
+      ],
+      "settings": {
+        "heading": "Learn more from the Ergomotion community",
+        "heading_size": "h3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "e41a1244-643c-45ed-8cf0-b2fcc12347e3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "929b0980-2995-420e-b6ea-c0617891e2be",
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b",
+    "6393ab36-40ff-42bc-b69c-6c08413e849e",
+    "a6010a37-ec5b-45eb-ad2d-427be21d0dfb",
+    "977796dc-0436-4d35-a6cc-91a3954d9513",
+    "c94ace42-570b-4bbc-80fc-1282c3809044",
+    "08a4c178-90f8-4326-95cb-f0d24363f769",
+    "883a3e4f-2d5c-4faf-9f9f-3574db1d0d48",
+    "5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9",
+    "09448f82-ee8f-4419-bfc4-33e1b32709da",
+    "0b17cc88-d529-4593-ba40-d59bf5423dca",
+    "e41a1244-643c-45ed-8cf0-b2fcc12347e3"
+  ]
+}

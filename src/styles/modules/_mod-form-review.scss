@@ -1,0 +1,11 @@
+.stamped-form-label+.stamped-form-input {
+  @apply px-12 py-7 text-btn border-1 border-solid border-blue-400 rounded-4;
+}
+#stamped-main-widget {
+  textarea.stamped-form-input-textarea {
+    @apply border-none;
+  }
+  .stamped-button {
+    @apply bg-blue-300 px-15 py-7p5 mt-7 hover:bg-blue-400;
+  }
+}

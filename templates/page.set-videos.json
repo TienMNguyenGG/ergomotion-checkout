@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "4a3024b0-ff8e-4b09-bca4-8d845c5f8b5f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 45,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 60
+      }
+    },
+    "e9dd1c6b-756d-49b9-a218-5652421fa010": {
+      "type": "internal-banner-animation",
+      "blocks": {
+        "template--16521314238685__e9dd1c6b-756d-49b9-a218-5652421fa010-16653874200417a706-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quest Product Setup & Install",
+            "heading_size": "h2"
+          }
+        },
+        "template--16521314238685__e9dd1c6b-756d-49b9-a218-5652421fa010-16653874200417a706-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16521314238685__e9dd1c6b-756d-49b9-a218-5652421fa010-16653874200417a706-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16521314238685__e9dd1c6b-756d-49b9-a218-5652421fa010-16653874200417a706-0",
+        "template--16521314238685__e9dd1c6b-756d-49b9-a218-5652421fa010-16653874200417a706-1",
+        "template--16521314238685__e9dd1c6b-756d-49b9-a218-5652421fa010-16653874200417a706-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/quest-2-9-mb.png",
+        "imageMB": "shopify:\/\/shop_images\/quest-2-9.png",
+        "padding_bottom": 20,
+        "padding_bottom_mb": 0
+      }
+    },
+    "d4b611db-bcac-4dfc-a554-449560cb90a6": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 80
+      }
+    },
+    "999a2d40-60b0-47b3-8787-3ccc7de2f103": {
+      "type": "video-multi-column",
+      "blocks": {
+        "template--16521314238685__999a2d40-60b0-47b3-8787-3ccc7de2f103-16654791580a091f30-0": {
+          "type": "multi_columns_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quest1-0_2083952d-5c19-40ca-9018-0259343e9644.jpg",
+            "headline": "Quest 1.0 Setup Video",
+            "content": "",
+            "label_link": "Quest 1.0 product details",
+            "link_url": "\/products\/quest-1-0",
+            "target_link": false,
+            "hiddenText": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=jvGLU3_fEFY"
+          }
+        },
+        "aac9f488-ad58-4eda-ad8d-c4e62cf8b710": {
+          "type": "multi_columns_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quest20_37fe3b47-00cb-44e4-ab89-5d6c8935b123.jpg",
+            "headline": "Quest 2.0 Setup Video",
+            "content": "",
+            "label_link": "Quest 2.0 product details",
+            "link_url": "\/products\/quest-2-0",
+            "target_link": false,
+            "hiddenText": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=ONDf-n03hHI"
+          }
+        },
+        "be05ac5d-d8fc-4f2e-a084-82f71670a616": {
+          "type": "multi_columns_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quest2-5_11cf9b09-f3a1-4dd8-8aed-34b8c4afe27c.jpg",
+            "headline": "Quest 2.5 Setup Video",
+            "content": "",
+            "label_link": "Quest 2.5 product details",
+            "link_url": "\/products\/quest-2-5",
+            "target_link": false,
+            "hiddenText": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=qhy2ucDdAr8"
+          }
+        },
+        "c7ac08c9-ff3c-46dc-bff5-3ad2d9efc3e0": {
+          "type": "multi_columns_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quest40_14e572ff-a640-4066-845d-505aab46029c.jpg",
+            "headline": "Quest 4.0 Setup Video",
+            "content": "",
+            "label_link": "Quest 4.0 product details",
+            "link_url": "\/products\/quest-4-0",
+            "target_link": false,
+            "hiddenText": "",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=O8AuPto44qk"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521314238685__999a2d40-60b0-47b3-8787-3ccc7de2f103-16654791580a091f30-0",
+        "aac9f488-ad58-4eda-ad8d-c4e62cf8b710",
+        "be05ac5d-d8fc-4f2e-a084-82f71670a616",
+        "c7ac08c9-ff3c-46dc-bff5-3ad2d9efc3e0"
+      ],
+      "settings": {
+        "heading": "Quest Product Setup & Install",
+        "heading_size": "h3",
+        "number_columns": "2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "825488ca-ffb5-4440-9bf9-91716972428c": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "d997b484-cd04-4999-96e5-6a61979e5b43": {
+      "type": "help-banner",
+      "blocks": {
+        "template--16521314238685__d997b484-cd04-4999-96e5-6a61979e5b43-16655413684a1ebe27-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a Store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "50026bee-cefb-426c-a1c3-0cfd155c16a2": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<br\/><\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "41735631-6a61-4e91-ad6c-db8236eeda3a": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16521314238685__d997b484-cd04-4999-96e5-6a61979e5b43-16655413684a1ebe27-0",
+        "50026bee-cefb-426c-a1c3-0cfd155c16a2",
+        "41735631-6a61-4e91-ad6c-db8236eeda3a"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "d3643f76-721e-4724-8928-9bdf54fbf4c9": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "b4b2d64f-18f3-4d44-8371-c4f2bc8e094f": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16521314238685__b4b2d64f-18f3-4d44-8371-c4f2bc8e094f-1665540060e13d9a54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore the Ergomotion Adjustable Bed Features",
+            "heading_size": "h2"
+          }
+        },
+        "template--16521314238685__b4b2d64f-18f3-4d44-8371-c4f2bc8e094f-1665540060e13d9a54-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore our extensive product features that make each Ergomotion adjustable bed unique and transformative for your sleep wellness.<\/p>"
+          }
+        },
+        "template--16521314238685__b4b2d64f-18f3-4d44-8371-c4f2bc8e094f-1665540060e13d9a54-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/features"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521314238685__b4b2d64f-18f3-4d44-8371-c4f2bc8e094f-1665540060e13d9a54-0",
+        "template--16521314238685__b4b2d64f-18f3-4d44-8371-c4f2bc8e094f-1665540060e13d9a54-1",
+        "template--16521314238685__b4b2d64f-18f3-4d44-8371-c4f2bc8e094f-1665540060e13d9a54-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cmp_3Qtr_A_bed_210323_2_1.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "33a47886-908f-4180-8387-ee093aa5b7fc": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "22f4a28a-5e8e-49dc-9fc3-ef3763eb019b": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16521314238685__22f4a28a-5e8e-49dc-9fc3-ef3763eb019b-1665540102365d2828-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hear what our customers are saying",
+            "heading_size": "h2"
+          }
+        },
+        "template--16521314238685__22f4a28a-5e8e-49dc-9fc3-ef3763eb019b-1665540102365d2828-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Read our real customer testimonials about their Ergomotion adjustable bed bases!<\/p>"
+          }
+        },
+        "template--16521314238685__22f4a28a-5e8e-49dc-9fc3-ef3763eb019b-1665540102365d2828-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/reviews"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521314238685__22f4a28a-5e8e-49dc-9fc3-ef3763eb019b-1665540102365d2828-0",
+        "template--16521314238685__22f4a28a-5e8e-49dc-9fc3-ef3763eb019b-1665540102365d2828-1",
+        "template--16521314238685__22f4a28a-5e8e-49dc-9fc3-ef3763eb019b-1665540102365d2828-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ergomotion-Batch1-V2-2.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "e9079d81-0426-4a85-98f7-8964bfcc058a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "4a3024b0-ff8e-4b09-bca4-8d845c5f8b5f",
+    "e9dd1c6b-756d-49b9-a218-5652421fa010",
+    "d4b611db-bcac-4dfc-a554-449560cb90a6",
+    "999a2d40-60b0-47b3-8787-3ccc7de2f103",
+    "825488ca-ffb5-4440-9bf9-91716972428c",
+    "d997b484-cd04-4999-96e5-6a61979e5b43",
+    "d3643f76-721e-4724-8928-9bdf54fbf4c9",
+    "b4b2d64f-18f3-4d44-8371-c4f2bc8e094f",
+    "33a47886-908f-4180-8387-ee093aa5b7fc",
+    "22f4a28a-5e8e-49dc-9fc3-ef3763eb019b",
+    "e9079d81-0426-4a85-98f7-8964bfcc058a"
+  ]
+}

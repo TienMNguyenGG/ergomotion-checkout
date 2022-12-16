@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "07815f41-7509-4fc1-9418-eb8d983991de": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 55,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "share",
+        "featured_image",
+        "content"
+      ],
+      "settings": {
+      }
+    },
+    "234aec98-9cc8-4a34-92b4-8fc22e4fd0cb": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 65
+      }
+    },
+    "6eed72bf-0132-43f2-b594-1c9ca6cdaf05": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "2fce743a-909b-4fc0-8a37-409c6aadd655": {
+      "type": "similar-posts-module",
+      "settings": {
+        "heading": "You Might Also Like",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "40ac52a3-59ec-48b4-b2c6-d0aecb4d5648": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "8bd6b9c2-dd59-4672-ba89-3418801bd423": {
+      "type": "signup-form",
+      "settings": {
+        "heading": "Join Our Newsletter",
+        "heading_size": "h3",
+        "text": "<p>Stay up to date with all things Ergomotion by joining our email list! Subscribe now for great promotions and good news straight to your inbox.<\/p>",
+        "form_signup": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"tVUA6JSOelgIII8GOgTGvQ\"><\/div>",
+        "bgColor": "soft-blue",
+        "padding_bottom": 36,
+        "padding_bottom_mb": 40
+      }
+    },
+    "74418059-cbcf-43b6-96d9-4a0cbf3bb175": {
+      "type": "schema",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "07815f41-7509-4fc1-9418-eb8d983991de",
+    "main",
+    "234aec98-9cc8-4a34-92b4-8fc22e4fd0cb",
+    "6eed72bf-0132-43f2-b594-1c9ca6cdaf05",
+    "2fce743a-909b-4fc0-8a37-409c6aadd655",
+    "40ac52a3-59ec-48b4-b2c6-d0aecb4d5648",
+    "8bd6b9c2-dd59-4672-ba89-3418801bd423",
+    "74418059-cbcf-43b6-96d9-4a0cbf3bb175"
+  ]
+}

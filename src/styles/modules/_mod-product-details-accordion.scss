@@ -1,0 +1,58 @@
+.item-accordion {
+  h5,
+  .h5 {
+    @apply text-h5-v2 font-medium;
+  }
+}
+
+.close-accordion {
+  span {
+    @apply absolute left-1/2 inline-block;
+    transition: all .3s ease-in-out;
+  }
+
+  .span-v1 {
+    @apply top-1/2 w-9;
+    height: 2.5px;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  .span-v2 {
+    @apply h-9;
+    width: 2.5px;
+    transform: translateX(-50%);
+  }
+}
+
+.is-collapse {
+  &.item-accordion {
+    @apply pb-36;
+  }
+
+  .close-accordion {
+    .span-v2 {
+      transform: rotate(90deg);
+      opacity: 0;
+    }
+  }
+}
+
+@screen md {
+  .close-accordion {
+    @apply top-3;
+  }
+
+  .is-collapse {
+    &.item-accordion {
+      @apply pb-18;
+    }
+  }
+}
+
+@screen 2xl {
+  .is-collapse {
+    &.item-accordion {
+      @apply pb-42;
+    }
+  }
+}

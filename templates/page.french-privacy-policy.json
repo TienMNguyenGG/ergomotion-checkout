@@ -1,0 +1,466 @@
+{
+  "sections": {
+    "d80814aa-8992-49e7-a098-145f3724c8c0": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 75,
+        "padding_bottom_mb": 60
+      }
+    },
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "POLITIQUE DE CONFIDENTIALITÉ",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez Ergomotion, nous reconnaissons que vous vous attendez à la confidentialité et à la sécurité lorsqu'il s'agit d'informations qui vous identifient personnellement et qui vous permettent d'être contacté individuellement. Nous avons adopté la politique de confidentialité en ligne suivante parce que nous comprenons la nécessité de protéger les informations que vous pouvez nous fournir sur nos sites Web et\/ou applications mobiles (collectivement, les \"applications Web\").<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1f46cd2f-2c7f-422a-be25-5fa05b2b309b": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__1f46cd2f-2c7f-422a-be25-5fa05b2b309b-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quelles sont les informations que nous collectons ?",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__1f46cd2f-2c7f-422a-be25-5fa05b2b309b-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous collectons des informations sur vous uniquement lorsque vous vous inscrivez sur notre site ou répondez à une enquête.<\/p><p>Lors de la commande ou de l'enregistrement sur notre site, selon le cas, il peut vous être demandé de saisir votre : nom, adresse électronique, adresse postale, numéro de téléphone ou informations relatives à votre carte de crédit. Vous pouvez toutefois visiter notre site de manière anonyme.<\/p><p>Lorsque vous naviguez sur notre boutique, nous recevons aussi automatiquement l'adresse de protocole Internet (IP) de votre ordinateur afin de nous fournir des informations qui nous aident à connaître votre navigateur et votre système d'exploitation.<\/p><p>En outre, lors de l'utilisation de notre site, nous pouvons recueillir les informations suivantes vous concernant, y compris, mais sans s'y limiter : fréquence cardiaque, fréquence respiratoire, données sur les ronflements, mouvements pendant le sommeil, etc. Nous utiliserons ces données pour calculer des informations concernant vos habitudes de sommeil, y compris, mais sans s'y limiter, la durée et l'efficacité du sommeil, le sommeil profond et le sommeil léger, la variabilité du rythme cardiaque et l'indice d'arythmie.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__1f46cd2f-2c7f-422a-be25-5fa05b2b309b-1668557317456cdada-0",
+        "template--16607987499229__1f46cd2f-2c7f-422a-be25-5fa05b2b309b-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "759d811b-dd7f-45be-a19c-f0d8e08abb4f": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__759d811b-dd7f-45be-a19c-f0d8e08abb4f-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conditions d'utilisation des messages téléphoniques, SMS et MMS",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__759d811b-dd7f-45be-a19c-f0d8e08abb4f-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si vous choisissez de vous inscrire à notre service de messagerie mobile, nous recueillerons et utiliserons votre numéro de téléphone mobile pour maintenir et gérer notre programme de messagerie mobile. Avec votre permission, nous pouvons envoyer des messages texte sur notre boutique, les nouveaux produits et d'autres mises à jour, y compris des \"rappels de paiement\". Nous utilisons des webhooks pour déclencher le système de messagerie des rappels de paiement. Veuillez consulter les conditions de service autochtones pour obtenir de plus amples informations sur le programme de messagerie mobile, y compris des informations sur la manière de vous désabonner ou de mettre à jour vos informations personnelles dans ce programme, ainsi que vos responsabilités et obligations en la matière.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__759d811b-dd7f-45be-a19c-f0d8e08abb4f-1668557317456cdada-0",
+        "template--16607987499229__759d811b-dd7f-45be-a19c-f0d8e08abb4f-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "b05bd78c-a076-4a83-b2f7-ac8b420a2eeb": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__b05bd78c-a076-4a83-b2f7-ac8b420a2eeb-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "A quoi servent vos informations ?",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__b05bd78c-a076-4a83-b2f7-ac8b420a2eeb-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vos informations, qu'elles soient publiques ou privées, ne seront pas vendues, échangées, transférées ou données à une autre société pour quelque raison que ce soit, sans votre consentement, sauf dans le but exprès de livrer le produit acheté ou le service demandé.<\/p><p>Nous pouvons utiliser les informations que nous recueillons auprès de vous de l'une des manières suivantes :<\/p><p>•  Pour personnaliser votre expérience<\/p><p>•  Pour améliorer nos applications Web <\/p><p>•  Pour améliorer le service à la clientèle<\/p><p>•  Pour traiter les transactions<\/p><p>•  Pour gérer un concours, une promotion, une enquête ou toute autre fonctionnalité du site<\/p><p>•  Pour envoyer des courriels périodiques, SMS ou MMS<\/p><p> <\/p><p>L'adresse électronique que vous fournissez pour le traitement des commandes peut être utilisée pour vous envoyer des informations et des mises à jour concernant votre commande, ainsi que pour recevoir occasionnellement des nouvelles de l'entreprise, des mises à jour, des informations sur des produits ou des services connexes, etc.<\/p><p>Pour aider nos techniciens tiers à livrer et à installer les produits pour vous.<\/p><p>Remarque : si vous souhaitez à tout moment vous désabonner de la réception de futurs courriels, nous incluons des instructions de désabonnement détaillées au bas de chaque courriel.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__b05bd78c-a076-4a83-b2f7-ac8b420a2eeb-1668557317456cdada-0",
+        "template--16607987499229__b05bd78c-a076-4a83-b2f7-ac8b420a2eeb-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "3dbeae47-3431-4270-93e6-00d002c4e5ef": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__3dbeae47-3431-4270-93e6-00d002c4e5ef-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comment protégeons-nous vos informations ?",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__3dbeae47-3431-4270-93e6-00d002c4e5ef-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous mettons en œuvre diverses mesures de sécurité pour préserver la sécurité de vos informations personnelles lorsque vous passez une commande ou lorsque vous saisissez, soumettez ou accédez à vos informations personnelles.<\/p><p>Nous proposons l'utilisation d'un serveur sécurisé. Toutes les informations sensibles\/de crédit fournies sont transmises via la technologie Secure Socket Layer (SSL), puis cryptées dans la base de données de nos fournisseurs de passerelles de paiement. Seules les personnes autorisées disposant de droits d'accès spéciaux à ces systèmes peuvent y accéder et sont tenues de garder ces informations confidentielles.<\/p><p>Après une transaction, vos informations privées (cartes de crédit, numéros de sécurité sociale, données financières, etc.) seront conservées dans un fichier pendant plus de 60 jours afin d'effectuer des remboursements futurs.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__3dbeae47-3431-4270-93e6-00d002c4e5ef-1668557317456cdada-0",
+        "template--16607987499229__3dbeae47-3431-4270-93e6-00d002c4e5ef-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "faeafce9-455c-4ee0-bfcb-959affc8654b": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__faeafce9-455c-4ee0-bfcb-959affc8654b-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Utilisons-nous des cookies ?",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__faeafce9-455c-4ee0-bfcb-959affc8654b-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nos applications Web utilisent des cookies pour vous distinguer des autres utilisateurs. Cela nous aide à vous offrir une bonne expérience lorsque vous naviguez sur nos applications Web et nous permet également d'améliorer notre site. <\/p><p>Un cookie est un petit fichier de lettres et de chiffres que nous stockons sur votre navigateur ou sur le disque dur de votre ordinateur ou de votre appareil mobile si vous l'acceptez. Les cookies contiennent des informations qui sont transférées sur le disque dur de votre ordinateur ou de votre appareil mobile.<\/p><p>Nous utilisons les cookies suivants : <\/p><p>•  Cookies strictement nécessaires. Il s'agit de cookies qui sont nécessaires au fonctionnement de nos Apps Web. Ils comprennent, par exemple, les cookies qui vous permettent de vous connecter à des zones sécurisées de nos Apps Web. <\/p><p>•  Cookies analytiques\/de performance. Ils nous permettent de reconnaître et de compter le nombre de visiteurs et de voir comment les visiteurs se déplacent dans nos applications Web lorsqu'ils les utilisent. Cela nous aide à améliorer le fonctionnement de nos applications Web, par exemple en nous assurant que les utilisateurs trouvent facilement ce qu'ils recherchent. <\/p><p>•  Cookies de fonctionnalité. Ils sont utilisés pour vous reconnaître lorsque vous revenez sur nos applications Web. Cela nous permet de personnaliser notre contenu pour vous et de nous souvenir de vos préférences.<\/p><p>•  Cookies de ciblage. Ces cookies enregistrent votre visite sur nos Apps Web, les pages que vous avez visitées et les liens que vous avez suivis. Nous utiliserons ces informations pour rendre nos Applis Web, et le matériel qui y est affiché, plus pertinents par rapport à vos intérêts. Nous pouvons également partager ces informations avec des tiers à cette fin.<\/p><p> <\/p><p>Vous pouvez paramétrer votre navigateur pour qu'il refuse tous les cookies ou certains d'entre eux, ou pour qu'il vous avertisse lorsque les applications Web définissent des cookies ou y accèdent. Si vous désactivez ou refusez les cookies, veuillez noter que certaines parties des applications Web peuvent devenir inaccessibles ou ne pas fonctionner correctement.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__faeafce9-455c-4ee0-bfcb-959affc8654b-1668557317456cdada-0",
+        "template--16607987499229__faeafce9-455c-4ee0-bfcb-959affc8654b-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "fd04c019-035b-4fbd-b000-6fff3fa7e328": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__fd04c019-035b-4fbd-b000-6fff3fa7e328-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Divulguons-nous des informations à des tiers ?",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__fd04c019-035b-4fbd-b000-6fff3fa7e328-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous ne vendons pas, n'échangeons pas et ne transférons pas à des tiers vos informations personnelles identifiables. Cela n'inclut pas les tiers de confiance qui nous aident à exploiter nos applications Web, à mener nos activités ou à vous fournir des services, pour autant que ces parties acceptent de garder ces informations confidentielles.<\/p><p>Nous fournissons vos informations personnelles aux fabricants des produits que vous achetez par le biais de nos applications Web. Par exemple, si vous achetez un matelas avec votre lit réglable et que vous enregistrez votre garantie sur nos applications Web, les informations relatives à l'enregistrement de votre garantie seront fournies au fabricant du lit.<\/p><p>Nous pouvons également divulguer vos informations personnelles lorsque nous pensons qu'il est approprié de le faire pour se conformer à la loi, appliquer les politiques de notre site ou protéger nos droits, notre propriété ou notre sécurité ou ceux d'autrui.<\/p><p>Les informations relatives aux visiteurs non identifiables personnellement peuvent être fournies à d'autres parties à des fins de marketing, de publicité ou autres.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__fd04c019-035b-4fbd-b000-6fff3fa7e328-1668557317456cdada-0",
+        "template--16607987499229__fd04c019-035b-4fbd-b000-6fff3fa7e328-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "94c820df-2d41-4702-9b69-0367916c454b": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__94c820df-2d41-4702-9b69-0367916c454b-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Accès et correction de vos informations",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__94c820df-2d41-4702-9b69-0367916c454b-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vous pouvez nous envoyer un courriel à l'adresse <a href=\"mailto:privacy@ergomotion.com\">privacy@ergomotion.com<\/a> pour demander l'accès, la correction ou la suppression de toute information personnelle que vous nous avez fournie. Nous pouvons ne pas accéder à une demande de modification des informations si nous pensons que la modification violerait une loi ou une exigence légale ou rendrait les informations incorrectes.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__94c820df-2d41-4702-9b69-0367916c454b-1668557317456cdada-0",
+        "template--16607987499229__94c820df-2d41-4702-9b69-0367916c454b-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4-1668557317456cdada-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Liens vers des tiers",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4-1668557317456cdada-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Occasionnellement, à notre discrétion, nous pouvons inclure ou offrir des produits ou services de tiers sur nos applications Web. Ces sites tiers ont des politiques de confidentialité distinctes et indépendantes, que vous devez lire pour votre propre protection. Nous n'avons donc aucune responsabilité quant au contenu et aux activités de ces sites liés. Néanmoins, nous cherchons à protéger l'intégrité de notre site et accueillons volontiers tout commentaire sur ces sites.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4-1668557317456cdada-0",
+        "template--16607987499229__6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4-1668557317456cdada-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "f6cf1485-9501-4d14-9c10-2024ee4abb20": {
+      "type": "text-center",
+      "blocks": {
+        "template--16607987499229__f6cf1485-9501-4d14-9c10-2024ee4abb20-1668557672e33b35c3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conformité à la loi sur la protection de la vie privée des enfants en ligne",
+            "heading_size": "h3"
+          }
+        },
+        "template--16607987499229__f6cf1485-9501-4d14-9c10-2024ee4abb20-1668557672e33b35c3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous sommes en conformité avec les exigences de la COPPA (Childrens Online Privacy Protection Act), nous ne recueillons aucune information auprès de personnes âgées de moins de 13 ans. Nos applications Web, nos produits et nos services sont tous destinés à des personnes âgées de 13 ans ou plus.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16607987499229__f6cf1485-9501-4d14-9c10-2024ee4abb20-1668557672e33b35c3-0",
+        "template--16607987499229__f6cf1485-9501-4d14-9c10-2024ee4abb20-1668557672e33b35c3-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "c88a5c8c-f4d3-47b2-b3e6-413f681e9f06": {
+      "type": "text-center",
+      "blocks": {
+        "template--16608832422109__c88a5c8c-f4d3-47b2-b3e6-413f681e9f06-16685596740a09dd77-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vos droits à la vie privée en Californie",
+            "heading_size": "h3"
+          }
+        },
+        "template--16608832422109__c88a5c8c-f4d3-47b2-b3e6-413f681e9f06-16685596740a09dd77-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En vertu de la loi californienne, les résidents de Californie ont le droit de demander par écrit aux entreprises avec lesquelles ils ont une relation commerciale établie, (1) une liste des catégories d'informations personnelles, telles que le nom, l'adresse, l'adresse électronique et le type de services fournis au client, que l'entreprise a divulguées à des tiers (y compris les sociétés affiliées qui sont des entités juridiques distinctes) au cours de l'année civile précédente à des fins de marketing direct, et (2) les noms et adresses de tous ces tiers.<\/p><p>Pour demander une copie de la divulgation d'informations fournie par Ergomotion Inc. conformément à la section 1798.83 du code civil de Californie, veuillez nous écrire à Ergomotion, Inc. 6790 Navigator Drive, Goleta, CA 93117 avec une référence à California Disclosure Information.<\/p><p>Nous ne ferons pas de discrimination à votre encontre pour avoir exercé l'un de vos droits en vertu de la loi californienne. À moins que la loi californienne ne l'autorise, nous ne ferons pas ce qui suit :<\/p><p>•  Vous refuser des biens ou des services.<br\/>•  Vous facturer des prix ou des tarifs différents pour des biens ou des services, notamment en vous accordant des remises ou d'autres avantages, ou en vous imposant des pénalités.<br\/>•  Vous fournir un niveau ou une qualité de biens ou de services différents.<br\/>•  Suggérer que vous pouvez recevoir un prix ou un taux différent pour les biens ou les services ou un niveau ou une qualité différente des biens ou des services.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16608832422109__c88a5c8c-f4d3-47b2-b3e6-413f681e9f06-16685596740a09dd77-0",
+        "template--16608832422109__c88a5c8c-f4d3-47b2-b3e6-413f681e9f06-16685596740a09dd77-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "9554b6e2-fa47-49eb-b82f-00bb54902c5a": {
+      "type": "text-center",
+      "blocks": {
+        "template--16608832422109__9554b6e2-fa47-49eb-b82f-00bb54902c5a-16685596740a09dd77-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Politique de confidentialité en ligne uniquement",
+            "heading_size": "h3"
+          }
+        },
+        "template--16608832422109__9554b6e2-fa47-49eb-b82f-00bb54902c5a-16685596740a09dd77-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cette politique de confidentialité en ligne s'applique uniquement aux informations collectées par le biais de nos applications Web et non aux informations collectées hors ligne.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16608832422109__9554b6e2-fa47-49eb-b82f-00bb54902c5a-16685596740a09dd77-0",
+        "template--16608832422109__9554b6e2-fa47-49eb-b82f-00bb54902c5a-16685596740a09dd77-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "c2428883-c0de-4249-b97a-f9b7b4ce4fd4": {
+      "type": "text-center",
+      "blocks": {
+        "template--16608832422109__c2428883-c0de-4249-b97a-f9b7b4ce4fd4-16685596740a09dd77-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Votre consentement",
+            "heading_size": "h3"
+          }
+        },
+        "template--16608832422109__c2428883-c0de-4249-b97a-f9b7b4ce4fd4-16685596740a09dd77-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En utilisant notre site, vous acceptez notre politique de confidentialité. En fournissant vos informations personnelles, vous consentez à ce que nous les collections et les utilisions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16608832422109__c2428883-c0de-4249-b97a-f9b7b4ce4fd4-16685596740a09dd77-0",
+        "template--16608832422109__c2428883-c0de-4249-b97a-f9b7b4ce4fd4-16685596740a09dd77-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "3e527d0b-7919-4212-b38f-ad6fa524759c": {
+      "type": "text-center",
+      "blocks": {
+        "template--16608832422109__3e527d0b-7919-4212-b38f-ad6fa524759c-16685596740a09dd77-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transferts d'entreprises",
+            "heading_size": "h3"
+          }
+        },
+        "template--16608832422109__3e527d0b-7919-4212-b38f-ad6fa524759c-16685596740a09dd77-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si Ergomotion, ou la quasi-totalité de ses actifs, était acquise, ou dans le cas improbable où Ergomotion ferait faillite ou cesserait ses activités, les informations personnelles de nos utilisateurs et clients feraient partie des actifs transférés ou acquis par une tierce partie. Vous reconnaissez que de tels transferts peuvent se produire, et que tout acquéreur d'Ergomotion peut continuer à utiliser les informations personnelles comme indiqué dans la présente politique.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16608832422109__3e527d0b-7919-4212-b38f-ad6fa524759c-16685596740a09dd77-0",
+        "template--16608832422109__3e527d0b-7919-4212-b38f-ad6fa524759c-16685596740a09dd77-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "a67027ab-1422-4195-9b61-0a93623369a4": {
+      "type": "text-center",
+      "blocks": {
+        "template--16608832422109__a67027ab-1422-4195-9b61-0a93623369a4-16685596740a09dd77-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Modifications de notre politique de confidentialité",
+            "heading_size": "h3"
+          }
+        },
+        "template--16608832422109__a67027ab-1422-4195-9b61-0a93623369a4-16685596740a09dd77-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si nous décidons de modifier notre politique de confidentialité, nous publierons ces modifications sur cette page.<\/p><p>Pour toute information complémentaire, veuillez envoyer un courriel à <a href=\"mailto:info@ergomotion.us\" title=\"mailto:info@ergomotion.us\">info@ergomotion.us<\/a><\/p><p> <\/p><p>Dernière mise à jour : 10 septembre 2021.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16608832422109__a67027ab-1422-4195-9b61-0a93623369a4-16685596740a09dd77-0",
+        "template--16608832422109__a67027ab-1422-4195-9b61-0a93623369a4-16685596740a09dd77-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    }
+  },
+  "order": [
+    "d80814aa-8992-49e7-a098-145f3724c8c0",
+    "16637401650be15f32",
+    "1f46cd2f-2c7f-422a-be25-5fa05b2b309b",
+    "759d811b-dd7f-45be-a19c-f0d8e08abb4f",
+    "b05bd78c-a076-4a83-b2f7-ac8b420a2eeb",
+    "3dbeae47-3431-4270-93e6-00d002c4e5ef",
+    "faeafce9-455c-4ee0-bfcb-959affc8654b",
+    "fd04c019-035b-4fbd-b000-6fff3fa7e328",
+    "94c820df-2d41-4702-9b69-0367916c454b",
+    "6e98bb7e-0d6b-462b-8662-35c5dbcbc6e4",
+    "f6cf1485-9501-4d14-9c10-2024ee4abb20",
+    "c88a5c8c-f4d3-47b2-b3e6-413f681e9f06",
+    "9554b6e2-fa47-49eb-b82f-00bb54902c5a",
+    "c2428883-c0de-4249-b97a-f9b7b4ce4fd4",
+    "3e527d0b-7919-4212-b38f-ad6fa524759c",
+    "a67027ab-1422-4195-9b61-0a93623369a4"
+  ]
+}

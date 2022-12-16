@@ -1,0 +1,52 @@
+.form-control {
+  @apply px-10 py-5 w-full border-1 border-black;
+  -webkit-appearance: none;
+  &::placeholder {
+    @apply text-dark-grey;
+  }
+}
+.form-control-v2 {
+  @apply h-36 border-blue-50 px-12 md:h-28 2xl:h-36;
+  @apply focus:border-blue-400 focus:outline-transparent #{!important};
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 50px #fff inset !important;
+  }
+}
+.field__input,
+.input-form {
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 50px #fff inset !important;
+  }
+}
+
+#SortBy {
+  &:focus-visible {
+    outline: 1px auto black;
+  }
+}
+.customer {
+  .form__message + ul {
+    @apply block #{!important};
+  }
+}
+.form-group {
+  &[data-sta="error"],
+  &.error {
+    .form-control,
+    .field__input {
+      @apply border-red-600;
+    }
+  }
+  textarea {
+    &.form-control {
+      resize: none;
+      @apply h-141 py-12 md:py-11 lg:h-133 2xl:h-141;
+    }
+  }
+}

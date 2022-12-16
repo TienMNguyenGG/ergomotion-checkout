@@ -1,0 +1,390 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terms of Use",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "a3a5f7e8-61c4-43b1-94c8-a5803fb79c1c": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__a3a5f7e8-61c4-43b1-94c8-a5803fb79c1c-1669884044af0f7b6f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/french-terms-conditions\" title=\"French Terms & Conditions\">Pour une version française de nos conditions générales, cliquez ici<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__a3a5f7e8-61c4-43b1-94c8-a5803fb79c1c-1669884044af0f7b6f-1"
+      ],
+      "settings": {
+        "frenchContent": true,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "4810ac17-54ca-4f23-9439-78cc26044188": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 20,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 30
+      }
+    },
+    "2fb90f70-fd83-426d-a8b6-275918bc22d9": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__2fb90f70-fd83-426d-a8b6-275918bc22d9-1668504656fa4ca5da-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Acceptance Of Terms and Conditions",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__2fb90f70-fd83-426d-a8b6-275918bc22d9-1668504656fa4ca5da-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion, Inc. (referred to as “Ergomotion”) operates www.ergomotion.us and other websites (referred to collectively as the “website”). Your access to and use of www.ergomotion.us and any of our other websites is subject exclusively to these Terms and Conditions. You will not use the website for any purpose that is unlawful or prohibited by these Terms and Conditions. By using the website you are fully accepting the terms, conditions and disclaimers contained in this notice. If you do not agree with any of these terms, you are prohibited from using or accessing this site.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__2fb90f70-fd83-426d-a8b6-275918bc22d9-1668504656fa4ca5da-0",
+        "template--16589176701149__2fb90f70-fd83-426d-a8b6-275918bc22d9-1668504656fa4ca5da-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "f1478366-9b1f-4c90-afd6-fe40b5abd58b": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__f1478366-9b1f-4c90-afd6-fe40b5abd58b-16685054154ac70b20-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Advice",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__f1478366-9b1f-4c90-afd6-fe40b5abd58b-16685054154ac70b20-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The contents of the Ergomotion websites do not constitute advice and should not be relied upon in making or refraining from making, any decision.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__f1478366-9b1f-4c90-afd6-fe40b5abd58b-16685054154ac70b20-0",
+        "template--16589176701149__f1478366-9b1f-4c90-afd6-fe40b5abd58b-16685054154ac70b20-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1d87a921-1b21-4cc5-a3d7-990dd81302af": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__1d87a921-1b21-4cc5-a3d7-990dd81302af-16685054288b52cd5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Change of Use",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__1d87a921-1b21-4cc5-a3d7-990dd81302af-16685054288b52cd5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion reserves the right to change or remove (temporarily or permanently) the website or any part of it without notice and you confirm that Ergomotion shall not be liable to you for any such change or removal and these Terms and Conditions at any time, and your continued use of the website following any changes shall be deemed to be your acceptance of such change.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__1d87a921-1b21-4cc5-a3d7-990dd81302af-16685054288b52cd5a-0",
+        "template--16589176701149__1d87a921-1b21-4cc5-a3d7-990dd81302af-16685054288b52cd5a-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "9386d6ed-8a68-4ab8-bab7-25a2b6f5d716": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__9386d6ed-8a68-4ab8-bab7-25a2b6f5d716-16685054288b52cd5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Links to Third Party Websites",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__9386d6ed-8a68-4ab8-bab7-25a2b6f5d716-16685054288b52cd5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our website may include links to third party websites that are controlled and maintained by others. Any link to other websites is not an endorsement of such websites and you acknowledge and agree that we are not responsible for the content or availability of any such sites.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__9386d6ed-8a68-4ab8-bab7-25a2b6f5d716-16685054288b52cd5a-0",
+        "template--16589176701149__9386d6ed-8a68-4ab8-bab7-25a2b6f5d716-16685054288b52cd5a-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "bc78307e-3d2d-40fc-8a5b-fe3ae5eae4a4": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__bc78307e-3d2d-40fc-8a5b-fe3ae5eae4a4-1668554644c216a7fc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Copyright",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__bc78307e-3d2d-40fc-8a5b-fe3ae5eae4a4-1668554644c216a7fc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All copyright, trademarks and all other intellectual property rights on the website and its content (including without limitation the website design, text, graphics and all software and source codes connected with the website) are owned by or licensed to Ergomotion or otherwise used by Ergomotion as permitted by law. In accessing the website, you agree that you will access the content solely for your personal, non-commercial use. None of the content may be downloaded, copied, reproduced, transmitted, stored, sold or distributed without the prior written consent of the copyright holder. This excludes the downloading, copying and\/or printing of pages of the Website for personal, non-commercial home use only.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__bc78307e-3d2d-40fc-8a5b-fe3ae5eae4a4-1668554644c216a7fc-0",
+        "template--16589176701149__bc78307e-3d2d-40fc-8a5b-fe3ae5eae4a4-1668554644c216a7fc-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "c5199d2b-1bcf-464b-9323-57721fea18a9": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__c5199d2b-1bcf-464b-9323-57721fea18a9-1668554786ef7a0e5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Copyright Infringement",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__c5199d2b-1bcf-464b-9323-57721fea18a9-1668554786ef7a0e5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For claims of copyright infringement, please contact:<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Ergomotion,+Inc.\/@34.4808474,-119.5271854,8z\/data=!4m6!3m5!1s0x80e940a405356315:0x42884d778f583896!8m2!3d34.4808474!4d-119.5271854!16s%2Fg%2F11clvtpdx8\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Ergomotion,+Inc.\/@34.4808474,-119.5271854,8z\/data=!4m6!3m5!1s0x80e940a405356315:0x42884d778f583896!8m2!3d34.4808474!4d-119.5271854!16s%2Fg%2F11clvtpdx8\">Ergomotion, Inc.<br\/> 6790 Navigator Drive<br\/> Goleta, CA 93117<\/a><br\/> E-mail: <a href=\"mailto:info@ergomotion.com\">info@ergomotion.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__c5199d2b-1bcf-464b-9323-57721fea18a9-1668554786ef7a0e5a-0",
+        "template--16589176701149__c5199d2b-1bcf-464b-9323-57721fea18a9-1668554786ef7a0e5a-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "4f816e5c-4b75-4d21-ae01-0da32161100a": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__4f816e5c-4b75-4d21-ae01-0da32161100a-1668554786ef7a0e5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Disclaimers and Limitation of Liability",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__4f816e5c-4b75-4d21-ae01-0da32161100a-1668554786ef7a0e5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Website is provided on an AS IS and AS AVAILABLE basis without any representation or endorsement made and without warranty of any kind whether express or implied, including but not limited to the implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, compatibility, security and accuracy. To the extent permitted by law, Ergomotion Inc. will not be liable for any indirect or consequential loss or damage whatever (including without limitation loss of business, opportunity, data, profits) arising out of or in connection with the use of the website. Ergomotion makes no warranty that the functionality of the website will be uninterrupted or error free, that defects will be corrected or that the website or the server that makes it available are free of viruses or anything else, which may be harmful or destructive. Nothing in these Terms and Conditions shall be construed so as to exclude or limit the liability of Ergomotion for death or personal injury as a result of the negligence of Ergomotion or that of its employees or agents.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__4f816e5c-4b75-4d21-ae01-0da32161100a-1668554786ef7a0e5a-0",
+        "template--16589176701149__4f816e5c-4b75-4d21-ae01-0da32161100a-1668554786ef7a0e5a-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "759ae797-326d-4add-8e30-9bed6d9d0de9": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__759ae797-326d-4add-8e30-9bed6d9d0de9-1668554786ef7a0e5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Phone, SMS, MMS Messaging Terms & Conditions",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__759ae797-326d-4add-8e30-9bed6d9d0de9-1668554786ef7a0e5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By consenting to Ergomotion, and its brands, SMS marketing in the checkout and initializing a purchase or subscribing via our subscription tools, you agree to receive recurring text notifications (for your order, including abandoned checkout reminders), text marketing offers, and transactional texts, including requests for reviews from us, even if your mobile number is registered on any state or federal do-not-call list. Regardless of the opt-in method you utilized to join the Program, you agree that this Agreement applies to your participation in the Program. Message frequency varies. Consent is not a condition of purchase.<\/p><p>Your use of the programs is governed by the terms and conditions below. Use of the programs constitutes your acceptance of these terms, which take effect when you enroll. If you do not agree to these terms, please do not enroll in a program. Once enrolled in a program, you will have an opportunity to decline the service by indicating as such during a phone call, or via a reply to a text message you received that says STOP. If you wish to unsubscribe from receiving text marketing messages and notifications, reply with STOP to any mobile message sent from us or use the unsubscribe link we provided you within any of our messages. You understand and agree that alternative methods of opting out, such as using alternative words or requests, will not be considered a reasonable means of opting out. We do not charge for the service, but you are responsible for all charges and fees associated with text messaging imposed by your wireless provider. Message and data rates may apply.<\/p><p>For any questions, please text HELP to the number you received the messages from. You can also contact us at <a href=\"mailto:info@ergomotion.com\">info@ergomotion.com<\/a> for more information. <\/p><p>We have the right to modify any telephone number or short code we use to operate the service at any time. You will be notified on such occasions. You agree that any messages you send to a telephone number or short code we have changed, including any STOP or HELP requests, may not be received, and we will not be liable for honoring requests made in such messages.<\/p><p>To the extent permitted by applicable law, you agree that we will not be liable for failed, delayed, or misdirected delivery of any information sent through the service, any errors in such information, and\/or any action you may or may not take in reliance on the information or Service.<\/p><p>Your right to privacy is important to us. You can see our <a href=\"\/pages\/privacy-and-policy\" title=\"Privacy and Policy\">Privacy Policy<\/a>  to determine how we collect and use your personal information.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__759ae797-326d-4add-8e30-9bed6d9d0de9-1668554786ef7a0e5a-0",
+        "template--16589176701149__759ae797-326d-4add-8e30-9bed6d9d0de9-1668554786ef7a0e5a-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "22a06b10-dc44-4ba0-b222-ddb8e5ad2abd": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__22a06b10-dc44-4ba0-b222-ddb8e5ad2abd-1668554786ef7a0e5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Indemnity",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__22a06b10-dc44-4ba0-b222-ddb8e5ad2abd-1668554786ef7a0e5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You agree to indemnify and hold Ergomotion Inc. and its employees and agents harmless from and against all liabilities, legal fees, damages, losses, costs and other expenses in relation to any claims or actions brought against Ergomotion Inc. arising out of any breach by you of these Terms and Conditions or other liabilities arising out of your use of this website.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__22a06b10-dc44-4ba0-b222-ddb8e5ad2abd-1668554786ef7a0e5a-0",
+        "template--16589176701149__22a06b10-dc44-4ba0-b222-ddb8e5ad2abd-1668554786ef7a0e5a-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "64f8313d-81b9-4c06-83f0-cab7925a2b5e": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__64f8313d-81b9-4c06-83f0-cab7925a2b5e-1668554786ef7a0e5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Severance",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__64f8313d-81b9-4c06-83f0-cab7925a2b5e-1668554786ef7a0e5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If any of these Terms and Conditions should be determined to be invalid, illegal or unenforceable for any reason by any court of competent jurisdiction then such Term or Condition shall be severed, and the remaining Terms and Conditions shall survive and remain in full force and effect and continue to be binding and enforceable.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__64f8313d-81b9-4c06-83f0-cab7925a2b5e-1668554786ef7a0e5a-0",
+        "template--16589176701149__64f8313d-81b9-4c06-83f0-cab7925a2b5e-1668554786ef7a0e5a-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    },
+    "6dbbbfb5-60c1-43c9-8c61-acafcff5838b": {
+      "type": "text-center",
+      "blocks": {
+        "template--16589176701149__6dbbbfb5-60c1-43c9-8c61-acafcff5838b-16685548203861cd4f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Governing Law; Jurisdiction",
+            "heading_size": "h3"
+          }
+        },
+        "template--16589176701149__6dbbbfb5-60c1-43c9-8c61-acafcff5838b-16685548203861cd4f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This site (excluding any linked sites) is controlled by us from our offices within the State of California United States of America. It can be accessed from all 50 states, as well as from other countries around the world. As each of these places has laws that may differ from those of California by accessing this site both of us agree that the statutes and laws of the State of California, without regard to the conflicts of laws principles thereof.<\/p><p>The parties agree that the forum for resolution of any dispute between the parties relating to the formation, interpretation or performance of these terms and conditions, or any other dispute connected in any way with these terms and conditions or the Services, shall be in the Superior Court of the State of California for Santa Barbara County or the United States District Court for the Central District of California with respect to such matters.<\/p><p>For any further information please email <a href=\"mailto:info@ergomotion.com\">info@ergomotion.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16589176701149__6dbbbfb5-60c1-43c9-8c61-acafcff5838b-16685548203861cd4f-0",
+        "template--16589176701149__6dbbbfb5-60c1-43c9-8c61-acafcff5838b-16685548203861cd4f-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": true,
+        "padding_bottom": 60,
+        "padding_bottom_mb": 40
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32",
+    "a3a5f7e8-61c4-43b1-94c8-a5803fb79c1c",
+    "4810ac17-54ca-4f23-9439-78cc26044188",
+    "2fb90f70-fd83-426d-a8b6-275918bc22d9",
+    "f1478366-9b1f-4c90-afd6-fe40b5abd58b",
+    "1d87a921-1b21-4cc5-a3d7-990dd81302af",
+    "9386d6ed-8a68-4ab8-bab7-25a2b6f5d716",
+    "bc78307e-3d2d-40fc-8a5b-fe3ae5eae4a4",
+    "c5199d2b-1bcf-464b-9323-57721fea18a9",
+    "4f816e5c-4b75-4d21-ae01-0da32161100a",
+    "759ae797-326d-4add-8e30-9bed6d9d0de9",
+    "22a06b10-dc44-4ba0-b222-ddb8e5ad2abd",
+    "64f8313d-81b9-4c06-83f0-cab7925a2b5e",
+    "6dbbbfb5-60c1-43c9-8c61-acafcff5838b"
+  ]
+}

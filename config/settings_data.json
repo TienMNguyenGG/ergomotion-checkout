@@ -1,0 +1,467 @@
+{
+  "current": {
+    "headline_fontsize": 72,
+    "headline_fontsizeh2": 48,
+    "headline_fontsizeh3": 36,
+    "body_fontsize": 16,
+    "card_style": "standard",
+    "card_image_padding": 4,
+    "card_text_alignment": "left",
+    "card_color_scheme": "background-2",
+    "card_border_thickness": 0,
+    "card_border_opacity": 10,
+    "card_corner_radius": 0,
+    "card_shadow_opacity": 0,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 4,
+    "card_shadow_blur": 5,
+    "text_boxes_border_thickness": 0,
+    "text_boxes_border_opacity": 10,
+    "text_boxes_radius": 0,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 4,
+    "text_boxes_shadow_blur": 5,
+    "media_border_thickness": 1,
+    "media_border_opacity": 5,
+    "media_radius": 0,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 4,
+    "media_shadow_blur": 5,
+    "drawer_border_thickness": 1,
+    "drawer_border_opacity": 10,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 4,
+    "drawer_shadow_blur": 5,
+    "badge_position": "bottom left",
+    "badge_corner_radius": 40,
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "accent_icons": "text",
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/ergomotioninc\/",
+    "social_linkedin_link": "https:\/\/www.linkedin.com\/showcase\/ergomotion-us\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/ergomotion\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/user\/ErgomotionUSA",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@ergomotion",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "currency_code_enabled": true,
+    "cart_type": "notification",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "cart_drawer_collection": "",
+    "code_in_head": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https:\/\/www.googletagmanager.com\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-NPNDGV5');<\/script>\n<!-- End Google Tag Manager -->\n<script>\n(function(g,e,o,t,a,r,ge,tl,y,s){\ng.getElementsByTagName(o)[0].insertAdjacentHTML('afterbegin','<style id=\"georedirect1670463108838style\">body{opacity:0.0 !important;}<\/style>');\ns=function(){g.getElementById('georedirect1670463108838style').innerHTML='body{opacity:1.0 !important;}';};\nt=g.getElementsByTagName(o)[0];y=g.createElement(e);y.async=true;\ny.src='https:\/\/geotargetly-api-1.com\/gr?id=-NIjM2MiEg7oJaXzTY5W&refurl='+g.referrer+'&winurl='+encodeURIComponent(window.location);\nt.parentNode.insertBefore(y,t);y.onerror=function(){s()};\ngeoredirect1670463108838loaded=function(redirect){var to=0;if(redirect){to=5000};\nsetTimeout(function(){s();},to)};\n})(document,'script','head');\n<\/script>\n<style>@media (max-width:1199px){html.is-open-menu #header{height:100%;background:#fff}html.is-open-menu #header .section-header{box-shadow:none}.is-open-menu #main-menu{height:calc(100vh - 220px)!important}}@media (max-width:767px){.is-open-menu #main-menu{height:calc(100vh - 160px)!important}}<\/style>",
+    "code_in_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https:\/\/www.googletagmanager.com\/ns.html?id=GTM-NPNDGV5\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"><\/iframe><\/noscript>\n<!-- End Google Tag Manager (noscript) -->",
+    "storeUrl": "ergomotion-4151.myshopify.com",
+    "api_key": "pubkey-ymQ392lj3ufo7695uGxFI07S608nIZ",
+    "get_icon_url_HelpFAQs1": true,
+    "url_icon_HelpFAQs1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+    "headline_help_HelpFAQs1": "Find us in store",
+    "content_help_HelpFAQs1": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+    "lable_link_HelpFAQs1": "Find a store",
+    "link_help_HelpFAQs1": "shopify:\/\/pages\/stores",
+    "get_icon_url_HelpFAQs2": true,
+    "url_icon_HelpFAQs2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+    "headline_help_HelpFAQs2": "Call us",
+    "content_help_HelpFAQs2": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<\/p>",
+    "lable_link_HelpFAQs2": "1.888.550.3746",
+    "link_help_HelpFAQs2": "tel:+1.888.550.3746",
+    "link_phone_HelpFAQs2": true,
+    "get_icon_url_HelpFAQs3": true,
+    "url_icon_HelpFAQs3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+    "headline_help_HelpFAQs3": "Product support",
+    "content_help_HelpFAQs3": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+    "lable_link_HelpFAQs3": "Get support",
+    "link_help_HelpFAQs3": "shopify:\/\/pages\/support",
+    "urlShopSchema": "shop.ergomotion.com",
+    "phoneSchema": "+1.888.550.3746",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-blue.png",
+    "checkout_logo_position": "left",
+    "checkout_accent_color": "#043673",
+    "checkout_button_color": "#043673",
+    "IMAGE_BASE64": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0MzYwLCAyMDIwLzAyLzEzLTAxOjA3OjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIwLTA2LTA5VDEwOjI2OjE4KzA3OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMC0wNi0wOVQxMDozMDoxNCswNzowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMC0wNi0wOVQxMDozMDoxNCswNzowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpmNjQ2Y2E2Ny1kYjA2LWFhNDEtOTg2Mi0yYTAwYzQ2YTE3MjIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ZjY0NmNhNjctZGIwNi1hYTQxLTk4NjItMmEwMGM0NmExNzIyIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZjY0NmNhNjctZGIwNi1hYTQxLTk4NjItMmEwMGM0NmExNzIyIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpmNjQ2Y2E2Ny1kYjA2LWFhNDEtOTg2Mi0yYTAwYzQ2YTE3MjIiIHN0RXZ0OndoZW49IjIwMjAtMDYtMDlUMTA6MjY6MTgrMDc6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4xIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw\/eHBhY2tldCBlbmQ9InIiPz5TfurnAAAADUlEQVQImWP4\/\/8\/AwAI\/AL+hc2rNAAAAABJRU5ErkJggg==",
+    "social_pinterest_link": "#",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_vimeo_link": "",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#121212",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#334fb4",
+    "gradient_accent_2": "",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "gradient_background_1": "",
+    "colors_background_2": "#f3f3f3",
+    "gradient_background_2": "",
+    "heading_scale": 60,
+    "heading_scaleh2": 40,
+    "heading_scaleh3": 30,
+    "body_scale": 100,
+    "page_width": 1200,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 8,
+    "spacing_grid_vertical": 8,
+    "buttons_border_thickness": 1,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 0,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 4,
+    "buttons_shadow_blur": 5,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 55,
+    "variant_pills_radius": 40,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_shadow_blur": 5,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 55,
+    "inputs_radius": 0,
+    "inputs_shadow_opacity": 0,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_blur": 5,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 0,
+    "popup_shadow_opacity": 0,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 4,
+    "popup_shadow_blur": 5,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "<p>Shop the Quest product line<\/p>",
+              "label_link": "Learn more",
+              "link": "shopify:\/\/collections\/adjustable-bases",
+              "target": false,
+              "hiddenText": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "{{ shop.brand.logo }}",
+          "logo_max_width": 100,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "new-header": {
+        "type": "new-header",
+        "blocks": {
+          "42b51766-9ced-40ae-a52d-37b04f99b950": {
+            "type": "logo_image",
+            "settings": {
+              "mega_link": "1",
+              "title_sub_menu": "Quest Adjustable Bases",
+              "style_sub_menu": "mt-10 xl:columns-2 xl:wrap-menu-item",
+              "image": "shopify:\/\/shop_images\/shutterstock_716883061_1abffe02-3d52-4df5-b922-11849523d562.jpg",
+              "label_link": "Compare Quest Bases",
+              "link_url": "shopify:\/\/pages\/compare-bases"
+            }
+          },
+          "cbd60a61-a4cb-487c-9805-f6a606ed59f6": {
+            "type": "logo_image",
+            "settings": {
+              "mega_link": "2",
+              "title_sub_menu": "Adjustable Base Accessories",
+              "style_sub_menu": "mt-10 xl:wrap-menu-item xl:mb-9",
+              "image": "shopify:\/\/shop_images\/Ergomotion-Batch1-V1-8_3ebc15e0-981c-4693-9a0a-08bc5fb8a0e2.jpg",
+              "label_link": "",
+              "link_url": ""
+            }
+          },
+          "eae69dbf-02d5-4b15-8b8b-cfa62dda33f5": {
+            "type": "logo_image",
+            "settings": {
+              "mega_link": "3",
+              "title_sub_menu": "Bedding & Pillows",
+              "style_sub_menu": "mt-10 xl:wrap-menu-item xl:mb-9",
+              "image": "shopify:\/\/shop_images\/pillow_20e82ad5-1ba0-49e0-896f-facc4e1604b8.jpg",
+              "label_link": "",
+              "link_url": ""
+            }
+          },
+          "ee14197f-31e1-4ba2-91cd-055399715e6e": {
+            "type": "logo_image",
+            "settings": {
+              "mega_link": "4",
+              "title_sub_menu": "Test submenu",
+              "style_sub_menu": "mt-10 xl:columns-2 xl:wrap-menu-item",
+              "label_link": "",
+              "link_url": ""
+            }
+          },
+          "d16db6cf-a74a-431b-84fb-b7fceb587f89": {
+            "type": "linkOverview",
+            "settings": {
+              "mega_link": "1",
+              "label_link": "Learn Overview",
+              "link_url": "shopify:\/\/pages\/learn"
+            }
+          },
+          "bc0fc94f-c789-41c1-9267-bf12940bf4ec": {
+            "type": "linkOverview",
+            "settings": {
+              "mega_link": "4",
+              "label_link": "Support Overview",
+              "link_url": "shopify:\/\/pages\/support"
+            }
+          }
+        },
+        "block_order": [
+          "42b51766-9ced-40ae-a52d-37b04f99b950",
+          "cbd60a61-a4cb-487c-9805-f6a606ed59f6",
+          "eae69dbf-02d5-4b15-8b8b-cfa62dda33f5",
+          "ee14197f-31e1-4ba2-91cd-055399715e6e",
+          "d16db6cf-a74a-431b-84fb-b7fceb587f89",
+          "bc0fc94f-c789-41c1-9267-bf12940bf4ec"
+        ],
+        "settings": {
+          "menu_top": "menu-top",
+          "menu": "main-menu",
+          "menu_right": "menu-right",
+          "stores": "shopify:\/\/pages\/stores"
+        }
+      },
+      "new-footer": {
+        "type": "new-footer",
+        "blocks": {
+          "c72af90b-07fb-4cb8-88fb-b27daa55ef6f": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Shop",
+              "menu": "shop"
+            }
+          },
+          "new-footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Learn",
+              "menu": "learn"
+            }
+          },
+          "e13b4f89-93e5-4e48-b7cd-411e7fe70186": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Support",
+              "menu": "support"
+            }
+          },
+          "e65693b5-8397-411a-bfbf-8a675a1cacb7": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Company",
+              "menu": "company"
+            }
+          },
+          "3d091efa-da47-4b22-8ddb-514269d0be9e": {
+            "type": "list_link_privacy",
+            "settings": {
+              "menu_privacy": "terms-conditions"
+            }
+          }
+        },
+        "block_order": [
+          "c72af90b-07fb-4cb8-88fb-b27daa55ef6f",
+          "new-footer-0",
+          "e13b4f89-93e5-4e48-b7cd-411e7fe70186",
+          "e65693b5-8397-411a-bfbf-8a675a1cacb7",
+          "3d091efa-da47-4b22-8ddb-514269d0be9e"
+        ],
+        "settings": {
+          "menu_privacy_policy": "terms-conditions",
+          "copyright": "<p>Copyright © 2022 Ergomotion. All rights reserved.<\/p><p>Purchase of an adjustable bed frame does not include mattresses. Free ground shipping to the contiguous United States (48 states) excluding Alaska, Hawaii, Puerto Rico and the U.S. Virgin Islands for purchases made through <a href=\"https:\/\/shop.ergomotion.com\" title=\"https:\/\/shop.ergomotion.com\">shop.ergomotion.com<\/a>.<\/p>",
+          "phone": "1.888.550.3746",
+          "newsletter_shortcode": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"bWpK7xYDu5G-Tq7bBlrhBQ\"><\/div>",
+          "newsletter_heading": "Sign up for great promotions and good news",
+          "show_social": true
+        }
+      },
+      "schema": {
+        "type": "schema",
+        "blocks": {
+          "f694bfe9-849f-462c-9b1f-d059c83ee713": {
+            "type": "schema_item",
+            "settings": {
+              "schemaContact": "<script type=\"application\/ld+json\">\n{\n  \"@context\": \"https:\/\/schema.org\",\n  \"@type\": \"LocalBusiness\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Goleta\",\n    \"addressRegion\": \"CA\",\n    \"postalCode\": \"93117\",\n    \"streetAddress\": \"6790 Navigator Drive\"\n  },\n  \"telephone\": \"1 (888) 550-3746\",\n  \"url\": \"shop.ergomotion.com\/contact-us\/\"\n}\n<\/script>"
+            }
+          }
+        },
+        "block_order": [
+          "f694bfe9-849f-462c-9b1f-d059c83ee713"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#ffffff",
+      "colors_accent_1": "#121212",
+      "gradient_accent_1": "",
+      "colors_accent_2": "#334fb4",
+      "gradient_accent_2": "",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#ffffff",
+      "gradient_background_1": "",
+      "colors_background_2": "#f3f3f3",
+      "gradient_background_2": "",
+      "heading_scale": 60,
+      "heading_scaleh2": 40,
+      "heading_scaleh3": 30,
+      "headline_fontsize": 72,
+      "headline_fontsizeh2": 48,
+      "headline_fontsizeh3": 36,
+      "body_scale": 100,
+      "body_fontsize": 16,
+      "page_width": 1200,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 8,
+      "spacing_grid_vertical": 8,
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 0,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 40,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 0,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "standard",
+      "card_image_padding": 0,
+      "card_text_alignment": "left",
+      "card_color_scheme": "background-2",
+      "card_border_thickness": 0,
+      "card_border_opacity": 10,
+      "card_corner_radius": 0,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 0,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 1,
+      "media_border_opacity": 5,
+      "media_radius": 0,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 0,
+      "popup_shadow_opacity": 0,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 1,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 0,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 5,
+      "badge_position": "bottom left",
+      "badge_corner_radius": 40,
+      "sale_badge_color_scheme": "accent-2",
+      "sold_out_badge_color_scheme": "inverse",
+      "accent_icons": "text",
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": false,
+      "currency_code_enabled": true,
+      "cart_type": "notification",
+      "show_vendor": false,
+      "show_cart_note": false,
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "text": "<p>Welcome to our store<\/p>",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "logo": "{{ shop.brand.logo }}",
+            "logo_max_width": 100,
+            "color_scheme": "background-1"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@screen md {
+  .mod-half-text-image {
+    h3,
+    .h3 {
+      @apply mb-12;
+    }
+  }
+}
+@screen 2xl {
+  .mod-half-text-image {
+    p {
+      @apply mb-8;
+    }
+    h3,
+    .h3 {
+      @apply mb-8;
+    }
+    .container {
+      max-width: 1424px;
+    }
+  }
+}

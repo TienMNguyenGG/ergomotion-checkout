@@ -1,0 +1,476 @@
+{
+  "sections": {
+    "16645263574867f35c": {
+      "type": "text-center",
+      "blocks": {
+        "16645263570d3985b7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Compare Quest Products Side-by-Side",
+            "heading_size": "h1"
+          }
+        },
+        "16645263570d3985b7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wondering how your favorite Quest adjustable bed product stacks up next to other adjustable bases? Use our quick-view product comparison chart to get all the details.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16645263570d3985b7-0",
+        "16645263570d3985b7-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664526475eba0032b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16644975927037db83": {
+      "type": "compare-products",
+      "blocks": {
+        "1664497592c0824c99-0": {
+          "type": "compare_product",
+          "settings": {
+            "title": "Most economical",
+            "name": "Quest 1.0",
+            "product": "quest-1-0",
+            "available": "Available in: Twin XL, Q, K",
+            "price": "Queen $649",
+            "titleButton": "Shop Quest 1.0"
+          }
+        },
+        "1773604f-3bdd-46a2-9a55-733c42b5b9bf": {
+          "type": "compare_product",
+          "settings": {
+            "title": "Most loved",
+            "name": "Quest 2.0",
+            "product": "quest-2-0",
+            "available": "Available in: Twin XL, Q, K, Split K",
+            "price": "Queen $1,149",
+            "titleButton": "Shop Quest 2.0"
+          }
+        },
+        "858c3ee2-2295-4f45-b45d-1f042f71796e": {
+          "type": "compare_product",
+          "settings": {
+            "title": "Most supportive",
+            "name": "Quest 2.5",
+            "product": "quest-2-5",
+            "available": "Available in: Twin XL, Q, K, Split K",
+            "price": "Queen $1,399",
+            "titleButton": "Shop Quest 2.5"
+          }
+        },
+        "80690280-267a-4b8f-adf8-2ff9d4d0701c": {
+          "type": "compare_product",
+          "settings": {
+            "title": "Most features",
+            "name": "Quest 4.0",
+            "product": "quest-4-0",
+            "available": "Available in: Twin XL, Q, Split K",
+            "price": "Queen $2,349",
+            "titleButton": "Shop Quest 4.0"
+          }
+        }
+      },
+      "block_order": [
+        "1664497592c0824c99-0",
+        "1773604f-3bdd-46a2-9a55-733c42b5b9bf",
+        "858c3ee2-2295-4f45-b45d-1f042f71796e",
+        "80690280-267a-4b8f-adf8-2ff9d4d0701c"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664497689a1b98709": {
+      "type": "accordion-module",
+      "blocks": {
+        "1664497689e48b8c84-0": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Wired Remote\nHead Articulation",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "9f659d1d-2086-4c7a-a793-0e465a2cd7f6": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Wireless Remote\nHead & Foot Articulation\nOne-Touch Flat Preset\nZero-G Preset\n2 Programmable Presets\nRemote Flashlight",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "359e7f02-92a4-496b-a179-4872afc22256": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Wireless Remote\nHead & Foot Articulation\nOne-Touch Flat Preset\nZero-G Preset\n4 Programmable Presets\nRemote Flashlight\nMassage\nUnder bed Lighting\nVoice Control\nDual USB",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "01ad450f-2df2-4427-928b-aa938acb628d": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Wireless Remote\nHead & Foot Articulation\nOne-Touch Flat Preset\nZero-G Preset\n2 Programmable Presets\nRemote Flashlight\nMassage\nUnder bed Lighting\nVoice Control\nDual USB\nActive Head Tilt\nLumbar Support\nWall Saver\nRelaxation Mode",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664497689e48b8c84-0",
+        "9f659d1d-2086-4c7a-a793-0e465a2cd7f6",
+        "359e7f02-92a4-496b-a179-4872afc22256",
+        "01ad450f-2df2-4427-928b-aa938acb628d"
+      ],
+      "settings": {
+        "comparison_criteria": "Key Features"
+      }
+    },
+    "1664497780213047d5": {
+      "type": "accordion-module",
+      "blocks": {
+        "1664497780961bef98-0": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Zero Standby Power System\n1\" Ultra-Slim Profile\n12\" Stackable Legs\nFoldable\nCourier Friendly\nSilent Drive Motors\nGravity Release\nPower Outage Protection",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "ce92b2ef-0598-4c4d-af27-fd7b93d271ea": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Zero Standby Power System\n2\" Ultra-Slim Profile\n12\" Stackable Legs\nFoldable\nCourier Friendly\nSilent Drive Motors\nGravity Release\nPower Outage Protection",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "89dacf7f-6e23-4cc0-8eb3-cb0f4ae9f698": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Zero Standby Power System\n2\" Ultra-Slim Profile\n12\" Stackable Legs\nFoldable\nCourier Friendly\nSilent Drive Motors\nGravity Release\nPower Outage Protection",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "61d35c89-f6d8-4849-a2b4-2c2d63fff218": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Zero Standby Power System\n2\" Ultra-Slim Profile\n12\" Stackable Legs\nFoldable\nCourier Friendly\nSilent Drive Motors\nGravity Release\nPower Outage Protection",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664497780961bef98-0",
+        "ce92b2ef-0598-4c4d-af27-fd7b93d271ea",
+        "89dacf7f-6e23-4cc0-8eb3-cb0f4ae9f698",
+        "61d35c89-f6d8-4849-a2b4-2c2d63fff218"
+      ],
+      "settings": {
+        "comparison_criteria": "Standard Features"
+      }
+    },
+    "1664528401d2e53f43": {
+      "type": "accordion-module",
+      "blocks": {
+        "145f2ed0-a65b-468c-8c8c-8a9e9a179b07": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Interchangeable Leg Options\nHeadboard Brackets",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "65a38701-0300-4c58-b907-a1d0b680a8a8": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Interchangeable Leg Options\nHeadboard Brackets",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "7e399f9b-3cf1-42dc-9723-dd4fc5d586ac": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Interchangeable Leg Options\nHeadboard Brackets",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "43005d07-8b1e-4c88-862f-072cb93c4b0d": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Interchangeable Leg Options\nHeadboard Brackets",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "145f2ed0-a65b-468c-8c8c-8a9e9a179b07",
+        "65a38701-0300-4c58-b907-a1d0b680a8a8",
+        "7e399f9b-3cf1-42dc-9723-dd4fc5d586ac",
+        "43005d07-8b1e-4c88-862f-072cb93c4b0d"
+      ],
+      "settings": {
+        "comparison_criteria": "Options"
+      }
+    },
+    "166452998033a17ec8": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 55
+      }
+    },
+    "1664847184d35d4d9e": {
+      "type": "large-features-banner",
+      "blocks": {
+        "c78a0197-28c1-47f0-91aa-2aa24c529fc4": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
+            "content": "10-year limited warranty",
+            "content_new": "<p>10-year limited warranty<\/p>"
+          }
+        },
+        "aafe25ef-caf0-4362-9db8-b77ff15376f6": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
+            "content": "US Based - Call us at 1.888.550.3746",
+            "content_new": "<p>US Based - Call us at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1.888.550.3746<\/a><\/p>"
+          }
+        },
+        "e971ec92-58a2-4d0a-846d-eceafee514ec": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Truck_Icon.svg?v=1665539537",
+            "content": "Courier-friendly shipping",
+            "content_new": "<p>Courier-friendly shipping<\/p>"
+          }
+        },
+        "16648471847e0e6088-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
+            "content": "Pay over 12 months with Affirm",
+            "content_new": "<p>Pay over 12 months with Affirm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c78a0197-28c1-47f0-91aa-2aa24c529fc4",
+        "aafe25ef-caf0-4362-9db8-b77ff15376f6",
+        "e971ec92-58a2-4d0a-846d-eceafee514ec",
+        "16648471847e0e6088-0"
+      ],
+      "settings": {
+        "heading": "10+ million adjustable beds sold worldwide",
+        "heading_size": "h2",
+        "content": "",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664847346a8c4f63b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16648473879810b421": {
+      "type": "half-text-image",
+      "blocks": {
+        "16648473877a9dc7b6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "See what our customers are saying",
+            "heading_size": "h2"
+          }
+        },
+        "16648473877a9dc7b6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Read what our customers are saying about their Ergomotion adjustable bed base.<\/p>"
+          }
+        },
+        "16648473877a9dc7b6-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "View customer testimonials",
+            "button_link": "shopify:\/\/pages\/reviews"
+          }
+        }
+      },
+      "block_order": [
+        "16648473877a9dc7b6-0",
+        "16648473877a9dc7b6-1",
+        "16648473877a9dc7b6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/See-what-our-customers-are-saying.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style1",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664847459cc123e42": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664847544d1f71a36": {
+      "type": "help-banner",
+      "blocks": {
+        "166484754409952b33-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "de41b63f-f4e2-455f-9414-79e290a7f676": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "7676dec4-d763-4174-ad8a-4043b8f5f621": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product Support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "166484754409952b33-0",
+        "de41b63f-f4e2-455f-9414-79e290a7f676",
+        "7676dec4-d763-4174-ad8a-4043b8f5f621"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16648478584874f2e5": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664847822b8a1da97": {
+      "type": "two-column-banner",
+      "disabled": true,
+      "blocks": {
+        "1664847822aac42ed1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/large-banner.jpg"
+          }
+        },
+        "1664847822aac42ed1-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>“If you’re a “bells and whistles” kind of person, think of this high-tech wonder as the Cadillac of platform bed frames.”<\/p>"
+          }
+        },
+        "1664847822aac42ed1-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/scary-momy.png",
+            "get_icon_url": false,
+            "url_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664847822aac42ed1-0",
+        "1664847822aac42ed1-1",
+        "1664847822aac42ed1-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "5d52d40b-c6c5-4b96-8256-7815caceb1cf": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "16645263574867f35c",
+    "1664526475eba0032b",
+    "16644975927037db83",
+    "1664497689a1b98709",
+    "1664497780213047d5",
+    "1664528401d2e53f43",
+    "166452998033a17ec8",
+    "1664847184d35d4d9e",
+    "1664847346a8c4f63b",
+    "16648473879810b421",
+    "1664847459cc123e42",
+    "1664847544d1f71a36",
+    "16648478584874f2e5",
+    "1664847822b8a1da97",
+    "5d52d40b-c6c5-4b96-8256-7815caceb1cf"
+  ]
+}

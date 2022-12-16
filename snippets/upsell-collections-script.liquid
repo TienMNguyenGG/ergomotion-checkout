@@ -1,0 +1,24 @@
+
+      <script>
+        {% if request.page_type == 'product' or request.page_type == 'cart' %}
+          window.upsell = window.upsell || {};
+  
+          {% if request.page_type == 'product' %}
+            window.upsell.product = { collections:[]};
+            {% for collection in product.collections %}
+              window.upsell.product.collections.push({{ collection.id }});
+            {% endfor %}
+          {% endif %}
+          
+          {% if request.page_type == 'cart' %}
+            window.upsell.cart = { products:{}};
+            {% for line in cart.items %}
+              window.upsell.cart.products["{{ line.product_id }}"] = {collections:[]};
+              {% for collection in line.product.collections %}
+                window.upsell.cart.products["{{ line.product_id }}"].collections.push({{ collection.id }});
+              {% endfor %}
+            {% endfor %}
+          {% endif %}
+        {% endif %}
+      </script>
+    

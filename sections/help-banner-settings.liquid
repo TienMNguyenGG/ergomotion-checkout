@@ -1,0 +1,99 @@
+{%- style -%}
+  .mod-help-banner-settings-padding {
+    padding-bottom: {{ settings.padding_bottom_mb_HelpFAQs }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .mod-help-banner-settings-padding {
+      padding-bottom: {{ settings.padding_bottom_HelpFAQs }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="mod-help-banner-settings-padding">
+  <div class="module mod-help-banner bg-blue-500 py-32 xl:py-38 2xl:py-63 transition-transform" data-paroller-factor="0.15" data-paroller-type="foreground">
+    <div class="container relative z-1 xl:px-10 2xl:px-24 1k8:px-8">
+      <div class="xl:flex md:items-center justify-between down_xl:text-center">
+        {% if settings.heading_HelpFAQs != empty %}
+        <h2 class="{{ settings.heading_size_HelpFAQs }}">{{ settings.heading_HelpFAQs }}</h2>
+        {% endif %}
+        <div class="list-help px-11 xl:px-0 md:flex md:flex-wrap justify-center xl:w-72p 1k8:w-61p -mx-12 xl:-mx-17 2xl:-mx-23 relative -top-4 2xl:-left-9 last-mb-none">
+          <div class="item-help down_md:w-80p mx-auto down_md:mb-33 md:w-1/3 text-center last-mb-none px-12 xl:px-15 2xl:px-23">
+            {% if settings.get_icon_url_HelpFAQs1 == true %}
+              {% if settings.url_icon_HelpFAQs1 != blank %}
+                <img class="mx-auto mb-5 no-alt" src="{{ settings.url_icon_HelpFAQs1 }}" alt="{{ block.settings.headline_help }}">
+              {% endif %}
+            {% else %}
+              {% if settings.image_help_HelpFAQs1 != blank %}
+                <img class="mx-auto mb-5 no-alt" src="{{ settings.image_help_HelpFAQs1 | image_url }}" alt="{{ settings.image_help_HelpFAQs1.alt }}">
+              {% endif %}
+            {% endif%}
+            {% if settings.headline_help_HelpFAQs1 != empty %}
+            <h3 class="h6">{{ settings.headline_help_HelpFAQs1 }}</h3>
+            {% endif %}
+            {{ settings.content_help_HelpFAQs1 }}
+            {%- if settings.lable_link != empty and settings.link_help_HelpFAQs1 != empty  -%}
+              <p>
+                <a href="{{ settings.link_help_HelpFAQs1 }}" class="link-arrow btn xl:mr-1p5 2xl:mr-0 mouse {% if settings.link_phone_HelpFAQs1 == true%} no-arrow {% endif %}" data-cy="link">
+                  {{ settings.lable_link_HelpFAQs1 }}
+                  {% if settings.link_phone_HelpFAQs1 != true%}
+                  <span class="icomoon icon-link-arrow"></span>
+                  {% endif %}
+                </a>
+              </p>
+            {% endif %}
+          </div>
+          <div class="item-help down_md:w-80p mx-auto down_md:mb-33 md:w-1/3 text-center last-mb-none px-12 xl:px-15 2xl:px-23">
+            {% if settings.get_icon_url_HelpFAQs2 == true %}
+              {% if settings.url_icon_HelpFAQs2 != blank %}
+                <img class="mx-auto mb-5 no-alt" src="{{ settings.url_icon_HelpFAQs2 }}" alt="">
+              {% endif %}
+            {% else %}
+              {% if settings.image_help_HelpFAQs2 != blank %}
+                <img class="mx-auto mb-5 no-alt" src="{{ settings.image_help_HelpFAQs2 | image_url }}" alt="{{ settings.image_help_HelpFAQs2.alt }}">
+              {% endif %}
+            {% endif%}
+            {% if settings.headline_help_HelpFAQs2 != empty %}
+            <h3 class="h6">{{ settings.headline_help_HelpFAQs2 }}</h3>
+            {% endif %}
+            {{ settings.content_help_HelpFAQs2 }}
+            {%- if settings.lable_link != empty and settings.link_help_HelpFAQs2 != empty  -%}
+              <p>
+                <a href="{{ settings.link_help_HelpFAQs2 }}" class="link-arrow btn xl:mr-1p5 2xl:mr-0 mouse {% if settings.link_phone_HelpFAQs2 == true%} no-arrow {% endif %}" data-cy="link">
+                  {{ settings.lable_link_HelpFAQs2 }}
+                  {% if settings.link_phone_HelpFAQs2 != true%}
+                  <span class="icomoon icon-link-arrow"></span>
+                  {% endif %}
+                </a>
+              </p>
+            {% endif %}
+          </div>
+          <div class="item-help down_md:w-80p mx-auto down_md:mb-33 md:w-1/3 text-center last-mb-none px-12 xl:px-15 2xl:px-23">
+            {% if settings.get_icon_url_HelpFAQs3 == true %}
+              {% if settings.url_icon_HelpFAQs3 != blank %}
+                <img class="mx-auto mb-5 no-alt" src="{{ settings.url_icon_HelpFAQs3 }}" alt="">
+              {% endif %}
+            {% else %}
+              {% if settings.image_help_HelpFAQs3 != blank %}
+                <img class="mx-auto mb-5 no-alt" src="{{ settings.image_help_HelpFAQs3 | image_url }}" alt="{{ settings.image_help_HelpFAQs3.alt }}">
+              {% endif %}
+            {% endif%}
+            {% if settings.headline_help_HelpFAQs3 != empty %}
+            <h3 class="h6">{{ settings.headline_help_HelpFAQs3 }}</h3>
+            {% endif %}
+            {{ settings.content_help_HelpFAQs3 }}
+            {%- if settings.lable_link != empty and settings.link_help_HelpFAQs3 != empty  -%}
+              <p>
+                <a href="{{ settings.link_help_HelpFAQs3 }}" class="link-arrow btn xl:mr-1p5 2xl:mr-0 mouse {% if settings.link_phone_HelpFAQs3 == true%} no-arrow {% endif %}" data-cy="link">
+                  {{ settings.lable_link_HelpFAQs3 }}
+                  {% if settings.link_phone_HelpFAQs3 != true%}
+                  <span class="icomoon icon-link-arrow"></span>
+                  {% endif %}
+                </a>
+              </p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

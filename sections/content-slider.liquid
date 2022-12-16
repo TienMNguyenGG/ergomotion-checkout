@@ -1,0 +1,220 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+{% comment %} xl:pb-80 xl:w-1/2 xl:pr-30 xl:pl-0 2xl:w-5/12 2xl:pl-8 2xl:pt-61 2xl:pr-60 2xl:pb-202 {% endcomment %}
+<div class="module mod-content-slider section-{{ section.id }}-padding">
+  <div class="container px-0 xl:px-10p5 2xl:px-24 1k8:pl-0 1k8:pr-8" aria-roledescription="carousel">
+    <div class="relative">
+      <div class="content-title wrap-content-title absolute px-24 top-274 left-0 mb-28 md:mb-16 z-10 xl:pl-0 xl:top-0 xl:left-0 xl:w-1/2 xl:pr-30 xl:mb-15 2xl:pl-0 2xl:pt-61 2xl:pr-60 2xl:w-5/12 2xl:mb-46 transition-transform" data-paroller-factor="0.2" data-paroller-type="foreground">
+        <div class="last-mb-none ">
+          {% if section.settings.sub_heading != blank %}
+            <h5>{{ section.settings.sub_heading }}</h5>
+          {% endif %}
+          {% if section.settings.heading != blank %}
+            <h2>{{ section.settings.heading }}</h2>
+          {% endif %}
+        </div>
+      </div>
+      <div id="oveflow-block-carousel-items" class="js-slider-content xl:flex 2xl:-ml-8" aria-live="polite">
+        {%- for block in section.blocks -%}
+        <div class="slider-content-item" {{ block.shopify_attributes }} role="group" aria-roledescription="slide" aria-label="{{forloop.index}} of {{section.blocks | size}}">
+          <div class=" row mx-0 overflow-hidden">
+            <div class="col-content w-full px-24 relative xl:pb-80 xl:w-1/2 xl:pr-30 xl:pl-0 2xl:w-5/12 2xl:pl-8 2xl:pt-61 2xl:pr-60 2xl:pb-202" >
+              <div class="relative js-item-content transition-transform" data-paroller-factor="0.2" data-paroller-type="foreground">
+                  <div class="last-mb-none">
+                    <div class="last-mb-none wrap-content-title mb-28 h-73 md:h-44 xl:h-46 2xl:h-117 md:mb-16 xl:mb-15 xl:pr-10 2xl:mb-46">
+                    </div>
+  
+                    <div class="wrap-content-item md:pr-60 xl:pr-0">
+                      {% if block.settings.title != blank %}
+                      <h5>{{ block.settings.title }}</h5>
+                      {% endif %}
+                      {% if block.settings.content != blank %}
+                        {{ block.settings.content }}
+                      {% endif %}
+                      {% if block.settings.button_label != blank and block.settings.button_link != blank %}
+                      <a href="{{ block.settings.button_link }}" class="link-arrow btn">
+                        {{ block.settings.button_label }}
+                        <span class="icomoon icon-link-arrow"></span>
+                      </a>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="w-full order-first mb-10 md:px-20 md:mb-15 xl:order-none xl:w-1/2 xl:px-0 xl:mb-0 2xl:w-7/12">
+              <div class="js-slider-img overflow-hidden md:px-4 xl:px-0">
+                <div class="slider-img-item xl:pl-1 2xl:overflow-hidden">
+                  <div class="wrap-list-img relative done-ani ani-next">
+                    <div class="relative box-img-1 ml-auto mb-70p5">
+                      {% if block.settings.imageFirst != blank %}
+                      <img src="{{ block.settings.imageFirst | image_url }}" alt="{{ block.settings.imageFirst.alt }}" class="absolute inset-0 object-cover {{ block.settings.image_position }} w-full h-full 2xl:rounded-4" />
+                      {% endif %}
+                    </div>
+                    <div class="box-img-2 absolute left-0 bottom-0">
+                      {% if block.settings.imageSecond != blank %}
+                      <img src="{{ block.settings.imageSecond | image_url }}" alt="{{ block.settings.imageSecond.alt }}" class="relative inset-0 object-cover {{ block.settings.image_position }} w-full h-full xl:object-left" />
+                      {% endif %}
+                    </div>
+                    <div class="absolute box-img-3 bottom-0">
+                      {% if block.settings.imageThird != blank %}
+                      <img src="{{ block.settings.imageThird | image_url }}" alt="{{ block.settings.imageThird.alt }}" class="relative inset-0 object-cover {{ block.settings.image_position }} w-full h-full" />
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% if section.blocks.size > 1 %}
+      <div class="wrap-dots-arrow static mt-10 xl:mt-0 down_xl:px-24 xl:absolute w-full -top-60p5 right-24 md:right-20 xl:top-auto xl:bottom-30p5 xl:right-1 2xl:left-0 2xl:bottom-145p5 js-item-content transition-transform" data-paroller-factor="0.2" data-paroller-type="foreground">
+        <div class="control-slide-content-block  flex items-center down_xl:justify-end relative pr-2 xl:-ml-1p5"></div>
+        <div class="control-dots-content-block max-w-153 ml-auto mr-3 xl:mx-0 w-full relative"></div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name":"Content Slider",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"text",
+      "id":"sub_heading",
+      "default":"Quest 2.5 Adjustable Base",
+      "label":"Sub Heading"
+    },
+    {
+      "type":"text",
+      "id":"heading",
+      "default":"Core benefits of Quest 1.0",
+      "label":"Heading"
+    },
+    {
+      "type":"header",
+      "content":"Section Padding"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"text_image_item",
+      "name":"Text Image Item",
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"imageFirst",
+          "label":"First Image"
+        },
+        {
+          "type":"image_picker",
+          "id":"imageSecond",
+          "label":"Second Image"
+        },
+        {
+          "type":"image_picker",
+          "id":"imageThird",
+          "label":"Third Image"
+        },
+        {
+          "type":"select",
+          "id":"image_position",
+          "options":[
+            {
+              "value":"object-center",
+              "label":"Center"
+            },
+            {
+              "value":"object-left-top",
+              "label":"Top Left"
+            },
+            {
+              "value":"object-right-top",
+              "label":"Top Right"
+            },
+            {
+              "value":"object-left-bottom",
+              "label":"Bottom Left"
+            },
+            {
+              "value":"object-right-bottom",
+              "label":"Bottom Right"
+            }
+          ],
+          "default":"object-center",
+          "label":"Image Position"
+        },
+        {
+          "type":"text",
+          "id":"title",
+          "default":"Lifestyle benefits of your ergomotion bed",
+          "label":"Title"
+        },
+        {
+          "type":"richtext",
+          "id":"content",
+          "default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit. Pulvinar dolor, proin faucibus aliquam id arcu pretium.</p>",
+          "label":"Content"
+        },
+        {
+          "type":"text",
+          "id":"button_label",
+          "default":"Read more",
+          "label":"Button label"
+        },
+        {
+          "type":"url",
+          "id":"button_link",
+          "label":"Button label"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Content Slider",
+      "blocks":[
+        {
+          "type":"text_image_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

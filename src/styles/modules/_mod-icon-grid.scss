@@ -1,0 +1,65 @@
+.anim-cover {
+  transition: all .35s;
+}
+
+.insight-box {
+  h4,
+  .h4 {
+    color: inherit;
+    @apply mb-18;
+  }
+}
+
+.just-hidden-mb {
+  @apply hidden md:block;
+}
+.just-hidden-tablet {
+  @apply md:hidden xl:block;
+}
+
+.insight-box,
+.icon-box,
+.anim-cover,
+.icon-cover {
+  transition: all .5s;
+}
+.grid-box {
+  transition: all .5s, border-radius .3s .3s;
+  &.box-active {
+    @apply mb-0;
+  }
+  &.hovering {
+    transform: scale(1.16);
+    @apply rounded-4;
+    @apply z-3;
+    .insight-box,
+    .icon-box {
+      transform: scale(0.862);
+    }
+    .anim-cover {
+      @apply top-0;
+    }
+    .icon-cover {
+      transform: translateY(-100%);
+    }
+  }
+}
+
+.delay-scale {
+  &.grid-box,
+  .insight-box,
+  .icon-box,
+  .anim-cover,
+  .icon-cover {
+    transition-delay: .25s;
+  }
+}
+
+@screen down_md {
+  .grid-box {
+    &.hovering {
+      transform: scale(1);
+      @apply rounded-none;
+    }
+  }
+}

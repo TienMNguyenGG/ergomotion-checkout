@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Adjustable Base Accessories",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse our selection of adjustable base accessories to compliment your Ergomotion adjustable bed.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "dfcdc6cf-ea62-414e-9064-010697f17b23": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 85,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 60
+      }
+    },
+    "2bd5e0d2-42d2-4788-8f6a-18e0db4f3ec4": {
+      "type": "main-list-collections",
+      "blocks": {
+        "c286091c-a532-4b63-a0a9-deb2978a19ca": {
+          "type": "collection",
+          "settings": {
+            "collection": "replacement-legs",
+            "description": "",
+            "label_link": "View Products"
+          }
+        }
+      },
+      "block_order": [
+        "c286091c-a532-4b63-a0a9-deb2978a19ca"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "633050e3-43e4-4efb-84b9-3a2e3c5cac59": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 75
+      }
+    },
+    "0804869a-2b06-465e-80e0-881b2e632ec2": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16588190351581__0804869a-2b06-465e-80e0-881b2e632ec2-1666666941b7e61984-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quest Adjustable Bed Bases",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588190351581__0804869a-2b06-465e-80e0-881b2e632ec2-1666666941b7e61984-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience restorative adjustable bed technology with Ergomotion.<\/p>"
+          }
+        },
+        "template--16588190351581__0804869a-2b06-465e-80e0-881b2e632ec2-1666666941b7e61984-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Quest Product Line",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16588190351581__0804869a-2b06-465e-80e0-881b2e632ec2-1666666941b7e61984-0",
+        "template--16588190351581__0804869a-2b06-465e-80e0-881b2e632ec2-1666666941b7e61984-1",
+        "template--16588190351581__0804869a-2b06-465e-80e0-881b2e632ec2-1666666941b7e61984-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "88bd76bc-64cb-41f7-88da-5a51ce03e7dc": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32",
+    "dfcdc6cf-ea62-414e-9064-010697f17b23",
+    "2bd5e0d2-42d2-4788-8f6a-18e0db4f3ec4",
+    "633050e3-43e4-4efb-84b9-3a2e3c5cac59",
+    "0804869a-2b06-465e-80e0-881b2e632ec2",
+    "88bd76bc-64cb-41f7-88da-5a51ce03e7dc"
+  ]
+}

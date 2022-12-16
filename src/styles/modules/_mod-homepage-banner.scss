@@ -1,0 +1,46 @@
+.wrap-content-home {
+  h1 {
+    @apply mb-12 md:mb-13 text-hush-black 2xl:mb-16;
+  }
+
+  p {
+    @apply 2xl:max-w-576;
+  }
+
+  a:not(.btn) {
+    @apply no-underline;
+  }
+}
+@screen lg {
+  .mod-homepage-banner {
+    &::after {
+      content: '';
+      @apply absolute top-0 left-0 bottom-0 w-70p xl:w-60p;
+      background-image: linear-gradient(to right, rgba(255,255,255,.8),rgba(255,255,255,.8), rgba(255,255,255,0));
+    }
+  }
+}
+@screen xl {
+  .video-container {
+    @apply top-1/2 left-1/2;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@screen 2xl {
+  @media(max-height: 799px) {
+    .module.mod-homepage-banner {
+      min-height: 580px;
+    }
+  }
+}
+
+@screen down_sm {
+  .wrap-content-home {
+
+    h1,
+    .h1 {
+      letter-spacing: -1px;
+    }
+  }
+}

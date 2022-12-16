@@ -1,0 +1,135 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module mod-icons-grid fix-height section-{{ section.id }}-padding">
+  <div class="container transition-transform" data-paroller-factor="0.1" data-paroller-type="foreground">
+    <div class="row md:px-20 xl:px-8 1k8:px-0 1k8:-mx-20">
+      {%- for block in section.blocks -%}
+      <div class="w-full md:w-1/2 xl:w-1/3 xl:px-4 icon-grid-col relative z-1 {% if forloop.index > 3 %}just-hidden-mb{% endif %} {% if forloop.index > 6 %}just-hidden-tablet{% endif %}" {{ block.shopify_attributes }}>
+        <div class="js-grid-box grid-box relative mb-8 overflow-hidden" tabindex="0">
+          <div class="icon-cover flex items-center justify-center bg-soft-blue h-141 mx-12 relative md:h-120 md:mx-4 xl:mx-0 2xl:h-202">
+            <div class="js-open-insight absolute bottom-4 right-8 z-2 md:right-4 md:bottom-0 xl:right-8 xl:bottom-3" data-cy="open-button"><span class="icomoon icon-add2 text-h3-md text-wellness-blue md:text-h3-lg"></span></div>
+            <div class="icon-box w-full relative text-center">
+              <div class="height-item max-w-160 flex items-center justify-center mx-auto mt-12 text-center md:max-w-120 md:mt-19 1k8:max-w-200 1k8:mt-10">
+                {% if block.settings.get_image_url == true %}
+                  {% if block.settings.url_image_update != blank %}
+                    <img class="lazy inline-block  max-h-164 md:max-h-120 1k8:max-h-200 no-alt" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.url_image_update }}" alt="">
+                  {% endif %}
+                {% else %}
+                  {% if block.settings.image != blank %}
+                    <img class="lazy inline-block  max-h-164 md:max-h-120 1k8:max-h-200 no-alt" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.image | image_url }}" alt="">
+                  {% endif %}
+                {% endif%}
+              </div>
+              <strong class="h4 block mt-19 px-21 pb-17 md:text-lg md:mt-11 1k8:mt-19 1k8:text-h4" data-cy="sub-head">{{ block.settings.title }}</strong>
+            </div>
+          </div>
+          <div class="js-anim-cover anim-cover overflow-hidden z-100 bg-midnight-blue h-full absolute left-0 right-0 top-full">
+            <div class="js-close-insight absolute bottom-3 right-18 md:bottom-8 md:right-8 z-2 xl:bottom-4" data-cy="close-button"><span class="icomoon icon-minus3 text-h3-md text-wellness-blue"></span></div>
+            <div class="insight-box py-28 md:mr-6 lg:mr-0 px-24 bg-midnight-blue text-white leading-1-8 overflow-y-auto h-full xl:px-10 xl:py-5 1k8:px-40">
+              <div class="table h-full">
+                <div class="table-cell align-middle">
+                  {% if block.settings.title != blank %}
+                  <h4 data-cy="title" class="font-bold">{{ block.settings.title }}</h4>
+                  {% endif %}
+                  <div class="last-mb-none" data-cy="content">
+                    {{  block.settings.content }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="show-more-area mt-20 text-center md:mt-7 xl:hidden">
+      <span class="h5 cursor-pointer js-show-more text-blue-300 text-base md:text-lg">Show More</span>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Icon Grid",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item_grid",
+      "name": "Icon Grid Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon"
+        },
+        {
+          "type": "checkbox",
+          "id": "get_image_url",
+          "label": "Get image from url"
+        },
+        {
+          "type": "text",
+          "id": "url_image_update",
+          "label": "Url Icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Gravity Release"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Icon Grid",
+      "blocks": [{
+        "type": "item_grid"
+      }]    
+    }
+  ]
+}
+{% endschema %}

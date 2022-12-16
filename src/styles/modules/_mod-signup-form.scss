@@ -1,0 +1,9 @@
+.sign-up-custom{
+  h2{
+    @apply md:text-font-26 md:mb-4p5 xl:text-font-28 xl:mb-7p5 2xl:text-font-36;
+  }
+
+  p{
+    @apply md:leading-relaxed xl:leading-1-8;
+  }
+}

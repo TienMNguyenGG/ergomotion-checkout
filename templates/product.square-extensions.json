@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "166391467135f270f9": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 60
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "b5a66e63-ce3f-4969-856d-947b6dcb3d85": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "8a00c306-eaf9-444d-b67f-fca9c4609f54": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "379c2216-5f85-463b-a78a-dac87adc2743": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "8bc8af80-6bc2-45b3-b408-2de3d1748f89": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "23744576-06eb-422a-8381-950b68502efd": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f": {
+          "type": "cart_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b5a66e63-ce3f-4969-856d-947b6dcb3d85",
+        "8a00c306-eaf9-444d-b67f-fca9c4609f54",
+        "379c2216-5f85-463b-a78a-dac87adc2743",
+        "8bc8af80-6bc2-45b3-b408-2de3d1748f89",
+        "23744576-06eb-422a-8381-950b68502efd",
+        "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16641566120de0104f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16638080172b862644": {
+      "type": "help-banner",
+      "blocks": {
+        "16638080174807cfa3-0": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_6.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "24383217-0420-45b7-81a0-5ca4fe2f9981": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_7.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<br\/><\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "4f52fadd-20d1-46ea-858c-e795e669aef9": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_8.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Product support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "16638080174807cfa3-0",
+        "24383217-0420-45b7-81a0-5ca4fe2f9981",
+        "4f52fadd-20d1-46ea-858c-e795e669aef9"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664238956a2c69485": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16697911728f9c139b": {
+      "type": "apps",
+      "blocks": {
+        "6f5ae802-7e66-40e8-9c7e-496939adbd40": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "handle"
+          }
+        }
+      },
+      "block_order": [
+        "6f5ae802-7e66-40e8-9c7e-496939adbd40"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "f9e7efcc-366d-4db5-991b-9992743865f3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16642412276bf9f84e": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Explore other popular Replacement Legs products",
+        "heading_size": "h3",
+        "collection": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664781597a4b17603": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 80
+      }
+    }
+  },
+  "order": [
+    "166391467135f270f9",
+    "main",
+    "16641566120de0104f",
+    "16638080172b862644",
+    "1664238956a2c69485",
+    "16697911728f9c139b",
+    "f9e7efcc-366d-4db5-991b-9992743865f3",
+    "16642412276bf9f84e",
+    "1664781597a4b17603"
+  ]
+}

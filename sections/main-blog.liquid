@@ -1,0 +1,137 @@
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="module mod-list-blog section-{{ section.id }}-padding animation">
+  <div class="container px-12 md:px-24 xl:px-12 relative mb-29 md:mb-21 lg:mb-33 2xl:mb-54 anima-bottom">
+    <img src="{{ settings.IMAGE_BASE64 | escape }}" class="loading lazy absolute transform-center top-115 lg:top-45 2xl:top-70 hidden" alt="loading" data-src="{{ 'ajax-loader.svg' | asset_url }}">
+    <div class="form-filter-blog">
+      <div class="flex flex-wrap justify-between">
+        <div class="wrap-tab-filter mb-23 md:mb-19 lg:mb-0 ver-1 xl:min-w-60p xl:w-auto">
+          <div class="tablist relative overflow-auto flex pl-4 md:pl-0 -mr-12 md:-mr-24 md_to_lg:mr-0 w-full">
+           <button class="{% if current_tags == blank %} is-active {% endif %} fetch-data button-tab relative py-20 md:pb-22 lg:pb-14 2xl:pb-21 whitespace-nowrap text-h5 md:text-h5-md text-hush-black 2xl:px-28 2xl:text-footer-social-md
+              font-medium px-16 hover:no-underline hover:text-blue-400"
+              data-url="{{ blog.url }}">
+              All
+            </button>
+            {%- for tag in blog.all_tags -%}
+              {% if tag == 'ergomotion-blog' or tag == 'ergomotion-news' %}
+              {% else %}
+              <button class="{% if current_tags contains tag %} is-active {% endif %} fetch-data button-tab relative py-20 md:pb-22 lg:pb-14 2xl:pb-21 whitespace-nowrap text-h5 md:text-h5-md text-hush-black 2xl:px-28 2xl:text-footer-social-md
+                font-medium px-16 hover:no-underline hover:text-blue-400"
+                 data-url="{{ blog.url }}/tagged/{{ tag | handle }}">
+                {{ tag }}
+              </button>
+              {% endif %}
+            {%- endfor -%}
+          </div>
+          <span class="h-0p5 block bg-hush-black ml-4 md:ml-0"></span>
+        </div>
+        <div class="relative w-full px-4 wrap-filter-search md:px-0 md:max-w-326 lg:max-w-368 lg:mt-19 2xl:max-w-388">
+          <form class="search-blog">
+          <label for="search-key" class="sr-only"> Search</label>
+          <input id="search-key" type="text" name="key" value="" class="form-control form-control-v2" placeholder="Search">
+          <button type="submit" class="absolute btn-search p-5 top-4 right-12 text-footer-social text-blue-400 hover:text-blue-300 md:leading-none md:top-3 md:right-8 lg:right-11 2xl:right-8 2xl:top-7">
+            <span class="icomoon icon-icon-search"></span>
+            <span class="sr-only">Search Blog</span>
+          </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container px-12 md:px-24 xl:px-12">
+    <div class="wrap-filter-title last-mb-none mb-28 md:mb-20 lg:mb-23 2xl:mb-21">
+      <h3 class="filter-title md:text-font-26-36 lg:text-font-24-38 2xl:text-h3-2xl" data-init="{{ section.settings.heading }}">
+        {% if current_tags %} {{ current_tags }} {% else %} {{ section.settings.heading }} {% endif %}
+      </h3>
+    </div>
+    <div class="row wrap-list-result md:-mx-5 2xl:-mx-14" data-id="{{ blog.id }}" data-paroller-factor="0.001" data-paroller-type="foreground" data-paroller-direction="vertical">
+    {% assign length = blog.articles | size %}
+      {% if length > 0 %}
+        {%- paginate blog.articles by 9 -%}
+          {%- for article in blog.articles -%}
+          <div class="blog-articles__article col w-full mb-26 last-mb-none md:mb-29 md:px-5 md:w-1/2 lg:w-1/3 lg:mb-35 2xl:mb-54 2xl:px-14">
+            <div class="relative">
+              <a href="{{ article.url }}" class="no-underline">
+              <div class="blog-bg-wrap w-full overflow-hidden relative pb-63p mb-17 md:pb-67p md:mb-8 lg:pb-61p 2xl:mb-18{% if article.image == blank %} bg-wellness-blue {% endif %}">
+                {% if article.image != blank%}
+                <div class="lazy bg blog-bg absolute inset-0" data-src="{{ article.image.src | image_url }}"></div>
+                {% else %}
+                <img class="absolute left-1/2 top-1/2 lazy no-alt" alt="" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ 'logo-footer.svg' | asset_url }}"/>
+                {% endif %}
+              </div>
+              <div class="px-11 lg:px-0">
+                <div class="text-dark-grey mb-13 md:mb-2 down_md:font-semibold 2xl:mb-5">
+                  {{ article.published_at | time_tag: format: 'date' }}
+                </div>
+                <h2 class="h4 font-medium tracking-normal mb-9 lg:mb-8 title-product">{{ article.title }}</h2>
+              </div>
+              </a>
+            </div>
+          </div>
+          {%- endfor -%}
+        {%- endpaginate -%}
+      {% else %}
+        <div tabindex="0" class="w-full text-center lg:mb-50">
+          No Blogs
+        </div>
+      {% endif %}
+    </div>
+    <div class="wrap-load-more text-center relative">
+      <img src="{{ settings.IMAGE_BASE64 | escape }}" class="loading-paging lazy absolute transform-center top-8 hidden" alt="loading" data-src="{{ 'ajax-loader.svg' | asset_url }}">
+      <button type="button" class="btn link-arrow no-arrow load-more-btn loadmore {% if length < 9%} hidden {% endif %}">Show more</button>
+      <div class="h-36 2xl:h-59"></div>
+    </div>
+  </div>
+</div>
+<div class="append-hidden hidden"></div>
+<div class="append-loadmore hidden"></div>
+{% schema %}
+{
+  "name": "t:sections.main-blog.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Feature benefit section",
+      "label": "Heading"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ]
+}
+{% endschema %}

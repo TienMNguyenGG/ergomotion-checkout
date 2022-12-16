@@ -1,0 +1,122 @@
+.template-search__header {
+  margin-bottom: 3rem;
+}
+
+.template-search__search {
+  margin: 0 auto 3.5rem;
+  max-width: 47.8rem;
+}
+
+.template-search__search .search {
+  margin-top: 3rem;
+}
+
+.template-search--empty {
+  padding-bottom: 18rem;
+  @apply min-h-510;
+}
+
+.template-search{
+  .template-search__header{
+    margin-bottom: 4rem;
+    #Search-In-Template[type=search]{
+      background-color:#fff;
+      color: #646464;
+    }
+  }
+
+  .template-search__search{
+    margin-bottom: 1.5rem;
+  }
+
+  .active-facets__button{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  #FacetFiltersForm details > summary {
+    list-style: none;
+  }
+  
+  #FacetFiltersForm details > summary::marker, 
+  #FacetFiltersForm details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  price-range{
+    .field{
+      @apply relative pt-8p5 pr-4p5 pb-0 pl-4p5 md:pl-7p5 md:pr-7p5;
+      border: 1px solid #cdd9e3;
+
+      &.mouse{
+        border-color: #357d96;
+      }
+    }
+    
+    .field__label{
+      @apply absolute bottom-60p left-12p text-font-10 md:left-16p;
+    }
+  } 
+}
+
+.predictive-search__item--link{
+  grid-column-gap: 0rem !important;
+}
+
+
+.facets-container #SortBy{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.facet-filters .icon-caret{
+  position: absolute;
+  height: 0.45rem;
+  right: 3px;
+  top: calc(50% - 0.2rem);
+}
+
+#predictive-search-results{
+  #predictive-search-results-list{
+    margin:0
+  }
+}
+
+.template-search__header .predictive-search{
+  width:100%;
+  left:0
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .template-search{
+    .facets__disclosure {
+      margin-right: 1.5rem;
+    }
+
+    .template-search__header{
+      @apply pl-24p5 pr-24p5;
+    }
+
+    .container{
+      @apply pl-24p5 pr-24p5;
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .template-search__header {
+    margin-bottom: 60px;
+  }
+}
+
+
+
+.search__button .icon {
+  height: 1.8rem;
+}
+
+.product-grid-container{
+  .pagination-wrapper {
+    margin-top: 0rem;
+  }
+}

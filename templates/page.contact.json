@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "d2016d2a-5590-4d3d-9e5f-32ee1762584a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 60,
+        "padding_bottom_mb": 70
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "b4df9fb3-5b8f-4fc6-8d3e-68e6cdf7782c": {
+          "type": "information",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/calendar.svg?v=1666844103",
+            "content": "Mon – Fri: 7am to 5pm PST Sat: 7am to 3:30pm PST",
+            "link": ""
+          }
+        },
+        "c9e23783-c2bb-499e-bb0f-220e6ad7f491": {
+          "type": "information",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map-pin.svg?v=1666844103",
+            "content": "6790 Navigator Drive, Goleta, CA 93117",
+            "link": ""
+          }
+        },
+        "ff9cca62-beec-44f8-b276-6e3a8ecde5ee": {
+          "type": "information",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/phone.svg?v=1666844103",
+            "content": "1.888.550.3746",
+            "link": "tel:+1.888.550.3746"
+          }
+        }
+      },
+      "block_order": [
+        "b4df9fb3-5b8f-4fc6-8d3e-68e6cdf7782c",
+        "c9e23783-c2bb-499e-bb0f-220e6ad7f491",
+        "ff9cca62-beec-44f8-b276-6e3a8ecde5ee"
+      ],
+      "settings": {
+        "heading": "Contact Customer Service",
+        "heading_size": "h2",
+        "content": "<p>We would love to hear from you. Contact us today.<\/p>",
+        "show_social": true,
+        "image": "shopify:\/\/shop_images\/Ergo_Building.jpg",
+        "image_position": "object-center",
+        "shortcode": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"-pX2VKyyWfvhgxF-CdcjsQ\"><\/div>",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "d1a75e6e-55e3-476f-9e63-fd743d416859": {
+      "type": "schema",
+      "blocks": {
+        "d00fcbd3-f31c-42dc-93dd-1ff3c7673112": {
+          "type": "schema_item",
+          "settings": {
+            "schemaContact": "<script type=\"application\/ld+json\">\n{\n  \"@context\": \"https:\/\/schema.org\",\n  \"@type\": \"LocalBusiness\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Goleta\",\n    \"addressRegion\": \"CA\",\n    \"postalCode\": \"93117\",\n    \"streetAddress\": \"6790 Navigator Drive\"\n  },\n  \"telephone\": \"1 (888) 550-3746\",\n  \"url\": \"shop.ergomotion.com\/contact-us\/\",\n  \"image\":\"https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/background-contact.jpg?v=1666844253\",\n  \"name\":\"Ergomotion office\"\n}\n<\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "d00fcbd3-f31c-42dc-93dd-1ff3c7673112"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "d2016d2a-5590-4d3d-9e5f-32ee1762584a",
+    "form",
+    "d1a75e6e-55e3-476f-9e63-fd743d416859"
+  ]
+}

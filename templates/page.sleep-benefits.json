@@ -1,0 +1,369 @@
+{
+  "sections": {
+    "5445108f-60c8-4a74-b032-faba3338be6a": {
+      "type": "text-center",
+      "blocks": {
+        "template--16588398559453__5445108f-60c8-4a74-b032-faba3338be6a-16666721547445735b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform the way you relax",
+            "heading_size": "h1"
+          }
+        },
+        "template--16588398559453__5445108f-60c8-4a74-b032-faba3338be6a-16666721547445735b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An Ergomotion adjustable bed is not limited to enhancing your health and wellness, but offers world-class luxury as well. Each product is designed to deliver exceptional comfort, elevated sleep performance, and a rich sense of relaxation. Our adjustable bedframes allow people to customize the position of their beds to meet every desire – optimizing sleep, meditation, reading, time alone, time with kids, and time watching your favorite movie.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398559453__5445108f-60c8-4a74-b032-faba3338be6a-16666721547445735b-0",
+        "template--16588398559453__5445108f-60c8-4a74-b032-faba3338be6a-16666721547445735b-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "3750b31a-0b4a-40d0-bbc1-a51ab42a9ecc": {
+      "type": "large-features-banner",
+      "blocks": {
+        "0cc2f90c-3572-4319-916f-7e44e15fe817": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
+            "content_new": "<p>10-year limited warranty<\/p>"
+          }
+        },
+        "c04e7715-7e49-4cbf-b822-5ede04aae53f": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
+            "content_new": "<p>US Based - Call us at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1.888.550.3746<\/a><\/p>"
+          }
+        },
+        "d5d025e4-0617-4838-84ae-e54d549e39f2": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Truck_Icon.svg?v=1665539537",
+            "content_new": "<p>Free, no contact delivery<\/p>"
+          }
+        },
+        "template--16585187131613__3750b31a-0b4a-40d0-bbc1-a51ab42a9ecc-1666600574d52510ee-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
+            "content_new": "<p>Pay over time with Affirm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0cc2f90c-3572-4319-916f-7e44e15fe817",
+        "c04e7715-7e49-4cbf-b822-5ede04aae53f",
+        "d5d025e4-0617-4838-84ae-e54d549e39f2",
+        "template--16585187131613__3750b31a-0b4a-40d0-bbc1-a51ab42a9ecc-1666600574d52510ee-0"
+      ],
+      "settings": {
+        "heading": "10 million+ adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "088c4cfe-6bac-455b-93e5-348d9d0522a3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "8af37021-0043-42ed-8444-bc36b84d3f6d": {
+      "type": "multiple-image-and-text",
+      "blocks": {
+        "template--16588398559453__8af37021-0043-42ed-8444-bc36b84d3f6d-166797406862ac1be3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sleep better with the benefits of Zero Gravity",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588398559453__8af37021-0043-42ed-8444-bc36b84d3f6d-166797406862ac1be3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspired by NASA's zero gravity research, each Ergomotion bed is designed to help you find weightless zero-gravity relief right at home. More than just a cool feature, this built-in preset is the key to unlocking deeper sleep for a more restorative wellness journey. With the touch of a button, you can easily find zero gravity on your Ergomotion adjustable bed. This function immediately evens the pressure throughout your body – alleviating joints, neck muscles, upper back tension, and unnecessary pressure on the hips and lower back.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398559453__8af37021-0043-42ed-8444-bc36b84d3f6d-166797406862ac1be3-0",
+        "template--16588398559453__8af37021-0043-42ed-8444-bc36b84d3f6d-166797406862ac1be3-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_272181149.jpg",
+        "imageSmall": "shopify:\/\/shop_images\/Adjusted_Base.jpg",
+        "image_position": "bg-center",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "0e6f3135-b59e-442c-8105-51dbf68871b6": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "afb59561-a49c-4bf5-a1bd-2b89d49e0350": {
+      "type": "rich_text_and_bullet",
+      "blocks": {
+        "template--16588398559453__afb59561-a49c-4bf5-a1bd-2b89d49e0350-166718473501ddf57f-0": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Improved circulation by raising your head and feet above your heart to allow for greater blood flow."
+          }
+        },
+        "be632d49-190c-4c0c-b58e-1af4f3be09aa": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Reduced lower back pain by adjusting the head and foot rests to alleviate pressure."
+          }
+        },
+        "30899533-c5a9-473b-9391-bd6aca4dba96": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Better digestion and acid reflux management by raising the head the recommended six inches."
+          }
+        },
+        "c8f39eb3-5844-4cb4-b7c5-f241ff24738e": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Less pressure on joints, alleviating inflammation, swelling, soreness, and even chronic arthritis."
+          }
+        },
+        "a236acab-384e-4cd3-ada3-b46a11b85eb4": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Reduced tension on the windpipe to better manage snoring, sleep apnea, and asthma."
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398559453__afb59561-a49c-4bf5-a1bd-2b89d49e0350-166718473501ddf57f-0",
+        "be632d49-190c-4c0c-b58e-1af4f3be09aa",
+        "30899533-c5a9-473b-9391-bd6aca4dba96",
+        "c8f39eb3-5844-4cb4-b7c5-f241ff24738e",
+        "a236acab-384e-4cd3-ada3-b46a11b85eb4"
+      ],
+      "settings": {
+        "background_color": "blue",
+        "heading": "Fall asleep faster. Wake feeling refreshed.",
+        "text": "<p>Your body will tell you if you got a great nights rest, but you can remove many common discomfort problems just by switching to an Ergomotion adjustable bed base. With slight adjustments to your head and foot rest, you can quickly align your spine and remove the need for pillow fidgeting. Each adjustable base is fully dynamic and customizable so you can easily dial in your favorite settings to ensure you fall asleep faster and sleep deeper throughout the night.<\/p>",
+        "label_link": "Learn more about our health benefits",
+        "link": "shopify:\/\/pages\/health-benefits",
+        "target": false,
+        "hiddenText": "",
+        "title": "Here's a brief overview of the exciting health benefits of your adjustable base:",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "883a3e4f-2d5c-4faf-9f9f-3574db1d0d48": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1fd503a8-7ce0-4fde-b443-23df5fe1ebb5": {
+      "type": "overflow-content-blocks",
+      "blocks": {
+        "template--16588398559453__1fd503a8-7ce0-4fde-b443-23df5fe1ebb5-16666044983538bb5a-0": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_468688070.jpg",
+            "headline": "Side Sleepers",
+            "content": "<p>Side sleeping is one of the most common positions that helps keep your airways clear and your spine straight. However, sleeping on your side on a completely flat surface can put a strain on your hips and neck. By slightly elevating your head and legs with your adjustable bed, you can evenly distribute your body weight and find a neutral sleeping position.<\/p>",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "fbb92c32-b8c0-4f3d-8446-b49b1e2f3589": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_1731683941.jpg",
+            "headline": "Back Sleepers",
+            "content": "<p>Sleeping on your back is the second most common sleep style. This position relieves back pain because it keeps your spine straight; however, sleeping flat on your back puts a lot of pressure on your lower back and neck. By gently raising the head and foot articulations of your adjustable bed base, you can quickly relieve the pressure on your spine and keeps your airways open. You can also try Zero-G mode for a sensational weightless feeling that removes pressure from all joints and ligaments.<\/p>",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "1ee49cde-a898-4be1-905b-a1cefd50ae7a": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_1608735547-2.jpg",
+            "headline": "Stomach Sleepers",
+            "content": "<p>Stomach sleeping is the least common of the sleep styles and it is very difficult to keep your neck, spine, and hips aligned in this position. If you sleep on your stomach, we don’t recommend buying an adjustable bed because elevating your head and feet while in this position puts strain on your spine.<\/p>",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "afe34ff0-03df-4196-b469-c29186ac936d": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_1626305044.jpg",
+            "headline": "Combination Sleepers",
+            "content": "<p>Combination sleepers change their positions throughout the night. No matter which positions they sleep in, a bed with good support to keep their spine straight and their weight evenly distributed is key. Adjustable beds give you the freedom to customize your bed to your unique sleeping needs.<\/p>",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398559453__1fd503a8-7ce0-4fde-b443-23df5fe1ebb5-16666044983538bb5a-0",
+        "fbb92c32-b8c0-4f3d-8446-b49b1e2f3589",
+        "1ee49cde-a898-4be1-905b-a1cefd50ae7a",
+        "afe34ff0-03df-4196-b469-c29186ac936d"
+      ],
+      "settings": {
+        "heading": "Four common sleeping styles",
+        "heading_size": "h2",
+        "content": "<p>There is no “right” way to sleep on an adjustable base bed system – but lying flat on your back might be the easiest way to align your spine to a neutral position. Most sleepers fall into one of four categories: side sleeping, back sleeping, stomach sleeping, or combination sleeping:<\/p>",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "4f6ca77f-a5e5-40d0-bce3-7ccb59916b45": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Everyday comfort & meditation",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore our extensive product features that make each Ergomotion adjustable bed unique and transformative.<\/p>"
+          }
+        },
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Adjustable Bed Features",
+            "button_link": "shopify:\/\/pages\/features",
+            "target": false,
+            "hiddenText": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-0",
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-1",
+        "template--16588398166237__5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9-16666039311f2aeb31-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "a8b7eb06-58ef-48f1-89d3-93d89409fd80": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "8ee5bc3a-0ff4-4025-9721-80b33c40b3f1": {
+      "type": "feature-benefit",
+      "blocks": {
+        "template--16588398559453__8ee5bc3a-0ff4-4025-9721-80b33c40b3f1-166718494673646f4a-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/shutterstock_1824204893.jpg",
+            "headline_benefit": "We get how you live",
+            "content_benefit": "<p>Whatever you're looking for, Ergomotion is ready to elevate your wind-down routine with adjustable bed technology perfectly suited for your lifestyle.<\/p>",
+            "label_benefit": "Lifestyle benefits",
+            "link_benefit": "shopify:\/\/pages\/lifestyle-benefits"
+          }
+        },
+        "d88da398-5488-42d8-a988-0b86486083dc": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/cmp_3Qtr_A_bed_210323_2_1.jpg",
+            "headline_benefit": "Enhance your health with Ergomotion",
+            "content_benefit": "<p>Our adjustable bed products can transform your bedroom into a foundation for holistic health – encouraging you to find balance, reduce ailments, and optimize sleep performance.<\/p>",
+            "label_benefit": "Health benefits",
+            "link_benefit": "shopify:\/\/pages\/health-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588398559453__8ee5bc3a-0ff4-4025-9721-80b33c40b3f1-166718494673646f4a-0",
+        "d88da398-5488-42d8-a988-0b86486083dc"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "columns": "2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "a3d9d66e-3487-4dfc-9cff-c33b19776834": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "5445108f-60c8-4a74-b032-faba3338be6a",
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b",
+    "3750b31a-0b4a-40d0-bbc1-a51ab42a9ecc",
+    "088c4cfe-6bac-455b-93e5-348d9d0522a3",
+    "8af37021-0043-42ed-8444-bc36b84d3f6d",
+    "0e6f3135-b59e-442c-8105-51dbf68871b6",
+    "afb59561-a49c-4bf5-a1bd-2b89d49e0350",
+    "883a3e4f-2d5c-4faf-9f9f-3574db1d0d48",
+    "1fd503a8-7ce0-4fde-b443-23df5fe1ebb5",
+    "4f6ca77f-a5e5-40d0-bce3-7ccb59916b45",
+    "5a4ac74f-8b4c-4608-ac55-7f7d8f596ad9",
+    "a8b7eb06-58ef-48f1-89d3-93d89409fd80",
+    "8ee5bc3a-0ff4-4025-9721-80b33c40b3f1",
+    "a3d9d66e-3487-4dfc-9cff-c33b19776834"
+  ]
+}

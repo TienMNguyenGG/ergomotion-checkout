@@ -1,0 +1,45 @@
+.footer{
+  @apply mt-20;
+}
+.footer-copyright {
+  p {
+    @apply mb-11 2xl:mb-12;
+  }
+}
+.footer-left {
+  .sr-only {
+    @apply bg-black;
+  }
+}
+.text-footer-submit-ico {
+  @apply hover:text-wellness-blue;
+}
+.footer-form-contact {
+  input::placeholder {
+    @apply text-dark-grey;
+  }
+  iframe {
+    @apply text-center max-w-498 2xl:max-w-368 mx-auto relative;
+  }
+}
+@screen xl {
+  .social-footer {
+    .icomoon  {
+      @apply inline-block;
+      transition: all .3s;
+    }
+    a:hover {
+      .icomoon  {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+@screen md {
+  .footer-info {
+    @apply flex mb-12 2xl:mb-17;
+    li {
+      @apply mx-0 w-1/4 pr-6;
+    }
+  }
+}

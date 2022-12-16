@@ -1,0 +1,144 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module mod-header-image animation section-{{ section.id }}-padding">
+  <div class="container 1k8:px-6 anima-bottom delay-4">
+    <div class="wrap-hero-image ps-rv px-4 md:px-16 md:pt-8 xl:px-3 transition-transform" data-paroller-factor="0.4" data-paroller-type="foreground">
+      {% if section.settings.imageMB != blank %}
+      <img src="{{ section.settings.imageMB | image_url }}" alt="{{ section.settings.imageMB.alt }}" class="no-lazy mx-auto object-cover {{ section.settings.image_position_mobile }} img-hero md:w-full md:rounded-4 xl:hidden">
+      {% endif %}
+      {% if section.settings.image != blank %}
+      <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}" class="no-lazy {% if section.settings.imageMB != blank %} hidden {% endif %} {{ section.settings.image_position }} object-cover img-hero-dt xl:block xl:mx-auto rounded-4">
+      {% endif %}
+      {% if section.settings.video_link != blank %}
+        <a href="{{ section.settings.video_link }}" data-id="" data-popup="video" data-htmlclass="html-popup-video" class="absolute inset-0 popup-is-open">
+          <span class="play-icon-video"><span class="icomoon icon-play"></span></span>
+          <span class="sr-only">Popup open video</span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Featured Image",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-left-bottom",
+      "label": "Image Position"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageMB",
+      "label": "Image Mobile"
+    },
+    {
+      "type": "select",
+      "id": "image_position_mobile",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-left-bottom",
+      "label": "Image Position Mobile"
+    },
+    {
+      "type": "video_url",
+      "id": "video_link",
+      "label": "Video URL",
+      "accept": [
+        "youtube",
+        "vimeo"
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+  ],
+  "presets": [
+    {
+      "name": "Featured Image"
+    }
+  ]
+}
+{% endschema %}

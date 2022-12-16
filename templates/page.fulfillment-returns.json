@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "929b0980-2995-420e-b6ea-c0617891e2be": {
+      "type": "text-center",
+      "blocks": {
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ergomotion Fulfillment & Returns",
+            "heading_size": "h1"
+          }
+        },
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion’s return policy allows for products purchased directly from Ergomotion to be returned by the original purchaser during the initial thirty (30) day period following the date of purchase. The refund will be the purchase price actually paid by the purchaser less a ten percent (10%) restocking fee per each item returned. Shipping and handling are not refundable.<\/p><p>To start a return, please contact Ergomotion by emailing <a href=\"mailto:fulfillment@ergomotion.com\" title=\"mailto:fulfillment@ergomotion.com\">fulfillment@ergomotion.com<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-0",
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 80
+      }
+    },
+    "90deba9a-4a75-4050-8764-88dd3b45a986": {
+      "type": "help-banner",
+      "blocks": {
+        "template--16592130605277__90deba9a-4a75-4050-8764-88dd3b45a986-16669132165cb428be-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "ac316af8-7e73-4e22-8a33-9f770aafa419": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "edea3356-5224-4f66-8248-d52fdbb5e7b5": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16592130605277__90deba9a-4a75-4050-8764-88dd3b45a986-16669132165cb428be-0",
+        "ac316af8-7e73-4e22-8a33-9f770aafa419",
+        "edea3356-5224-4f66-8248-d52fdbb5e7b5"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "c94ace42-570b-4bbc-80fc-1282c3809044": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "08a4c178-90f8-4326-95cb-f0d24363f769": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our frequently asked questions",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find a list of commonly asked questions and answers about Ergomotion adjustable bases with our FAQs.<\/p>"
+          }
+        },
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "\/community\/faq"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-0",
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-1",
+        "template--16588438569181__08a4c178-90f8-4326-95cb-f0d24363f769-16666075740464ec95-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-kristin-vogt-57686.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style1",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "e41a1244-643c-45ed-8cf0-b2fcc12347e3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "929b0980-2995-420e-b6ea-c0617891e2be",
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b",
+    "90deba9a-4a75-4050-8764-88dd3b45a986",
+    "c94ace42-570b-4bbc-80fc-1282c3809044",
+    "08a4c178-90f8-4326-95cb-f0d24363f769",
+    "e41a1244-643c-45ed-8cf0-b2fcc12347e3"
+  ]
+}

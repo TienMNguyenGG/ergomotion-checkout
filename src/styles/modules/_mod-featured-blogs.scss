@@ -1,0 +1,5 @@
+.box-item-blog {
+  &:nth-child(3) {
+    @apply md_to_lg:hidden;
+  }
+}

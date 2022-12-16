@@ -1,0 +1,58 @@
+.hamburger-menu {
+  @apply p-0 mt-0 cursor-pointer;
+  .icon-bar {
+    @apply block bg-black relative ml-auto w-17 h-2;
+
+
+    +.icon-bar {
+      @apply mt-3;
+    }
+  }
+
+  .icomoon {
+    @apply hidden text-3xl leading-none;
+  }
+
+  &.is-open-menu {
+    .icomoon {
+      @apply block;
+    }
+    .icon-bar {
+      @apply hidden;
+    }
+  }
+}
+.main-menu{
+  a{
+    @apply no-underline;
+  }
+}
+#cart-icon-bubble2 {
+  .cart-count-bubble {
+    @apply absolute top-3 right-1 text-sm text-wellness-blue;
+  }
+}
+@screen down_lg {
+  .main-menu {
+    @apply max-h-0 invisible overflow-hidden duration-300 block w-full;
+    &.is-open-menu {
+      @apply max-h-2k visible duration-1000;
+    }
+  }
+  #main-menu {
+    &.open-search-menu {
+      height: 630px;
+    }
+  }
+}
+
+@screen down_xl {
+  .dropdown-menu {
+    @apply left-0 #{!important};
+  }
+  .is-open-child {
+    .dropdown-menu {
+      @apply block;
+    }
+  }
+}

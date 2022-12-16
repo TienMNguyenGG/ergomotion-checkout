@@ -1,0 +1,456 @@
+
+  <div class="container 1k8:max-w-1910 1k8:pl-29 1k8:pr-27">
+    <nav class="row navbar items-center">
+      <div class="col-dup w-full wrap-logo-icon flex down_xl:flex-wrap relative justify-between items-center text-center down_xl:z-2
+      md:pl-24 md:pr-20 xl:pl-11 xl:pr-0 2xl:pl-8 1k8:pl-11">
+        <div class="relative header-logo-wrapper px-20 z-1 bg-blue-600">
+          <div class="absolute w-full h-full inset-0">
+            <a id="header-logo" class="navbar-brand header-logo py-8 align-middle w-full h-full absolute flex justify-center items-center
+            md:py-12 xl:pt-15 xl:pb-0 2xl:pt-25" href="{{ routes.root_url }}">
+             {% if section.settings.logo %}
+                <img src="{{ section.settings.logo | image_url }}" alt="{{ section.settings.logo.alt }}" class="wrap-logo">
+              {% else %}
+                <img src="{{ 'logo-header.svg' | asset_url }}" alt="Ergomotion logo" class="wrap-logo">
+              {% endif %}
+            </a>
+          </div>
+        </div>
+
+        <div class="wrap-icon block pr-4 xs:pr-9 md:pr-1 md:-mt-9 xl:hidden">
+          <button class="p-4 text-wellness-blue header-search text-font-23">
+            <span class="icomoon icon-icon-search"></span>
+            <span class="sr-only">Search</span>
+          </button>
+          <a href="{{ section.settings.stores }}" class="p-4 text-wellness-blue text-font-27 pt-5 ml-3 no-underline hover:no-underline">
+            <span class="icomoon icon-icon-map-v1"></span>
+            <span class="sr-only">Stores</span>
+          </a>
+          <a href="{{ routes.cart_url }}" id="cart-icon-bubble2" class="p-4 text-wellness-blue text-font-24 ml-2 relative no-underline hover:no-underline">
+              <span class="icon-mobile absolute top-3 right-1 text-sm bg-white cart-icon-bubble2">
+                {%- if cart != empty -%} {{cart.item_count }} {% else %} {{'0'}} {% endif%}
+              </span>
+            <span class="icomoon icon-cart"></span>
+            <span class="sr-only">Cart</span>
+          </a>
+          <button class="p-4 ml-7 btn-menu relative -top-2 md:ml-15">
+            <span class="icon-bar top block bg-midnight-blue relative ml-auto w-10 h-1 rounded-full"></span>
+            <span class="icon-bar middle block bg-midnight-blue relative ml-auto w-10 h-1 mt-2 mb-2 rounded-full"></span>
+            <span class="icon-bar bottom block bg-midnight-blue relative ml-auto w-10 h-1 mt-2 rounded-full"></span>
+            <span class="sr-only">hamberger</span>
+          </button>
+        </div>
+         <form action="{{ routes.search_url }}" method="get" role="search" tabindex="-1" class="search search-modal__form search-modal__form_mb xl:hidden">
+            <div class="field flex items-center">
+              <input class="search__input field__input"
+                id="Search-In-Modal-MB"
+                type="search"
+                name="q"
+                value=""
+                placeholder="{{ 'general.search.search' | t }}"
+                tabindex="-1"
+              >
+              <label class="field__label hidden" for="Search-In-Modal-MB">{{ 'general.search.search' | t }}</label>
+              <input type="hidden" name="options[prefix]" value="last">
+              <button class="search__button field__button text-xl absolute top-6 right-27 text-blue-400" tabindex="-1">
+                <span class="icomoon icon-icon-search"></span>
+                <span class="sr-only text-black">Search</span>
+              </button>
+              <a href="javascript:void(0);" class="cursor-pointer search_close text-xl text-hush-black ml-6 no-underline relative right-1" tabindex="-1">
+                <span class="icomoon icon-icon-close"></span>
+                <span class="sr-only bg-white">Search Close</span>
+              </a>
+            </div>
+
+            {%- if settings.predictive_search_enabled -%}
+              <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+                <div class="predictive-search__loading-state">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                  </svg>
+                </div>
+              </div>
+
+              <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+            {%- endif -%}
+          </form>
+        <div id="main-menu" class="col-dup w-full navbar-collapse main-menu-header px-19 is-open-menu down_xl:overflow-y-auto text-left
+        md:px-11 xl:pl-6 xl:pr-0 1k8:mb-11">
+          <div class="flex flex-col justify-between h-full relative">
+            <div class="util-nav-mobile font-medium pb-36 xl:p-0 xl:absolute xl:left-0 xl:right-0 1k8:mt-6 1k8:ml-20">
+              <ul class="bg-soft-blue util-nav-ul navbar-nav list-none flex mb-0 flex-col down_xl:w-full relative mt-10 py-8 px-9 last-mb-none md:px-12 md:py-18 xl:z-1 xl:bg-transparent xl:flex-row xl:p-0 xl:mt-11">
+                {%- for link in section.settings.menu_top.links -%}
+                <li class="{%- if link.links != blank -%} has-sub {% endif %} menu-item mb-12 relative xl:mb-0 menu-lv-1" data-cy="menu-top-{{ forloop.index }}">
+                  <a href="{% if link.links != blank %}javascript:;{% else %} {{ link.url }} {% endif %}"
+                  {% if link.url contains 'http://' or link.url contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %}
+                  class="{%- if link.links != blank -%} has-arrow {% endif %} block xl:pb-9 xl:px-10p5 xl:inline-block py-0 no-underline" {% if link.links != blank %} aria-expanded="false" aria-controls="{{ link.title | replace: ' ', '_' }}" {% endif %}>{{ link.title }}</a>
+                  {%- if link.links != blank -%}
+                  <span class="icomoon icon-keyboard_arrow_down_v1 text-wellness-blue text-font-24 absolute left-44 top-0 xl:left-auto xl:-right-1 xl:cursor-pointer"></span>
+                  {%- endif -%}
+                  {%- if link.links != blank -%}
+                  <div id="{{ link.title | replace: ' ', '_' }}" class="dropdown-menu down_xl:overflow-auto bg-soft-blue down_xl:flex-col hidden xl:bg-white" data-cy="dropdown-right-{{ forloop.index }}">
+                    <div class="flex wrap-sub-menu down_xl:flex-col down_xl:h-full">
+                      <ul class="list-none p-0 last-mb-none mt-0 mb-27 xl:m-0 xl:pt-30 xl:pr-25 xl:pb-29">
+                        {%- for childlink in link.links -%}
+                        <li class="item-child mb-12 relative xl:mr-11p5 xl:pl-33 xl:mb-16 {% if childlink.current %} is-active {% endif %}">
+                          <a href="{{ childlink.url }}" {% if childlink.url contains 'http://' or childlink.url contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %} class="inline-block py-0 no-underline">{{ childlink.title }}</a>
+                        </li>
+                        {%- endfor -%}
+                      </ul>
+                    </div>
+                  </div>
+                  {%- endif -%}
+                </li>
+                {%- endfor -%}
+              </ul>
+              <div class="wrap-icon-dt font-medium hidden pr-9 md:pr-1 md:-mt-9 xl:z-2 xl:flex xl:absolute xl:top-11 xl:right-5 1k8:right-10 1k8:top-13p5 1k8:items-center">
+                {% if section.settings.stores != blank%}
+                <a href="{{ section.settings.stores }}" class="no-underline icon-right p-4 text-wellness-blue hover:text-blue-300 1k8:hover:text-wellness-blue text-font-27 pt-5 ml-3 xl:mt-0 xl:ml-7 xl:flex xl:items-center">
+                  <span class="icomoon icon-icon-map-v1"></span>
+                  <span class="text-icon opacity-0 pointer-events-none 1k8:pointer-events-auto absolute 1k8:static 1k8:opacity-100 text-font-16 ml-4 text-hush-black">Stores</span>
+                </a>
+                {% endif %}
+                <button class="icon-right p-4 text-wellness-blue hover:text-blue-300 1k8:hover:text-wellness-blue header-search text-font-23 xl:ml-12 xl:mt-1 xl:flex xl:items-center 1k8:ml-12 1k8:mt-0" data-cy="search">
+                  <span class="icomoon icon-icon-search"></span>
+                  <span class="text-icon opacity-0 pointer-events-none 1k8:pointer-events-auto absolute 1k8:static 1k8:opacity-100 text-font-16 ml-4 text-hush-black">Search</span>
+                </button>
+                <a href="/account" class="no-underline icon-right xl:flex xl:items-center xl:ml-14 xl:mt-2 1k8:-mt-2 1k8:ml-15">
+                  <span class="icomoon icon-my-account text-wellness-blue hover:text-blue-300 1k8:hover:text-wellness-blue text-font-24 block"></span>
+                  <span class="text-icon opacity-0 pointer-events-none 1k8:pointer-events-auto absolute 1k8:static 1k8:opacity-100 text-font-16 ml-4 text-hush-black 1k8:mt-1">{% if customer != blank %} {{ customer.first_name }} {{ customer.last_name }} {% else %} My account {% endif %}</span>
+                </a>
+                <a href="{{ routes.cart_url }}" class="no-underline icon-right p-4 text-wellness-blue hover:text-blue-300 1k8:hover:text-wellness-blue text-font-24 ml-2 xl:ml-14 xl:mt-2 xl:flex xl:items-center 1k8:ml-15 1k8:mt-0"
+                data-cy="cart" id="cart-icon-bubble">
+                  <span class="icomoon icon-cart"></span>
+                  <span class="text-icon opacity-0 pointer-events-none xl:pointer-events-auto absolute xl:static xl:opacity-100 text-font-16 ml-4 text-hush-black" >
+                    <span class="hidden cart-icon-bubble 1k8:inline-block">Cart </span> ({%- if cart != empty -%} {{cart.item_count }} {% else %} {{'0'}} {% endif%})
+                  </span>
+                </a>
+              </div>
+              
+              <form action="{{ routes.search_url }}" method="get" role="search" tabindex="-1" class="search search-modal__form hidden xl:block">
+                <div class="field flex items-center">
+                  <input class="search__input field__input"
+                    id="Search-In-Modal"
+                    type="search"
+                    name="q"
+                    value=""
+                    placeholder="{{ 'general.search.search' | t }}"
+                    tabindex="-1"
+                  >
+                  <label class="field__label hidden" for="Search-In-Modal">{{ 'general.search.search' | t }}</label>
+                  <input type="hidden" name="options[prefix]" value="last">
+                  <button class="search__button field__button text-xl absolute top-6 right-27 text-blue-400 hover:text-blue-300" tabindex="-1">
+                    <span class="icomoon icon-icon-search"></span>
+                    <span class="sr-only text-black">Search</span>
+                  </button>
+                  <a href="javascript:void(0);" class="cursor-pointer search_close text-xl text-hush-black ml-6 no-underline relative right-1" tabindex="-1">
+                    <span class="icomoon icon-icon-close"></span>
+                    <span class="sr-only bg-white">Search Close</span>
+                  </a>
+                </div>
+
+                {%- if settings.predictive_search_enabled -%}
+                  <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+                    <div class="predictive-search__loading-state">
+                      <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+                {%- endif -%}
+              </form>
+            </div>
+            <div class="flex down_xl:w-full down_xl:flex-col wrap-menu main-nav-list pt-22">
+              <div class="menu-item mb-12p5 flex pt-2 md:mb-13p5 xl:hidden">
+                <span class="icomoon icon-my-account text-wellness-blue text-font-24 block -mt-1"></span>
+                <a href="/account" class="text-hush-black ml-3 font-medium no-underline">{% if customer != blank %} {{ customer.first_name }} {{ customer.last_name }} {% else %} My account {% endif %}</a>
+              </div>
+              <div class="mb-15 mt-11 ml-1 wrap-back-menu hidden xl:hidden">
+                <button class="text-midnight-blue text-btn font-bold back-menu pl-1">
+                  <span class="icomoon icon-arrow-thin-left text-wellness-blue text-h4-md mr-5"></span>
+                  Menu
+                </button>
+              </div>
+              <div class="wrap-main-menu down_xl:overflow-hidden relative xl:flex xl:w-full xl:justify-between">
+                <ul id="menu-main-menu" class="main-menu-ul main-menu-first navbar-nav list-none flex mb-0 p-0 flex-col down_xl:w-full relative mt-10 pl-1
+                xl:flex-row xl:pl-3 xl:pt-0 1k8:mt-16 1k8:pl-21">
+                  {%- for link in section.settings.menu.links -%}
+                    <li class="{%- if link.links != blank -%} has-sub {% endif %} menu-item relative xl:mb-0 menu-lv-1 {% if forloop.last %} mb-24 {% else %} mb-12p5 {% endif %} {% if link.child_active %} is-active{% endif %} {% if link.current %} is-active {% endif %}"
+                    data-cy="menu-main-{{ forloop.index }}">
+                      <span class="nav-item-arrows text-wellness-blue p-7 inline-block absolute -top-7 -right-8 cursor-pointer icomoon icon-chevron-right text-font-22 arrows-lv1 md:-right-4 xl:hidden"></span>
+                      <a href="{% if link.links != blank %}javascript:;{% else %} {{ link.url }} {% endif %}"
+                      {% if link.url contains 'http://' or link.url contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %}
+                      class="{%- if link.links != blank -%} has-arrow {% endif %} block xl:inline-block py-0 no-underline font-bold text-h4-md xl:pt-5 xl:text-font-16 1k8:text-h4-md xl:px-8 xl:pb-10 1k8:px-10 1k8:pt-10"
+                      {% if link.links != blank %} aria-expanded="false" aria-controls="{{ link.title | replace: ' ', '_' }}" {% endif %}>{{ link.title }}</a>
+                      {% assign linkindex = forloop.index %}
+                      {%- if link.links != blank -%}
+                      <span class="icomoon icon-keyboard_arrow_down_v1 text-wellness-blue text-font-24 ml-2 mb-1 hidden xl:cursor-pointer xl:inline-block xl:absolute xl:-right-3 xl:top-5p5 1k8:-right-2 1k8:top-11"></span>
+                      {%- endif -%}
+                      {%- if link.links != blank -%}
+                      <div id="{{ link.title | replace: ' ', '_' }}" class="dropdown-menu down_xl:w-full down_xl:overflow-auto bg-white down_xl:flex-col xl:max-w-1070 has-spotlight hidden xl:block xl:opacity-0 xl:pointer-events-none" data-cy="dropdown-main-{{ forloop.index }}">
+                        <div class="flex wrap-sub-menu down_xl:flex-col down_xl:h-full">
+                          <div class="xl:w-2/5 xl:pl-36 xl:pt-32 xl:pr-0">
+                            <div class="nav-title-mobile text-wellness-blue font-bold text-h4-md xl:hidden">
+                              <span>{{ link.title }}</span>
+                            </div>
+                            {% assign clsUl = 'mt-10 xl:columns-2 xl:wrap-menu-item' %}
+                            {% for block in section.blocks %}
+                              {%- case block.type -%}
+                              {%- when 'logo_image' -%}
+                                {%- assign val = block.settings.mega_link | times: 1  -%}
+                                {% if val == linkindex %}
+                                  {% if block.settings.title_sub_menu != blank %}
+                                    <div class="title-sub-menu mt-17 font-bold last-mb-none xl:mb-26">
+                                      <a class="text-hush-black no-underline hover:text-blue-400" {% if link.url contains 'http://' or link.url contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %} href="{{ link.url }}">{{ block.settings.title_sub_menu }}</a>
+                                    </div>
+                                  {% endif %}
+                                  {% assign clsUl = block.settings.style_sub_menu %}
+                                {% endif %}
+                              {%- endcase -%}
+                            {%- endfor -%}
+                            <ul class="list-none p-0 last-mb-none mb-27 {{ clsUl }}">
+                              {%- for childlink in link.links -%}
+                              <li class="item-child mb-12 relative xl:mb-16 {% if childlink.current %} is-active {% endif %}">
+                                <a href="{{ childlink.url }}" {% if childlink.url contains 'http://' or childlink.url contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %} class="inline-block py-0 no-underline">{{ childlink.title }}</a>
+                              </li>
+                              {%- endfor -%}
+                            </ul>
+                            {% for block in section.blocks %}
+                              {%- case block.type -%}
+                              {%- when 'logo_image' -%}
+                                {%- assign val = block.settings.mega_link | times: 1  -%}
+                                {% if val == linkindex %}
+                                  {% if block.settings.link_url != blank and block.settings.label_link != blank %}
+                                    <p>
+                                      <a href="{{ block.settings.link_url }}" class="btn btn-primary">{{ block.settings.label_link }}</a>
+                                    </p>
+                                  {% endif %}
+                                {% endif %}
+                              {%- endcase -%}
+                            {%- endfor -%}
+
+                          </div>
+                            {% for block in section.blocks %}
+                             {%- case block.type -%}
+                              {%- when 'logo_image' -%}
+                                {%- assign val = block.settings.mega_link | times: 1  -%}
+                                {% if val == linkindex %}
+                                  {% if block.settings.image != blank %}
+                                    <div class="img-right hidden xl:block xl:w-3/5 1k8:ml-31">
+                                      <img class="h-full lazy" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}">
+                                    </div>
+                                  {% endif %}
+                                {% endif %}
+                              {%- endcase -%}
+                            {%- endfor -%}
+
+                        </div>
+                      </div>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+                <ul class="main-menu-ul font-medium main-menu-second navbar-nav list-none flex mb-0 p-0 flex-col down_xl:w-full relative pl-1
+                xl:flex-row xl:items-center xl:relative xl:right-3 xl:mt-2 xl:pr-7 1k8:pl-0 1k8:pr-12 1k8:pt-12">
+                  {%- for link in section.settings.menu_right.links -%}
+                  <li class="{%- if link.links != blank -%} has-sub {% endif %} menu-item mb-12 relative xl:mb-0 xl:mt-13 menu-lv-1 {% if link.child_active %} is-active{% endif %} {% if link.current %} is-active {% endif %}"
+                  data-cy="menu-right-{{ forloop.index }}">
+                    {% assign linkindex = forloop.index %}
+                    {%- if link.links != blank -%}
+                    <span class="nav-item-arrows text-wellness-blue p-7 inline-block absolute -top-7 -right-8 cursor-pointer icomoon icon-chevron-right text-font-22 arrows-lv1 md:-right-4 xl:hidden"></span>
+                    {%- endif -%}
+                    <a href="{% if link.links != blank %}javascript:;{% else %} {{ link.url }} {% endif %}"
+                    {% if link.url contains 'http://' or link.url contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %}
+                    class="block xl:inline-block py-0 no-underline xl:pb-10 xl:px-8 1k8:px-10"
+                    {% if link.links != blank %} aria-expanded="false" aria-controls="{{ link.title | replace: ' ', '_' }}" {% endif %}>{{ link.title }}</a>
+                    {%- if link.links != blank -%}
+                    <span class="icomoon icon-keyboard_arrow_down_v1 text-wellness-blue text-font-24 ml-2 mb-1 hidden xl:cursor-pointer xl:inline-block xl:top-0 xl:absolute xl:-right-3 1k8:top-0"></span>
+                    {%- endif -%}
+                    {%- if link.links != blank -%}
+                    <div id="{{ link.title | replace: ' ', '_' }}" class="dropdown-menu down_xl:w-full down_xl:overflow-auto bg-white down_xl:flex-col hidden xl:block xl:opacity-0 xl:pointer-events-none" data-cy="dropdown-right-{{ forloop.index }}">
+                      <div class="flex wrap-sub-menu flex-wrap down_xl:flex-col down_xl:h-full">
+                        <div class="nav-title-mobile text-wellness-blue font-bold text-h4-md xl:hidden">
+                          <span>{{ link.title }}</span>
+                        </div>
+                          {% for block in section.blocks %}
+                             {%- case block.type -%}
+                              {%- when 'linkOverview' -%}
+                                {%- assign val = block.settings.mega_link | times: 1  -%}
+                                {% if val == linkindex %}
+                                  {% if block.settings.label_link != blank and block.settings.link_url != blank %}
+                                    <div class="item-child mb-0 mt-16 relative xl:w-full xl:mr-0 xl:mb-0 xl:pl-36 xl:mt-30 font-bold">
+                                      <a href="{{ block.settings.link_url  }}" {% if block.settings.link_url  contains 'http://' or block.settings.link_url  contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %} class="inline-block py-0 no-underline">{{ block.settings.label_link }}</a>
+                                    </div>
+                                  {% endif %}
+                                {% endif %}
+                              {%- endcase -%}
+                            {%- endfor -%}
+                        <ul class="list-none p-0 last-mb-none mt-16 mb-27 xl:m-0 xl:pt-22 count-2 xl:pr-25 xl:pb-29">
+                          {%- for childlink in link.links -%}
+                          <li class="item-child mb-12 relative xl:mr-0 xl:pl-36 xl:mb-16 {% if childlink.current %} is-active {% endif %}">
+                            <a href="{{ childlink.url }}" {% if childlink.url contains 'http://' or childlink.url contains 'https://' %}target="_blank" rel="noopener noreferrer"{% endif %} class="inline-block py-0 no-underline">{{ childlink.title }}</a>
+                          </li>
+                          {%- endfor -%}
+                        </ul>
+                      </div>
+                    </div>
+                    {%- endif -%}
+                  </li>
+                {%- endfor -%}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+{% schema %}
+{
+  "name":"Header",
+  "class":"section-header-2",
+  "settings":[
+    {
+      "type":"image_picker",
+      "id":"logo",
+      "label":"t:sections.header.settings.logo.label"
+    },
+    {
+      "type":"link_list",
+      "id":"menu_top",
+      "default":"main-menu",
+      "label":"Menu Top"
+    },
+    {
+      "type":"link_list",
+      "id":"menu",
+      "default":"main-menu",
+      "label":"Main Menu"
+    },
+    {
+      "type":"link_list",
+      "id":"menu_right",
+      "default":"main-menu",
+      "label":"Menu Right"
+    },
+    {
+      "type":"url",
+      "id":"stores",
+      "label":"Stores Link"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"logo_image",
+      "name":"Settings Mega Menu",
+      "settings":[
+        {
+          "type":"select",
+          "id":"mega_link",
+          "label":"Select menu",
+          "default":"1",
+          "options": [
+            {
+              "value": "1",
+              "label": "Menu 1st place"
+            },
+            {
+              "value": "2",
+              "label": "Menu 2nd place"
+            },
+            {
+              "value": "3",
+              "label": "Menu 3rd place"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "id": "title_sub_menu",
+          "label":"Title Mega Menu"
+        },
+        {
+          "type":"select",
+          "id": "style_sub_menu",
+          "label":"Style Mega Menu",
+          "options": [
+            {
+              "value": "mt-10 xl:columns-2 xl:wrap-menu-item",
+              "label": "Two Column"
+            },
+            {
+              "value": "mt-10 xl:wrap-menu-item xl:mb-9",
+              "label": "One Column"
+            }
+          ],
+          "default": "mt-10 xl:columns-2 xl:wrap-menu-item"
+        },
+        {
+          "type":"header",
+          "content":"Image"
+        },
+        {
+          "type":"image_picker",
+          "id":"image",
+          "label":"Image"
+        },
+        {
+          "type":"header",
+          "content":"Button"
+        },
+        {
+          "type":"text",
+          "id":"label_link",
+          "label":"Label Link"
+        },
+        {
+          "type":"url",
+          "id":"link_url",
+          "label":"Link Url"
+        }
+      ]
+    },
+    {
+      "type":"linkOverview",
+      "name":"Link Overview",
+      "settings":[
+        {
+          "type":"select",
+          "id":"mega_link",
+          "label":"Select menu",
+          "default":"1",
+          "options": [
+            {
+              "value": "1",
+              "label": "Menu 1st place"
+            },
+            {
+              "value": "2",
+              "label": "Menu 2nd place"
+            },
+            {
+              "value": "3",
+              "label": "Menu 3rd place"
+            },
+            {
+              "value": "4",
+              "label": "Menu 4th place"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "id":"label_link",
+          "label":"Label Link"
+        },
+        {
+          "type":"url",
+          "id":"link_url",
+          "label":"Link Url"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

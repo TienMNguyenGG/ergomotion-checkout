@@ -1,0 +1,308 @@
+{
+  "sections": {
+    "347de01d-f821-48ef-9308-d03e45148578": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1663117173a450fc91": {
+      "type": "homepage-banner",
+      "blocks": {
+        "88a2d242-b8a8-4e6a-b90b-480476bee620": {
+          "type": "image_content",
+          "settings": {
+            "imageContent": "shopify:\/\/shop_images\/AdjustToAmazingLogoFinal.png"
+          }
+        },
+        "8ee38638-b79b-4bea-a658-9df305ccac78": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As the global leader in adjustable base sleep technology, our mission is to develop integrated wellness solutions that connect with you – the modern consumer.<\/p>"
+          }
+        },
+        "16631171737515d6ab-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Adjustable Bases",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "button_style": "no-underline btn btn-primary"
+          }
+        }
+      },
+      "block_order": [
+        "88a2d242-b8a8-4e6a-b90b-480476bee620",
+        "8ee38638-b79b-4bea-a658-9df305ccac78",
+        "16631171737515d6ab-2"
+      ],
+      "settings": {
+        "imagelarge": "shopify:\/\/shop_images\/ErgoMotion-25634_B3_Day2_RP2292_4f4df5d1-1904-47fc-b035-ff8a9122c1f3.jpg",
+        "image_position_large": "object-left-bottom",
+        "image": "shopify:\/\/shop_images\/1920-ErgoMotion-25634_B3_Day2_RP2292_a108278e-8b33-4936-b5bd-4d39433dd507.jpg",
+        "image_position": "object-left-bottom",
+        "imageLaptop": "shopify:\/\/shop_images\/1440-ErgoMotion-25634_B3_Day2_RP2292.jpg",
+        "image_position_laptop": "object-left-bottom",
+        "imageIpad": "shopify:\/\/shop_images\/991.jpg",
+        "image_position_ipad": "object-right-bottom",
+        "imageMB": "shopify:\/\/shop_images\/767-ErgoMotion-25634_B3_Day2_RP2292.jpg",
+        "image_position_mobile": "object-center",
+        "content_alignment": "text-left",
+        "url_video": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1663550680c77e86fe": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 60
+      }
+    },
+    "166311749990363cc2": {
+      "type": "large-features-banner",
+      "blocks": {
+        "6e92198c-3313-4d29-9ff1-ca00f1135bd3": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
+            "content_new": "<p>10-year limited warranty<\/p>"
+          }
+        },
+        "c49acfbc-a457-43b5-8f29-049a7e7ee654": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
+            "content_new": "<p>US Based - Call us at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1.888.550.3746<\/a><\/p>"
+          }
+        },
+        "dfebc5af-be71-4bbf-a80d-88c4b38e8830": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Truck_Icon.svg?v=1665539537",
+            "content_new": "<p>Free, no contact delivery<\/p>"
+          }
+        },
+        "166311749997930eca-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
+            "content_new": "<p>Pay over time with Affirm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6e92198c-3313-4d29-9ff1-ca00f1135bd3",
+        "c49acfbc-a457-43b5-8f29-049a7e7ee654",
+        "dfebc5af-be71-4bbf-a80d-88c4b38e8830",
+        "166311749997930eca-0"
+      ],
+      "settings": {
+        "heading": "10 million+ adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "<p><\/p>",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1663550793be9df0e2": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 80
+      }
+    },
+    "1663308874a2e2d02e": {
+      "type": "overflow-content-blocks",
+      "blocks": {
+        "1663308874348af93b-0": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/We_get_how_you_live.jpg",
+            "headline": "We get how you live",
+            "content": "<p>With an Ergomotion adjustable base, you can finally break free from traditional pain points of sleep with a restorative solution, adjusted specifically to your needs.<\/p>",
+            "link_label": "Lifestyle Benefits",
+            "link_url": "shopify:\/\/pages\/lifestyle-benefits"
+          }
+        },
+        "f80797ba-791c-4ffe-a9ef-ed3f51ca7b73": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cmp_3Qtr_A_bed_210323_2_1.jpg",
+            "headline": "Essential health benefits everyone wants",
+            "content": "<p>Our adjustable base products can transform your bedroom into a foundation for holistic health – encouraging you to find balance, reduce ailments, and optimize sleep performance.<\/p>",
+            "link_label": "Health Benefits",
+            "link_url": "shopify:\/\/pages\/health-benefits"
+          }
+        },
+        "85235507-64e9-4f68-a789-3a7bb9585623": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Luxury-Sheets-and-Pillow-Cases.jpg",
+            "headline": "Find comfort you never knew existed",
+            "content": "<p>Each adjustable base is designed to deliver exceptional comfort, elevated sleep performance, and a rich sense of relaxation.<\/p>",
+            "link_label": "Sleep Benefits",
+            "link_url": "shopify:\/\/pages\/sleep-benefits"
+          }
+        },
+        "557b080b-2f4d-4c39-947b-2b47d314d4b3": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lifestyle_Images_2_0_E-scaled-1.jpg",
+            "headline": "Sleep gets smarter with Ergomotion",
+            "content": "<p>Extensive product features that make each Ergomotion adjustable base unique and transformative for your sleep wellness.<\/p>",
+            "link_label": "Adjustable Base Features",
+            "link_url": "shopify:\/\/pages\/features"
+          }
+        }
+      },
+      "block_order": [
+        "1663308874348af93b-0",
+        "f80797ba-791c-4ffe-a9ef-ed3f51ca7b73",
+        "85235507-64e9-4f68-a789-3a7bb9585623",
+        "557b080b-2f4d-4c39-947b-2b47d314d4b3"
+      ],
+      "settings": {
+        "heading": "The unseen benefits of an adjustable base",
+        "heading_size": "h3",
+        "content": "<p>An adjustable base can transform a bedroom into a foundation for holistic health – relieving specific physical ailments while placing the mind at ease with a variety of adjustable functions.<\/p>",
+        "padding_bottom": 20,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1663550813725164e7": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 50
+      }
+    },
+    "18873c2c-3b56-429e-97b8-515dd13c2556": {
+      "type": "product-2-columns",
+      "settings": {
+        "heading": "Meet the Quest products",
+        "heading_size": "h3",
+        "label_link": "",
+        "link_url": "",
+        "product": "adjustable-bases",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "bf147fe4-675e-4ce1-a2c6-b6059b4c98c1": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 20,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1663128767ca58a5e7": {
+      "type": "two-column-banner",
+      "blocks": {
+        "1663128767a000c3dc-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lifestyle.jpg"
+          }
+        },
+        "1663128767a000c3dc-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>\"Ergomotion gets where I want to go in terms of wellness, and understands I need technology that can keep up with my high&minus;demand lifestyle.\"<\/p>"
+          }
+        },
+        "1663128767a000c3dc-2": {
+          "type": "icon",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/image_6.svg?v=1669015304"
+          }
+        }
+      },
+      "block_order": [
+        "1663128767a000c3dc-0",
+        "1663128767a000c3dc-1",
+        "1663128767a000c3dc-2"
+      ],
+      "settings": {
+        "padding_bottom": 20,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1663550899e9129550": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166357524188c6fa81": {
+      "type": "instafeed-feed",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "@ergomotion",
+        "link_url": "https:\/\/www.instagram.com\/ergomotion\/",
+        "target": true,
+        "hiddenText": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1e454bad-792a-4906-a1ed-ba482372ed8b": {
+      "type": "quest-feature",
+      "disabled": true,
+      "blocks": {
+        "template--16478365122781__1e454bad-792a-4906-a1ed-ba482372ed8b-1666573865d0d36d76-0": {
+          "type": "item_text_image",
+          "settings": {
+            "get_icon_url": false,
+            "url_icon": "",
+            "title": "",
+            "content": "<p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365122781__1e454bad-792a-4906-a1ed-ba482372ed8b-1666573865d0d36d76-0"
+      ],
+      "settings": {
+        "section_ID": "",
+        "heading": "Full-featured wireless remote",
+        "heading_size": "h3",
+        "content": "<p><\/p>",
+        "button_label": "Label link",
+        "button_link": "",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    }
+  },
+  "order": [
+    "347de01d-f821-48ef-9308-d03e45148578",
+    "1663117173a450fc91",
+    "1663550680c77e86fe",
+    "166311749990363cc2",
+    "1663550793be9df0e2",
+    "1663308874a2e2d02e",
+    "1663550813725164e7",
+    "18873c2c-3b56-429e-97b8-515dd13c2556",
+    "bf147fe4-675e-4ce1-a2c6-b6059b4c98c1",
+    "1663128767ca58a5e7",
+    "1663550899e9129550",
+    "166357524188c6fa81",
+    "1e454bad-792a-4906-a1ed-ba482372ed8b"
+  ]
+}

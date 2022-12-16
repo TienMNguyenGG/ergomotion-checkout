@@ -1,0 +1,36 @@
+<div
+  class="col w-full mb-26 last-mb-none md:mb-29 md:px-5 md:w-1/2 lg:w-1/3 lg:mb-35 2xl:mb-54 2xl:px-14">
+  <div class="relative">
+    <a href="{{ card_product.url }}"
+      class="no-underline">
+    <div
+      class="blog-bg-wrap w-full overflow-hidden relative pb-63p mb-17 md:pb-67p md:mb-8 lg:pb-61p 2xl:mb-18{% if card_product.featured_media == blank %} bg-wellness-blue {% endif %}">
+        {%- if card_product.featured_media -%}
+        <div class="bg blog-bg absolute inset-0 lazy" data-src="{{ card_product.featured_media | image_url }}">
+        </div>
+        {% else %}
+          <img class="absolute left-1/2 top-1/2 lazy" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ 'logo-footer.svg' | asset_url }}"/>
+        {%- endif -%}
+      <div class="card__badge absolute bottom-10 left-10 bg-blue-100 font-bold text-white px-13 py-4 rounded-4">
+        <span class="badge">Product</span>
+      </div>
+        {% comment %} {%- if card_product.available == false -%}
+          <div class="card__badge">
+            <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
+          </div>
+        {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+          <div class="card__badge">
+            <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
+          </div>
+        {%- endif -%} {% endcomment %}
+    </div>
+    <div class="px-11 lg:px-0">
+      <h2 class="h4 font-medium tracking-normal mb-9 lg:mb-8 2xl:text-font-24 title-product">{{ card_product.title | escape }}</h2>
+      <div class="text-dark-grey font-semibold mb-11 md:mb-4 2xl:mb-8">
+         {% render 'price', product: card_product, price_class: '' %}
+      </div>
+    </div>
+    
+    </a>
+  </div>
+</div>

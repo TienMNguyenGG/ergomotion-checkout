@@ -1,0 +1,144 @@
+.list-slider-content-block {
+  .slick-list {
+    overflow: inherit;
+  }
+
+  .slick-slide {
+    height: auto;
+  }
+
+  &::before {
+    content: '';
+    @apply absolute right-full -top-20 -bottom-20 bg-white w-screen z-3;
+  }
+}
+
+.control-slide-content-block {
+
+  .slick-arrow {
+    @apply relative left-auto right-auto transform-none text-blue-300 hover:opacity-50;
+    font-size: 32px;
+  }
+
+  .slick-prev {
+    @apply mr-4 xl:mr-5;
+  }
+}
+
+.control-dots-content-block {
+  max-width: 306px;
+
+  .slick-dots {
+    @apply static w-full flex items-end mt-10p5;
+  }
+
+  li {
+    @apply w-full mx-1;
+
+    button {
+      @apply w-full text-black h-0p5 rounded-sm p-0 bg-sky-light-blue;
+      font-size: 0;
+    }
+    &.slick-active {
+      button {
+        @apply h-1p5;
+      }
+    }
+  }
+
+  .slick-active {
+    button {
+      @apply bg-blue-300 text-white;
+    }
+  }
+}
+.style-1 {
+  @apply w-22 h-22 block;
+}
+.style-2 {
+  @apply w-50 h-50 block;
+}
+.style-3 {
+  @apply w-89 h-89 block;
+}
+.style-4 {
+  @apply w-145 h-145 block;
+}
+.style-5 {
+  @apply w-225 h-225 block;
+}
+.style-6 {
+  @apply w-331 h-331 block;
+}
+.circle-3-4 {
+  @apply rounded-full border-2 opacity-0 border-solid border-blue-600 z-1;
+  &.run-animation {
+    animation: identifier2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  &:nth-child(8) {
+    animation-delay: 1.2s;
+  }
+  &:nth-child(7) {
+    animation-delay: 1s;
+  }
+  &:nth-child(6) {
+    animation-delay: 0.8s;
+  }
+  &:nth-child(5) {
+    animation-delay: 0.6s;
+  }
+  &:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  &:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+}
+.overlay-rectangle {
+  position: absolute;
+  width: 555.15px;
+  height: 773px;
+  left: -370px;
+  top: -314px;
+  z-index: 2;
+  max-width: none;
+}
+@keyframes identifier2 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+}
+@screen md {
+  .control-dots-content-block {
+    max-width: 308px;
+    margin-top: 23px;
+    li {
+      &:not(.slick-active) {
+        button {
+          @apply mt-1 h-0p5;
+        }
+      }
+    }
+  }
+}
+
+@screen lg {
+  .list-slider-content-block {
+    max-height: 730px;
+    overflow: hidden;
+  }
+}
+
+@screen xl {
+  .control-dots-content-block {
+    max-width: 376px;
+  }
+}

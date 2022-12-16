@@ -1,0 +1,11 @@
+.mod-image-text{
+  h2,
+  .h3{
+    @apply mb-11 md:mb-12 xl:mb-20 2xl:mb-19 xl:text-h3-md 2xl:text-h3-2xl;
+  }
+  .last-mb-none {
+    div{
+      @apply mb-12 md:mb-15;
+    }
+  }
+}

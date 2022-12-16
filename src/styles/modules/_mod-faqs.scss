@@ -1,0 +1,204 @@
+html {
+  .faqPlusAppFaq {
+    @apply bg-transparent mb-2 md:mb-4 xl:mb-2;
+    &:hover {
+      @apply bg-transparent #{!important};
+    }
+    label {
+      @apply w-full bg-blue-500 flex cursor-pointer relative text-left py-12 pl-21 pr-18 md:pt-12p5 md:pr-17;
+      @apply text-h5 pt-13p5 font-medium pl-45 pr-19 pb-12 md:pl-37 md:pr-10 md:pb-12 md:pt-12p5 md:text-h5-md xl:py-14 text-hush-black #{!important};
+    }
+  }
+  .faqPlusAppToggle:checked + .faqPlusAppTitle  {
+    @apply bg-blue-300 text-white #{!important};
+    + .faqPlusAppContent {
+      max-height: 1000px;
+    }
+  }
+  .faqPlusAppTitle {
+    &::after,
+    &::before {
+      @apply right-auto top-17 left-20 bg-blue-600 #{!important};
+    }
+  }
+  .faqPlusAppTitle,
+  .faqPlusAppContent {
+    transition: all .4s;
+  }
+  .faqPlusAppContent,
+  .faqPlusAppContent span,
+  .faqPlusAppContent p {
+    @apply bg-transparent #{!important};
+  }
+  .faq-plus-app-container {
+    @apply px-12 pt-1 md:pt-7 md:px-24 xl:max-w-1230 xl:w-auto xl:mx-auto xl:pb-8 2xl:max-w-1422;
+    .faqPlusAppFaqCategory {
+      @apply mb-13 font-medium text-h3 text-hush-black md:text-h3-md lg:text-h3-lg 2xl:text-h3-2xl block #{!important};
+    }
+  }
+  .faqPlusAppAnswer {
+    @apply pt-28p5 pl-17 pr-19 pb-10 md:pt-17 md:pl-16 md:pb-0 xl:w-86p xl:pt-25 xl:pb-7 2xl:w-73p;
+    p {
+      @apply text-dark-grey leading-normal md:leading-1-8 md:mb-11 lg:mb-15 text-font-16 xl:leading-1-6 #{!important};
+    }
+    table {
+      @apply w-full border-1 border-solid border-hush-black;
+      border-collapse: collapse;
+      border-spacing: 0px;
+    }
+    td,
+    th {
+      @apply p-5 border-1 border-solid border-hush-black;
+    }
+  }
+  .introTextFaqPlus {
+    @apply px-24 md:max-w-612 xl:max-w-910;
+    a {
+      @apply no-underline;
+    }
+    >*:last-child {
+      @apply mb-0;
+    }
+  }
+  #easy-faq-app-top-section {
+    @apply h-auto pt-22 mb-13 md:pt-12 xl:pt-20 2xl:pt-46;
+    @apply md:mb-22 xl:mb-41 2xl:mb-47 #{!important};
+  }
+  .faqPlusAppContent a,
+  .faqPlusAppContent a:link,
+  .faqPlusAppContent a span,
+  .faqPlusFeaturedAppContent a,
+  .faqPlusFeaturedAppContent a:link,
+  .faqPlusFeaturedAppContent a span {
+    @apply text-blue-300 no-underline hover:text-blue-400 #{!important};
+  }
+  #faq-plus-app {
+    @apply mb-28 xl:opacity-0;
+    transform: translateY(100px);
+    transition: .6s ease all;
+    .tablist-faq button {
+      @apply xl:pb-21;
+    }
+  }
+  #easy-faq-app-header {
+    @apply text-h2 font-bold text-hush-black md:mb-14 md:text-h2-md xl:mb-20 2xl:mb-14 2xl:text-h2-v2-2xl; 
+  }
+}
+.onload-dom {
+  #faq-plus-app {
+    @apply xl:opacity-100;
+    transform: translateY(0);
+  }
+}
+.ef-faqs-embed-heading {
+  @apply px-12 md:px-24 xl:max-w-1230 xl:mx-auto 2xl:max-w-1422;
+}
+#easy-faq-app-top-section {
+  background: none !important;
+  h1 {
+    @apply text-hush-black #{!important};
+  }
+}
+#faq-plus-category-topbar,
+.easy-faq-contact-details,
+.faqPlusAppFaqCategory {
+  @apply hidden #{!important};
+}
+.faq-plus-accordian-section {
+  @apply hidden pt-30 md:pt-37 2xl:pt-33;
+  &.is-active {
+    @apply block;
+  }
+}
+
+.tablist-faq {
+  button {
+    @apply relative py-20 md:pb-22 lg:pb-14 2xl:pb-21 whitespace-nowrap text-h5 md:text-h5-md text-hush-black 2xl:px-28 2xl:text-footer-social-md font-medium px-16 hover:no-underline hover:text-blue-400;
+    &.is-active {
+      @apply text-blue-400;
+      &::after {
+        content: "";
+        @apply absolute -inset-x-0 bottom-0 h-1p5 bg-blue-300;
+        @apply 2xl:-inset-x-0;
+      }
+    }
+  }
+}
+
+
+.product-detail{
+  .ef-faqs-embed-heading {
+    @apply relative z-1;
+  }
+  .page-width{
+    @apply relative;
+    .ef-faqs-embed-content {
+      &::before {
+        content: '';
+        @apply absolute inset-0 bg-soft-blue z-0;
+      }
+    }
+    .shopify-app-block{
+      @apply px-8  xl:max-w-1178 xl:mx-auto 2xl:max-w-1632px 2xl:px-24;
+    }
+    .shopify-app-block > div:nth-child(2){
+      @apply xl:flex xl:pt-32 xl:pb-29 2xl:pt-71 2xl:pb-65;
+    }
+  }
+  .ef-faqs-embed-heading{
+    @apply text-h2 font-bold mb-3 pt-32 md:mb-10 md:pb-0 md:pl-16 xl:px-0 md:text-h2-md xl:w-1/3 xl:pt-0 xl:mx-0 xl:px-8 2xl:text-h2-v2-2xl 2xl:w-5/12 2xl:pl-57 2xl:pr-8 #{!important};
+  }
+  .ef-faqs-embed-content{
+    @apply xl:w-2/3 xl:w-7/12;
+  }
+  .faq-plus-app-container{
+    @apply pb-27 md:pb-29 md:pt-6 md:pl-16 md:pr-15 xl:px-0 xl:pt-7 2xl:pt-8 xl:pl-10 xl:pb-0 xl:pr-8 2xl:pr-30;
+  }
+  #faq-plus-app{
+    @apply xl:mb-0
+  }
+  .faq-plus-accordian{
+    .faqPlusAppToggle:checked + .faqPlusAppTitle{
+      @apply bg-soft-blue text-hush-black #{!important};
+    }
+    .faqPlusAppTitle::after,
+    .faqPlusAppTitle::before{
+      width:2.5px !important;
+      height: 18px !important;
+      @apply top-18 left-5 md:top-13 xl:top-3 #{!important};
+    }
+    .faqPlusAppFaq{
+      @apply pb-13 mb-0 md:pb-0 xl:pb-10 2xl:pb-33;
+      label {
+        @apply pr-0 pl-24 text-h5-v2 pb-7 md:pb-15 md:pt-10 xl:pt-0 xl:pb-15 #{!important};
+      }
+      &:last-child{
+        @apply pb-0;
+        .faqPlusAppAnswer, p{
+          @apply mb-0 pb-0
+        }
+      }
+    }
+    .faqPlusAppContent, .faqPlusAppContent span, .faqPlusAppContent p{
+      @apply text-font-16 leading-1-8-125 #{!important}
+    }
+    .faqPlusAppAnswer{
+      @apply pt-0 pl-24 pr-0 md:pb-8 xl:pb-8 xl:w-full 2xl:pb-9 max-w-full overflow-auto;
+      table{
+        @apply md:ml-0;
+        tr{
+          td,
+          th{
+            @apply border-hush-black whitespace-nowrap;
+          }
+        }
+      }
+      p{
+        @apply mb-0 md:mb-0 #{!important}
+      }
+      a{
+        @apply whitespace-nowrap;
+      }
+    }
+  }
+}

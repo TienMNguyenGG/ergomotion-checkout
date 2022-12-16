@@ -1,0 +1,126 @@
+@layer base {
+  body {
+    font-family: var(--font-body-family);
+    font-size: calc(var(--font-body-fontsize) * 1px);
+    @apply bg-white text-dark-grey leading-1-5 md:leading-1-8;
+  }
+  html {
+    @apply mr-0 overflow-x-hidden;
+    main#MainContent {
+      @apply pt-70 xs:pt-59p5px md:pt-80 lg:pt-70 xl:pt-82 1k8:pt-105;
+    }
+  }
+  h1,
+  .h1 {
+    @apply text-h1 font-bold text-hush-black md:text-h1-md;
+  }
+  .h1-same-h2 h1,
+  h2,
+  .h2 {
+    @apply text-h2 font-bold text-hush-black md:text-h2-md;
+  }
+
+  h3,
+  .h3 {
+    @apply font-medium text-h3 text-hush-black md:text-h3-md lg:text-h3-lg 2xl:text-h3-2xl;
+  }
+
+  h4,
+  .h4 {
+    @apply text-h4 text-hush-black;
+  }
+
+  h5,
+  .h5 {
+    @apply text-h5 md_to_lg:text-h5-md font-bold text-hush-black;
+  }
+
+  h6,
+  .h6 {
+    @apply text-h5 font-medium text-hush-black;
+  }
+  .h5-v2 {
+    @apply text-h5-v2 font-medium;
+  }
+  .h2-v2 {
+    h2 {
+      @apply 2xl:text-h2-v2-2xl;
+    }
+  }
+  small {
+    @apply text-sm;
+  }
+  .quote {
+    @apply font-medium text-quote md_to_lg:text-quote-md-lg;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    @apply mb-8;
+  }
+
+  p,
+  li,
+  ol,
+  ul,
+  blockquote,
+  figure{
+    margin: 0 0 15px;
+  }
+
+  ol,
+  ul{
+    @apply block pl-20;
+  }
+
+  ol{
+    @apply list-decimal;
+  }
+
+  ul{
+    @apply list-disc;
+  }
+  p {
+    @apply mb-15;
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  a {
+    @apply text-blue-300 hover:text-blue-400;
+  }
+  @screen down_xl {
+    body {
+      @apply overflow-x-hidden;
+    }
+  }
+  @screen 2xl {
+    h1,
+    .h1 {
+      font-size: calc(var(--font-headline_fontsize) * 1px);
+    }
+    .h1-same-h2 h1,
+    h2,
+    .h2 {
+      font-size: calc(var(--font-headline_fontsize2) * 1px);
+    }
+  
+    h3,
+    .h3 {
+      font-size: calc(var(--font-headline_fontsize3) * 1px);
+    }
+  }
+}

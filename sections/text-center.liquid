@@ -1,0 +1,212 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="module mod-text-center animation section-{{ section.id }}-padding {% if template contains 'collection' %} in-page-collection {% endif %}" {% if section.settings.frenchContent == true %} lang="fr" {% endif %}>
+  <div class="container px-12 md:px-24 xl:px-10">
+    <div class="wrap-text-center h1-same-h2  transition-transform anima-bottom last-mb-none {% if section.settings.fullWidth == true %} content-full-width {% endif %} {{ section.settings.content_alignment }}
+      {%- case section.settings.content_alignment -%}
+        {%- when 'text-center' -%}
+          center-content px-7 pt-31 xs:px-17 md:pt-23 md:px-52 xl:px-59 xl:max-w-1230 xl:mx-auto xl:pt-29 2xl:px-52 2xl:pt-57
+        {%- when 'text-left' -%}
+          max-w-500 px-15 last-mb-none md:mx-auto md:px-0 xl:max-w-678 xl:ml-52 2xl:ml-52 2xl:mb-15 2xl:max-w-660
+        {%- when 'text-right' -%}
+          max-w-500 px-15 last-mb-none md:mx-auto md:px-0 xl:ml-auto xl:max-w-678 xl:mr-52 2xl:mr-52 2xl:mb-15 2xl:max-w-660
+      {%- endcase -%}">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'heading' -%}
+              <{{ block.settings.heading_size }} {{ block.shopify_attributes }} data-cy="heading">{{ block.settings.heading }}</{{ block.settings.heading_size }}>
+            {%- when 'text' -%}
+              <div {{ block.shopify_attributes }} data-cy="content" class="mb-10">{{ block.settings.text }}</div>
+          {%- endcase -%}
+        {%- endfor -%}
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'buttons' -%}
+              <div {{ block.shopify_attributes }} class="mt-8">
+              {%- if block.settings.button_label != blank and  block.settings.button_link != blank -%}
+                <a href="{{ block.settings.button_link }}" class="no-underline btn {{ block.settings.button_style }}" data-cy="button">{{ block.settings.button_label }}</a>
+              {%- endif -%}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+     </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Centered Content",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "frenchContent",
+      "label": "French content"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Left"
+        },
+        {
+          "value": "text-center",
+          "label": "Center"
+        },
+        {
+          "value": "text-right",
+          "label": "Right"
+        }
+      ],
+      "default": "text-center",
+      "label": "Content alignment"
+    },
+    {
+      "type": "checkbox",
+      "id": "fullWidth",
+      "label": "Content Full Width"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Centered Content",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h1",
+              "label": "h1"
+            },
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h4"
+            }
+          ],
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.</p>",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Type Button",
+          "options": [
+            {
+              "value": "btn-primary",
+              "label": "Primary Button"
+            },
+            {
+              "value": "btn-outline-primary",
+              "label": "Outline Primary button"
+            },
+            {
+              "value": "btn-light",
+              "label": "Light button"
+            },
+            {
+              "value": "btn-outline-light",
+              "label": "Outline Light button"
+            }
+          ],
+          "default": "btn-primary"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Centered Content",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

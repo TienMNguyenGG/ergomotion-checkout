@@ -1,0 +1,29 @@
+{%- for block in section.blocks -%}
+  {% if block.settings.schemaContact != blank %}
+    {{ block.settings.schemaContact }}
+  {% endif %}
+{%- endfor -%}
+{% schema %}
+{
+  "name": "Schema",
+  "tag":"section",
+  "class":"section",
+  "blocks": [{
+      "type":"schema_item",
+      "name":"Schema Item",
+      "settings":[
+        {
+          "type":"html",
+          "id":"schemaContact",
+          "label":"Schema"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Schema"
+    }
+  ]
+}
+{% endschema %}

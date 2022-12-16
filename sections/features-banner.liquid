@@ -1,0 +1,225 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="mod-feature-banner section-{{ section.id }}-padding animation">
+  <div class="container {% if section.settings.imageOverlap != blank %} pb-68 md:pb-52 xl:pb-86 1k8:pb-80 {% endif %}">
+    <div class="row">
+        <div class="col w-full xl:w-1/2 xl:flex xl:items-center xl:pt-20 xl:pb-14 1k8:pb-100 anima-bottom">
+          <div class="px-16 md:mx-auto md:max-w-504 md:px-0 md:relative md:left-2 md:leading-6 xl:max-w-400 xl:ml-0 xl:leading-1-8 1k8:max-w-522 1k8:-ml-18">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'heading' -%}
+                {% if block.settings.heading != blank %}
+                <h1 class="mb-13 text-h2 md:mb-13 xl:text-h1-md xl:mb-9 1k8:text-h2-v2-2xl 1k8:mb-12" {{ block.shopify_attributes }}>{{ block.settings.heading }}</h1>
+                {% endif %}
+              {%- when 'text' -%}
+              {% if block.settings.text != blank %}
+                <div {{ block.shopify_attributes }} class="mb-8">{{ block.settings.text }}</div>
+              {% endif %}
+              {%- when 'buttons' -%}
+                {% if block.settings.button_label != blank and block.settings.button_link != blank %}
+                  <a href="{{ block.settings.button_link }}" {{ block.shopify_attributes }} class="btn btn-primary mt-8 md:mt-5 xl:mt-0 1k8:mt-9">{{ block.settings.button_label }}</a>
+                {% endif %}
+            {%- endcase -%}
+          {%- endfor -%}
+          </div>
+        </div>
+        <div class="col w-full px-0 xl:w-1/2 xl:pb-0">
+          <div class="feat-ban-cover relative w-100vw xl:w-full">
+            <div class="feat-ban-bg-cover ml-55 mt-30 relative md:mt-32 md:ml-80 xl:mt-0 xl:-ml-44 1k8:-ml-63">
+              <div class="bg feat-ban-bg">
+                {% if section.settings.image != blank %}
+                  <img src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}"
+                  class="{% if section.settings.imageMB != blank %} hidden {% endif %} md:block lazy absolute inset-0 w-full h-full object-cover {{ section.settings.image_position }}">
+                {% endif %}
+                {% if section.settings.imageMB != blank %}
+                  <img src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ section.settings.imageMB | image_url }}" alt="{{ section.settings.imageMB.alt }}"
+                  class="lazy absolute inset-0 w-full h-full object-cover md:hidden {{ section.settings.imageMB_position }}">
+                {% endif %}
+              </div>
+              
+              {% if section.settings.imageOverlap != blank %}
+              <div class="remote-feature absolute top-41 -bottom-68 -left-65 md:top-17 md:-bottom-54 md:-left-59 transition-transform" data-paroller-factor="0.5" data-paroller-type="foreground">
+                <img src="{{ section.settings.imageOverlap | image_url }}" alt="{{ section.settings.imageOverlap.alt }}" class="h-full object-contain anima-bottom">
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Features Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-center",
+      "label": "Image Position"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageMB",
+      "label": "Image Mobile"
+    },
+    {
+      "type": "select",
+      "id": "imageMB_position",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-center",
+      "label": "Image Mobile Position"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageOverlap",
+      "label": "Image Overlap"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Ergomotion Adjustable Base Features",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.</p>",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Features Banner",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

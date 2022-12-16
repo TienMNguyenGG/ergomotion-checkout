@@ -1,0 +1,154 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module mod-large-banner section-{{ section.id }}-padding 2xl:px-24">
+	<div class="container bg-midnight-blue pt-32 pb-36 md:pt-25 md:pb-23 pl-8 pr-7 md:px-20 xl:px-16 xl:max-w-1136 2xl:max-w-1596 xl:py-20 2xl:py-60">
+		<div class="row max-w-1344 mx-auto row-large-banner">
+      {%- for block in section.blocks -%}
+      {% case block.type %}
+        {%- when 'image' -%}
+          <div class="col-left w-full mb-8 md:mb-0 md:w-1/2 px-4 flex" {{ block.shopify_attributes }}>
+            <div class="relative w-full">
+              {%- if block.settings.image != blank -%}
+                <img data-src="{{ block.settings.image | image_url }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ block.settings.image.alt | escape }}" class="lazy object-cover object-center absolute left-0 top-0 w-full h-full xl:rounded-4">
+              {%- endif -%}
+              <div class="pb-large-banner md:pb-large-banner-md xl:pb-large-banner-xl 2xl:pb-large-banner-2xl"></div>
+            </div>
+          </div>
+
+        {%- when 'content' -%}
+          <div class="col-right w-full md:w-1/2 px-4 flex">
+            <div class="bg-white justify-center py-30 px-20 md:py-16 md:px-14 xl:px-36 2xl:px-41 flex flex-col xl:rounded-4">
+              {%- when 'content' -%}
+                <div class="content text-center last-mb-none quote text-hush-black" {{ block.shopify_attributes }} data-cy="content">
+                  {{ block.settings.content }}
+                </div>
+
+              {%- when 'icon' -%}
+                {% if block.settings.get_icon_url == true %}
+                  {% if block.settings.url_icon != blank %}
+                  <div class=" min-h-91 flex items-center justify-center p-5 mb-8">
+                    <img data-src="{{ block.settings.url_icon }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="Logo" class="mx-auto mt-20 md:mt-8 2xl:mt-20 lazy" {{ block.shopify_attributes }}>
+                  </div>
+                  {% endif %}
+                {% else %}
+                  {% if block.settings.icon != blank %}
+                  <div class=" min-h-91 flex items-center justify-center p-5 mb-8">
+                    <img data-src="{{ block.settings.icon | image_url }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ block.settings.icon.alt | escape }}" class="mx-auto mt-20 md:mt-8 2xl:mt-20 lazy" {{ block.shopify_attributes }}>
+                  </div>
+                  {% endif %}
+                {% endif%}
+            </div>
+          </div>
+      {%- endcase -%}
+      {%- endfor -%}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured Testimonial",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Content",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content",
+          "default": "<p>“If you’re a “bells sand whistles” kind of person, think of this high-tech wonder as the Cadillac of platform bed frames.”</p>",
+          "label": "Content"
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "name": "Icon",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "checkbox",
+          "id": "get_icon_url",
+          "label": "Get icon from url"
+        },
+        {
+          "type": "text",
+          "id": "url_icon",
+          "label": "Url Icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Testimonial",
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "content"
+        },
+        {
+          "type": "icon"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

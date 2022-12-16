@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "01948f3c-1494-43eb-a2e0-7107f2de02e2": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 60,
+        "padding_bottom_mb": 70
+      }
+    },
+    "831dc3ad-4bb0-4126-ade9-7f01338e0e34": {
+      "type": "two-columns-text-banner",
+      "blocks": {
+        "template--16478365090013__831dc3ad-4bb0-4126-ade9-7f01338e0e34-1665969951fffdf3ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Attention Grabbing Page Headline at the Top of the Page",
+            "heading_size": "h1"
+          }
+        },
+        "template--16478365090013__831dc3ad-4bb0-4126-ade9-7f01338e0e34-1665969951fffdf3ff-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio ultricies in sodales in tristique pulvinar pellentesque pellentesque. In viverra sed aliquet nisl tristique scelerisque placerat.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365090013__831dc3ad-4bb0-4126-ade9-7f01338e0e34-1665969951fffdf3ff-0",
+        "template--16478365090013__831dc3ad-4bb0-4126-ade9-7f01338e0e34-1665969951fffdf3ff-1"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f9c9f9c1-1466-45d2-a19d-d6100b260256": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 90,
+        "padding_bottom_mb": 70
+      }
+    },
+    "f2d67b8f-03b6-454f-81b8-5d7d5d50bab1": {
+      "type": "featured-blogs-module",
+      "settings": {
+        "heading": "Featured Blogs",
+        "heading_size": "h3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "c0edffb0-5a7b-46f7-83db-d73aa8de61a6": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 30,
+        "padding_bottom_mb": 45
+      }
+    },
+    "910e7697-1825-4bdc-b7d3-ba4e8c7cda9a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 30,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "heading": "Feature benefit section",
+        "padding_bottom": 25,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7815667e-5203-400a-ac5c-a28739c79225": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "e5a0bdc5-80bb-488a-8687-3e6dd8b5ec0b": {
+      "type": "instafeed-feed",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "@ergomotion",
+        "link_url": "#",
+        "target": false,
+        "padding_bottom": 28,
+        "padding_bottom_mb": 0
+      }
+    },
+    "ccfdf53e-5855-43c2-ba05-deb21fbb3c46": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 30,
+        "padding_bottom_mb": 65
+      }
+    },
+    "e694a3b5-7cb5-4a36-bd81-5bc6b82f4242": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 25,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "50903e40-b68f-4810-bfa2-532aaeb2ab3b": {
+      "type": "signup-form",
+      "settings": {
+        "heading": "Email Signup Headline Here",
+        "heading_size": "h3",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pellentesque nibh cras ac<\/p>",
+        "form_signup": "<!-- Begin Mailchimp Signup Form -->\n<div id=\"mc_embed_signup_top\">\n\t<form action=\"https:\/\/9thwonder.us17.list-manage.com\/subscribe\/post?u=640c9c7a5e0d6443023f45f7e&amp;id=7d283bb536&amp;f_id=000346e0f0\" method=\"post\" id=\"mc-embedded-subscribe-form-top\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_self\">\n\t\t<div id=\"mc_embed_signup_scroll-top\">\n\n\t\t\t<div class=\"indicates-required hidden\">\n<span class=\"asterisk\">*<\/span> indicates required<\/div>\n\t\t\t<div class=\"mc-field-group form-group mb-12\">\n\t\t\t\t<label class=\"sr-only\" for=\"mce-EMAIL-signup-top\">Email Address <span class=\"asterisk\">*<\/span>\n\t\t\t\t<\/label>\n\t\t\t\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email form-control form-control-v2\" id=\"mce-EMAIL-signup-top\" required=\"\" placeholder=\"Email Address *\">\n\t\t\t\t<span id=\"mce-EMAIL-HELPERTEXT-top\" class=\"helper_text\"><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"mc-field-group form-group mb-12\">\n\t\t\t\t<label class=\"sr-only\" for=\"mce-FNAME\">First Name <\/label>\n\t\t\t\t<input type=\"text\" value=\"\" name=\"FNAME\" class=\"form-control form-control-v2\" id=\"mce-FNAME\" placeholder=\"First Name\">\n\t\t\t\t<span id=\"mce-FNAME-HELPERTEXT\" class=\"helper_text\"><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"mc-field-group form-group mb-12\">\n\t\t\t\t<label class=\"sr-only\" for=\"mce-LNAME\">Last Name <\/label>\n\t\t\t\t<input type=\"text\" value=\"\" name=\"LNAME\" class=\"form-control form-control-v2\" id=\"mce-LNAME\" placeholder=\"Last Name\">\n\t\t\t\t<span id=\"mce-LNAME-HELPERTEXT\" class=\"helper_text\"><\/span>\n\t\t\t<\/div>\n      <div class=\"form-group text-right relative\">\n                  <button type=\"submit\" data-cy=\"Button\" class=\"js-submit btn btn-primary m-0 mt-8\">Sign Up<\/button>\n                  <input type=\"submit\" value=\"Submit\" class=\"wpcf7-form-control has-spinner wpcf7-submit hidden\">\n                <\/div>\n\t\n<\/div>\n<\/form>\n<!--End mc_embed_signup-->\n<\/div>",
+        "bgColor": "white",
+        "padding_bottom": 36,
+        "padding_bottom_mb": 40
+      }
+    },
+    "5129c3b7-2313-486d-a946-9a242c863121": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 85
+      }
+    },
+    "73110239-b852-405e-890d-127f89803c1f": {
+      "type": "schema",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "01948f3c-1494-43eb-a2e0-7107f2de02e2",
+    "831dc3ad-4bb0-4126-ade9-7f01338e0e34",
+    "f9c9f9c1-1466-45d2-a19d-d6100b260256",
+    "f2d67b8f-03b6-454f-81b8-5d7d5d50bab1",
+    "c0edffb0-5a7b-46f7-83db-d73aa8de61a6",
+    "910e7697-1825-4bdc-b7d3-ba4e8c7cda9a",
+    "main",
+    "7815667e-5203-400a-ac5c-a28739c79225",
+    "e5a0bdc5-80bb-488a-8687-3e6dd8b5ec0b",
+    "ccfdf53e-5855-43c2-ba05-deb21fbb3c46",
+    "e694a3b5-7cb5-4a36-bd81-5bc6b82f4242",
+    "50903e40-b68f-4810-bfa2-532aaeb2ab3b",
+    "5129c3b7-2313-486d-a946-9a242c863121",
+    "73110239-b852-405e-890d-127f89803c1f"
+  ]
+}

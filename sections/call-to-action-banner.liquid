@@ -1,0 +1,167 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding animation">
+  <div class="module mod-call-to-action-banner bg-midnight-blue transition-transform anima-bottom delay-4" data-paroller-factor="0.1" data-paroller-type="foreground">
+    <div class="container">
+      <div class="wrap-cta text-white row text-left px-20 pt-32 pb-37 md:pl-28 md:pr-44 md:pb-32 xl:justify-start xl:items-center xl:px-0 xl:py-32 2xl:pt-44 2xl:pl-50 2xl:pb-44">
+        {% assign textNB = section.blocks | size  %}
+       {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'heading' -%}
+              <div class="title-cta last-mb-none col mb-28 md:mb-20 xl:pl-10 xl:mb-0 2xl:pr-20 {% if textNB > 2 %} xl:w-4/12 {% else %} xl:w-10/12 no-text {% endif%}" {{ block.shopify_attributes }}>
+                <h2 class="{{ block.settings.heading_size }}" data-cy="heading">{{ block.settings.heading }}</h2>
+              </div>
+            {%- when 'text' -%}
+              <div class="content-cta last-mb-none text-hush-black col font-bold text-quote-md-lg mb-27 md:text-font-16-29 md:font-semibold md:mb-17 xl:w-46p xl:mb-0 xl:pl-30 xl:pr-35 2xl:text-quote-md-lg
+              2xl:font-bold 2xl:pl-33 2xl:pr-42" {{ block.shopify_attributes }} data-cy="content">
+               {{ block.settings.text }}
+              </div>
+            {%- when 'buttons' -%}
+            {%- if block.settings.button_label != blank and  block.settings.button_link != blank -%}
+              <div class="btn-cta col xl:w-20p xl:text-right xl:pr-12 xl:mb-1p5 2xl:mb-2 2xl:text-left 2xl:pl-7" {{ block.shopify_attributes }}>
+                <a href="{{ block.settings.button_link }}"  {% if block.settings.hiddenText != blank %} aria-label=" {{ block.settings.button_label }} {{ block.settings.hiddenText }}" {% endif%} {% if block.settings.target == true %} target="_blank" rel="noopener noreferrer" {% endif%} class="link-arrow white btn" data-cy="button">
+                  {{ block.settings.button_label }}
+                  <span class="icomoon icon-link-arrow"></span>
+                </a>
+              </div>
+            {% endif %}
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "CTA Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+   "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Text based call to action.",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h5"
+            }
+          ],
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.</p>",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        },
+         {
+          "type": "checkbox",
+          "id": "target",
+          "label": "Open new tab"
+        },
+        {
+          "type": "text",
+          "id": "hiddenText",
+          "label": "Hidden Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "CTA Banner",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

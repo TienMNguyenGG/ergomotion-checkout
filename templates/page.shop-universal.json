@@ -1,0 +1,750 @@
+{
+  "sections": {
+    "feffc740-4b84-4331-806e-bd5ab8d6ca25": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 50
+      }
+    },
+    "7d0dd541-1ad5-4f1a-ae56-181602c8c9cc": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Additional product categories you may like headline",
+        "heading_size": "h3",
+        "collection": "adjustable-bases",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "f16d3044-c509-4926-a65c-2eadb6eec23a": {
+      "type": "banner-image-collage",
+      "blocks": {
+        "template--16521036923101__f16d3044-c509-4926-a65c-2eadb6eec23a-1667201823e077d5dd-0": {
+          "type": "banner_image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+            "image_position": "object-center"
+          }
+        },
+        "14a92207-c534-4d25-b9d3-1fdd5d764b48": {
+          "type": "banner_image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image1-1280px.jpg",
+            "image_position": "object-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__f16d3044-c509-4926-a65c-2eadb6eec23a-1667201823e077d5dd-0",
+        "14a92207-c534-4d25-b9d3-1fdd5d764b48"
+      ],
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "049d03d8-4804-490d-80a9-d5b9134212a7": {
+      "type": "video-slider",
+      "blocks": {
+        "template--16521036923101__049d03d8-4804-490d-80a9-d5b9134212a7-1667201874e8b1664a-0": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer Name",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/www.youtube.com\/watch?v=cEaaKUPlxWA"
+          }
+        },
+        "2c5b0ee8-c67c-4b04-a03c-fbdf1f64be41": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10_87de9a81-31f4-401e-bbed-a1ce7b5465a6.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer Name",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/www.youtube.com\/watch?v=cEaaKUPlxWA"
+          }
+        },
+        "0c57f6ae-e60e-4ed3-9f4c-4c7b6da2b0b8": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer Name",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/www.youtube.com\/watch?v=cEaaKUPlxWA"
+          }
+        },
+        "037456e8-4cce-40fb-a9ed-886aba5b4dc7": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image1-1280px.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer Name",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/www.youtube.com\/watch?v=cEaaKUPlxWA"
+          }
+        },
+        "d1c24210-9323-419f-911e-2584e1354a7b": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blog_detail.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer Name",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/www.youtube.com\/watch?v=cEaaKUPlxWA"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__049d03d8-4804-490d-80a9-d5b9134212a7-1667201874e8b1664a-0",
+        "2c5b0ee8-c67c-4b04-a03c-fbdf1f64be41",
+        "0c57f6ae-e60e-4ed3-9f4c-4c7b6da2b0b8",
+        "037456e8-4cce-40fb-a9ed-886aba5b4dc7",
+        "d1c24210-9323-419f-911e-2584e1354a7b"
+      ],
+      "settings": {
+        "heading": "Social Influencer Videos",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "0f0a5614-b0e7-4337-bb4c-737f1dee1bdd": {
+      "type": "press-mentions",
+      "blocks": {
+        "template--16521036923101__0f0a5614-b0e7-4337-bb4c-737f1dee1bdd-1667202046e3220361-0": {
+          "type": "item_press_mentions",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/background-contact.jpg",
+            "image_position_large": "object-center",
+            "title": "Lorem ipsum dolor sit amet",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Text button",
+            "link_url": "\/"
+          }
+        },
+        "4983df44-3fad-48d2-a9b9-0e7dfd585467": {
+          "type": "item_press_mentions",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+            "image_position_large": "object-center",
+            "title": "Lorem ipsum dolor sit amet",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Text button",
+            "link_url": "\/"
+          }
+        },
+        "122df501-bd4e-4022-907f-0a1b2576ad81": {
+          "type": "item_press_mentions",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AdobeStock_439165234_3.jpg",
+            "image_position_large": "object-center",
+            "title": "Lorem ipsum dolor sit amet",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Text button",
+            "link_url": "\/"
+          }
+        },
+        "04cb8ae8-56c4-4916-8c1a-76368f51d01e": {
+          "type": "item_press_mentions",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image1-1280px.jpg",
+            "image_position_large": "object-center",
+            "title": "Lorem ipsum dolor sit amet",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Text button",
+            "link_url": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__0f0a5614-b0e7-4337-bb4c-737f1dee1bdd-1667202046e3220361-0",
+        "4983df44-3fad-48d2-a9b9-0e7dfd585467",
+        "122df501-bd4e-4022-907f-0a1b2576ad81",
+        "04cb8ae8-56c4-4916-8c1a-76368f51d01e"
+      ],
+      "settings": {
+        "heading": "In the Press Headline Here",
+        "heading_size": "h3",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "5fa0ea4b-0b9a-46eb-aeeb-98e20ad9af1c": {
+      "type": "image_callout",
+      "blocks": {
+        "template--16521036923101__5fa0ea4b-0b9a-46eb-aeeb-98e20ad9af1c-166720214449f17bd0-0": {
+          "type": "image_callout",
+          "settings": {
+            "heading": "Join the 7,000,000+ Happy Sleepers with an Ergomotion Adjustable Base Headline"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__5fa0ea4b-0b9a-46eb-aeeb-98e20ad9af1c-166720214449f17bd0-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Display_4986ab71-22c0-4b82-8136-e9d326c73627.jpg",
+        "image_position": "bg-center",
+        "imageMB_position": "bg-center",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "2d85901c-8e63-4236-805a-06479ef9d76e": {
+      "type": "compare-products",
+      "blocks": {
+        "template--16521036923101__2d85901c-8e63-4236-805a-06479ef9d76e-16672021728d9a0d06-0": {
+          "type": "compare_product",
+          "settings": {
+            "title": "Most economical",
+            "name": "Quest 1.0",
+            "product": "quest-1-0-old",
+            "available": "Available in: Twin XL, Q, Split K",
+            "price": "Queen $649",
+            "titleButton": "Shop Quest 1.0"
+          }
+        },
+        "5f48752f-7ae9-4e4f-b310-b219231d8551": {
+          "type": "compare_product",
+          "settings": {
+            "title": "Most loved",
+            "name": "Quest 2.0",
+            "product": "quest-2-0",
+            "available": "Available in: Twin XL, Q, Split K",
+            "price": "Queen $1,149",
+            "titleButton": "Shop Quest 2.0"
+          }
+        },
+        "cedc6927-1ca9-417b-a96b-3311959c8832": {
+          "type": "compare_product",
+          "settings": {
+            "title": "Most supportive",
+            "name": "Quest 2.5",
+            "product": "quest-2-5",
+            "available": "Available in: Twin XL, Q, K, Split K",
+            "price": "Queen $1,399",
+            "titleButton": "Shop Quest 2.5"
+          }
+        },
+        "d1a57c93-660d-448e-938d-4b6cca6ff882": {
+          "type": "compare_product",
+          "settings": {
+            "title": "Most features",
+            "name": "Quest 4.0",
+            "product": "quest-4-0",
+            "available": "Available in: Twin XL, Q, Split K",
+            "price": "Queen $2,349",
+            "titleButton": "Shop Quest 4.0"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__2d85901c-8e63-4236-805a-06479ef9d76e-16672021728d9a0d06-0",
+        "5f48752f-7ae9-4e4f-b310-b219231d8551",
+        "cedc6927-1ca9-417b-a96b-3311959c8832",
+        "d1a57c93-660d-448e-938d-4b6cca6ff882"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "8e676783-ea16-4fde-8de4-f97bc2c23d70": {
+      "type": "accordion-module",
+      "blocks": {
+        "template--16521036923101__8e676783-ea16-4fde-8de4-f97bc2c23d70-166725604558cdea1b-0": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Wired Remote\nHead Articulation",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "59454236-66ad-4471-bd4d-801808b80a39": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Wireless Remote\nHead & Foot Articulation\nOne-Touch Flat Preset\nZero-G Preset\n2 Programmable Presets\nRemote Flashlight",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "43026d6c-5b76-4984-93aa-148fd953cc6b": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Wireless Remote\nHead & Foot Articulation\nOne-Touch Flat Preset\nZero-G Preset\n4 Programmable Presets\nRemote Flashlight\nMassage\nUnder bed Lighting\nVoice Control\nDual USB",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "424452a3-abbb-4181-81b6-420065bce7d3": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Wireless Remote\nHead & Foot Articulation\nOne-Touch Flat Preset\nZero-G Preset\n2 Programmable Presets\nRemote Flashlight\nMassage\nUnder bed Lighting\nVoice Control\nDual USB\nActive Head Tilt\nLumbar Support\nWall Saver\nRelaxation Mode",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__8e676783-ea16-4fde-8de4-f97bc2c23d70-166725604558cdea1b-0",
+        "59454236-66ad-4471-bd4d-801808b80a39",
+        "43026d6c-5b76-4984-93aa-148fd953cc6b",
+        "424452a3-abbb-4181-81b6-420065bce7d3"
+      ],
+      "settings": {
+        "comparison_criteria": "Key Features"
+      }
+    },
+    "44c07c33-03bb-4f6d-908f-398c541686f2": {
+      "type": "accordion-module",
+      "blocks": {
+        "template--16521036923101__44c07c33-03bb-4f6d-908f-398c541686f2-1667256049c28cf7ee-0": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Zero Standby Power System\n2\" Ultra-Slim Profile\n12\" Stackable Legs\nFoldable\nCourier Friendly\nSilent Drive Motors\nGravity Release\nPower Outage Protection\nZero Standby Power System",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "663dade5-5f88-4eed-ba44-aa152b57631d": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Zero Standby Power System\n1\" Ultra-Slim Profile\n12\" Stackable Legs\nFoldable\nCourier Friendly\nSilent Drive Motors\nGravity Release\nPower Outage Protection",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "8463d1ef-7dc1-4065-a82a-2d6e97cd8a21": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Zero Standby Power System\n2\" Ultra-Slim Profile\n12\" Stackable Legs\nFoldable\nCourier Friendly\nSilent Drive Motors\nGravity Release\nPower Outage Protection",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "56f5ce8e-2fa8-4255-bb97-a10f233b1ef1": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Zero Standby Power System\n2\" Ultra-Slim Profile\n12\" Stackable Legs\nFoldable\nCourier Friendly\nSilent Drive Motors\nGravity Release\nPower Outage Protection\nZero Standby Power System",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__44c07c33-03bb-4f6d-908f-398c541686f2-1667256049c28cf7ee-0",
+        "663dade5-5f88-4eed-ba44-aa152b57631d",
+        "8463d1ef-7dc1-4065-a82a-2d6e97cd8a21",
+        "56f5ce8e-2fa8-4255-bb97-a10f233b1ef1"
+      ],
+      "settings": {
+        "comparison_criteria": "Standard Features"
+      }
+    },
+    "71fd5976-409f-4597-8107-778d80282533": {
+      "type": "accordion-module",
+      "blocks": {
+        "template--16521036923101__71fd5976-409f-4597-8107-778d80282533-16672562524233ac76-0": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Interchangeable Leg Options\nHeadboard Brackets",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "2116c724-f9c4-4f4d-8b7d-2e19419af46e": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Interchangeable Leg Options\nHeadboard Brackets",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "2aff6c6e-71c5-4351-bb44-fda52ac5f0ef": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Interchangeable Leg Options\nHeadboard Brackets",
+            "link_label": "",
+            "link_url": ""
+          }
+        },
+        "f0e94b72-cd2b-4141-96db-0cf6a0c1792c": {
+          "type": "accordion",
+          "settings": {
+            "accordion_text": "Interchangeable Leg Options\nHeadboard Brackets",
+            "link_label": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__71fd5976-409f-4597-8107-778d80282533-16672562524233ac76-0",
+        "2116c724-f9c4-4f4d-8b7d-2e19419af46e",
+        "2aff6c6e-71c5-4351-bb44-fda52ac5f0ef",
+        "f0e94b72-cd2b-4141-96db-0cf6a0c1792c"
+      ],
+      "settings": {
+        "comparison_criteria": "Options"
+      }
+    },
+    "7522e0a5-38db-4a8f-bebc-5754ec951a1b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 90,
+        "padding_bottom_mb": 75
+      }
+    },
+    "1667256342c1e5c8ff": {
+      "type": "apps",
+      "blocks": {
+        "75eac305-6a9a-4c50-9a93-bbec08347463": {
+          "type": "shopify:\/\/apps\/easy-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
+          "settings": {
+            "heading": "Frequently Asked Questions",
+            "heading_text_type": "h2",
+            "heading_alignment": "left",
+            "faq_embed_code": "<div class=\"ef-faqs-plus-app-cats-content\" data-category=\"Adjustable Bases\" id=\"ef-faqs-635f40a33965cd0b6e10ae68\"><\/div>",
+            "faqs_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "75eac305-6a9a-4c50-9a93-bbec08347463"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "c49bbc06-b64a-4353-a4c5-45e48b3d9540": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "ac1bcbce-8340-4698-8332-18532615e6b2": {
+      "type": "video-multi-column",
+      "blocks": {
+        "template--16521036923101__ac1bcbce-8340-4698-8332-18532615e6b2-1667256434a341369e-0": {
+          "type": "multi_columns_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+            "headline": "Quest 1.0 Setup Video",
+            "content": "",
+            "label_link": "Quest 1.0 product details",
+            "link_url": "https:\/\/ergomotion-4151.myshopify.com\/products\/quest-1-0",
+            "target_link": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=jvGLU3_fEFY"
+          }
+        },
+        "7c1d37c3-66c3-4241-ae0f-2bb9343ee58d": {
+          "type": "multi_columns_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+            "headline": "Quest 2.0 Setup Video",
+            "content": "",
+            "label_link": "Quest 2.0 product details",
+            "link_url": "https:\/\/ergomotion-4151.myshopify.com\/products\/quest-2-0",
+            "target_link": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=ONDf-n03hHI"
+          }
+        },
+        "b4839915-f82d-4542-b8bc-1cd1e9f8be24": {
+          "type": "multi_columns_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+            "headline": "Quest 2.5 Setup Video",
+            "content": "",
+            "label_link": "Quest 2.5 product details",
+            "link_url": "https:\/\/ergomotion-4151.myshopify.com\/products\/product-2-5",
+            "target_link": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=qhy2ucDdAr8"
+          }
+        },
+        "6dee485f-b0d7-4ef2-8b2a-f2a9b2582888": {
+          "type": "multi_columns_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+            "headline": "Quest 4.0 Setup Video",
+            "content": "",
+            "label_link": "Quest 4.0 product details",
+            "link_url": "https:\/\/ergomotion-4151.myshopify.com\/products\/quest-4-0",
+            "target_link": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=O8AuPto44qk"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__ac1bcbce-8340-4698-8332-18532615e6b2-1667256434a341369e-0",
+        "7c1d37c3-66c3-4241-ae0f-2bb9343ee58d",
+        "b4839915-f82d-4542-b8bc-1cd1e9f8be24",
+        "6dee485f-b0d7-4ef2-8b2a-f2a9b2582888"
+      ],
+      "settings": {
+        "heading": "Quest Product Setup & Install",
+        "heading_size": "h3",
+        "number_columns": "2",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 80
+      }
+    },
+    "76e06f84-a3e2-43ef-984c-1c21338ec685": {
+      "type": "text-block",
+      "blocks": {
+        "template--16521036923101__76e06f84-a3e2-43ef-984c-1c21338ec685-1667256765d2e86392-0": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We power the adjustable base and smart bed induestries."
+          }
+        },
+        "f1736c1e-ed7a-47e3-b70f-ab8112f3944b": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We follow a simple guiding principle: create holistic wellness through design, comfort, and technology."
+          }
+        },
+        "9a6a1cf5-1e9e-4407-beec-b0be30f38243": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We follow a simple guiding principle: create holistic wellness through design, comfort, and technology."
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__76e06f84-a3e2-43ef-984c-1c21338ec685-1667256765d2e86392-0",
+        "f1736c1e-ed7a-47e3-b70f-ab8112f3944b",
+        "9a6a1cf5-1e9e-4407-beec-b0be30f38243"
+      ],
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "a57899f0-d32a-4f0a-bdf3-5c653e2610b3": {
+      "type": "long-image-text-module",
+      "blocks": {
+        "template--16521036923101__a57899f0-d32a-4f0a-bdf3-5c653e2610b3-166725682454ad4112-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspired by Limited-edition Luxury",
+            "heading_size": "h3"
+          }
+        },
+        "template--16521036923101__a57899f0-d32a-4f0a-bdf3-5c653e2610b3-166725682454ad4112-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 2005, engineer and founder Alain Clénet developed the first ergonomic adjustable bed base at his home in Santa Ynez, California. Having previously founded Clénet Coachworks, Inc. – a designer and manufacturer of limited-edition neoclassic automobiles – Clénet’s track record of creating luxury products was already well-established.<\/p>"
+          }
+        },
+        "89f12a29-bb34-4255-93a6-9a3244088e51": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Within a year of developing his adjustable bed base prototype, Alain and his son Kelly started Ergomotion – the first sleep solution for a traditional mattress that married style with innovation.<\/p>"
+          }
+        },
+        "d2928fad-3dd7-49fb-b709-d3825f2d86bf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Today, Clénet's vision is a reality with nearly eight million adjustable bases sold across more than 30 countries worldwide. Over the years, Ergomotion has partnered with more than 250 major brands and has collaborated with countless innovators like Garmin, Sonos, and TempurPedic.<br\/><\/p>"
+          }
+        },
+        "2065692a-b650-43b2-926a-3f9bb7705fff": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion has become the leading global manufacturer and supplier of adjustable bases, with over eight million products sold across 30 countries. <br\/><\/p>"
+          }
+        },
+        "d25b2a72-5424-4895-9805-df1b401678e8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>And, as the owner of the global adjustable base supply chain, we are able to ensure premium product quality, sustainability, and affordability so people around the world can enjoy the wellness benefits provided by restorative sleep.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__a57899f0-d32a-4f0a-bdf3-5c653e2610b3-166725682454ad4112-0",
+        "template--16521036923101__a57899f0-d32a-4f0a-bdf3-5c653e2610b3-166725682454ad4112-1",
+        "89f12a29-bb34-4255-93a6-9a3244088e51",
+        "d2928fad-3dd7-49fb-b709-d3825f2d86bf",
+        "2065692a-b650-43b2-926a-3f9bb7705fff",
+        "d25b2a72-5424-4895-9805-df1b401678e8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image1-1280px.jpg",
+        "image_position": "object-center",
+        "image_placement": "left",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "7fb38a4d-6767-4984-907e-fea31498cf6c": {
+      "type": "body-text-icon-list",
+      "blocks": {
+        "template--16521036923101__7fb38a4d-6767-4984-907e-fea31498cf6c-166725696102d46dc7-0": {
+          "type": "text_icon_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons_HEAD_FOOT.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "text": "<p>Not allowing your body to enter deeper sleep can contribute to memory loss, diabetes, depression, lack of focus, high blood pressure, heart disease, and a weak immune system.<\/p>"
+          }
+        },
+        "6102298a-2489-4acc-8215-bc62f4980354": {
+          "type": "text_icon_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons_ZERO_G-2.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "text": "<p>Adjustable bases help address sleep disorders like sleep apnea which is caused by the body’s inability to keep airways open throughout the night.<\/p>"
+          }
+        },
+        "81fe7034-e307-441f-995f-562d8645fd90": {
+          "type": "text_icon_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons_MASSAGE_MOTORS.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "text": "<p>Like snoring, sleep apnea is a breathing problem that can be decreased simply by using our adjustable base to raise the head.<\/p>"
+          }
+        },
+        "template--16521036923101__7fb38a4d-6767-4984-907e-fea31498cf6c-166725696102d46dc7-1": {
+          "type": "note",
+          "settings": {
+            "note": "<p>*The FDA has noted that adjustable bases can aid in the treatment of a number of medical afflictions and illnesses. Normally adjusting the upper part of the bed to a higher position eliminates or reduces snoring. For some patients, snoring will prevent you from reaching a deep restful sleep, known as REM sleep.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__7fb38a4d-6767-4984-907e-fea31498cf6c-166725696102d46dc7-0",
+        "6102298a-2489-4acc-8215-bc62f4980354",
+        "81fe7034-e307-441f-995f-562d8645fd90",
+        "template--16521036923101__7fb38a4d-6767-4984-907e-fea31498cf6c-166725696102d46dc7-1"
+      ],
+      "settings": {
+        "heading": "Eliminate snoring and deepen sleep",
+        "heading_size": "h3",
+        "text": "<p>Snoring is more common than most people think, and it often goes unnoticed. This symptom prevents people from entering deeper sleep which can contribute to more serioues health issues. * Positions like Zero-Gravity allows your nasal passages to stay fully open and keeps your tongue from putting pressure on your throat. In this position, you can experience a deeper more restfull sleep.<\/p>",
+        "background_color": "white",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 75
+      }
+    },
+    "410c37c2-6dde-40eb-bada-b9b1d88bb070": {
+      "type": "rich_text_and_bullet",
+      "blocks": {
+        "template--16521036923101__410c37c2-6dde-40eb-bada-b9b1d88bb070-166725712989b51a37-0": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Improved circulation by raising your head and feat above your heart to allow for greater blood flow."
+          }
+        },
+        "5baad1ef-a85f-4caf-acf2-dbaaf09b87f9": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Reduced lower back pain by adjusting the head nad foot rests to alleviate pressure."
+          }
+        },
+        "79e82017-f213-4ca8-afaf-9469a41aef15": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Better digestion and acid reflux management by raising the head the recommended six inches."
+          }
+        },
+        "9b18badf-4f97-470f-aa5b-f84370281e30": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Less pressure on joints, alleviating inflammation, swelling, soreness, and even chronic arthritis."
+          }
+        },
+        "23923a2d-c00a-4ecc-8f40-b07007ca3ee2": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Reduced tension on the windpipe to better manage snoring, sleep apnea, and asthma."
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__410c37c2-6dde-40eb-bada-b9b1d88bb070-166725712989b51a37-0",
+        "5baad1ef-a85f-4caf-acf2-dbaaf09b87f9",
+        "79e82017-f213-4ca8-afaf-9469a41aef15",
+        "9b18badf-4f97-470f-aa5b-f84370281e30",
+        "23923a2d-c00a-4ecc-8f40-b07007ca3ee2"
+      ],
+      "settings": {
+        "background_color": "blue",
+        "heading": "Fall asleep faster.Wake feeling refreshed.",
+        "text": "<p>Your body will tell you if you got a great nights rest, but you can remove many common discomfort problems just by switching to an Ergomotion adjustable base. With slight adjustments to your head and foot rest, you can quickly align your spine and remove the need for pillow fidgeting. Each adjustable base is fully dynamic and customizable so you can easily dial in your favorite settings to ensure you fall asleep faster and sleep deeper throughout the night.<\/p>",
+        "label_link": "Quest 1.0 product details",
+        "link": "shopify:\/\/products\/quest-1-0-old",
+        "target": false,
+        "title": "Here's a brief overview of the exciting health benefits of your adjustable base:",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 75
+      }
+    },
+    "efcc87a9-f798-4a3b-b74f-6c0e653430e3": {
+      "type": "multiple-image-and-text",
+      "blocks": {
+        "template--16521036923101__efcc87a9-f798-4a3b-b74f-6c0e653430e3-16672572682b1fcdb9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sleep better with the benefits of Zero Gravity",
+            "heading_size": "h2"
+          }
+        },
+        "template--16521036923101__efcc87a9-f798-4a3b-b74f-6c0e653430e3-16672572682b1fcdb9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspired by NASA's zero-gravity research, each Ergomotion bed is designed to help you find weightless relief right at home. More than just a cool feature, this built-in preset is the key to unlocking deeper sleep for more restorative wellness. With the touch of a button, you can enter zero gravity – quickly alleviating tension in the neck, lower back pain, joint pressure, and any swelling in the feet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16521036923101__efcc87a9-f798-4a3b-b74f-6c0e653430e3-16672572682b1fcdb9-0",
+        "template--16521036923101__efcc87a9-f798-4a3b-b74f-6c0e653430e3-16672572682b1fcdb9-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image1-1280px.jpg",
+        "imageSmall": "shopify:\/\/shop_images\/image2-1280px.jpg",
+        "image_position": "bg-center",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "feffc740-4b84-4331-806e-bd5ab8d6ca25",
+    "7d0dd541-1ad5-4f1a-ae56-181602c8c9cc",
+    "f16d3044-c509-4926-a65c-2eadb6eec23a",
+    "049d03d8-4804-490d-80a9-d5b9134212a7",
+    "0f0a5614-b0e7-4337-bb4c-737f1dee1bdd",
+    "5fa0ea4b-0b9a-46eb-aeeb-98e20ad9af1c",
+    "2d85901c-8e63-4236-805a-06479ef9d76e",
+    "8e676783-ea16-4fde-8de4-f97bc2c23d70",
+    "44c07c33-03bb-4f6d-908f-398c541686f2",
+    "71fd5976-409f-4597-8107-778d80282533",
+    "7522e0a5-38db-4a8f-bebc-5754ec951a1b",
+    "1667256342c1e5c8ff",
+    "c49bbc06-b64a-4353-a4c5-45e48b3d9540",
+    "ac1bcbce-8340-4698-8332-18532615e6b2",
+    "76e06f84-a3e2-43ef-984c-1c21338ec685",
+    "a57899f0-d32a-4f0a-bdf3-5c653e2610b3",
+    "7fb38a4d-6767-4984-907e-fea31498cf6c",
+    "410c37c2-6dde-40eb-bada-b9b1d88bb070",
+    "efcc87a9-f798-4a3b-b74f-6c0e653430e3",
+    "main"
+  ]
+}

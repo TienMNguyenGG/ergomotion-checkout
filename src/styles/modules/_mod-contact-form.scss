@@ -1,0 +1,61 @@
+.wrap-content-contact {
+  h1,
+  h2,
+  .h2 {
+    @apply md:mb-15 xl:text-h1-md xl:mb-19 2xl:text-h2-v2-2xl 2xl:leading-1-1 2xl:mb-15;
+  }
+}
+
+.callout-wrap {
+  box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.05);
+  a {
+    @apply text-inherit hover:text-blue-400;
+  }
+}
+.callout-icon {
+  flex: 0 0 66px;
+  max-width: 66px;
+}
+.form-contact-headline {
+  h3,
+  .h3 {
+    @apply xl_to_2xl:text-font-24-38;
+  }
+}
+.mod-form-contact {
+  .dropdown-toggle {
+    @apply border-blue-300;
+    @apply h-36 md:h-28 2xl:h-36 bg-blue-300 text-white;
+    .caret-c8 {
+      @apply right-12 top-13 md:top-9 2xl:top-13;
+    }
+  }
+  .dropdown-select-c8 {
+  
+    li {
+      transition: all .15s;
+      &:hover,
+      &.selected:not(.disabled), &:focus{
+        @apply bg-blue-300;
+      }
+    }
+  }
+}
+@screen xl {
+
+  .callout-icon {
+    flex: 0 0 86px;
+    max-width: 86px;
+  }
+}
+@screen 2xl {
+  .callout-icon {
+    flex: 0 0 86px;
+    max-width: 86px;
+  }
+}
+@screen down_xl {
+  .wrap-bg-contact {
+    left: calc(50% - 50vw);
+  }
+}

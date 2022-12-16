@@ -1,0 +1,30 @@
+{% comment %} Added by SolverCircle for Product Upsell Manager {% endcomment %}
+
+{% layout none %}
+{% paginate search.results by 10 %}
+{% assign resultTotal = search.results_count %}
+
+{% capture output %}
+{
+    "TotalProduct" : "{{resultTotal}}",
+	{% if customer %} 
+	"CustomerID" : "{{customer.id}}",
+	{% endif %}
+     "Items":
+        [
+            {% for product in search.results %}					
+                  {% assign thumbURL = product.images[0] | product_img_url: 'thumb' %}
+                    {
+                          "id":"{{product.id}}"
+                          ,"title": {{product.title | json }}						  
+                          ,"image" : {{thumbURL | json }}
+													,"handle"	: {{ product.handle | json }}
+                    }
+                  {% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        ]
+	
+}
+{% endcapture %}
+{% endpaginate %}
+{{ output | strip_newlines }}

@@ -1,0 +1,115 @@
+td.wrap-accordion {
+  &:last-child {
+    @apply mb-20;
+  }
+}
+.table-wrap-compare {
+  width: calc(100% + 20px);
+  max-width: calc(100% + 20px);
+  @apply overflow-hidden;
+  .col {
+    @apply px-4p5;
+  }
+  h3,
+  .h3 {
+    @apply lg:text-h3-md 2xl:text-h1;
+  }
+}
+.pin-name-product {
+  @apply top-37 md:top-45 xl:top-0 #{!important};
+  tr {
+    @apply align-top;
+  }
+  &.show-btn {
+    .pin-shop {
+      display: table-row;
+    }
+  }
+  &.show-pin {
+    @apply opacity-100 pointer-events-auto;
+  }
+  &::after {
+    content: '';
+    @apply absolute top-0 bottom-0 bg-white z-a-1;
+    left: -50vw;
+    right: -50vw;
+    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.05);
+    @screen xl {
+      box-shadow: 0px 8.5px 84px rgba(100, 100, 100, .12);
+    }
+  }
+  .list-name-mb {
+    @apply pr-50;
+  }
+  h3,
+  .h3 {
+    @apply text-font-22 xl:text-h3-md xl:font-medium 2xl:text-h3-2xl;
+  }
+  h5,
+  .h5 {
+    @apply text-h5-md font-medium text-dark-grey;
+  }
+  .wrap-btn {
+    @apply absolute top-6 right-25;
+  }
+  .wrap-mb {
+    @apply relative py-9 px-15;
+    .control-table {
+      @apply mb-0 mt-9 mr-9;
+    }
+  }
+}
+.control-table {
+  @apply mb-23 md:mb-20;
+  .arrows  {
+    @apply static text-font-32-32 text-font-36;
+    transform: translate(0);
+  }
+  .next {
+    transform: rotate(180deg);
+  }
+  .slick-disabled {
+    @apply opacity-50 pointer-events-none;
+  }
+  .slick-dots {
+    @apply relative flex w-full bottom-auto items-center;
+    li {
+      @apply mx-1 w-full;
+    }
+    button {
+      @apply w-full bg-sky-light-blue h-0p5 p-0 rounded-none;
+      transition: all .3s;
+      &.active {
+        @apply h-1p5 bg-blue-300;
+      }
+    }
+  }
+}
+@screen md {
+  .table-wrap-compare {
+    width: calc(100% + 38px);
+    max-width: calc(100% + 38px);
+  }
+}
+@screen lg {
+  .table-wrap-compare {
+    width: calc(50vw + 492px);
+    max-width: calc(50vw + 492px);
+  }
+}
+@screen xl {
+  .table-wrap-compare {
+    width: calc(50vw + 573px);
+    max-width: calc(50vw + 573px);
+  }
+  .wrap-desktop {
+    width: calc(50vw + 573px);
+    max-width: calc(50vw + 573px);
+  }
+}
+@screen 2xl {
+  .wrap-desktop,
+  .table-wrap-compare {
+    @apply w-full max-w-full;
+  }
+}

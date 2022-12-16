@@ -1,0 +1,110 @@
+{% assign size = 0 %}
+{% assign title_words = "" | split: ',' %}
+
+{%- for block in section.blocks -%}
+  {%- liquid
+    assign title_words = block.settings.accordion_text | strip | newline_to_br | strip_newlines | split: "<br />"
+    assign sizeCurrent = title_words | size
+    if size < sizeCurrent
+      assign size = sizeCurrent
+    endif
+  %}
+{%- endfor -%}
+<div class="section-{{ section.id }}-padding mod-accordion js-accordion">
+  <div class="container">
+    {% if section.settings.comparison_criteria != blank %}
+    <button class="h5 title-accordion block last-mb-none pr-20 cursor-pointer ml-5 text-h5 font-bold text-hush-black relative pl-19" aria-expanded="false" aria-controls="accordion-{{ section.id }}">
+      <span class="icomoon icon-plus"></span> {{ section.settings.comparison_criteria }}
+    </button>
+    {% endif %}
+    <div class="wrap-table-accordion table-wrap pt-17 md:pt-5 2xl:pt-17" id="accordion-{{ section.id }}">
+      <table class="w-full mb-17 md:mb-5 xl:mb-11 2xl:mb-17">
+        <tr>
+          {%- for block in section.blocks -%}
+          <th class="w-1/4 relative" aria-labelledby="accordion-th-{{ forloop.index }}">
+          </th>
+          {% endfor %}
+        </tr>
+        {% for i in (1..size) %}
+        <tr>
+          {% assign index = forloop.index0 %}
+          {% assign index1 = forloop.index %}
+          {%- for block in section.blocks -%}
+            {%- liquid
+              assign title_words = block.settings.accordion_text | strip | newline_to_br | strip_newlines | split: "<br />"
+            %}
+            <td class="col{{ index1 }}"  {{ block.shopify_attributes }}>
+              {% if title_words[index] != empty %}
+                {{ title_words[index]  }}
+              {% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+         {% assign hasbtn = false %}
+        {%- for block in section.blocks -%}
+          {% if block.settings.link_label != blank and block.settings.link_url != blank %}
+            {% assign hasbtn = true %}
+          {% endif%}
+        {% endfor %}
+        {% if hasbtn == true %}
+        <tr class="no-bg">
+          {%- for block in section.blocks -%}
+            {% if block.settings.link_label != blank and block.settings.link_url != blank %}
+              <td>
+                <a href="{{ block.settings.link_url }}" class="no-underline btn btn btn-primary mt-15 -mb-5 accordion-button-{{ forloop.index }}" tabindex='-1'>{{ block.settings.link_label }}</a>
+              </td>
+            {% endif%}
+          {% endfor %}
+        </tr>
+        {% endif%}
+      </table>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Accordion Module",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "comparison_criteria",
+      "label": "Comparison Criteria"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "accordion",
+      "name": "Accordion Item",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "accordion_text",
+          "label": "Accordion Text"
+        },
+        {
+          "type": "text",
+          "id": "link_label",
+          "label": "Label Button"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link Button"
+        }
+      ]
+    }
+  ],
+   "presets": [
+    {
+      "name": "Accordion Module",
+      "blocks": [{
+        "type": "accordion"
+      }]    
+    }
+  ]
+}
+{% endschema %}

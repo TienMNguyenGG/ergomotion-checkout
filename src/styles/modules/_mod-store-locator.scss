@@ -1,0 +1,261 @@
+.mod-store-locator {
+  h3,
+  .h3 {
+    @apply mb-0 pb-10;
+  }
+  .mapboxgl-marker {
+    path {
+      fill: #043673;
+      stroke: #043673;
+    }
+  }
+  .storepoint-popup-phone,
+  .storepoint-popup-description,
+  .storepoint-description,
+  .storepoint-sidebar-phone {
+    @apply hidden #{!important};
+  }
+  #storepoint-container div#storepoint-results-container {
+    @apply overflow-hidden;
+  }
+  #storepoint-container {
+    @apply relative flex flex-col xl:block border-0 xl:pt-12 2xl:pt-40;
+    #storepoint-search,
+    h3,
+    .h3 {
+      @apply bg-white border-0 relative;
+    }
+    #storepoint-brand {
+      @apply hidden;
+    } 
+    #storepoint-results {
+      @apply -ml-10;
+      overflow-x: hidden !important;
+      .mb-track-x {
+        @apply hidden;
+      }
+      .mb-bar {
+        @apply bg-blue-50;
+      }
+      .mb-track-y {
+        @apply bg-soft-blue opacity-100;
+      }
+    }
+    h3,
+    .h3,
+    #storepoint-search,
+    #storepoint-panel {
+      @apply px-4 md:px-35 md:py-28 xl:px-16 2xl:px-32 mx-auto xl:mx-0 w-full md:w-97p xl:w-40p 2xl:w-37p order-2 2xl:ml-8;
+    }
+    .h3,
+    #storepoint-search{
+      @apply z-20 #{!important};
+    }
+    #storepoint-panel {
+      @apply 2xl:pt-20 relative md:-top-1 z-10;
+    }
+    h3,
+    .h3 {
+      @apply pt-44 xl:pt-28 2xl:pt-44 md:-mt-60 xl:mt-0 pb-0;
+    }
+    
+    #storepoint-search {
+      @apply pb-0 pt-18;
+    }
+    .mapboxgl-ctrl-geocoder {
+      @apply max-w-full;
+    }
+    .storepoint-location  {
+      @apply flex flex-col px-20 py-20 -mx-10;
+      .storepoint-name {
+        @apply text-font-22 font-medium leading-1-6 xl:text-h4 2xl:text-h3-md text-hush-black order-2 mb-9;
+      }
+      .storepoint-address {
+        @apply text-base text-dark-grey order-3 w-70p xl:leading-1-8;
+      }
+      .storepoint-distance {
+        @apply text-snooze-grey order-1 text-base 2xl:text-footer-description;
+      }
+      &:first-child {
+        @apply pt-0;
+      }
+    }
+    
+    .storepoint-tags {
+      @apply order-4;
+    }
+    span.tag {
+      @apply hidden;
+    }
+    .mapboxgl-popup-content {
+      @apply lg:p-20 py-4 px-10;
+    }
+    #storepoint-map {
+      @apply xl:absolute -mx-10 md:-mx-20 xl:mx-0 order-1 -left-9 -right-9 top-0 bottom-0 w-auto h-full rounded-4;
+      height: 330px;
+      transition: .5s height ease;
+      .storepoint-location-popup {
+        @apply flex flex-col w-full max-w-full;
+        b {
+          @apply text-2xl font-medium leading-normal text-hush-black order-1 lg:mb-8 down_lg:text-xs;
+        }
+        .street-address {
+          @apply text-base text-dark-grey order-2 down_lg:text-xs;
+        }
+        .storepoint-popup-directions-btn {
+          @apply order-3 lg:mt-8 down_lg:text-xs;
+        }
+      }
+      .storepoint-popup-directions-btn a.storepoint-directions-button{
+        @apply font-bold text-sm block capitalize ml-0 down_lg:text-xs;
+        @apply bg-transparent font-bold text-midnight-blue pl-0 #{!important};
+        &::after {
+          content: '\e914';
+          font-family: 'icomoon', sans-serif !important;
+          @apply text-wellness-blue inline-block ml-5 text-sm font-medium relative top-1 down_lg:text-xs;
+        }
+      }
+    }
+  }
+  
+  .mapboxgl-popup {
+    @apply z-3;
+  }
+  button.mapboxgl-popup-close-button {
+    @apply text-3xl leading-none;
+  }
+  #storepoint-container #storepoint-search .mapboxgl-ctrl-geocoder input[type=text],
+  #storepoint-container #storepoint-search #storepoint-searchbar {
+    @apply h-36 text-base font-semibold text-dark-grey pl-15 pr-45;
+    &::placeholder {
+      @apply text-dark-grey;
+    }
+  }
+  #storepoint-search-bar-container {
+    @apply w-full;
+    .storepoint-search-bar-container {
+      @apply max-w-full;
+    }
+  }
+  svg.mapboxgl-ctrl-geocoder--icon.mapboxgl-ctrl-geocoder--icon-search {
+    @apply w-20 h-20 left-auto right-10 top-8;
+    path {
+      fill: #357E97;
+    }
+  }
+  #stpt-show-more-btn {
+    @apply bg-transparent text-midnight-blue font-bold text-sm #{!important};
+  }
+  
+  .mapboxgl-popup.mapboxgl-popup-anchor-bottom {
+    max-width: 310px !important;
+  }
+  .mapboxgl-ctrl-geocoder .mapboxgl-ctrl-geocoder--pin-right > *{
+    right:66px;
+    top: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .mod-store-locator {
+    canvas.mapboxgl-canvas {
+      @apply absolute;
+    }
+    #storepoint-container {
+      padding-top: 330px;
+      &.pin-scroll {
+        #storepoint-map {
+          position: fixed !important;
+          height: 260px !important;
+          z-index: 3333 !important;
+        }
+      }
+      &.stop-scroll {
+        #storepoint-map {
+          height: 260px !important;
+        }
+      }
+      #storepoint-map {
+        @apply w-auto #{!important};
+        height: 330px !important;
+        a.storepoint-popup-directions {
+          margin-top: 0 !important;
+        }
+        #storepoint-popup-tags {
+          @apply hidden;
+        }
+      }
+      #storepoint-panel {
+        @apply pt-0 #{!important};
+      }
+      .storepoint-location {
+        border-bottom: 0 !important;
+        &:first-child {
+          border: 0 !important;
+        }
+      }
+      #storepoint-results {
+        @apply px-0;
+      }
+    }
+  }
+  #storepoint-container div#storepoint-results-container {
+    border-bottom:solid 1px rgb(240,240,240);
+  }
+}
+@screen md {
+  .mod-store-locator {
+    #storepoint-container {
+      height: auto;
+      #storepoint-map {
+        @apply -left-10 -right-10;
+        height: 480px;
+      }
+      h3,
+      .h3,
+      #storepoint-search,
+      #storepoint-panel {
+        box-shadow: 0px 4px 84px rgba(0, 0, 0, .05);
+      }
+      #storepoint-search {
+        box-shadow: none;
+        z-index: 5;
+      }
+    }
+    .mapboxgl-popup.mapboxgl-popup-anchor-bottom {
+      max-width: 498px !important;
+    }
+  }
+}
+@screen xl {
+  .mod-store-locator {
+    #storepoint-container {
+      height: 670px;
+      #storepoint-map {
+        @apply left-80 h-auto;
+      }
+      
+      #storepoint-panel {
+        height: 317px;
+      }
+    }
+    .mapboxgl-popup.mapboxgl-popup-anchor-bottom {
+      max-width: 350px !important;
+    }
+  }
+}
+@screen 2xl {
+  .mod-store-locator {
+    .mapboxgl-popup.mapboxgl-popup-anchor-bottom {
+      max-width: 498px !important;
+    }
+    #storepoint-container {
+      height: 1066px;
+      #storepoint-map {
+        @apply left-80;
+      }
+      #storepoint-panel {
+        height: 567px;
+      }
+    }
+  }
+}

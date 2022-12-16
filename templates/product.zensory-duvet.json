@@ -1,0 +1,282 @@
+{
+  "sections": {
+    "166391467135f270f9": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 60
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "b5a66e63-ce3f-4969-856d-947b6dcb3d85": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "9750fcb0-0aa6-410f-916e-9dcaa1c0d5b8": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "379c2216-5f85-463b-a78a-dac87adc2743": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "8bc8af80-6bc2-45b3-b408-2de3d1748f89": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "23744576-06eb-422a-8381-950b68502efd": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f": {
+          "type": "cart_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b5a66e63-ce3f-4969-856d-947b6dcb3d85",
+        "9750fcb0-0aa6-410f-916e-9dcaa1c0d5b8",
+        "379c2216-5f85-463b-a78a-dac87adc2743",
+        "8bc8af80-6bc2-45b3-b408-2de3d1748f89",
+        "23744576-06eb-422a-8381-950b68502efd",
+        "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "2aa00b86-e79e-465d-b599-b0ff5784034a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1668736341cd2a2842": {
+      "type": "apps",
+      "blocks": {
+        "45f20b80-50bc-42a8-b43d-83fd45a49e08": {
+          "type": "shopify:\/\/apps\/store-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
+          "settings": {
+            "heading": "The Zensory Duvet Cover comes in Navy, Grey & Soft Pink",
+            "heading_text_type": "h2",
+            "heading_alignment": "left",
+            "faq_embed_code": "<div class=\"ef-faqs-plus-app-cats-content\" data-category=\"Zensory Duvet Cover\" id=\"ef-faqs-6376e4ad216eb5a32eb47554\"><\/div>",
+            "faqs_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "45f20b80-50bc-42a8-b43d-83fd45a49e08"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1663915310a812c02b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 75,
+        "padding_bottom_mb": 75
+      }
+    },
+    "1663841794f3372890": {
+      "type": "feature-benefit",
+      "blocks": {
+        "1663841794335cc74f-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-1_520x500_c9ac94d6-afdc-4f9b-94a7-4c114474b383.jpg",
+            "headline_benefit": "Encourage better sleep",
+            "content_benefit": "<p>Your new luxury sheets and pillowcases can help improve sleep outcomes by better regulating body temperature while reducing perspiration levels.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "00340bf5-71ba-472b-90a0-f49f630b508d": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-2_520x500_9a00b52b-b0f1-4bdc-8556-bddd44d55eaf.jpg",
+            "headline_benefit": "Improve wellness outcomes",
+            "content_benefit": "<p>With higher-quality bedding, you can be confident you'll sleep deeper and more comfortably, improving health through a more restorative sleep experience.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "898734de-2050-4e8a-a6c9-ffa789ebca22": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog-3_520x500_a1a514a0-f20d-439c-b7bb-a6ccb92dee7b.jpg",
+            "headline_benefit": "Elevate your lifestyle",
+            "content_benefit": "<p>Your adjustable bed is the key to more restful sleep. And with performance silk bedding, you can finally complete the look of rich wellness combined with luxury.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663841794335cc74f-0",
+        "00340bf5-71ba-472b-90a0-f49f630b508d",
+        "898734de-2050-4e8a-a6c9-ffa789ebca22"
+      ],
+      "settings": {
+        "heading": "Essential wellness benefits",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "166391543682cfdb8f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16638080172b862644": {
+      "type": "help-banner",
+      "blocks": {
+        "16638080174807cfa3-0": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_6.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "24383217-0420-45b7-81a0-5ca4fe2f9981": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_7.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<br\/><\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "4f52fadd-20d1-46ea-858c-e795e669aef9": {
+          "type": "help_banner",
+          "settings": {
+            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_8.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "headline_help": "Product support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "16638080174807cfa3-0",
+        "24383217-0420-45b7-81a0-5ca4fe2f9981",
+        "4f52fadd-20d1-46ea-858c-e795e669aef9"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f9e7efcc-366d-4db5-991b-9992743865f3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1669788325d8379f05": {
+      "type": "apps",
+      "blocks": {
+        "27f70ccd-5196-4481-bb92-6aa005ceb275": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "handle"
+          }
+        }
+      },
+      "block_order": [
+        "27f70ccd-5196-4481-bb92-6aa005ceb275"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1664864950411c9ca8": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 60
+      }
+    },
+    "16642412276bf9f84e": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Explore other popular Bedding & Pillow products",
+        "heading_size": "h3",
+        "collection": "",
+        "padding_bottom": 20,
+        "padding_bottom_mb": 40
+      }
+    },
+    "f645ad50-698b-40ff-8fc0-cbacc595943d": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 60
+      }
+    }
+  },
+  "order": [
+    "166391467135f270f9",
+    "main",
+    "2aa00b86-e79e-465d-b599-b0ff5784034a",
+    "1668736341cd2a2842",
+    "1663915310a812c02b",
+    "1663841794f3372890",
+    "166391543682cfdb8f",
+    "16638080172b862644",
+    "f9e7efcc-366d-4db5-991b-9992743865f3",
+    "1669788325d8379f05",
+    "1664864950411c9ca8",
+    "16642412276bf9f84e",
+    "f645ad50-698b-40ff-8fc0-cbacc595943d"
+  ]
+}

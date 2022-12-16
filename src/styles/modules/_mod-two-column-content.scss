@@ -1,0 +1,12 @@
+.wrap-col-left {
+  h2,
+  .h2 {
+   @apply md:text-h2 xl:text-h1-md 2xl:text-h2-v2-2xl;
+  }
+ }
+ 
+ .wrap-col-right {
+   .btn {
+     @apply mt-8;
+   }
+ }

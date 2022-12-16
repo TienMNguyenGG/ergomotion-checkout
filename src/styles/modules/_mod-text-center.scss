@@ -1,0 +1,16 @@
+.wrap-text-center {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h4 {
+    @apply mb-12 md:mb-15 xl:mb-19 2xl:mb-15;
+  }
+  a {
+    @apply inline-block;
+  }
+  &.content-full-width {
+    @apply max-w-full mx-0;
+  }
+}

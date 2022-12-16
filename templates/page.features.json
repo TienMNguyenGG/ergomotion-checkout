@@ -1,0 +1,590 @@
+{
+  "sections": {
+    "4b43e5e2-5a99-48f2-8d96-765b2d43877e": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 60
+      }
+    },
+    "03dfa576-51c5-4adf-8fb3-1ebb98c57d02": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 20,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1acd42ad-4215-4608-972b-9d36740dc14b": {
+      "type": "features-banner",
+      "blocks": {
+        "template--16563249676509__1acd42ad-4215-4608-972b-9d36740dc14b-1665456717cf40cd15-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Adjustable Bed Features"
+          }
+        },
+        "template--16563249676509__1acd42ad-4215-4608-972b-9d36740dc14b-1665456717cf40cd15-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore our extensive product features that make each Ergomotion adjustable bed unique and transformative for your sleep wellness.<\/p>"
+          }
+        },
+        "template--16563249676509__1acd42ad-4215-4608-972b-9d36740dc14b-1665456717cf40cd15-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "See all features Test",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__1acd42ad-4215-4608-972b-9d36740dc14b-1665456717cf40cd15-0",
+        "template--16563249676509__1acd42ad-4215-4608-972b-9d36740dc14b-1665456717cf40cd15-1",
+        "template--16563249676509__1acd42ad-4215-4608-972b-9d36740dc14b-1665456717cf40cd15-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cmp_3Qtr_A_bed_210323_2_1.jpg",
+        "image_position": "object-left-bottom",
+        "imageMB_position": "object-left-top",
+        "imageOverlap": "shopify:\/\/shop_images\/remote.webp",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "0c079626-799d-4491-a403-195d4b70d59d": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7af8af00-c0d7-48db-bdd5-f6d94db7f602": {
+      "type": "inner-page-nav",
+      "blocks": {
+        "template--16563249676509__7af8af00-c0d7-48db-bdd5-f6d94db7f602-1665383400677c0b7d-0": {
+          "type": "nav_item",
+          "settings": {
+            "name": "Comfort",
+            "section_ID": "comfort"
+          }
+        },
+        "33941179-564a-4761-ae0c-d3f79fbf1946": {
+          "type": "nav_item",
+          "settings": {
+            "name": "Connectivity",
+            "section_ID": "connectivity"
+          }
+        },
+        "f443671c-4ee8-492a-ba43-7a41ed2ca010": {
+          "type": "nav_item",
+          "settings": {
+            "name": "Convenience",
+            "section_ID": "convenience"
+          }
+        },
+        "0af5a6ea-acc6-41e7-a9d3-e0eb9e610a57": {
+          "type": "nav_item",
+          "settings": {
+            "name": "Placement",
+            "section_ID": "placement"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__7af8af00-c0d7-48db-bdd5-f6d94db7f602-1665383400677c0b7d-0",
+        "33941179-564a-4761-ae0c-d3f79fbf1946",
+        "f443671c-4ee8-492a-ba43-7a41ed2ca010",
+        "0af5a6ea-acc6-41e7-a9d3-e0eb9e610a57"
+      ],
+      "settings": {
+        "padding_bottom": 30,
+        "padding_bottom_mb": 0
+      }
+    },
+    "053092a1-880f-4994-9261-c992d140637d": {
+      "type": "features-tabs",
+      "blocks": {
+        "template--16563249676509__053092a1-880f-4994-9261-c992d140637d-166545805654dc6295-0": {
+          "type": "tabs_item",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icon1.svg?v=1665542987",
+            "get_icon_url_black": true,
+            "url_icon_black": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icon1-active.svg?v=1665542987",
+            "title": "Head & Foot Articulation",
+            "description": "<p>Elevate head and foot to reduce snoring and relieve tension in your lower back and joints.<\/p>"
+          }
+        },
+        "234f4962-a2e1-4a26-8c8a-d5bad7785829": {
+          "type": "tabs_item",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icon2.svg?v=1665542987",
+            "get_icon_url_black": true,
+            "url_icon_black": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icon2-active.svg?v=1665542987",
+            "title": "Zero Gravity Mode",
+            "description": "<p>Kick back in a weightless zero-gravity experience for optimal blood circulation.<\/p>"
+          }
+        },
+        "dc1b6597-f594-4809-8ac9-a8fc7bde7cf6": {
+          "type": "tabs_item",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icon3.svg?v=1665542987",
+            "get_icon_url_black": true,
+            "url_icon_black": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icon3-active.svg?v=1665542987",
+            "title": "Dual Massage Motor",
+            "description": "<p>Enjoy two vibrating massage motors that distribute soothing waves across the entire bed.<\/p>"
+          }
+        },
+        "6e941358-5cdf-44b5-bef1-3c310413d2ec": {
+          "type": "tabs_item",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icon4.svg?v=1665542987",
+            "get_icon_url_black": true,
+            "url_icon_black": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icon4-active.svg?v=1665542987",
+            "title": "Lumbar Support Integration",
+            "description": "<p>With Quest 4.0, you get an added measure of lower back support at the push of a button.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__053092a1-880f-4994-9261-c992d140637d-166545805654dc6295-0",
+        "234f4962-a2e1-4a26-8c8a-d5bad7785829",
+        "dc1b6597-f594-4809-8ac9-a8fc7bde7cf6",
+        "6e941358-5cdf-44b5-bef1-3c310413d2ec"
+      ],
+      "settings": {
+        "section_ID": "comfort",
+        "heading": "Everyday comfort & meditation",
+        "heading_size": "h2",
+        "content": "<p>These key features offer premium comfort and wellness beyond traditional sleep and mattress technology.<\/p>",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 30
+      }
+    },
+    "ced07300-2ce8-48e6-a376-a356c9909c30": {
+      "type": "slider-features",
+      "blocks": {
+        "template--16563249676509__ced07300-2ce8-48e6-a376-a356c9909c30-1665390822ba664487-0": {
+          "type": "slider_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_1727422912_5de99481-fac7-4aae-ab21-abfe02348bdb.jpg",
+            "image_position": "bg-center",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Rise-to-wake_afb5be92-4e6e-48aa-93ae-b2ce21f0ac07.svg?v=1670485390",
+            "title": "Rise-to-Wake Automation",
+            "content": "<p>Ditch your daily alarm clock with an integrated preset that wakes you naturally by raising your head support.<\/p>"
+          }
+        },
+        "32054864-70cd-47f2-8219-ffbe31dc94b4": {
+          "type": "slider_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ergo_Q3-12_1_90f72c4d-9a1c-469a-ab14-7f79eee5f671.jpg",
+            "image_position": "bg-left-top",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Quiet-nite_5331c47b-17a1-4f9a-aac9-b915b8cd8c2f.svg?v=1670485390",
+            "title": "Quiet Nite Anti-Snore",
+            "content": "<p>Unlock enhanced sleep tracking that gently raises the bed when snoring occurs.<\/p>"
+          }
+        },
+        "e51bcd47-aff1-4502-9cca-01c3cccbc0d4": {
+          "type": "slider_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ergomotion-4_41c6e5ed-3e86-4b81-88d1-ab84a49ffb7f.jpg",
+            "image_position": "bg-center",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset-19-1_2_1_1_1.svg?v=1670485481",
+            "title": "Connected Bed App - Coming Soon!",
+            "content": "<p>Complete your smart home automation ecosystem using IFTTT integrations.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__ced07300-2ce8-48e6-a376-a356c9909c30-1665390822ba664487-0",
+        "32054864-70cd-47f2-8219-ffbe31dc94b4",
+        "e51bcd47-aff1-4502-9cca-01c3cccbc0d4"
+      ],
+      "settings": {
+        "section_ID": "connectivity",
+        "heading": "Connected bed automations",
+        "heading_size": "h2",
+        "content": "<p>Ready to take your adjustable bed to the next level? Tap into these integrated wellness functions and smart home connectivity automations.<\/p>",
+        "bg_color": "blue",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "0ec9748e-8b4e-4fa1-845d-9da556488900": {
+      "type": "slider-features",
+      "blocks": {
+        "template--16563249676509__0ec9748e-8b4e-4fa1-845d-9da556488900-1665470690b7caf2cf-0": {
+          "type": "slider_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Quest-Connect---13---Detail-w-Mattress-V2_35eeb14b-101f-4ce3-bb4d-c81dc9b0fb42.jpg",
+            "image_position": "bg-center",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/hello.svg?v=1665461265",
+            "title": "'Hello Ergo' Voice Command",
+            "content": "<p>Speak your command to a coaster-sized device to activate your favorite bed presets.<\/p>"
+          }
+        },
+        "ed1c23bc-7b8a-4cc2-a318-2e477ce177a0": {
+          "type": "slider_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ergomotion-remote-image_2e6ab716-9a70-419c-b089-3120c92248f1.jpg",
+            "image_position": "bg-center",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Wireless_Remote_Flashlight_b8284cf3-c25b-4166-a786-9571597f46d6.svg?v=1668676067",
+            "title": "Wired or Wireless Remote",
+            "content": "<p>Modern and stylish remotes for one-click activation of any request or preset.<\/p>"
+          }
+        },
+        "819bcd85-a8bf-4cf0-aae5-e874bd3e5956": {
+          "type": "slider_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-andrea-piacquadio-3807763.jpg",
+            "image_position": "bg-center",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/2_Presets.svg?v=1666923387",
+            "title": "Programmable Presets",
+            "content": "<p>Program and re-program up to three presets, making it quick and easy to find your favorite position.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__0ec9748e-8b4e-4fa1-845d-9da556488900-1665470690b7caf2cf-0",
+        "ed1c23bc-7b8a-4cc2-a318-2e477ce177a0",
+        "819bcd85-a8bf-4cf0-aae5-e874bd3e5956"
+      ],
+      "settings": {
+        "section_ID": "convenience",
+        "heading": "Convenient commands & program presets",
+        "heading_size": "h2",
+        "content": "<p>Speak to your adjustable bed base to find your favorite presets.<\/p>",
+        "bg_color": "white",
+        "padding_bottom": 50,
+        "padding_bottom_mb": 50
+      }
+    },
+    "f0d24b04-8c20-4c00-90f7-679e1c62085f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "01eee45e-bd33-426e-b009-b3c97f0dafba": {
+      "type": "quest-feature",
+      "blocks": {
+        "template--16563249676509__01eee45e-bd33-426e-b009-b3c97f0dafba-1665529543245e0079-0": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image.png",
+            "icon": "shopify:\/\/shop_images\/icons_One-touch_Flat_preset.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "title": "One-Touch Flat Preset",
+            "content": "<p>With the press of a button, gravity brings the bed back to a flat position so you can get into and out of bed with ease.<\/p>"
+          }
+        },
+        "2c8dff2f-7930-421c-bfb5-fb7e471bdfa7": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image-1.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/icons_COURIER_FRIENDLY.png",
+            "title": "Designed to Ship Faster",
+            "content": "<p>Each adjustable bed meets U.S. courier shipping standards to eliminate the need for scheduled deliveries.<\/p>"
+          }
+        },
+        "12ca4feb-57b8-45ba-9dd5-b75080e8fc70": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Quest-4.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Lumbar_Support.svg",
+            "title": "Lumbar Support Integration",
+            "content": "<p>With Quest 4.0, you get an added measure of lower back support at the push of a button.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__01eee45e-bd33-426e-b009-b3c97f0dafba-1665529543245e0079-0",
+        "2c8dff2f-7930-421c-bfb5-fb7e471bdfa7",
+        "12ca4feb-57b8-45ba-9dd5-b75080e8fc70"
+      ],
+      "settings": {
+        "section_ID": "placement",
+        "heading": "Zero Gravity Mode",
+        "heading_size": "h3",
+        "content": "<p>Kick back in a weightless zero-gravity experience for optimal blood circulation.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "5d31d142-f0c2-4c71-9acb-ec57ba99bd5f": {
+      "type": "image-width-features",
+      "blocks": {
+        "template--16563249676509__5d31d142-f0c2-4c71-9acb-ec57ba99bd5f-1665370544132c47c5-0": {
+          "type": "image_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bedroom.jpg",
+            "image_position": "object-center",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/UltraSlimProfile.svg?v=1665371884",
+            "title": "Ultra Slim 3\" Profile",
+            "content": "<p>Maintain the beauty of your bedroom set by fitting your adjustable bed seamlessly between mattress and base.<\/p>"
+          }
+        },
+        "01f1743d-5c30-4f27-8201-0b51867b19f2": {
+          "type": "image_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-m_w-studios-90319.jpg",
+            "image_position": "object-center",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/ZeroClearance.svg?v=1665371884",
+            "title": "Stackable 3\" Legs",
+            "content": "<p>Each product is height-adjustable to accommodate different bed base styles and aesthetics (bed frame storage drawers, etc).<\/p>"
+          }
+        },
+        "42b43f68-eab9-4ebd-8e81-d3d7d058eede": {
+          "type": "image_features_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_2009551223.jpg",
+            "image_position": "object-left-top",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Stackable3Leg.svg?v=1665371885",
+            "title": "Zero Clearance Optionality",
+            "content": "<p>Install your adjustable base flat on top of an existing bed frame without compromising head & foot articulations.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__5d31d142-f0c2-4c71-9acb-ec57ba99bd5f-1665370544132c47c5-0",
+        "01f1743d-5c30-4f27-8201-0b51867b19f2",
+        "42b43f68-eab9-4ebd-8e81-d3d7d058eede"
+      ],
+      "settings": {
+        "section_ID": "",
+        "heading": "Profile & Clearance",
+        "content": "<p>Every detail of your adjustable bed frame has been designed for comfort, elegance, and adaptability.<\/p>",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "311c03ff-ef95-4907-8800-48926f097242": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 0
+      }
+    },
+    "340da503-9a9c-42d1-8305-33ac46efb4d9": {
+      "type": "text-center",
+      "blocks": {
+        "template--16563249676509__340da503-9a9c-42d1-8305-33ac46efb4d9-16655353908b5ac128-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Additional smart features",
+            "heading_size": "h2"
+          }
+        },
+        "template--16563249676509__340da503-9a9c-42d1-8305-33ac46efb4d9-16655353908b5ac128-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create less of a carbon footprint with efficient product features only found with Ergomotion.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__340da503-9a9c-42d1-8305-33ac46efb4d9-16655353908b5ac128-0",
+        "template--16563249676509__340da503-9a9c-42d1-8305-33ac46efb4d9-16655353908b5ac128-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "aae9df07-bd27-4988-9e35-d303598a262c": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 60
+      }
+    },
+    "ef510972-332a-4980-904e-31964ba95abc": {
+      "type": "grid",
+      "blocks": {
+        "template--16563249676509__ef510972-332a-4980-904e-31964ba95abc-1665530573efbd1476-0": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_7.svg?v=1670302150",
+            "title": "Silent Drive Motors",
+            "content": "<p>The reliable Ergomotion motors are designed for extremely quiet operation, so your won’t be disturbed while lounging, reading, or sleeping.<\/p>"
+          }
+        },
+        "b255672d-d9ae-4761-8487-15087ab1b0ed": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_20.svg?v=1669866095",
+            "title": "Zero Standby Power System",
+            "content": "<p>Energy-efficient technology helps reduce your utility bills and environmental footprint.<\/p>"
+          }
+        },
+        "e6e1ffc7-ab42-49ec-88cd-be805d87a35c": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Power_Outage_Protection.svg?v=1665135019",
+            "title": "Power Outage Protection",
+            "content": "<p>If power is lost, you can bring your adjustable bed platform to the flat position by pressing the button on the power-down box under the base.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__ef510972-332a-4980-904e-31964ba95abc-1665530573efbd1476-0",
+        "b255672d-d9ae-4761-8487-15087ab1b0ed",
+        "e6e1ffc7-ab42-49ec-88cd-be805d87a35c"
+      ],
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "8e8f1ec7-6f28-4d97-9768-d65d450087d6": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "660b50e5-c7c4-4c6e-8b03-d545f0220377": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16563249676509__660b50e5-c7c4-4c6e-8b03-d545f0220377-166553107465d65dcf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore more adjustable bed benefits",
+            "heading_size": "h2"
+          }
+        },
+        "template--16563249676509__660b50e5-c7c4-4c6e-8b03-d545f0220377-166553107465d65dcf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From greater health, to smarter ways to integrate with your devices, Ergomotion has your greater well-being in mind with a variety of benefits built into every bed.<\/p>"
+          }
+        },
+        "template--16563249676509__660b50e5-c7c4-4c6e-8b03-d545f0220377-166553107465d65dcf-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "See health benefits",
+            "button_link": "shopify:\/\/pages\/health-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__660b50e5-c7c4-4c6e-8b03-d545f0220377-166553107465d65dcf-0",
+        "template--16563249676509__660b50e5-c7c4-4c6e-8b03-d545f0220377-166553107465d65dcf-1",
+        "template--16563249676509__660b50e5-c7c4-4c6e-8b03-d545f0220377-166553107465d65dcf-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Adjustable_Base_Benefits_c107b9ec-03bb-422e-912f-0c57704fcb8b.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style1",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "fdb68dda-d3a7-4a94-a9e3-281ab4eff3cf": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 60
+      }
+    },
+    "341ea2d9-3591-42fc-be6e-c96878f87647": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16563249676509__341ea2d9-3591-42fc-be6e-c96878f87647-1665537118dcba8b25-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore Ergomotion products",
+            "heading_size": "h3"
+          }
+        },
+        "f321b030-d0a4-43f2-b2c7-92793eedfbc5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've refined our products into four key adjustable bed offerings, built to address your specific wellness needs.<\/p>"
+          }
+        },
+        "template--16563249676509__341ea2d9-3591-42fc-be6e-c96878f87647-1665537118dcba8b25-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "See products",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "target": false,
+            "hiddenText": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16563249676509__341ea2d9-3591-42fc-be6e-c96878f87647-1665537118dcba8b25-0",
+        "f321b030-d0a4-43f2-b2c7-92793eedfbc5",
+        "template--16563249676509__341ea2d9-3591-42fc-be6e-c96878f87647-1665537118dcba8b25-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "bf77ec0c-0de7-4f83-9b6f-7ba95f5defbd": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "4b43e5e2-5a99-48f2-8d96-765b2d43877e",
+    "03dfa576-51c5-4adf-8fb3-1ebb98c57d02",
+    "1acd42ad-4215-4608-972b-9d36740dc14b",
+    "0c079626-799d-4491-a403-195d4b70d59d",
+    "7af8af00-c0d7-48db-bdd5-f6d94db7f602",
+    "053092a1-880f-4994-9261-c992d140637d",
+    "ced07300-2ce8-48e6-a376-a356c9909c30",
+    "0ec9748e-8b4e-4fa1-845d-9da556488900",
+    "f0d24b04-8c20-4c00-90f7-679e1c62085f",
+    "01eee45e-bd33-426e-b009-b3c97f0dafba",
+    "5d31d142-f0c2-4c71-9acb-ec57ba99bd5f",
+    "311c03ff-ef95-4907-8800-48926f097242",
+    "340da503-9a9c-42d1-8305-33ac46efb4d9",
+    "aae9df07-bd27-4988-9e35-d303598a262c",
+    "ef510972-332a-4980-904e-31964ba95abc",
+    "8e8f1ec7-6f28-4d97-9768-d65d450087d6",
+    "660b50e5-c7c4-4c6e-8b03-d545f0220377",
+    "fdb68dda-d3a7-4a94-a9e3-281ab4eff3cf",
+    "341ea2d9-3591-42fc-be6e-c96878f87647",
+    "bf77ec0c-0de7-4f83-9b6f-7ba95f5defbd"
+  ]
+}

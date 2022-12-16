@@ -1,0 +1,736 @@
+{
+  "sections": {
+    "166391467135f270f9": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 60
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "b5a66e63-ce3f-4969-856d-947b6dcb3d85": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "ba6912a6-e715-4238-ab2a-90551b0c41dd": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "379c2216-5f85-463b-a78a-dac87adc2743": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "8bc8af80-6bc2-45b3-b408-2de3d1748f89": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "23744576-06eb-422a-8381-950b68502efd": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f": {
+          "type": "cart_button",
+          "settings": {
+          }
+        },
+        "3678ebed-1ea7-4802-a14f-87f1e354cd40": {
+          "type": "affirm",
+          "settings": {
+          }
+        },
+        "762c57e4-fce2-4eb5-b3bd-9f5ba15b9f1f": {
+          "type": "link",
+          "settings": {
+            "button_label": "Buy now on amazon",
+            "image_link": "shopify:\/\/shop_images\/amazon-new.png",
+            "get_image_url": false,
+            "url_image": "",
+            "link_url": "https:\/\/www.amazon.com\/dp\/B09X6VG1DL?maas=maas_adg_EE366508B15721F70704E0A03EB46401_afap_abs&ref_=aa_maas&tag=maas",
+            "target": true
+          }
+        },
+        "8dd73344-a0cd-4179-9bce-60aba4ee43dc": {
+          "type": "link",
+          "settings": {
+            "button_label": "Find retailer",
+            "get_image_url": false,
+            "url_image": "",
+            "link_url": "shopify:\/\/pages\/stores",
+            "target": false
+          }
+        },
+        "eacfc4f7-a927-4f16-a7db-14442debddf9": {
+          "type": "related_products",
+          "settings": {
+            "title_related_products": "Add to Your Base",
+            "show_description_related": true,
+            "show_description_add_ons": false
+          }
+        }
+      },
+      "block_order": [
+        "b5a66e63-ce3f-4969-856d-947b6dcb3d85",
+        "ba6912a6-e715-4238-ab2a-90551b0c41dd",
+        "379c2216-5f85-463b-a78a-dac87adc2743",
+        "8bc8af80-6bc2-45b3-b408-2de3d1748f89",
+        "23744576-06eb-422a-8381-950b68502efd",
+        "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f",
+        "3678ebed-1ea7-4802-a14f-87f1e354cd40",
+        "762c57e4-fce2-4eb5-b3bd-9f5ba15b9f1f",
+        "8dd73344-a0cd-4179-9bce-60aba4ee43dc",
+        "eacfc4f7-a927-4f16-a7db-14442debddf9"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16641566120de0104f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 75,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 65
+      }
+    },
+    "1663914873d4c040da": {
+      "type": "large-features-banner",
+      "blocks": {
+        "b7530dcb-98ee-4aed-9aa5-a8c922f89d63": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
+            "content_new": "<p>10-year limited warranty<\/p>"
+          }
+        },
+        "db590323-eb87-4992-93af-074918d609c9": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
+            "content_new": "<p>US Based - Call us at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1.888.550.3746<\/a><\/p>"
+          }
+        },
+        "166391487300dd0dd4-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
+            "content_new": "<p>Payments starting at $164\/mo for 12 months<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b7530dcb-98ee-4aed-9aa5-a8c922f89d63",
+        "db590323-eb87-4992-93af-074918d609c9",
+        "166391487300dd0dd4-0"
+      ],
+      "settings": {
+        "heading": "10 million+ adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "<p><\/p>",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "d035d75c-1bb1-4391-82c9-249faf608eb5": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "9ec92abd-fe40-4200-b67c-654b1e0fd624": {
+      "type": "multiple-image-and-text",
+      "blocks": {
+        "template--16581565284573__9ec92abd-fe40-4200-b67c-654b1e0fd624-16679666978cc9304c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sleep better with the benefits of Zero Gravity",
+            "heading_size": "h2"
+          }
+        },
+        "template--16581565284573__9ec92abd-fe40-4200-b67c-654b1e0fd624-16679666978cc9304c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspired by NASA's zero-gravity research, each Ergomotion adjustable bed is designed to help you find weightless relief right at home. More than just a cool feature, this built-in preset is the key to unlocking deeper sleep for more restorative wellness. With the touch of a button, you can enter zero gravity – quickly alleviating tension in the neck, lower back pain, joint pressure, and any swelling in the feet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16581565284573__9ec92abd-fe40-4200-b67c-654b1e0fd624-16679666978cc9304c-0",
+        "template--16581565284573__9ec92abd-fe40-4200-b67c-654b1e0fd624-16679666978cc9304c-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Luxury-Sheets-and-Pillow-Cases.jpg",
+        "imageSmall": "shopify:\/\/shop_images\/Marie-Quest-4.jpg",
+        "image_position": "bg-center",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "942b7168-fe8b-4353-8a65-198abcca9d13": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "7dcf641c-ee47-4545-9f68-94b5ab7e7b20": {
+      "type": "overflow-large-image-and-text",
+      "blocks": {
+        "template--16581565284573__7dcf641c-ee47-4545-9f68-94b5ab7e7b20-166796679582f6b4c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hands-free voice activation",
+            "heading_size": "h3"
+          }
+        },
+        "template--16581565284573__7dcf641c-ee47-4545-9f68-94b5ab7e7b20-166796679582f6b4c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion’s voice-activated Hello Ergo system gives Quest 4.0 the hands-free functionality you've been waiting for. Use voice commands or the full-featured wireless remote to adjust both the head and foot to your perfect position. And with elevated features like programmable presets, under-bed lighting, massage, and a pressure-relieving Zero G setting, Quest 4.0 can turn your bedroom into a work-from-home office or a get-away-from-work retreat.<\/p>"
+          }
+        },
+        "template--16581565284573__7dcf641c-ee47-4545-9f68-94b5ab7e7b20-166796679582f6b4c5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "target": false,
+            "hiddenText": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16581565284573__7dcf641c-ee47-4545-9f68-94b5ab7e7b20-166796679582f6b4c5-0",
+        "template--16581565284573__7dcf641c-ee47-4545-9f68-94b5ab7e7b20-166796679582f6b4c5-1",
+        "template--16581565284573__7dcf641c-ee47-4545-9f68-94b5ab7e7b20-166796679582f6b4c5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Marie_-_Quest-4.0-Solo_746d54ef-8d01-449e-b5b7-0205915cd5a4.png",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f05940be-e8db-4234-965f-2f563b20ff32": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 60,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166476156496b1bddf": {
+      "type": "quest-feature",
+      "blocks": {
+        "166476156465a7a472-0": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marie---Quest-4_d288523d-29a0-4b03-bfb1-22da10e1e2bf.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Active_Head_Tilt.svg?v=1668119451",
+            "title": "Active Head Tilt",
+            "content": "<p>This comfortably clever feature nudges the uppermost part of your adjustable bedframe upward to support your neck, with no extra pillows required.<\/p>"
+          }
+        },
+        "487b7629-bc1f-47b3-888f-644681c74083": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Quest-4.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Lumbar_Support.svg?v=1666924379",
+            "title": "Lumbar Support",
+            "content": "<p>Enjoy exceptional lumbar support, easily adjusted with the push of a button or a spoken command.<\/p>"
+          }
+        },
+        "57794c7d-8b8d-4c55-9f5c-78a1357dc3d6": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Quest-4.0-TXL.273_0ca59795-7adf-472f-b5f4-baa1627f18e3.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_12.svg?v=1669693800",
+            "title": "Wall Saver",
+            "content": "<p>We like to think of this feature as a frustration saver — keeping your bedside table within reach as the rolling chassis adjusts to your perfect position.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166476156465a7a472-0",
+        "487b7629-bc1f-47b3-888f-644681c74083",
+        "57794c7d-8b8d-4c55-9f5c-78a1357dc3d6"
+      ],
+      "settings": {
+        "section_ID": "",
+        "heading": "Convenience at the touch of a button",
+        "heading_size": "h3",
+        "content": "<p>A modern and stylish design makes this device the perfect go-to companion for all your favorite head and foot presets, or one-touch functions like Zero Gravity or a relaxing massage.<\/p>",
+        "imgRemote": "shopify:\/\/shop_images\/MD_Quest_4.0_remote_42.png",
+        "button_label": "",
+        "button_link": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664813893c5762023": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1663904222d782af81": {
+      "type": "grid",
+      "blocks": {
+        "1663904222b88e6306-0": {
+          "type": "item_grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons_HEAD_FOOT.png",
+            "get_image_url": false,
+            "url_image_update": "",
+            "title": "Head & Foot Articulation",
+            "content": "<p>Quest 4.0 offers the flexibility to elevate the head and\/or foot of your adjustable bed to ease joint pain, reduce snoring, or simply relax with a book or movie.<\/p>"
+          }
+        },
+        "324958df-e932-4022-8abc-b0e8ed188d9d": {
+          "type": "item_grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons_WAND_OFFLINE_VOICE_CONTROL-1.png",
+            "get_image_url": false,
+            "url_image_update": "",
+            "title": "Voice Control",
+            "content": "<p>Simply speak your commands, and Quest 4.0 adjusts to help you relax, rest, or rise to face the day.<\/p>"
+          }
+        },
+        "2d651f55-fad4-4adf-990c-2bc27be9b76e": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_24_-_dual_usb.svg?v=1670381171",
+            "title": "Dual USB Ports",
+            "content": "<p>Our sleek designs allow customers to charge their devices while keeping cords tucked away.<\/p>"
+          }
+        },
+        "ffb8af0d-a43a-4bc2-a48e-67ae1dc7392f": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Wireless_Remote_Flashlight_abf80b75-0e75-4b3a-a55b-5c96228dc56a.svg?v=1666924379",
+            "title": "Wireless Remote + Flashlight",
+            "content": "<p>Our nineteen-button wireless remote includes one-touch operation for some of our most popular settings. The flashlight illuminates the buttons, allowing for higher visibility in dark settings.<br\/><\/p>"
+          }
+        },
+        "9b264c33-7530-4e49-8c89-c964c6e66d51": {
+          "type": "item_grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons_MASSAGE_MOTORS.png",
+            "get_image_url": false,
+            "url_image_update": "",
+            "title": "Relaxation Mode",
+            "content": "<p>Two low-noise sonic massage motors help you unwind in the comfort of your home. These powerful massage motors enhance circulation, muscle recovery, and meditation.<\/p>"
+          }
+        },
+        "fe8cbc31-a110-49de-8670-2a5d2dc6ee59": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_21_-_3_presets.svg?v=1669865733",
+            "title": "Two Programmable Presets",
+            "content": "<p>Two of the buttons on your wireless remote are easily customizable to keep your favorite presets a touch away.<\/p>"
+          }
+        },
+        "f9c14071-bac5-4f23-be3b-968345c531ac": {
+          "type": "item_grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons_LIGHTS.png",
+            "get_image_url": false,
+            "url_image_update": "",
+            "title": "Under-bed Lighting",
+            "content": "<p>Soft LED lights under your bed help guide you through the dark as your feet address the floor.<\/p>"
+          }
+        },
+        "b3bd9e76-3a71-4cad-8225-ac1d09c6caa4": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Active_Head_Tilt.svg?v=1668119451",
+            "title": "Active Head Tilt",
+            "content": "<p>This comfortably clever feature nudges the uppermost part of your mattress forward just enough to support your neck, with no extra pillows required.<\/p>"
+          }
+        },
+        "248a0e7d-d6fa-4e8e-aa43-2b3235d4757b": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Lumbar_Support.svg?v=1666924379",
+            "title": "Lumbar Support",
+            "content": "<p>Enjoy exceptional lumbar support, easily adjusted with the push of a button or a spoken command.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663904222b88e6306-0",
+        "324958df-e932-4022-8abc-b0e8ed188d9d",
+        "2d651f55-fad4-4adf-990c-2bc27be9b76e",
+        "ffb8af0d-a43a-4bc2-a48e-67ae1dc7392f",
+        "9b264c33-7530-4e49-8c89-c964c6e66d51",
+        "fe8cbc31-a110-49de-8670-2a5d2dc6ee59",
+        "f9c14071-bac5-4f23-be3b-968345c531ac",
+        "b3bd9e76-3a71-4cad-8225-ac1d09c6caa4",
+        "248a0e7d-d6fa-4e8e-aa43-2b3235d4757b"
+      ],
+      "settings": {
+        "padding_bottom": 25,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7b25c547-d4b1-41d5-aae9-551353ef2ccd": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 80
+      }
+    },
+    "166476881567f0f1fe": {
+      "type": "content-slider",
+      "blocks": {
+        "1664768815e19e0a14-0": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/Transform-the-way-you-sleep-top.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/Transform-the-way-you-sleep-middle.jpg",
+            "imageThird": "shopify:\/\/shop_images\/Transform-the-way-you-sleep-bottom.jpg",
+            "image_position": "object-center",
+            "title": "Transform the way you sleep",
+            "content": "<p>An Ergomotion adjustable bedframe is not limited to enhancing health and wellness. Each product is designed to deliver exceptional comfort, elevated sleep performance, and a rich sense of relaxation.<\/p>",
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/sleep-benefits"
+          }
+        },
+        "378ba4af-0431-46eb-b8e4-c95618d56c92": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/Enhace-your-health-through-innovation-top.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/Enhace-your-health-through-innovation-middle.jpg",
+            "imageThird": "shopify:\/\/shop_images\/Enhace-your-health-through-innovation-bottom.jpg",
+            "image_position": "object-center",
+            "title": "Enhance your health through innovation",
+            "content": "<p>Our products transform your bedroom into a foundation for holistic health – encouraging you to find balance, reduce ailments, and optimize sleep performance.<\/p>",
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/health-benefits"
+          }
+        },
+        "8019b8f6-b1e4-4b00-9781-fb8cd21b042e": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/Quest4-0_655d0fe9-ecce-4326-a4fb_2e319ac9-9b65-490c-9a30-01f0bdc32d0c.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/Ergomotion-Batch2-5.jpg",
+            "imageThird": "shopify:\/\/shop_images\/Text_Image-Widget_Quest-1.jpg",
+            "image_position": "object-center",
+            "title": "Adjust to amazing",
+            "content": "<p>It's time to finally break free from the traditional pain points of sleep. Night after night, you can enjoy the luxury of customized relaxation with unique features and presets designed to elevate your holistic wellness.<\/p>",
+            "button_label": "Read more",
+            "button_link": "shopify:\/\/pages\/lifestyle-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "1664768815e19e0a14-0",
+        "378ba4af-0431-46eb-b8e4-c95618d56c92",
+        "8019b8f6-b1e4-4b00-9781-fb8cd21b042e"
+      ],
+      "settings": {
+        "sub_heading": "Quest 4.0 Adjustable Bed",
+        "heading": "Core benefits of Quest 4.0",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1663915378d645ee33": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "425ac2c1-092c-40c1-942c-dfb9bc893443": {
+      "type": "large-features-banner",
+      "blocks": {
+        "template--16578862088413__425ac2c1-092c-40c1-942c-dfb9bc893443-16659740468fa6b98b-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Alleviate_back_pain.svg?v=1665731076",
+            "content_new": "<p>Alleviate back pain<\/p>"
+          }
+        },
+        "3bca46f1-cafe-4aee-9ce4-e7621714dc29": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/improve_circulation_cc1ef814-6516-4ce4-8285-290568326f29.svg?v=1669259227",
+            "content_new": "<p>Improve circulation<\/p>"
+          }
+        },
+        "45be06ee-12b4-4714-b913-43723e5862d5": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Maximize_REM_sleep.svg?v=1665731076",
+            "content_new": "<p>Maximize REM sleep<\/p>"
+          }
+        },
+        "357963eb-187e-418d-b4bd-76fbb5e69ae0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Reduce_snoring.svg?v=1665731077",
+            "content_new": "<p>Reduce snoring<\/p>"
+          }
+        },
+        "f6c68067-efa3-49a0-885d-7710c862fbf9": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Address_acid_reflux.svg?v=1665731077",
+            "content_new": "<p>Address acid reflux<\/p>"
+          }
+        },
+        "794f83a2-8e91-428e-a9d7-8aa39e6ddc9e": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Promote_muscle_recovery.svg?v=1665731077",
+            "content_new": "<p>Promote muscle recovery<\/p>"
+          }
+        },
+        "9e3c552d-cf76-458a-be34-de8cf5ebe3a5": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Prevent_swelling.svg?v=1665731077",
+            "content_new": "<p>Prevent swelling<\/p>"
+          }
+        },
+        "8e9ee608-4c46-425c-b408-daf916d87b21": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Enhance_mobility.svg?v=1665731076",
+            "content_new": "<p>Enhance mobility<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16578862088413__425ac2c1-092c-40c1-942c-dfb9bc893443-16659740468fa6b98b-0",
+        "3bca46f1-cafe-4aee-9ce4-e7621714dc29",
+        "45be06ee-12b4-4714-b913-43723e5862d5",
+        "357963eb-187e-418d-b4bd-76fbb5e69ae0",
+        "f6c68067-efa3-49a0-885d-7710c862fbf9",
+        "794f83a2-8e91-428e-a9d7-8aa39e6ddc9e",
+        "9e3c552d-cf76-458a-be34-de8cf5ebe3a5",
+        "8e9ee608-4c46-425c-b408-daf916d87b21"
+      ],
+      "settings": {
+        "heading": "The health benefits of your adjustable bed",
+        "heading_size": "h2",
+        "content": "<p>We've found that Ergomotion customers interact daily with their adjustable bed beyond just using it for sleep. Each Quest product becomes a relaxation zone, a reading nook, and a dedicated meditation center. But at the core of what Quest does best, its adjustable base technology helps improve overall sleep quality - enhancing REM sleep, alleviating joint pain, improving cardiovasular circulation, and enhancing muscle recovery.<\/p>",
+        "columns": "4",
+        "padding_bottom": 30,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1d8dac91-c5b4-4d96-8a01-3b4d900d4613": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 80
+      }
+    },
+    "16672954371f1e6cb7": {
+      "type": "apps",
+      "blocks": {
+        "99a1cf6e-cbbb-451b-b4ee-cd037984f642": {
+          "type": "shopify:\/\/apps\/store-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
+          "settings": {
+            "heading": "Quest 4.0 Product Specs",
+            "heading_text_type": "h2",
+            "heading_alignment": "left",
+            "faq_embed_code": "<div class=\"ef-faqs-plus-app-cats-content\" data-category=\"Quest 4-0\" id=\"ef-faqs-6360dd684b2542c53ff4c43e\"><\/div>",
+            "faqs_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "99a1cf6e-cbbb-451b-b4ee-cd037984f642"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "166391543682cfdb8f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 30,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1669276911f663519d": {
+      "type": "apps",
+      "blocks": {
+        "d6212b5f-1654-43f7-bd7f-27585e90bf55": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "handle"
+          }
+        }
+      },
+      "block_order": [
+        "d6212b5f-1654-43f7-bd7f-27585e90bf55"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1664238956a2c69485": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 50
+      }
+    },
+    "16638080172b862644": {
+      "type": "help-banner",
+      "blocks": {
+        "16638080174807cfa3-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "24383217-0420-45b7-81a0-5ca4fe2f9981": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<br\/><\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "4f52fadd-20d1-46ea-858c-e795e669aef9": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "16638080174807cfa3-0",
+        "24383217-0420-45b7-81a0-5ca4fe2f9981",
+        "4f52fadd-20d1-46ea-858c-e795e669aef9"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f9e7efcc-366d-4db5-991b-9992743865f3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 75
+      }
+    },
+    "16642412276bf9f84e": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Explore other popular Quest products",
+        "heading_size": "h3",
+        "collection": "",
+        "padding_bottom": 48,
+        "padding_bottom_mb": 40
+      }
+    },
+    "2f3b746c-76c2-437f-a44f-ab2a486556d2": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 60
+      }
+    }
+  },
+  "order": [
+    "166391467135f270f9",
+    "main",
+    "16641566120de0104f",
+    "1663914873d4c040da",
+    "d035d75c-1bb1-4391-82c9-249faf608eb5",
+    "9ec92abd-fe40-4200-b67c-654b1e0fd624",
+    "942b7168-fe8b-4353-8a65-198abcca9d13",
+    "7dcf641c-ee47-4545-9f68-94b5ab7e7b20",
+    "f05940be-e8db-4234-965f-2f563b20ff32",
+    "166476156496b1bddf",
+    "1664813893c5762023",
+    "1663904222d782af81",
+    "7b25c547-d4b1-41d5-aae9-551353ef2ccd",
+    "166476881567f0f1fe",
+    "1663915378d645ee33",
+    "425ac2c1-092c-40c1-942c-dfb9bc893443",
+    "1d8dac91-c5b4-4d96-8a01-3b4d900d4613",
+    "16672954371f1e6cb7",
+    "166391543682cfdb8f",
+    "1669276911f663519d",
+    "1664238956a2c69485",
+    "16638080172b862644",
+    "f9e7efcc-366d-4db5-991b-9992743865f3",
+    "16642412276bf9f84e",
+    "2f3b746c-76c2-437f-a44f-ab2a486556d2"
+  ]
+}

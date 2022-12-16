@@ -1,0 +1,230 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module mod-slider-feature {% if section.settings.bg_color != 'white' %} bg-midnight-blue text-white option-blue {% else %} option-bg-white {% endif %} section-{{ section.id }}-padding" id="{{ section.settings.section_ID }}">
+  <div class="container py-33 md:py-33 xl:py-33 2xl:pt-37 2xl:pb-74 px-16 md:px-33 xl:px-18 2xl:pl-20 2xl:pr-14 xl:max-w-1016 2xl:max-w-1404">
+    <div class="headlne-slider-feature xl:flex justify-between mb-31 xl:mb-16 2xl:mb-20 px-4 xl:px-0 md:leading-normal xl:leading-1-8">
+      {% if section.settings.heading != blank %}
+      <div class="headline xl:max-w-580 xl:min-w-478 mb-12 2xl:mb-0">
+        <h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+      </div>
+      {% endif %}
+      {% if section.settings.content %}
+      <div class="content xl:max-w-660">
+       {{ section.settings.content }}
+      </div>
+       {% endif %}
+    </div>
+    <div class="relative group-faeture 2xl:max-w-none -mr-8 -ml-3">
+      <div class="list-image-feature flex-row-reverse xl:flex-row -mr-8 md:-ml-6 md:-mr-40 lg:ml-auto lg:-mr-90 xl:-mr-135 xl:ml-50 2xl:ml-4 1k8:-mr-280">
+        {% for block in section.blocks %}
+        <div class="item-bg-feature relative overflow-hidden pb-77p sm:pb-65p {% if section.settings.bg_color != 'white' %} xl:54pa5 2xl:pb-46pa7 {% else %} xl:pb-56p 2xl:pb-45p 3xl:pb-56p {% endif %} {% if forloop.index == 1 %} active {% endif %}">
+          <div class="bg lazy {{ block.settings.image_position }} absolute transform-center top-0 bottom-0" data-src="{% if block.settings.image !=blank %}{{ block.settings.image | image_url }} {% endif %}">
+          </diV>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="list-detail-feature -mt-28 md:-mt-44 xl:ml-0 md:-mr-24 lg:-mr-58 xl:-mr-0 xl:mt-0 xl:absolute xl:bottom-31 2xl:bottom-47 2xl:ml-3 xl:-left-45 2xl:left-50 1k8:-left-70 xl:flex xl:bg-white max-w-1178">
+        {% for block in section.blocks %}
+        <div class="item-content-feature mx-4 xl:ml-0 xl:mr-4 px-16 xl:px-0 down_xl:bg-white xl:flex {% if forloop.index == 1 %} active {% else %} xl:bg-soft-blue {% endif %}" {{ block.shopify_attributes }}>
+          <button aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="sect-bed-{% if section.settings.bg_color != 'white' %}{{forloop.index}}{% else %}w-{{forloop.index}}{% endif %}" id="accordion-bed-{% if section.settings.bg_color != 'white' %}{{forloop.index}}{% else %}w-{{forloop.index}}{% endif %}id" class="js-collapse-feature mt-17 ml-7 pt-8 pb-4 md:pb-8 xl:pb-16 xl:pl-8 xl:pr-22 xl:pt-0 2xl:m-0 xl:w-100 2xl:py-10 2xl:px-25 2xl:w-112 flex items-center justify-center css-collapse-feature">
+            <span class="inline-block max-w-94 2xl:max-w-117">
+              {% if block.settings.get_icon_url == true %}
+                {% if block.settings.url_icon != blank %}
+                <img src="{{ block.settings.url_icon }}" alt="{{ block.settings.title }}">
+                <span class="sr-only text-black bg-white">{{ block.settings.title }}</span>
+                {% endif %}
+              {% else %}
+                {% if block.settings.icon != blank %}
+                <img src="{{ block.settings.icon | image_url }}" alt="{{ block.settings.icon.alt }}">
+                <span class="sr-only text-black bg-white">{{ block.settings.icon.alt }}</span>
+                {% endif %}
+              {% endif%}
+            </span>
+          </button>
+          <div id="sect-bed-{% if section.settings.bg_color != 'white' %}{{forloop.index}}{% else %}w-{{forloop.index}}{% endif %}" role="region" aria-labelledby="accordion-bed-{% if section.settings.bg_color != 'white' %}{{forloop.index}}{% else %}w-{{forloop.index}}{% endif %}id" class="js-content-collapse css-content-collapse xl:opacity-0 text-hush-black flex-1 pr-0 pt-8 pb-14 md:pb-23 xl:flex xl:items-center xl:pt-5 xl:pb-6 xl:w-0 xl:min-h-176 2xl:max-h-none 2xl:min-h-186 2xl:py-10 overflow-hidden last-mb-none">
+            <div class="w-feature 2xl:leading-1-5">
+              {% if block.settings.title != blank %}
+               <h4 class="xl:text-lg xl:leading-1-6 2xl:text-xl">{{ block.settings.title }}</h4>
+              {% endif %}
+              {% if block.settings.content != blank %}
+                {{ block.settings.content }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name":"Slider Features",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"text",
+      "id":"section_ID",
+      "label":"Section ID"
+    },
+    {
+      "type":"text",
+      "id":"heading",
+      "label":"Heading",
+      "default":"Connected bed smart home integrations"
+    },
+    {
+      "type":"select",
+      "id":"heading_size",
+      "options":[
+        {
+          "value":"h2",
+          "label":"h2"
+        },
+        {
+          "value":"h3",
+          "label":"h3"
+        },
+        {
+          "value":"h4",
+          "label":"h4"
+        }
+      ],
+      "default":"h2",
+      "label":"t:sections.all.heading_size.label"
+    },
+    {
+      "type":"richtext",
+      "id":"content",
+      "label":"Content",
+      "default":"<p>Our customers asked us to develop the first smart-home-integrated adjustable base, and we delivered. Along the way, we created proprietary presets of our own that customers can pair with their favorite smart home automations.</p>"
+    },
+    {
+      "type":"select",
+      "id":"bg_color",
+      "options":[
+        {
+          "value":"white",
+          "label":"White"
+        },
+        {
+          "value":"blue",
+          "label":"Blue"
+        }
+      ],
+      "default":"blue",
+      "label":"Background Color"
+    },
+    {
+      "type":"header",
+      "content":"Section Padding"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"slider_features_item",
+      "name":"Slider Features Item",
+      "settings":[
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "image_position",
+          "options": [
+            {
+              "value": "bg-center",
+              "label": "Center"
+            },
+            {
+              "value": "bg-left-top",
+              "label": "Top Left"
+            },
+            {
+              "value": "bg-right-top",
+              "label": "Top Right"
+            },
+            {
+              "value": "bg-left-bottom",
+              "label": "Bottom Left"
+            },
+            {
+              "value": "bg-right-bottom",
+              "label": "Bottom Right"
+            }
+          ],
+          "default": "bg-center",
+          "label": "Image Position"
+        },
+        {
+          "type":"image_picker",
+          "id":"icon",
+          "label":"Icon"
+        },
+        {
+          "type": "checkbox",
+          "id": "get_icon_url",
+          "label": "Get icon from url"
+        },
+        {
+          "type": "text",
+          "id": "url_icon",
+          "label": "Url Icon"
+        },
+        {
+          "type":"text",
+          "id":"title",
+          "label":"Title"
+        },
+        {
+          "type":"richtext",
+          "id":"content",
+          "label":"Content"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Slider Features",
+      "blocks":[
+        {
+          "type":"slider_features_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,65 @@
+.title-product-col {
+  h3,
+  .h3 {
+    @apply md:font-bold md:text-font-32-45 2xl:text-h2-v2-2xl;
+  }
+}
+
+.title-product {
+  @apply hover:text-blue-400;
+  a {
+    @apply text-hush-black hover:text-blue-400 hover:no-underline;
+  }
+}
+
+.pb-product-col{
+  padding-bottom: 63.4%;
+}
+
+@screen md {
+  .product-custom-feature,
+  .pb-feature-col,
+  .pb-feature-col-v2 {
+    img {
+      transition: .35s ease all;
+    }
+    &:hover {
+      img {
+        transform: scale(1.1);
+        &.logo-ergo {
+          transform: translate(-50%,-50%) scale(1.8);
+        }
+      }
+    }
+  }
+  .pb-product-col{
+    padding-bottom: 68.7%;
+    img {
+      transition: .35s ease all;
+    }
+    &:hover {
+      img {
+        transform: scale(1.1);
+        transition: .35s ease all;
+      }
+    }
+  }
+}
+
+@screen lg {
+  .pb-product-col{
+    padding-bottom: 59%;
+  }
+}
+
+@screen xl {
+  .pb-product-col{
+    padding-bottom: 61%;
+  }
+}
+
+@screen 2xl {
+  .pb-product-col{
+    padding-bottom: 76%;
+  }
+}

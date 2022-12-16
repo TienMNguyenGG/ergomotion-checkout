@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "01948f3c-1494-43eb-a2e0-7107f2de02e2": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 60,
+        "padding_bottom_mb": 70
+      }
+    },
+    "831dc3ad-4bb0-4126-ade9-7f01338e0e34": {
+      "type": "two-columns-text-banner",
+      "blocks": {
+        "template--16478365090013__831dc3ad-4bb0-4126-ade9-7f01338e0e34-1665969951fffdf3ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Learn more from the Ergomotion community",
+            "heading_size": "h1"
+          }
+        },
+        "template--16478365090013__831dc3ad-4bb0-4126-ade9-7f01338e0e34-1665969951fffdf3ff-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>From helpful bedroom design tips to in-depth health and wellness content, the Ergomotion blog offers a wide variety of helpful consumer insights you will love. Looking to learn more about a product before you buy it? Find posts about adjustable bed benefits and specific product features to help you best make a decision.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365090013__831dc3ad-4bb0-4126-ade9-7f01338e0e34-1665969951fffdf3ff-0",
+        "template--16478365090013__831dc3ad-4bb0-4126-ade9-7f01338e0e34-1665969951fffdf3ff-1"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f9c9f9c1-1466-45d2-a19d-d6100b260256": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 90,
+        "padding_bottom_mb": 70
+      }
+    },
+    "f2d67b8f-03b6-454f-81b8-5d7d5d50bab1": {
+      "type": "featured-blogs-module",
+      "settings": {
+        "heading": "Featured Blogs",
+        "heading_size": "h3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "c0edffb0-5a7b-46f7-83db-d73aa8de61a6": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 30,
+        "padding_bottom_mb": 45
+      }
+    },
+    "910e7697-1825-4bdc-b7d3-ba4e8c7cda9a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 30,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "heading": "Latest Posts",
+        "padding_bottom": 25,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7815667e-5203-400a-ac5c-a28739c79225": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "e5a0bdc5-80bb-488a-8687-3e6dd8b5ec0b": {
+      "type": "instafeed-feed",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "@ergomotion",
+        "link_url": "https:\/\/www.instagram.com\/ergomotion\/",
+        "target": true,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "ccfdf53e-5855-43c2-ba05-deb21fbb3c46": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 75
+      }
+    },
+    "50903e40-b68f-4810-bfa2-532aaeb2ab3b": {
+      "type": "signup-form",
+      "settings": {
+        "heading": "Join Our Newsletter",
+        "heading_size": "h3",
+        "text": "<p>Stay up to date with all things Ergomotion by joining our email list! Subscribe now for great promotions and good news straight to your inbox.<\/p>",
+        "form_signup": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"tVUA6JSOelgIII8GOgTGvQ\"><\/div>",
+        "bgColor": "white",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 0
+      }
+    },
+    "5129c3b7-2313-486d-a946-9a242c863121": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 35,
+        "padding_bottom_mb": 35
+      }
+    }
+  },
+  "order": [
+    "01948f3c-1494-43eb-a2e0-7107f2de02e2",
+    "831dc3ad-4bb0-4126-ade9-7f01338e0e34",
+    "f9c9f9c1-1466-45d2-a19d-d6100b260256",
+    "f2d67b8f-03b6-454f-81b8-5d7d5d50bab1",
+    "c0edffb0-5a7b-46f7-83db-d73aa8de61a6",
+    "910e7697-1825-4bdc-b7d3-ba4e8c7cda9a",
+    "main",
+    "7815667e-5203-400a-ac5c-a28739c79225",
+    "e5a0bdc5-80bb-488a-8687-3e6dd8b5ec0b",
+    "ccfdf53e-5855-43c2-ba05-deb21fbb3c46",
+    "50903e40-b68f-4810-bfa2-532aaeb2ab3b",
+    "5129c3b7-2313-486d-a946-9a242c863121"
+  ]
+}

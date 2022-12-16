@@ -1,0 +1,278 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding module mod-feature-tab bg-soft-blue" id="{{ section.settings.section_ID }}">
+  <div class="container py-34 md:py-33 xl:py-33 2xl:py-74 px-16 md:pl-40 md:pr-23 xl:px-18 2xl:pl-20 2xl:pr-14 xl:max-w-1016 2xl:max-w-1404">
+    <div class="headlne-slider-feature mb-123 md:mb-100 xl:flex justify-between  xl:mb-50 2xl:mb-20">
+      {% if section.settings.heading != blank %}
+      <div class="headline pl-10 md:pl-0 xl:max-w-580 xl:min-w-478">
+        <h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+      </div>
+      {% endif %}
+      {% if section.settings.content != blank %}
+      <div class="content xl:max-w-660 pt-8 pl-9p5 pr-6 md:pt-0 md:pl-0 md:pr-0">
+        {{ section.settings.content }}  
+      </div>
+      {% endif %}
+    </div>
+    <div class="control-size-mockup">
+      <div class="list-slide-mockup" dir="rtl">
+        {%- for block in section.blocks -%}
+        <div class="relative image-bed xl:-mx-35 2xl:mx-0 {% if forloop.index != 1 %} xl:hidden hidden-print {% endif%}">
+          <img src="{{'Bed-1.png' | asset_url}}" alt="the bed">
+          {% if forloop.index == 1 %}
+          {%- for block in section.blocks -%}
+          <div class="list-mockup-feature list-mockup-{{ forloop.index }} {% if forloop.index != 1 %} hidden {% endif%}" id="tabpanel-bed-{{forloop.index}}" role="tabpanel" aria-labelledby="tab-bed-{{forloop.index}}">
+            {%- case forloop.index -%}
+              {%- when 1 -%}
+                <div class="icon-1">
+                  <img src="{{'comfort.svg' | asset_url}}" alt="" class="no-alt">
+                </div>
+                <div class="icon-2">
+                  <img src="{{'comfort.svg' | asset_url}}" alt="" class="no-alt">
+                </div>
+              {%- when 2 -%}
+                <div class="icon-1">
+                  <img src="{{'comfort-2.svg' | asset_url}}" alt="" class="no-alt">
+                </div>
+                <div class="icon-2">
+                  <img src="{{'comfort-2.svg' | asset_url}}" alt="" class="no-alt">
+                </div>
+              {%- when 3 -%}
+                <div class="icon-1">
+                  <img src="{{'comfort-4.svg' | asset_url}}" alt="" class="no-alt">
+                </div>
+                <div class="icon-2">
+                  <img src="{{'comfort-4.svg' | asset_url}}" alt="" class="no-alt">
+                </div>
+              {%- when 4 -%}
+                 <div class="icon-1">
+                  <img src="{{'comfort-3.svg' | asset_url}}" alt="" class="no-alt">
+                </div>
+            {%- endcase -%}
+            <div class="content-mockup text-base">
+              {{ block.settings.description }}
+            </div>
+          </div>
+          {% endfor %}
+          {% else %}
+            {%- for block in section.blocks -%}
+            <div class="list-mockup-feature list-mockup-{{ forloop.index }} {% if forloop.index != 1 %} hidden {% endif%}">
+              {%- case forloop.index -%}
+                {%- when 1 -%}
+                  <div class="icon-1">
+                    <img src="{{'comfort.svg' | asset_url}}" alt="" class="no-alt">
+                  </div>
+                  <div class="icon-2">
+                    <img src="{{'comfort.svg' | asset_url}}" alt="" class="no-alt">
+                  </div>
+                {%- when 2 -%}
+                  <div class="icon-1">
+                    <img src="{{'comfort-2.svg' | asset_url}}" alt="" class="no-alt">
+                  </div>
+                  <div class="icon-2">
+                    <img src="{{'comfort-2.svg' | asset_url}}" alt="" class="no-alt">
+                  </div>
+                {%- when 3 -%}
+                  <div class="icon-1">
+                    <img src="{{'comfort-4.svg' | asset_url}}" alt="" class="no-alt">
+                  </div>
+                  <div class="icon-2">
+                    <img src="{{'comfort-4.svg' | asset_url}}" alt="" class="no-alt">
+                  </div>
+                {%- when 4 -%}
+                  <div class="icon-1">
+                    <img src="{{'comfort-3.svg' | asset_url}}" alt="" class="no-alt">
+                  </div>
+              {%- endcase -%}
+              <div class="content-mockup text-base">
+                {{ block.settings.description }}
+              </div>
+            </div>
+          {% endfor %}
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="list-tab-bed bg-white mt-30 xl:mt-32 2xl:mt-0 xl:px-0 2xl:px-24 flex -mx-18 md:-mx-38 xl:-mx-51 2xl:mx-auto" role="tablist">
+      {%- for block in section.blocks -%}
+        <button id="tab-bed-{{forloop.index}}" role="tab" aria-controls="tabpanel-bed-{{forloop.index}}"  {% if forloop.index == 1 %} aria-selected="true" {% else %} aria-selected="false" {% endif%} class=" w-25p item-tab-bed rounded-none border-x-4 border-x-white border-solid js-handle-tab css-handle-tab {% if forloop.index == 1 %} active {% endif%} relative z-1 w-full py-15 md:pt-30 md:pb-25 xl:pt-20 2xl:py-38 flex flex-col justify-center items-center text-base text-hush-black font-semibold">
+          <span class="max-w-117 h-25 block mb-5 mx-auto">
+            {% if block.settings.get_icon_url == true %}
+              {% if block.settings.url_icon != blank %}
+                <img class="block no-alt" src="{{ block.settings.url_icon }}" alt="">
+              {% endif %}
+            {% else %}
+              {% if block.settings.icon != blank %}
+                <img class="block" src="{{ block.settings.icon | image_url }}" alt="{{ block.settings.icon.alt }}">
+              {% endif %}
+            {% endif%}
+            {% if block.settings.get_icon_url_black == true %}
+              {% if block.settings.url_icon_black != blank %}
+                <img class="hidden icon-active no-alt" src="{{ block.settings.url_icon_black }}" alt="">
+              {% endif %}
+            {% else %}
+              {% if block.settings.icon_black != blank %}
+                <img class="hidden icon-active" src="{{ block.settings.icon_black | image_url }}" alt="{{ block.settings.icon_black.alt }}">
+              {% endif %}
+            {% endif%}
+          </span>
+          
+          {% if block.settings.title != blank %}
+            {{ block.settings.title }}
+          {% endif%}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name":"Features Tabs",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"text",
+      "id":"section_ID",
+      "label":"Section ID"
+    },
+    {
+      "type":"text",
+      "id":"heading",
+      "label":"Heading",
+      "default":"Advanced comfort & meditation"
+    },
+    {
+      "type":"select",
+      "id":"heading_size",
+      "options":[
+        {
+          "value":"h2",
+          "label":"h2"
+        },
+        {
+          "value":"h3",
+          "label":"h3"
+        },
+        {
+          "value":"h4",
+          "label":"h4"
+        }
+      ],
+      "default":"h2",
+      "label":"t:sections.all.heading_size.label"
+    },
+    {
+      "type":"richtext",
+      "id":"content",
+      "label":"Content",
+      "default": "<p>Our adjustable base products provide unmatched wellness  technology for top relaxation and health management. Below you'll find our most popular features that can come standard in most Ergomotion products.</p>"
+    },
+    {
+      "type":"header",
+      "content":"Section Padding"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"tabs_item",
+      "name":"Tabs Item",
+      "limit": 4,
+      "settings":[
+         {
+          "type":"header",
+          "content":"Icon Black"
+        },
+        {
+          "type":"image_picker",
+          "id":"icon",
+          "label":"Icon"
+        },
+        {
+          "type": "checkbox",
+          "id": "get_icon_url",
+          "label": "Get icon from url"
+        },
+        {
+          "type": "text",
+          "id": "url_icon",
+          "label": "Url Icon"
+        },
+        {
+          "type":"header",
+          "content":"Icon White"
+        },
+        {
+          "type":"image_picker",
+          "id":"icon_black",
+          "label":"Icon"
+        },
+        {
+          "type": "checkbox",
+          "id": "get_icon_url_black",
+          "label": "Get icon from url"
+        },
+        {
+          "type": "text",
+          "id": "url_icon_black",
+          "label": "Url Icon"
+        },
+        {
+          "type":"header",
+          "content":"Content"
+        },
+        {
+          "type":"text",
+          "id":"title",
+          "label":"Title"
+        },
+        {
+          "type":"richtext",
+          "id":"description",
+          "label":"Description"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Features Tabs",
+      "blocks":[
+        {
+          "type":"tabs_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

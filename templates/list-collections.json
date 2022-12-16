@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "c70b510a-bc08-4cdf-bd5b-5c8c8ca7a826": {
+      "type": "text-center",
+      "blocks": {
+        "template--16478365253853__c70b510a-bc08-4cdf-bd5b-5c8c8ca7a826-166536320268cee7d1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ergomotion Collections",
+            "heading_size": "h1"
+          }
+        },
+        "template--16478365253853__c70b510a-bc08-4cdf-bd5b-5c8c8ca7a826-166536320268cee7d1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse our selection of products available for purchase.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365253853__c70b510a-bc08-4cdf-bd5b-5c8c8ca7a826-166536320268cee7d1-0",
+        "template--16478365253853__c70b510a-bc08-4cdf-bd5b-5c8c8ca7a826-166536320268cee7d1-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7302e368-d59e-466f-832b-b2bb77651fbc": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "a09b3791-415e-4a3f-bbf3-b31847f2f0a9": {
+      "type": "feature-benefit",
+      "blocks": {
+        "template--16478365253853__a09b3791-415e-4a3f-bbf3-b31847f2f0a9-16674425090eee8b62-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/collage-banner-img.jpg",
+            "headline_benefit": "Adjustable Bases",
+            "content_benefit": "",
+            "label_benefit": "View Products",
+            "link_benefit": "shopify:\/\/collections\/adjustable-bases"
+          }
+        },
+        "6268d6a2-1698-4e83-88fa-dba213ebfcdd": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/Ergomotion-Batch1-V1-9_51408bdb-5741-4443-bc20-c64b95cf2f4b.jpg",
+            "headline_benefit": "Adjustable Base Accessories",
+            "content_benefit": "",
+            "label_benefit": "View Products",
+            "link_benefit": "shopify:\/\/pages\/base-accessories"
+          }
+        },
+        "409a3fed-4092-4fb9-b5a1-9a6f93df9205": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/pillow_13ac5971-6932-44fb-81d0-ec86a7ca74ff.jpg",
+            "headline_benefit": "Bedding & Pillows",
+            "content_benefit": "",
+            "label_benefit": "View Products",
+            "link_benefit": "shopify:\/\/pages\/bedding-pillows"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365253853__a09b3791-415e-4a3f-bbf3-b31847f2f0a9-16674425090eee8b62-0",
+        "6268d6a2-1698-4e83-88fa-dba213ebfcdd",
+        "409a3fed-4092-4fb9-b5a1-9a6f93df9205"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1860618d-1eba-4f7a-b01b-bcff079edf6a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 75
+      }
+    },
+    "755104aa-9a0b-41c5-bc89-415a77d7ed75": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16478365253853__755104aa-9a0b-41c5-bc89-415a77d7ed75-1665364238294587e1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why buy Ergomotion?",
+            "heading_size": "h2"
+          }
+        },
+        "template--16478365253853__755104aa-9a0b-41c5-bc89-415a77d7ed75-1665364238294587e1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We help you prioritize sleep, health and holistic wellness.<\/p>"
+          }
+        },
+        "template--16478365253853__755104aa-9a0b-41c5-bc89-415a77d7ed75-1665364238294587e1-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/learn",
+            "target": false,
+            "hiddenText": "Why Buy Ergomotion"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365253853__755104aa-9a0b-41c5-bc89-415a77d7ed75-1665364238294587e1-0",
+        "template--16478365253853__755104aa-9a0b-41c5-bc89-415a77d7ed75-1665364238294587e1-1",
+        "template--16478365253853__755104aa-9a0b-41c5-bc89-415a77d7ed75-1665364238294587e1-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "3ab8f16e-bcf1-419c-ae30-8890ce34dfb7": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "6b4b8166-7876-4ffd-b471-7fd3e9d02b34": {
+      "type": "instafeed-feed",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "@ergomotion",
+        "link_url": "https:\/\/www.instagram.com\/ergomotion\/",
+        "target": true,
+        "hiddenText": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "e7a9e79a-4b1d-4fe0-befe-977452310449": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "c70b510a-bc08-4cdf-bd5b-5c8c8ca7a826",
+    "7302e368-d59e-466f-832b-b2bb77651fbc",
+    "a09b3791-415e-4a3f-bbf3-b31847f2f0a9",
+    "main",
+    "1860618d-1eba-4f7a-b01b-bcff079edf6a",
+    "755104aa-9a0b-41c5-bc89-415a77d7ed75",
+    "3ab8f16e-bcf1-419c-ae30-8890ce34dfb7",
+    "6b4b8166-7876-4ffd-b471-7fd3e9d02b34",
+    "e7a9e79a-4b1d-4fe0-befe-977452310449"
+  ]
+}

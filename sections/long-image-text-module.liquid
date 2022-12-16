@@ -1,0 +1,185 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module mod-image-text section-{{ section.id }}-padding">
+  <div class="container container-small large-size px-0-high md:px-24 xl:px-10">
+    <div class="row items-center lg:items-stretch {% if section.settings.image_placement != 'right' %} lg:flex-row-reverse {% endif %} transition-transform-v2" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical" data-paroller-threshold="0.45" data-paroller-translate="150">
+      <div class="col w-full lg:w-1/2 down_md:mb-24p5 down_lg:mb-20p5 xl:w-42p xl:pl-5 2xl:w-51p 2xl:pl-11 2xl:pr-33">
+        <div class="img-thumb-wrap relative mx-auto overflow-hidden bg-blue-400 h-192 xl:h-245 2xl:h-315 xl:rounded-4">
+          {% if section.settings.image != blank %}
+          <img src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ section.settings.image.alt }}"
+          class="lazy absolute inset-0 w-full h-full object-cover {{ section.settings.image_position }} xl:rounded-4" data-src="{{ section.settings.image | image_url }}">
+          {% endif %}
+        </div>
+      </div>
+      <div class="col w-full lg:w-1/2 pl-31p5 pr-32 md:px-44 para-mb-smaller content-left-right content-base-style lg:px-8 lg:flex lg:items-start {% if section.settings.image_placement != 'right' %} xl:mr-auto {% else %} xl:ml-auto {% endif %}  xl:pr-4 2xl:w-2/5 2xl:pl-33 2xl:pr-0">
+        <div class="last-mb-none lg:max-w-453 xl:max-w-560 xl:pb-5 2xl:pb-0 2xl:max-w-520 ">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'heading' -%}
+                {% if  block.settings.heading != blank %}
+                  <h2 {{ block.shopify_attributes }}  class="{{ block.settings.heading_size }}">{{ block.settings.heading }}</h2>
+                {% endif %}
+              {%- when 'text' -%}
+                {% if  block.settings.text != blank %}
+                <div {{ block.shopify_attributes }} >
+                  {{ block.settings.text }}
+                </div>
+                {% endif %}
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name":"Long Image Text Module",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"image_picker",
+      "id":"image",
+      "label":"Image"
+    },
+    {
+      "type":"select",
+      "id":"image_position",
+      "options":[
+        {
+          "value":"object-center",
+          "label":"Center"
+        },
+        {
+          "value":"object-left-top",
+          "label":"Top Left"
+        },
+        {
+          "value":"object-right-top",
+          "label":"Top Right"
+        },
+        {
+          "value":"object-left-bottom",
+          "label":"Bottom Left"
+        },
+        {
+          "value":"object-right-bottom",
+          "label":"Bottom Right"
+        }
+      ],
+      "default":"object-center",
+      "label":"Image Position"
+    },
+    {
+      "type":"select",
+      "id":"image_placement",
+      "options":[
+        {
+          "value":"left",
+          "label":"Left"
+        },
+        {
+          "value":"right",
+          "label":"Right"
+        }
+      ],
+      "default":"right",
+      "label":"Image Placement"
+    },
+    {
+      "type":"header",
+      "content":"Section Padding"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"heading",
+      "name":"t:sections.image-banner.blocks.heading.name",
+      "limit":1,
+      "settings":[
+        {
+          "type":"text",
+          "id":"heading",
+          "default":"Inspired by Limited-edition Luxury",
+          "label":"t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type":"select",
+          "id":"heading_size",
+          "options":[
+            {
+              "value":"h2",
+              "label":"h2"
+            },
+            {
+              "value":"h3",
+              "label":"h3"
+            },
+            {
+              "value":"h4",
+              "label":"h5"
+            }
+          ],
+          "default":"h3",
+          "label":"t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type":"text",
+      "name":"t:sections.image-banner.blocks.text.name",
+      "settings":[
+        {
+          "type":"richtext",
+          "id":"text",
+          "default":"<p>In 2005, engineer and founder Alain Clénet developed the first ergonomic adjustable bed base at his home in Santa Ynez, California. Having previously founded Clénet Coachworks, Inc. – a designer and manufacturer of limited-edition neoclassic automobiles – Clénet’s track record of creating luxury products was already well-established.</p>",
+          "label":"t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Long Image Text Module",
+      "blocks":[
+        {
+          "type":"heading"
+        },
+        {
+          "type":"text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,505 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact customer support",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our US-based team is ready to answer your questions and concerns. Call or send us a message today.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 25
+      }
+    },
+    "b26512e5-0557-4dd2-a983-42805b75fce8": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "d1cde528-1227-4d24-91bb-1de4ef453aac": {
+      "type": "feature-benefit",
+      "blocks": {
+        "template--16478365417693__d1cde528-1227-4d24-91bb-1de4ef453aac-166675396095bdf41e-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Contact customer support",
+            "content_benefit": "<p>Our US-based team is ready to answer your questions and concerns. Call or send us a message today.<\/p>",
+            "label_benefit": "Contact us",
+            "link_benefit": "shopify:\/\/pages\/contact-customer-service"
+          }
+        },
+        "0be956a1-7ecd-4aa3-8b72-71de8f0fbf6d": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Track your order",
+            "content_benefit": "<p> Excited to receive your new Ergomotion product? Track its progress through our shipping portal.<\/p>",
+            "label_benefit": "See progress",
+            "link_benefit": "shopify:\/\/pages\/track-your-order"
+          }
+        },
+        "5ef0c8f4-ba75-4a58-9c6e-13db4d375cbc": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Fulfillment + Returns",
+            "content_benefit": "<p>View our shipping time estimates and return policies should there be any fulfillment issues or product concerns.<\/p>",
+            "label_benefit": "Learn more",
+            "link_benefit": "shopify:\/\/pages\/fulfillment-returns"
+          }
+        },
+        "007c5086-72c4-406c-8579-6159c13b0bed": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "",
+            "content_benefit": "",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "a5efc5a3-8d3a-4846-8c40-27ed3157d9ad": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Warranties",
+            "content_benefit": "<p>Our extensive three-tier product warranties ensure you get the peace of mind you deserve with each purchase.<\/p>",
+            "label_benefit": "See warranties",
+            "link_benefit": "shopify:\/\/pages\/product-warranties"
+          }
+        },
+        "f4e59e10-d6f5-48ef-9200-30e8347dcb6a": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Replacement Parts",
+            "content_benefit": "<p>Learn more about ordering replacement parts and view our warranties for full coverage of costs.<\/p>",
+            "label_benefit": "Learn more",
+            "link_benefit": "shopify:\/\/pages\/replacement-parts"
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365417693__d1cde528-1227-4d24-91bb-1de4ef453aac-166675396095bdf41e-0",
+        "0be956a1-7ecd-4aa3-8b72-71de8f0fbf6d",
+        "5ef0c8f4-ba75-4a58-9c6e-13db4d375cbc",
+        "007c5086-72c4-406c-8579-6159c13b0bed",
+        "a5efc5a3-8d3a-4846-8c40-27ed3157d9ad",
+        "f4e59e10-d6f5-48ef-9200-30e8347dcb6a"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "c2c0d763-a5af-41a9-b5ed-c94296097deb": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "e849c4e3-e905-460e-b601-9dc5f2ad9067": {
+      "type": "internal-banner-animation-html",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "",
+        "link_url": "",
+        "padding_bottom": 36,
+        "padding_bottom_mb": 40
+      }
+    },
+    "ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our FAQs",
+            "heading_size": "h2"
+          }
+        },
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find a list of commonly asked questions and answers about Ergomotion adjustable bases.<\/p>"
+          }
+        },
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/faqs",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-0",
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-1",
+        "template--16478365417693__ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e-1666754418d5c4beb9-2"
+      ],
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "46cd65fa-f60d-4007-be9a-4926cf747457": {
+      "type": "text-block",
+      "blocks": {
+        "template--16591189672157__46cd65fa-f60d-4007-be9a-4926cf747457-1666932340336f7407-0": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We are the world’s largest produce of adjustable bases with propietary ergonomic technology."
+          }
+        },
+        "ec3dfd6f-0e9c-42ef-8b85-64cf1a379bd2": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We power the adjustable base and smart bed induestries."
+          }
+        },
+        "159400d4-b4fc-4f4a-8962-880115311dff": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We power the adjustable base and smart bed induestries."
+          }
+        }
+      },
+      "block_order": [
+        "template--16591189672157__46cd65fa-f60d-4007-be9a-4926cf747457-1666932340336f7407-0",
+        "ec3dfd6f-0e9c-42ef-8b85-64cf1a379bd2",
+        "159400d4-b4fc-4f4a-8962-880115311dff"
+      ],
+      "settings": {
+        "padding_bottom": 65,
+        "padding_bottom_mb": 65
+      }
+    },
+    "fdcbbe50-a736-4ba1-9d04-cda69ff51114": {
+      "type": "long-image-text-module",
+      "blocks": {
+        "template--16591189672157__fdcbbe50-a736-4ba1-9d04-cda69ff51114-16668372623d0ac19a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspired by<br>Limited-edition Luxury",
+            "heading_size": "h3"
+          }
+        },
+        "template--16591189672157__fdcbbe50-a736-4ba1-9d04-cda69ff51114-16668372623d0ac19a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 2005, engineer and founder Alain Clénet developed the first ergonomic adjustable bed base at his home in Santa Ynez, California. Having previously founded Clénet Coachworks, Inc. – a designer and manufacturer of limited-edition neoclassic automobiles – Clénet’s track record of creating luxury products was already well-established.<\/p>"
+          }
+        },
+        "bcee0b38-fe9b-44b8-a84f-8a7d4658c433": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Within a year of developing his adjustable bed base prototype, Alain and his son Kelly started Ergomotion – the first sleep solution for a traditional mattress that married style with innovation.<\/p>"
+          }
+        },
+        "b307b816-a4c8-4c0d-9864-be4aaf8c6a72": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "0a5acffc-9480-45d9-b22a-712349f035c8": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16591189672157__fdcbbe50-a736-4ba1-9d04-cda69ff51114-16668372623d0ac19a-0",
+        "template--16591189672157__fdcbbe50-a736-4ba1-9d04-cda69ff51114-16668372623d0ac19a-1",
+        "bcee0b38-fe9b-44b8-a84f-8a7d4658c433",
+        "b307b816-a4c8-4c0d-9864-be4aaf8c6a72",
+        "0a5acffc-9480-45d9-b22a-712349f035c8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blog_detail.jpg",
+        "image_position": "object-center",
+        "image_placement": "left",
+        "padding_bottom": 60,
+        "padding_bottom_mb": 60
+      }
+    },
+    "ebc2e002-6743-41c9-9139-ea3c1a797446": {
+      "type": "body-text-icon-list",
+      "blocks": {
+        "template--16591189672157__ebc2e002-6743-41c9-9139-ea3c1a797446-16668400149789dc97-0": {
+          "type": "text_icon_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons_HEAD_FOOT.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "text": "<p>Not allowing your body to enter deeper sleep can contribute to memory loss, diabetes, depression, lack of focus, high blood pressure, heart disease, and a weak immune system. Not allowing your body to enter deeper sleep can contribute to memory loss, diabetes, depression, lack of focus, high blood pressure, heart disease, and a weak immune system. Not allowing your body to enter deeper sleep can contribute to memory loss, diabetes, depression, lack of focus, high blood pressure, heart disease, and a weak immune system.<\/p>"
+          }
+        },
+        "b4bdb1d6-ce25-4b1c-bbaf-29088c43ee25": {
+          "type": "text_icon_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Lumbar-Support.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "text": "<p>Not allowing your body to enter deeper sleep can contribute to memory loss, diabetes, depression, lack of focus, high blood pressure, heart disease, and a weak immune system.<\/p>"
+          }
+        },
+        "1d35fb80-de76-47bf-9b2a-b4b622544692": {
+          "type": "text_icon_item",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "text": "<p>Not allowing your body to enter deeper sleep can contribute to memory loss, diabetes, depression, lack of focus, high blood pressure, heart disease, and a weak immune system.<\/p>"
+          }
+        },
+        "cff3eddd-9461-45ae-bfdc-62e06d16deb1": {
+          "type": "note",
+          "settings": {
+            "note": "<p>*The FDA has noted that adjustable bases can aid in the treatment of a number of medical afflictions and illnesses. Normally adjusting the upper part of the bed to a higher position eliminates or reduces snoring. For some patients, snoring will prevent you from reaching a deep restful sleep, known as REM sleep.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16591189672157__ebc2e002-6743-41c9-9139-ea3c1a797446-16668400149789dc97-0",
+        "b4bdb1d6-ce25-4b1c-bbaf-29088c43ee25",
+        "1d35fb80-de76-47bf-9b2a-b4b622544692",
+        "cff3eddd-9461-45ae-bfdc-62e06d16deb1"
+      ],
+      "settings": {
+        "heading": "Eliminate snoring and deepen sleep",
+        "heading_size": "h3",
+        "text": "<p>Snoring is more common than most people think, and it often goes unnoticed. This symptom prevents people from entering deeper sleep which can contribute to more serioues health issues. * Positions like Zero-Gravity allows your nasal passages to stay fully open and keeps your tongue from putting pressure on your throat. In this position, you can experience a deeper more restfull sleep. <\/p>",
+        "background_color": "blue",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "c0915dee-cbba-4d9e-87c6-e5be2e27b4e8": {
+      "type": "rich_text_and_bullet",
+      "blocks": {
+        "template--16591189672157__c0915dee-cbba-4d9e-87c6-e5be2e27b4e8-166684146480b08519-0": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Improved circulation by raising your head and feat above your heart to allow for greater blood flow."
+          }
+        },
+        "bf119733-4cb7-4bd7-b8b0-03afcbcda0e8": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Reduced lower back pain by adjusting the head nad foot rests to alleviate pressure."
+          }
+        },
+        "b3576968-d309-4428-adb2-e879d28a45c0": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Better digestion and acid reflux management by raising the head the recommended six inches."
+          }
+        },
+        "0adee94d-5b34-4082-b1f7-ab29f48587d8": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Less pressure on joints, alleviating inflammation, swelling, soreness, and even chronic arthritis."
+          }
+        },
+        "830bf0b7-9b03-465b-82e2-71d0cf7b759d": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Reduced tension on the windpipe to better manage snoring, sleep apnea, and asthma."
+          }
+        },
+        "da8f90dd-f560-40b6-915a-41282cf9128b": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Improved circulation by raising your head and feat above your heart to allow for greater blood flow."
+          }
+        },
+        "da07bdde-8068-4087-8add-11547ac962be": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Improved circulation by raising your head and feat above your heart to allow for greater blood flow."
+          }
+        },
+        "bfa35c8f-53f7-4797-88c6-c319314d8976": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "Improved circulation by raising your head and feat above your heart to allow for greater blood flow."
+          }
+        }
+      },
+      "block_order": [
+        "template--16591189672157__c0915dee-cbba-4d9e-87c6-e5be2e27b4e8-166684146480b08519-0",
+        "bf119733-4cb7-4bd7-b8b0-03afcbcda0e8",
+        "b3576968-d309-4428-adb2-e879d28a45c0",
+        "0adee94d-5b34-4082-b1f7-ab29f48587d8",
+        "830bf0b7-9b03-465b-82e2-71d0cf7b759d",
+        "da8f90dd-f560-40b6-915a-41282cf9128b",
+        "da07bdde-8068-4087-8add-11547ac962be",
+        "bfa35c8f-53f7-4797-88c6-c319314d8976"
+      ],
+      "settings": {
+        "background_color": "white",
+        "heading": "Fall asleep faster.Wake feeling refreshed.",
+        "text": "<p>Your body will tell you if you got a great nights rest, but you can remove many common discomfort problems just by switching to an Ergomotion adjustable base. With slight adjustments to your head and foot rest, you can quickly align your spine and remove the need for pillow fidgeting. Each adjustable base is fully dynamic and customizable so you can easily dial in your favorite settings to ensure you fall asleep faster and sleep deeper throughout the night.<\/p>",
+        "label_link": "Quest 1.0 product details",
+        "link": "shopify:\/\/products\/quest-1-0-old",
+        "target": false,
+        "title": "Here's a brief overview of the exciting health benefits of your adjustable base:",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1666930910e65a8859": {
+      "type": "apps",
+      "blocks": {
+        "ff1cfefc-b0a1-49cc-ae87-7b4f46da58c3": {
+          "type": "shopify:\/\/apps\/easy-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
+          "settings": {
+            "heading": "FAQ",
+            "heading_text_type": "h3",
+            "heading_alignment": "left",
+            "faq_embed_code": "<div class=\"ef-faqs-plus-app-cats-content\" data-category=\"Payments\" id=\"ef-faqs-632bba55f538cbb0318096e4\"><\/div>",
+            "faqs_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "ff1cfefc-b0a1-49cc-ae87-7b4f46da58c3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "42dec286-a9da-402f-a68a-08b0f159c0c5": {
+      "type": "multiple-image-and-text",
+      "blocks": {
+        "template--16591189672157__42dec286-a9da-402f-a68a-08b0f159c0c5-16671822895c5f6bfa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sleep better with the benefits of Zero Gravity. Sleep better with the benefits of Zero Gravity",
+            "heading_size": "h2"
+          }
+        },
+        "template--16591189672157__42dec286-a9da-402f-a68a-08b0f159c0c5-16671822895c5f6bfa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspired by NASA's zero-gravity research, each Ergomotion bed is designed to help you find weightless relief right at home. More than just a cool feature, this built-in preset is the key to unlocking deeper sleep for more restorative wellness. With the touch of a button, you can enter zero gravity – quickly alleviating tension in the neck, lower back pain, joint pressure, and any swelling in the feet. Inspired by NASA's zero-gravity research, each Ergomotion bed is designed to help you find weightless relief right at home. More than just a cool feature, this built-in preset is the key to unlocking deeper sleep for more restorative wellness. With the touch of a button, you can enter zero gravity – quickly alleviating tension in the neck, lower back pain, joint pressure, and any swelling in the feet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16591189672157__42dec286-a9da-402f-a68a-08b0f159c0c5-16671822895c5f6bfa-0",
+        "template--16591189672157__42dec286-a9da-402f-a68a-08b0f159c0c5-16671822895c5f6bfa-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_439165234_3.jpg",
+        "imageSmall": "shopify:\/\/shop_images\/quest20_86a14d2f-60ce-4637-8463-5d0fbda4a776.jpg",
+        "image_position": "bg-left-top",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "a7938d09-47df-4481-aa59-012f1645dd25": {
+      "type": "product_details_accordion",
+      "blocks": {
+        "template--16591189672157__a7938d09-47df-4481-aa59-012f1645dd25-16675244186bccbfee-0": {
+          "type": "item_accordion",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet elits helu adiustacom",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. <\/p>"
+          }
+        },
+        "4c4f0560-eb1f-406d-afc6-a0497a1dee0a": {
+          "type": "item_accordion",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet elits helu adiustacom",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16591189672157__a7938d09-47df-4481-aa59-012f1645dd25-16675244186bccbfee-0",
+        "4c4f0560-eb1f-406d-afc6-a0497a1dee0a"
+      ],
+      "settings": {
+        "heading": "All the details",
+        "heading_size": "h3",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "bf5e9ce1-d65f-4b29-b505-73b198075b87": {
+      "type": "overflow-large-image-and-text",
+      "blocks": {
+        "template--16591189672157__bf5e9ce1-d65f-4b29-b505-73b198075b87-16675468562c1e35d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Voice activation",
+            "heading_size": "h3"
+          }
+        },
+        "template--16591189672157__bf5e9ce1-d65f-4b29-b505-73b198075b87-16675468562c1e35d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor sagittis, et, mattis et amet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pellentesque nibh cras ac. Arcu, urna faucibus cursus consectetur augue eleifend ornare pulvinar cras. <\/p>"
+          }
+        },
+        "template--16591189672157__bf5e9ce1-d65f-4b29-b505-73b198075b87-16675468562c1e35d3-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "target": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16591189672157__bf5e9ce1-d65f-4b29-b505-73b198075b87-16675468562c1e35d3-0",
+        "template--16591189672157__bf5e9ce1-d65f-4b29-b505-73b198075b87-16675468562c1e35d3-1",
+        "template--16591189672157__bf5e9ce1-d65f-4b29-b505-73b198075b87-16675468562c1e35d3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image-ignore.png",
+        "padding_bottom": 36,
+        "padding_bottom_mb": 40
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32",
+    "b26512e5-0557-4dd2-a983-42805b75fce8",
+    "d1cde528-1227-4d24-91bb-1de4ef453aac",
+    "c2c0d763-a5af-41a9-b5ed-c94296097deb",
+    "e849c4e3-e905-460e-b601-9dc5f2ad9067",
+    "ce25e7fc-c7d6-4bab-b8e0-3a2f7af3a78e",
+    "46cd65fa-f60d-4007-be9a-4926cf747457",
+    "fdcbbe50-a736-4ba1-9d04-cda69ff51114",
+    "ebc2e002-6743-41c9-9139-ea3c1a797446",
+    "c0915dee-cbba-4d9e-87c6-e5be2e27b4e8",
+    "1666930910e65a8859",
+    "42dec286-a9da-402f-a68a-08b0f159c0c5",
+    "a7938d09-47df-4481-aa59-012f1645dd25",
+    "bf5e9ce1-d65f-4b29-b505-73b198075b87"
+  ]
+}

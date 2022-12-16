@@ -1,0 +1,124 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module section-{{ section.id }}-padding mod-similar-posts">
+  <div class="container px-12 md:px-24 xl:max-w-1044 2xl:max-w-1292">
+    <div class="headline-similar-posts last-mb-none mb-28 md:mb-19 2xl:mb-33">
+      <h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+    </div>
+    <div class="row wrap-list-result md:-mx-5 2xl:-mx-14">
+      {% for tag in article.tags %}
+        {% if tag == 'ergomotion-blog' or tag == 'ergomotion-news' %}
+        {% else %}
+          {% assign counter = 0 %}
+          {% assign skip_articles = article.handle | split: '.....' %}
+          {% for related_article in blog.articles %}
+            {% if related_article.tags contains tag and counter < 2 %}
+              {% unless skip_articles contains related_article.handle %}
+                {% assign counter = counter | plus: 1 %}
+                {% assign temp = related_article.handle | split: '.....' %}
+                {% assign skip_articles = skip_articles | concat: temp %}
+
+                <div class="blog-articles__article col w-full mb-26 last-mb-none md:mb-29 md:px-5 md:w-1/2 lg:mb-35 2xl:mb-54 2xl:px-14" data-id="{{ related_article.id }}">
+                  <div class="relative">
+                    <a href="{{ related_article.url }}" class="no-underline">
+                      <div class="blog-bg-wrap w-full overflow-hidden relative pb-63p mb-17 md:pb-111per md:mb-12 lg:pb-66per lg:mb-8 2xl:mb-21 2xl:pb-53per{% if related_article.image == blank %} bg-wellness-blue {% endif %}">
+                        {% if related_article.image != blank%}
+                        <div class="lazy bg blog-bg absolute inset-0" data-src="{{ related_article.image.src | image_url }}"></div>
+                        {% else %}
+                        <img class="absolute left-1/2 top-1/2 lazy no-alt" alt="" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ 'logo-footer.svg' | asset_url }}"/>
+                        {% endif %}
+                      </div>
+                      <div class="px-11 lg:px-0">
+                        <div class="text-dark-grey mb-13 md:mb-7 lg:mb-5 down_md:font-semibold 2xl:mb-9">
+                          <span class="time" data-timespam="{{ related_article.published_at | date: '%s' }}"> {{ related_article.published_at | date: "%b %d, %Y" }}</span>
+                        </div>
+                        <h2 class="h4 font-medium tracking-normal mb-9 lg:mb-8 title-product">{{ related_article.title }}</h2>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Similar Posts Module",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+     {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "You Might Also Like"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+  ],
+  "presets": [
+    {
+      "name": "Similar Posts Module"
+    }
+  ]
+}
+{% endschema %}

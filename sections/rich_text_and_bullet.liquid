@@ -1,0 +1,173 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<!-- class 'style-blue' -> css cho option blue -->
+<div class="section-{{ section.id }}-padding">
+  <div class="module mod-content-highlight animation {% if section.settings.background_color == 'white' %} style-blue {% else %} pt-32 pb-36 2xl:pb-60 bg-blue-500 {% endif %}">
+    <div class="container container-v2">
+      <div class="row px-24 xl:pr-8 xl:pl-10 xl:items-center">
+        <div class="left-content-highlight last-mb-none text-dark-grey leading-1-8-125 mb-45 md:mb-32 xl:w-47p xl:pt-20 xl:pr-3 2xl:w-1/2 2xl:flex 2xl:flex-col 2xl:justify-start 2xl:pt-42
+        2xl:pl-50 2xl:pr-69 anima-bottom">
+
+          {% if section.settings.heading != blank %}
+            <h2 class="h3">{{ section.settings.heading }}</h2>
+          {% endif %}
+          {{ section.settings.text }}
+          {% if section.settings.link != blank %}
+          <p>
+            <a href="{{ section.settings.link }}"  {% if section.settings.target == true %} target="_blank" rel="noopener noreferrer" {% endif%} class="flex-none link-arrow btn mr-1 lg:-mt-1">
+              {{section.settings.label_link }}
+              {% if section.settings.hiddenText != blank %}<span class="sr-only">{{ section.settings.hiddenText }} </span> {% endif%}
+              <span class="icomoon icon-link-arrow"></span>
+            </a>
+          </p>
+        {% endif %}
+        </div>
+
+        <div class="right-content-highlight last-mb-none bg-white text-hush-black pt-19p5 pb-20 px-12 md:mr-25 xl:mr-0 md:rounded-4 md:px-20 xl:w-53p xl:pt-21 xl:pl-20 2xl:pt-20 2xl:w-43p 2xl:ml-4 2xl:mt-15 2xl:pl-19 anima-bottom">
+          {% if section.settings.title != blank %}
+            <h4 class="h5">{{ section.settings.title }}</h4>
+          {% endif %}
+          <ul>
+            {%- for block in section.blocks -%}
+              {% if block.settings.title != blank %}
+                <li {{ block.shopify_attributes }}>{{ block.settings.title }}</li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Rich Text and Bullet",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+     {
+      "type": "header",
+      "content": "Background Color"
+    },
+    {
+        "type": "select",
+        "id": "background_color",
+        "options": [
+          {
+            "value": "white",
+            "label": "White"
+          },
+          {
+            "value": "blue",
+            "label": "Light Blue"
+          }
+        ],
+        "default": "blue",
+        "label": "Background Color"
+      },
+     {
+      "type": "header",
+      "content": "Content Left"
+    },
+     {
+      "type":"text",
+      "id":"heading",
+      "default":"Fall asleep faster.<br>Wake feeling refreshed.",
+      "label":"t:sections.image-banner.blocks.heading.settings.heading.label"
+    },
+    {
+      "type":"richtext",
+      "id":"text",
+      "default":"<p>Your body will tell you if you got a great nights rest, but you can remove many common discomfort problems just by switching to an Ergomotion adjustable base. With slight adjustments to your head and foot rest, you can quickly align your spine and remove the need for pillow fidgeting. Each adjustable base is fully dynamic and customizable so you can easily dial in your favorite settings to ensure you fall asleep faster and sleep deeper throughout the night.</p>",
+      "label":"t:sections.image-banner.blocks.text.settings.text.label"
+    },
+    {
+      "type": "text",
+      "id": "label_link",
+      "label": "Label Link"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+    },
+      {
+      "type": "checkbox",
+      "id": "target",
+      "label": "Open new tab"
+    },
+    {
+      "type": "text",
+      "id": "hiddenText",
+      "label": "Hidden Text"
+    },
+    {
+      "type": "header",
+      "content": "Content Right"
+    },
+    {
+      "type":"text",
+      "id":"title",
+      "default":"Here's a brief overview of the exciting health benefits of your adjustable base:",
+      "label":"Title"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block_item",
+      "name": "Text Block Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Improved circulation by raising your head and feat above your heart to allow for greater blood flow.",
+          "label": "Title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Rich Text and Bullet",
+      "blocks": [
+        {
+          "type": "text_block_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

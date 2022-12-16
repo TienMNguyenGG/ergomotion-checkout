@@ -1,0 +1,49 @@
+{% assign mb = section.settings.padding_bottom_mb | modulo:2 %}
+{% assign tl = section.settings.padding_bottom_tablet | modulo:2 %}
+{% assign dt = section.settings.padding_bottom | modulo:2 %}
+<div class="space h-{% if mb == 0 %}{{section.settings.padding_bottom_mb | divided_by: 2}}{% else %}{{section.settings.padding_bottom_mb | divided_by: 2}}-half{% endif %}
+ md:h-{% if dt == 0 %}{{section.settings.padding_bottom_tablet | divided_by: 2}}{% else %}{{section.settings.padding_bottom_tablet | divided_by: 2}}-half {% endif %}
+ xl:h-{% if dt == 0 %}{{section.settings.padding_bottom | divided_by: 2}}{% else %}{{section.settings.padding_bottom | divided_by: 2}}-half {% endif %}">
+</div>
+{% schema %}
+{
+  "name": "Space",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Space desktop",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_tablet",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Tablet",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Space mobile"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Space"
+    }
+  ]
+}
+{% endschema %}

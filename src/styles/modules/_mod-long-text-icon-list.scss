@@ -1,0 +1,11 @@
+.left-features {
+  h3,
+  .h3 {
+    @apply text-font-24-38 mb-11p5 2xl:text-h1 2xl:mb-20;
+  }
+}
+.right-features {
+  + .des-features {
+    @apply -mt-7 xl:mt-1;
+  }
+}

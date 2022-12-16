@@ -1,0 +1,35 @@
+.title-press-col {
+  h3,
+  .h3 {
+    @apply text-gray-300 md:text-hush-black md:text-font-24-38 2xl:text-h3-2xl;
+  }
+}
+
+.title-press-item {
+  h4,
+  .h4 {
+    @apply text-gray-300 md:text-hush-black font-bold md:text-h5-md xl:text-h4-xl;
+  }
+}
+
+.pb-press-col {
+  padding-bottom: 63.4%;
+}
+
+@screen md {
+  .pb-press-col {
+    padding-bottom: 68.7%;
+  }
+}
+
+@screen lg {
+  .pb-press-col {
+    padding-bottom: 58.7%;
+  }
+}
+
+@screen 1k8 {
+  .pb-press-col {
+    padding-bottom: 65.3%;
+  }
+}

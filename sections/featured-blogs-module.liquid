@@ -1,0 +1,159 @@
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="mod-featured-blog section-{{ section.id }}-padding animation">
+  <div class="container container-v2 px-0 md:pl-24 xl:pr-0 xl:pl-31 2xl:pl-8 anima-bottom">
+    <div class="relative xl:pt-9 1k8:pt-7">
+      {% if section.settings.heading != blank %}
+      <div class="feat-blog-heading pl-10p5 mb-26 md:mb-11 md:pl-0 xl:mb-25 1k8:mb-30">
+        <h2 class="{{ section.settings.heading_size }} md:tracking-sp2 xl:tracking-normal">{{ section.settings.heading  }}</h2>
+      </div>
+      {% endif %}
+      <div class="xl:absolute xl:top-0 xl:right-111 xl:left-auto 2xl:right-162">
+        <div
+          class="js-control-arrows control-arrows down_md:hidden flex justify-end relative md:mr-14p5 md:mb-12 xl:mb-10 xl:justify-start xl:mr-0">
+        </div>
+        <div
+          class="js-control-dots feature-control-dots control-dots down_md:hidden relative md:mb-20 md:mr-15 xl:mr-0">
+        </div>
+      </div>
+    </div>
+    <div class="feature-list-wrap overflow-hidden xl:pl-2">
+      <div class="js-feature-blogs-list flex down_md:block feature-blogs-list -mx-12 md:-mx-4 xl:max-w-1152 1k8:max-w-1616">
+     {% assign length = section.blocks | size %}
+     {% if length > 0 %}
+        {%- for block in section.blocks -%}
+        {% assign article = block.settings.article %}
+          {% if article != blank %}
+          <div class="feature-blog-item xl:pt-1">
+            <a class="no-underline" href="{{article.url}}">
+              <div class="relative bg-wellness-blue h-148 mx-4 md:h-181 xl:h-165 xl:mx-6 1k8:h-250 product-custom-feature overflow-hidden">
+                {% if article.image.src != blank %}
+                <img class="lazy absolute h-full w-full object-cover"
+                  src="{{ settings.IMAGE_BASE64 | escape }}"
+                  data-src="{{ article.image.src | image_url }}"
+                  alt="{{ article.title }}">
+                {% endif %}
+              </div>
+              <div class="feature-list-custom pr-24 pl-36 pt-17 pb-26 md:py-13 md:pl-10 md:pr-27 xl:px-3 1k8:py-16 last-mb-none">
+                <p class="mb-13 md:mb-7 xl:mb-2 2xl:mb-5">{{ article.published_at | date: "%b %d, %Y" }}</p>
+                <h4 class="font-medium 1k8:text-2xl max-w-550 title-product">{{ article.title }}</h4>
+              </div>
+            </a>
+          </div>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {%- for article in blogs['ergomotion-blog'].articles limit:5 -%}
+          <div class="feature-blog-item xl:pt-1">
+            <div class="wrap-features-blogs product-custom-feature overflow-hidden relative bg-wellness-blue h-148 mx-4 md:h-181 xl:h-165 1k8:h-250">
+              {% if article.image.src != blank %}
+              <img class="lazy absolute h-full w-full object-cover"
+                src="{{ settings.IMAGE_BASE64 | escape }}"
+                data-src="{{ article.image.src | image_url }}"
+                alt="{{ article.title }}">
+              {% else %}
+              <img class="absolute left-1/2 top-1/2 lazy logo-ergo no-alt" alt="" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ 'logo-footer.svg' | asset_url }}"/>
+              {% endif %}
+              <a class="absolute inset-0"
+                href="{{article.url}}"><span
+                  class="sr-only text-black">{{ article.title }}</span></a>
+            </div>
+            <div class="px-24 pt-17 pb-26 md:py-13 md:pl-12 md:pr-27 xl:px-5 1k8:py-16 last-mb-none">
+              <p class="mb-13 md:mb-7 xl:mb-2">{{ article.published_at | date: "%b %d, %Y" }}</p>
+              <h4 class="font-medium 1k8:text-2xl max-w-550"><a class="no-underline text-hush-black" href="{{article.url}}">{{ article.title }}</a></h4>
+            </div>
+          </div>
+        {%- endfor -%}
+      {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Featured Blogs Module",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Featured Blogs"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "featured_blogs_items",
+      "name": "Featured Blogs Item",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "article",
+          "id": "article",
+          "label": "Article"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Blogs Module"
+    }
+  ]
+}
+{% endschema %}

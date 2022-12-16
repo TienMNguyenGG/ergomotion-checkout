@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "929b0980-2995-420e-b6ea-c0617891e2be": {
+      "type": "text-center",
+      "blocks": {
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ergomotion Product Warranties",
+            "heading_size": "h1"
+          }
+        },
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get the restorative experience you deserve with the peace of mind of our three-tier product warranties – included with every Ergomotion adjustable bed base. All Ergomotion products are tested and proven to perform with exceptional accuracy and consistency, but should there be component defects or operational failures, we will replace those parts or send a new adjustable bed to your doorstep.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-0",
+        "template--16588438569181__929b0980-2995-420e-b6ea-c0617891e2be-166690069965bff723-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 10
+      }
+    },
+    "933df215-c075-49c2-9943-6e513327df84": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_1910249053.jpg",
+        "image_position": "object-left-bottom",
+        "image_position_mobile": "object-left-bottom",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "ba8b9323-fe79-4e84-84e9-7a54621d21a1": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "6ea5d1d5-ebc7-400a-890e-cb7a55623d42": {
+      "type": "feature-benefit",
+      "blocks": {
+        "template--16592427778269__6ea5d1d5-ebc7-400a-890e-cb7a55623d42-16669406250a8f4838-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "2Yr Hassle-Free Warranty",
+            "content_benefit": "<p>Your Ergomotion adjustable base is warranted by the manufacturer against defects in materials or workmanship for a period of two years from the date of purchase to the original Purchaser. During such time, Ergomotion will repair or replace, at no cost to the original Purchaser, any warranted part(s)* found to be defective by the manufacturer, in its sole discretion. This includes all pre-authorized labor and transportation costs incurred with the repair or replacement of any defective part.<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "04a0019a-e643-4f0a-963f-bdb2b5cf2ea3": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "5Yr Parts Warranty",
+            "content_benefit": "<p>During years 3 through 5 from the original purchase date, Ergomotion will replace any part on the adjustable base found to be defective by the manufacturer, to the original Purchaser. The manufacturer’s liability is limited to the replacement of the defective electrical\/mechanical part(s)* ONLY with the Purchaser responsible for all service, installation, and transportation costs of said part(s).<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        },
+        "9f9e3d89-c778-43e5-9d65-5bd8e4774902": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "10Yr Limited Warranty",
+            "content_benefit": "<p>Notwithstanding the above, Ergomotion extends a 10-year warranty on mechanical base parts found to be defective on a limited basis as defined herein. Specifically, the manufacturer warrants that for a full 10 years from the commencement date of this warranty, any defect in the workmanship or the materials used will be covered. For purposes of this 10-year warranty, it specifically excludes the cover, shroud, platform, legs, actuator lift motors, massage motors, control box, remote controls, power supply, and all power supply cords. The purchaser must pay 1\/5 of the current MSRP of the replacement part, or the entire adjustable base if deemed irreparable at the sole discretion of the manufacturer, multiplied by the number of years after the fifth year from the original purchase date. The manufacturer’s liability also must be limited to the replacement of the defective part(s) ONLY with the purchaser responsible for all service, installation, and freight costs for said part(s).<\/p>",
+            "label_benefit": "",
+            "link_benefit": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16592427778269__6ea5d1d5-ebc7-400a-890e-cb7a55623d42-16669406250a8f4838-0",
+        "04a0019a-e643-4f0a-963f-bdb2b5cf2ea3",
+        "9f9e3d89-c778-43e5-9d65-5bd8e4774902"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1958fed8-fd95-4792-a78f-e34abca482a1": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "79e2be7f-517b-4bba-baa1-470e31b900a2": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16592427778269__79e2be7f-517b-4bba-baa1-470e31b900a2-16669407168a990d47-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Register your warranty",
+            "heading_size": "h2"
+          }
+        },
+        "template--16592427778269__79e2be7f-517b-4bba-baa1-470e31b900a2-16669407168a990d47-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Register the warranty for your Ergomotion product(s).<\/p>"
+          }
+        },
+        "template--16592427778269__79e2be7f-517b-4bba-baa1-470e31b900a2-16669407168a990d47-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Register",
+            "button_link": "https:\/\/warranty.ergomotion.com\/warranty?_gl=1*1g3ro79*_ga*MTg5OTQ0MDg1OC4xNjQ5Nzc4MTg3*_ga_925MD9J8LE*MTY2ODA5NTY4Mi4zNi4xLjE2NjgwOTg1NDguNTcuMC4w",
+            "target": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16592427778269__79e2be7f-517b-4bba-baa1-470e31b900a2-16669407168a990d47-0",
+        "template--16592427778269__79e2be7f-517b-4bba-baa1-470e31b900a2-16669407168a990d47-1",
+        "template--16592427778269__79e2be7f-517b-4bba-baa1-470e31b900a2-16669407168a990d47-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "e41a1244-643c-45ed-8cf0-b2fcc12347e3": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "929b0980-2995-420e-b6ea-c0617891e2be",
+    "7aa24192-34c5-4d13-adb0-ecd459bf855b",
+    "933df215-c075-49c2-9943-6e513327df84",
+    "ba8b9323-fe79-4e84-84e9-7a54621d21a1",
+    "6ea5d1d5-ebc7-400a-890e-cb7a55623d42",
+    "1958fed8-fd95-4792-a78f-e34abca482a1",
+    "79e2be7f-517b-4bba-baa1-470e31b900a2",
+    "e41a1244-643c-45ed-8cf0-b2fcc12347e3"
+  ]
+}

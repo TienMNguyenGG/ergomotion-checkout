@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bedding & Pillows",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse our curated selection of thoughtful accessory add-ons to elevate your Ergomotion wellness experience. From silver chloride pillowcases to stress-reducing weighted quilts, find the materials and benefits that best fit your needs.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 25
+      }
+    },
+    "55741831-536a-48b0-a38f-eedcaf99bf4a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 60,
+        "padding_bottom_mb": 60
+      }
+    },
+    "cdd17d6b-2262-4586-95cf-876a9c2c6736": {
+      "type": "main-list-collections",
+      "blocks": {
+        "a8459e99-910c-4668-ab19-bbeb72dcfec1": {
+          "type": "collection",
+          "settings": {
+            "collection": "sheets",
+            "description": "",
+            "label_link": "View Products"
+          }
+        },
+        "615e9c01-513a-4d77-9349-228763e86426": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet",
+            "description": "",
+            "label_link": "View Products"
+          }
+        },
+        "ee03fbe3-bbbb-4b6f-8e83-b4e89e364686": {
+          "type": "collection",
+          "settings": {
+            "collection": "weighted-blankets",
+            "description": "",
+            "label_link": "View Products"
+          }
+        },
+        "47386b90-a0a4-4d2e-af02-6daf7c356e86": {
+          "type": "collection",
+          "settings": {
+            "collection": "mattress-protectors",
+            "description": "",
+            "label_link": "View Products"
+          }
+        },
+        "ac26339a-10a3-4bac-86ea-dcdc7a1a5902": {
+          "type": "collection",
+          "settings": {
+            "collection": "pillows",
+            "description": "",
+            "label_link": "View Products"
+          }
+        },
+        "f4870f03-a6da-481e-b786-0efdb7c37eb2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "description": "",
+            "label_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a8459e99-910c-4668-ab19-bbeb72dcfec1",
+        "615e9c01-513a-4d77-9349-228763e86426",
+        "ee03fbe3-bbbb-4b6f-8e83-b4e89e364686",
+        "47386b90-a0a4-4d2e-af02-6daf7c356e86",
+        "ac26339a-10a3-4bac-86ea-dcdc7a1a5902",
+        "f4870f03-a6da-481e-b786-0efdb7c37eb2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "439a79c0-2502-48d3-869c-e2328c01144a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 75
+      }
+    },
+    "6d06bf0b-1c85-486d-a04a-d853bc59cf10": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16588200018141__6d06bf0b-1c85-486d-a04a-d853bc59cf10-1666680184a63d3ba9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quest Product Line",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588200018141__6d06bf0b-1c85-486d-a04a-d853bc59cf10-1666680184a63d3ba9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience restorative adjustable bed technology with Ergomotion.<\/p>"
+          }
+        },
+        "template--16588200018141__6d06bf0b-1c85-486d-a04a-d853bc59cf10-1666680184a63d3ba9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Quest Product Line",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16588200018141__6d06bf0b-1c85-486d-a04a-d853bc59cf10-1666680184a63d3ba9-0",
+        "template--16588200018141__6d06bf0b-1c85-486d-a04a-d853bc59cf10-1666680184a63d3ba9-1",
+        "template--16588200018141__6d06bf0b-1c85-486d-a04a-d853bc59cf10-1666680184a63d3ba9-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "4e014061-b425-4cf2-acb1-c0ddd748465b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32",
+    "55741831-536a-48b0-a38f-eedcaf99bf4a",
+    "cdd17d6b-2262-4586-95cf-876a9c2c6736",
+    "439a79c0-2502-48d3-869c-e2328c01144a",
+    "6d06bf0b-1c85-486d-a04a-d853bc59cf10",
+    "4e014061-b425-4cf2-acb1-c0ddd748465b"
+  ]
+}

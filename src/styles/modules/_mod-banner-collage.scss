@@ -1,0 +1,24 @@
+.mod-banner-collage {
+  h2,
+  .h2 {
+    @apply mb-16 2xl:mb-14p5;
+  }
+}
+
+@screen 2xl {
+  .mod-banner-collage {
+    .collage-main-img {
+      padding-bottom: 50.1%;
+      margin-left: 273px;
+    }
+    .collage-sub-img-1 {
+      width: 49.4%;
+      height: 53.3%;
+    }
+    .collage-sub-img-2 {
+      left: -270px;
+      bottom: 230px;
+      width: 29.3%;
+    }
+  }
+}

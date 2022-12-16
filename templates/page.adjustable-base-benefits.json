@@ -1,0 +1,316 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experience restorative adjustable bed technology",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From concept to design and product development, Ergomotion adjustable bed bases are purpose-built to address your unique wellness needs. Through extensive product testing, feedback, and continued research, we're constantly refining our restorative sleep solutions and developing new product innovations that answer your demands for elevated wellness experiences.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "d2a75c1b-69b7-4b5e-9e4e-31a4fb852524": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 50,
+        "padding_bottom_mb": 50
+      }
+    },
+    "b4607935-3029-4fb5-a35b-7fd0c0bf58bc": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/header-img.jpg",
+        "image_position": "object-left-bottom",
+        "image_position_mobile": "object-left-bottom",
+        "video_link": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "be86db1a-2ac1-4d00-b5ee-71223c8f7342": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "3dc6e835-6b32-4096-a7c4-e13a2e576fa8": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588303565021__3dc6e835-6b32-4096-a7c4-e13a2e576fa8-1666599187fc4232dd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Essential health benefits you've been waiting for",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588303565021__3dc6e835-6b32-4096-a7c4-e13a2e576fa8-1666599187fc4232dd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An adjustable bed is more than just a nice-to-have upgrade, it's a tested and proven solution to improving your sleep health. At the core, our products offer pressure relief across all parts of the body – helping you find a sleep position that's best for your unique needs. Whether you're suffering from joint pain, back pain, or looking to experience a weightless, zero-gravity night's rest, Ergomotion enables you to experience deeper sleep and higher-quality recovery.<\/p>"
+          }
+        },
+        "template--16588303565021__3dc6e835-6b32-4096-a7c4-e13a2e576fa8-1666599187fc4232dd-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Health Benefits",
+            "button_link": "shopify:\/\/pages\/health-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588303565021__3dc6e835-6b32-4096-a7c4-e13a2e576fa8-1666599187fc4232dd-0",
+        "template--16588303565021__3dc6e835-6b32-4096-a7c4-e13a2e576fa8-1666599187fc4232dd-1",
+        "template--16588303565021__3dc6e835-6b32-4096-a7c4-e13a2e576fa8-1666599187fc4232dd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_468688070.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "9bdb313b-b023-4e2d-a9ee-58c98e772e7c": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "fbe21df3-4342-404c-bd5d-352e4e16d65c": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588303565021__fbe21df3-4342-404c-bd5d-352e4e16d65c-1666599526a87acf64-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transforming the way you relax",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588303565021__fbe21df3-4342-404c-bd5d-352e4e16d65c-1666599526a87acf64-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An Ergomotion adjustable bed is not limited to enhancing health and wellness but offers world-class luxury as well. Each product is designed to deliver exceptional comfort, elevated sleep performance, and a rich sense of relaxation for everyone. Our adjustable beds allow you to customize the position of your beds to meet every desire – optimizing sleep, meditation, reading, time alone, time with kids, and time streaming the latest episode of that show we all love.<\/p>"
+          }
+        },
+        "template--16588303565021__fbe21df3-4342-404c-bd5d-352e4e16d65c-1666599526a87acf64-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Sleep Benefits",
+            "button_link": "shopify:\/\/pages\/sleep-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588303565021__fbe21df3-4342-404c-bd5d-352e4e16d65c-1666599526a87acf64-0",
+        "template--16588303565021__fbe21df3-4342-404c-bd5d-352e4e16d65c-1666599526a87acf64-1",
+        "template--16588303565021__fbe21df3-4342-404c-bd5d-352e4e16d65c-1666599526a87acf64-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ergomotion-Batch1-V2-3.jpg",
+        "image_position": "bg-right-top",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "68e5958f-95b7-44b3-9b73-a9f18bfce083": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "a0b7935e-18c4-4caf-9431-b9f9b606cf42": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588303565021__a0b7935e-18c4-4caf-9431-b9f9b606cf42-16665997178acb18a7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Adjust to amazing",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588303565021__a0b7935e-18c4-4caf-9431-b9f9b606cf42-16665997178acb18a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p> It's time to live a lifestyle unrestrained by limits and conformity. With an Ergomotion adjustable base, you can finally break free from traditional pain points of sleep with a restorative solution, adjusted specifically to your needs. Night after night, you can enjoy the luxury of customized relaxation with unique features and automated presets designed to elevate your holistic wellness.<\/p>"
+          }
+        },
+        "template--16588303565021__a0b7935e-18c4-4caf-9431-b9f9b606cf42-16665997178acb18a7-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Lifestyle Benefits",
+            "button_link": "shopify:\/\/pages\/lifestyle-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588303565021__a0b7935e-18c4-4caf-9431-b9f9b606cf42-16665997178acb18a7-0",
+        "template--16588303565021__a0b7935e-18c4-4caf-9431-b9f9b606cf42-16665997178acb18a7-1",
+        "template--16588303565021__a0b7935e-18c4-4caf-9431-b9f9b606cf42-16665997178acb18a7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ergo_Q3-18.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "18d49c4a-aee6-40d6-81d8-9913d42d46ca": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "eac22613-3c7c-43b0-9b06-eb2c4760d6b2": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16588303565021__eac22613-3c7c-43b0-9b06-eb2c4760d6b2-166667314072e086ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore popular adjustable beds",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588303565021__eac22613-3c7c-43b0-9b06-eb2c4760d6b2-166667314072e086ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose from a variety of full-size and split-frame adjustable bed bases designed to elevate your health and wellness.<\/p>"
+          }
+        },
+        "template--16588303565021__eac22613-3c7c-43b0-9b06-eb2c4760d6b2-166667314072e086ab-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "See Ergomotion products",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "target": false,
+            "hiddenText": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588303565021__eac22613-3c7c-43b0-9b06-eb2c4760d6b2-166667314072e086ab-0",
+        "template--16588303565021__eac22613-3c7c-43b0-9b06-eb2c4760d6b2-166667314072e086ab-1",
+        "template--16588303565021__eac22613-3c7c-43b0-9b06-eb2c4760d6b2-166667314072e086ab-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f6eb87ba-823d-4b6c-a615-97eb627fd86e": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "ed81613d-f648-44bf-805e-c1ed2ba0a8e9": {
+      "type": "featured-blogs",
+      "blocks": {
+        "template--16588303565021__ed81613d-f648-44bf-805e-c1ed2ba0a8e9-1666599810f4566da3-0": {
+          "type": "blog_item",
+          "settings": {
+            "blog_item": "ergomotion-blog\/whats-your-position-breaking-down-adjustable-bases-for-side-and-back-sleepers"
+          }
+        },
+        "f748851c-1b6f-4978-a7e0-64dc2c989adc": {
+          "type": "blog_item",
+          "settings": {
+            "blog_item": "ergomotion-blog\/myth-busters-rethinking-the-adjustable-bed"
+          }
+        },
+        "508cedbc-674e-4448-bea8-495d907107a1": {
+          "type": "blog_item",
+          "settings": {
+            "blog_item": "ergomotion-blog\/how-you-can-lighten-leg-swelling1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588303565021__ed81613d-f648-44bf-805e-c1ed2ba0a8e9-1666599810f4566da3-0",
+        "f748851c-1b6f-4978-a7e0-64dc2c989adc",
+        "508cedbc-674e-4448-bea8-495d907107a1"
+      ],
+      "settings": {
+        "heading": "Featured Blogs",
+        "heading_size": "h3",
+        "label_link": "",
+        "link_url": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "2954e186-0658-4b8e-91fb-3e7de4912bd6": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1492f2fc-3b6c-49d2-9fa4-980cd0b86059": {
+      "type": "instafeed-feed",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "@ergomotion",
+        "link_url": "https:\/\/www.instagram.com\/ergomotion\/",
+        "target": true,
+        "hiddenText": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32",
+    "d2a75c1b-69b7-4b5e-9e4e-31a4fb852524",
+    "b4607935-3029-4fb5-a35b-7fd0c0bf58bc",
+    "be86db1a-2ac1-4d00-b5ee-71223c8f7342",
+    "3dc6e835-6b32-4096-a7c4-e13a2e576fa8",
+    "9bdb313b-b023-4e2d-a9ee-58c98e772e7c",
+    "fbe21df3-4342-404c-bd5d-352e4e16d65c",
+    "68e5958f-95b7-44b3-9b73-a9f18bfce083",
+    "a0b7935e-18c4-4caf-9431-b9f9b606cf42",
+    "18d49c4a-aee6-40d6-81d8-9913d42d46ca",
+    "eac22613-3c7c-43b0-9b06-eb2c4760d6b2",
+    "f6eb87ba-823d-4b6c-a615-97eb627fd86e",
+    "ed81613d-f648-44bf-805e-c1ed2ba0a8e9",
+    "2954e186-0658-4b8e-91fb-3e7de4912bd6",
+    "1492f2fc-3b6c-49d2-9fa4-980cd0b86059"
+  ]
+}

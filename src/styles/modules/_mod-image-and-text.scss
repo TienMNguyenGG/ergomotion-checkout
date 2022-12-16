@@ -1,0 +1,20 @@
+.mod-image-and-text {
+  h2,
+  .h2 {
+    @apply mb-27 md:mb-14 xl:mb-11 2xl:mb-36 2xl:text-h1-md;
+  }
+  p {
+    @apply xl:pr-36 2xl:pr-46;
+  }
+}
+@screen down_md {
+  .bg-multiple-image {
+    width: calc(100% + 24px);
+  }
+  .mod-image-and-text {
+    h2,
+    .h2 {
+      @apply text-font-36 leading-1-3;
+    }
+  }
+}

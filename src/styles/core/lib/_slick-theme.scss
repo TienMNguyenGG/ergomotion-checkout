@@ -1,0 +1,122 @@
+@charset 'UTF-8';
+// stylelint-disable
+
+/* Icons */
+
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  transform: translate(0, -50%);
+  z-index: 11;
+ 
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+
+.slick-next {
+  right: -25px;
+}
+
+.slick-disabled {
+  @apply opacity-50 pointer-events-none;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0 8px;
+  margin-bottom: 0;
+  cursor: pointer;
+  &::before {
+    display: none;
+  }
+}
+
+.slick-dots li button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  color: transparent;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 50%;
+}
+
+
+.slider, 
+.slider-lazy{
+  &:not(.slick-initialized){
+    .slider-item:not(:first-child){
+      display: none;
+    }
+  }
+ 
+}
+.control-arrows {
+  @apply flex items-center down_xl:justify-end;
+
+  .slick-arrow {
+    @apply relative left-auto right-auto transform-none text-blue-300 hover:opacity-50;
+    font-size: 32px;
+  }
+
+  .slick-prev {
+    @apply mr-4 xl:mr-5;
+  }
+}
+.control-dots {
+  .slick-dots {
+    @apply static w-full flex items-end mt-10p5;
+  }
+
+  li {
+    @apply w-full mx-1 max-w-60 md:max-w-70 md:w-35;
+
+    button {
+      @apply w-full text-black rounded-sm p-0 bg-sky-light-blue relative;
+      font-size: 0;
+      height: 3px;
+      padding: 0;
+      &::before {
+        content: '';
+        @apply absolute inset-0 -top-2 -bottom-2;
+      }
+    }
+    &:not(.slick-active) {
+      button {
+        height: 1px;
+      }
+    }
+  }
+
+  .slick-active {
+    @apply pointer-events-none;
+    button {
+      @apply bg-blue-300 text-white pointer-events-none;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding module mod-store-locator down_md:overflow-hidden animation">
+  <div class="container 2xl:pl-0 2xl:pr-19 anima-bottom delay-4">
+    {% if section.settings.heading != empty %}
+    <h3 class="{{ section.settings.heading_size }}">{{ section.settings.heading }}</h3>
+    {% endif %}
+    {%- for block in section.blocks -%}
+      <div {{ block.shopify_attributes }}>
+      {{ block.settings.script }}
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Store Locator",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Find a Quest retailer"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+   "blocks": [
+    {
+      "type": "store_locator_item",
+      "name": "Store Locator Item",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "html",
+          "id": "script",
+          "default": "<div id='storepoint-container' data-tags='quest' data-map-id='16217c1144f39d'></div><script>(function(){var a=document.createElement('script');a.type='text/javascript';a.async=!0;a.src='https://cdn.storepoint.co/api/v1/js/16217c1144f39d.js';var b=document.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);}());</script><style>#storepoint-tag-dropdown,#storepoint-clear-search{display:none!important;}</style>",
+          "label": "Script Load Map"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Store Locator",
+      "blocks": [
+        {
+          "type": "store_locator_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

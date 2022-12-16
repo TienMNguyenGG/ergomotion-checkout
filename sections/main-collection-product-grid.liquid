@@ -1,0 +1,145 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="module mod-product-line section-{{ section.id }}-padding animation">
+	<div class="container px-12 md:px-24 xl:px-10 2xl:max-w-1404 anima-bottom delay-2">
+		<div class="title xl:flex mb-27 md:mb-19 xl:mb-20 pr-20 xl:pr-0 transition-transform" data-paroller-factor="0.05" data-paroller-type="foreground">
+      {% if section.settings.heading != empty %}
+			<div class="flex-1 mb-10 xl:mr-8 xl:mb-0 md:mb-7 last-mb-none">
+				<h3 class="{{ section.settings.heading_size }}" data-cy="heading">{{ section.settings.heading }} </h3>
+			</div>
+      {% endif %}
+			<div class="flex-none">
+        {% if section.settings.link_url != blank %}
+				<a href="{{ section.settings.link_url }}" class="link-arrow btn xl:mt-1p5 xl:mr-1p5 2xl:mt-8 2xl:mr-0" data-cy="link">
+					{{ section.settings.label_link }}
+					<span class="icomoon icon-link-arrow "></span>
+				</a>
+        {% endif %}
+			</div>
+		</div>
+
+		<div class="box-products row -mx-4 2xl:px-8" data-paroller-direction="vertical">
+      {%- for collection in collection.products -%}
+      {% assign index = forloop.index %}
+      <a href="{{ collection.url }}" class="block item-product relative px-4 md:w-1/2 mb-41 down_md:last:mb-0 md:mb-36 xl:mb-35 2xl:mb-39 link-arrow-hover-section no-underline hover:text-dark-grey transition-transform" data-cy="product-item-{{ forloop.index }}" {% if index == 1 or index == 2 %} data-paroller-factor="0.1" {% endif %} {% if index == 3 or index == 4 %} data-paroller-factor="0.15" {% endif %} {% if index == 5 or index == 6 %} data-paroller-factor="0.1" {% endif %}data-paroller-type="foreground">
+          {% if collection.metafields.custom.feature_image != blank %}
+            <div class="relative block image-product mb-16 md:mb-12 2xl:mb-20">
+              <div class="pb-product-line overflow-hidden relative product-custom-feature md:pb-product-line-md lg:pb-product-line-lg 2xl:pb-product-line-2xl">
+                <img data-src="{{  collection.metafields.custom.feature_image | image_url }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ collection.title | escape  }}" class="lazy object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+              </div>
+            </div>
+          {% else %}
+            {% if collection.featured_image != blank %}
+            <div class="relative block image-product mb-16 md:mb-12 2xl:mb-20">
+              {% comment %} <span class="sr-only text-black bg-white">{{ collection.title }}</span> {% endcomment %}
+              <div class="pb-product-line overflow-hidden relative product-custom-feature md:pb-product-line-md lg:pb-product-line-lg 2xl:pb-product-line-2xl">
+                <img data-src="{{ collection.featured_image | image_url }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ collection.title | escape }}" class="lazy object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+              </div>
+            </div>
+            {% else %}
+            <div class="relative block image-product mb-16 md:mb-12 2xl:mb-20">
+              <div class="pb-product-line overflow-hidden relative product-custom-feature md:pb-product-line-md lg:pb-product-line-lg 2xl:pb-product-line-2xl">
+                <img data-src="{{  'product-detail.jpg' | asset_url }}" src="{{ settings.IMAGE_BASE64 | escape }}" alt="{{ collection.title | escape  }}" class="lazy object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+              </div>
+            </div>
+            {% endif %}
+          {% endif %}
+
+          <div class="detail-product px-12 md:px-8 md:pr-16 lg:px-0 xl:max-w-500 2xl:max-w-576">
+            <h4 class="h5 title-product mb-8 md:mb-4 2xl:mb-8" data-cy="product-name-{{ forloop.index }}">{{ collection.title  }}</h4>
+            <p class="text-dark-grey font-semibold mb-11 md:mb-4 2xl:mb-8" data-cy="product-price-{{ forloop.index }}">Starting at {{ collection.price | money }}</p>
+            <div class="last-mb-none mb-10 xl:mb-6 text-dark-grey" data-cy="product-desc-{{ forloop.index }}">
+              {{ collection.content | strip_html | truncatewords: 27 }}
+            </div>
+
+            <strong class="link-arrow btn" data-cy="slide-heading-{{ forloop.index }}">
+              {{ collection.title  }} product details
+              <span class="icomoon icon-link-arrow"></span>
+            </strong>
+          </div>
+			</a>
+      {%- endfor -%}
+		</div>
+	</div>
+</section>
+{% schema %}
+{
+  "name": "Product Grid",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Meet the Quest product line headline"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "label_link",
+      "label": "Label Link"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+  ]
+}
+{% endschema %}

@@ -1,0 +1,191 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="module mod-feature-columns animation section-{{ section.id }}-padding">
+	<div class="container px-12 md:px-24 xl:px-10 2xl:px-24 2xl:max-w-1600 1k8:px-0 {% if section.settings.columns == '2' %} 1k8:max-w-1328 1k8:mx-auto {% endif %}">
+    {% if section.settings.heading != empty %}
+		<div class="title-feature-col mb-25 md:mb-19 md:pr-5 xl:mr-8 xl:mb-20 2xl:mb-20 last-mb-none">
+      <h3 class="{{ section.settings.heading_size }}" data-cy="heading">{{ section.settings.heading }}</h3>
+    </div>
+    {% endif %}
+
+		<div class="box-products anima-bottom delay-4 row -mx-4 pb-4 last-mb-none {% if section.settings.columns != '2' %} 2xl:-mx-14 {% else %} 2xl:-mx-10 {% endif %} 2xl:pb-0 transition-transform" data-paroller-factor="0.1" data-paroller-type="foreground">
+      {%- for block in section.blocks -%}
+      <div class="w-full item-product relative px-4 md:w-1/2 mb-35 down_md:last:mb-0 md:mb-36 xl:w-1/{{ section.settings.columns}}
+      {%- if block.settings.image_benefit != blank %} xl:mb-21 2xl:mb-15 {% else %} xl:mb-30 2xl:mb-50 {% endif %}
+      {% if section.settings.columns != '2' %} 2xl:px-14 {% else %} 2xl:px-10  {% endif %}" {{ block.shopify_attributes }}>
+       {%- if block.settings.link_benefit != blank %}
+        {%- if block.settings.image_benefit != blank -%}
+          <a href="{{ block.settings.link_benefit }}" class="block relative image-product mb-16 md:mb-12 xl:mb-12 2xl:mb-22" tabindex="-1">
+            <div class="pb-feature-col relative overflow-hidden">
+              <img src="{{ block.settings.image_benefit | image_url }}" alt="{{ block.settings.image_benefit.alt }}" class="object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+            </div>
+          </a>
+        {% endif %}
+        {% else %}
+        <div class="block relative image-product mb-16 md:mb-12 xl:mb-12 2xl:mb-22">
+					{%- if block.settings.image_benefit != blank -%}
+            <div class="pb-feature-col relative overflow-hidden">
+              <img src="{{ block.settings.image_benefit | image_url }}" alt="{{ block.settings.image_benefit.alt }}" class="object-cover object-center absolute left-0 top-0 w-full h-full 2xl:rounded-4">
+            </div>
+          {% endif %}
+				</div>
+        {% endif %}
+
+				<div class="detail-product px-12 md:pl-8 md:pr-16 lg:px-0 {% if section.settings.columns == '2' %} xl:max-w-80p {% else %} xl:max-w-310 2xl:max-w-440 {% endif %}">
+          <div class="title-feature-item mb-8 md:mb-8 xl:mb-8 last-mb-none">
+            <h4 data-cy="title-{{ forloop.index }}">
+              {%- if block.settings.link_benefit != blank %}
+                <a href="{{ block.settings.link_benefit }}" class="no-underline text-gray-300">
+                  {{ block.settings.headline_benefit }}
+                </a>
+              {% else %}
+                {{ block.settings.headline_benefit }}
+              {% endif %}
+            </h4>
+          </div>
+
+					<div class="last-mb-none mb-11 md:mb-10 xl:mb-6 2xl:mb-14 text-dark-grey" data-cy="content-{{ forloop.index }}">
+          {{ block.settings.content_benefit }}
+            {% if block.settings.link_benefit != blank and block.settings.label_benefit != blank %}
+            <a href="{{ block.settings.link_benefit }}" class="link-arrow btn" tabindex="-1">
+              {{ block.settings.label_benefit }}
+              <span class="icomoon icon-link-arrow"></span>
+              <span class="sr-only">{{ block.settings.headline_benefit }}</span>
+            </a>
+            {% endif %}
+					</div>
+				</div>
+			</div>
+      {%- endfor -%}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+  "name": "3 Column Content",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Feature benefit section"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+     {
+      "type": "select",
+      "id": "columns",
+      "options": [
+        {
+          "value": "2",
+          "label": "Two Column"
+        },
+        {
+          "value": "3",
+          "label": "Three Column"
+        }
+      ],
+      "default": "3",
+      "label": "Layout Column"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "featured_benefit",
+      "name": "Feature Benefit Item",
+      "limit": 6,
+      "settings": [{
+        "type": "image_picker",
+        "id": "image_benefit",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "headline_benefit",
+        "label": "Headline",
+        "default": "A feature benefit of an Ergomotion product"
+      },
+      {
+        "type": "richtext",
+        "id": "content_benefit",
+        "label": "Content",
+        "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.</p>"
+      },
+       {
+        "type": "text",
+        "id": "label_benefit",
+        "label": "Label Link"
+      },
+      {
+        "type": "url",
+        "id": "link_benefit",
+        "label": "Link"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "3 Column Content",
+      "blocks": [{
+        "type": "featured_benefit"
+      }]    
+    }
+  ]
+}
+{% endschema %}

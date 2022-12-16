@@ -1,0 +1,120 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="module mod-banner-collage section-{{ section.id }}-padding">
+  <div class="container 1k8:px-6">
+    <div class="row">
+      <div class="col w-full px-0 md:px-24 xl:px-10 2xl:pr-8">
+        <div class="collage-main-img relative pb-69p ml-34 md:ml-43 md:pb-73p xl:pb-43p xl:ml-96">
+          {%- for block in section.blocks -%}
+          {%- case forloop.index -%}
+              {%- when 1 -%}
+                <img class="lazy absolute h-full w-full object-cover 2xl:rounded-4 {{ block.settings.image_position }}" {{ block.shopify_attributes }} src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.image | image_url }}" alt="Main Collage">
+              {%- when 2 -%}
+                <div class="collage-sub-img-1 absolute -left-22 -bottom-7 w-51p h-40p md:-bottom-11 md:left-0 md:w-56p md:h-43p xl:-left-47 xl:-bottom-21 xl:h-59p xl:w-49p 2xl:-left-67 2xl:-bottom-19" {{ block.shopify_attributes }}>
+                  <img class="lazy h-full w-full object-cover {{ block.settings.image_position }}" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.image | image_url }}" alt="Sub Collage">
+                </div>
+              {%- when 3 -%}
+                <div class="collage-sub-img-2 absolute -left-34 bottom-28 w-31p h-41p md:-left-43 md:bottom-58 md:h-32p md:w-41p xl:h-39p xl:w-29p xl:-left-95 xl:bottom-97 2xl:h-51p" {{ block.shopify_attributes }}>
+                  <img class="lazy h-full w-full object-cover {{ block.settings.image_position }}" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ block.settings.image | image_url }}" alt="Sub Collage">
+                </div>
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name":"Image Collage",
+  "tag":"section",
+  "class":"section",
+  "settings":[
+    {
+      "type":"header",
+      "content":"Section Padding"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type":"range",
+      "id":"padding_bottom_mb",
+      "min":0,
+      "max":100,
+      "step":5,
+      "unit":"px",
+      "default":40,
+      "label":"Bottom padding mobile"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"banner_image_item",
+      "name":"Banner Image Item",
+      "limit": 3,
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"image",
+          "label":"Image"
+        },
+        {
+          "type":"select",
+          "id":"image_position",
+          "options":[
+            {
+              "value":"object-center",
+              "label":"Center"
+            },
+            {
+              "value":"object-left-top",
+              "label":"Top Left"
+            },
+            {
+              "value":"object-right-top",
+              "label":"Top Right"
+            },
+            {
+              "value":"object-left-bottom",
+              "label":"Bottom Left"
+            },
+            {
+              "value":"object-right-bottom",
+              "label":"Bottom Right"
+            }
+          ],
+          "default":"object-center",
+          "label":"Image Position"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Image Collage",
+      "blocks":[
+        {
+          "type":"banner_image_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

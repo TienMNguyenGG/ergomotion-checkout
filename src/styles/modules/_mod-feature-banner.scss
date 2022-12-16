@@ -1,0 +1,53 @@
+.feat-ban-bg {
+  padding-bottom: 126.31%;
+}
+.feat-ban-cover {
+  left: calc(50% - 50vw);
+}
+
+@screen md {
+  .feat-ban-bg {
+    padding-bottom: 62.71%;
+  }
+}
+@screen xl {
+  .feat-ban-bg-cover {
+    margin-right: calc(100% - 50vw);
+  }
+  .feat-ban-cover {
+    @apply left-0;
+  }
+  .feat-ban-bg {
+    padding-bottom: 77.26%;
+  }
+  .mod-feature-banner {
+    .remote-feature {
+      left: -116px;
+      top: 316px;
+      bottom: -274px;
+    }
+  }
+  .no-ani {
+    .mod-feature-banner {
+      @apply mb-50;
+    }
+  }
+}
+@screen 2xl {
+  .feat-ban-bg-cover {
+    margin-right: calc(100% - 50vw);
+  }
+  .feat-ban-cover {
+    @apply left-0;
+  }
+  .feat-ban-bg {
+    padding-bottom: 73.94%;
+  }
+  .mod-feature-banner {
+    .remote-feature {
+      left: -200px;
+      top: 316px;
+      bottom: -406px;
+    }
+  }
+}

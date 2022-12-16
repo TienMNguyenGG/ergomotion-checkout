@@ -1,0 +1,88 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding hidden md:block inner-nav relative z-40">
+  <div class="container container-inner-nav md:min-h-66 lg:text-center" data-paroller-factor="0.1" data-paroller-type="foreground">
+    <div class="list-nav-page hidden relative md:block md:ml-16 lg:ml-0 lg:inline-block xl:pb-15 transition-transform">
+      <div class="inner-nav-page items-center relative overflow-x-auto hidden md:inline-flex lg:justify-center xl:px-1 xl:pt-1" role="tablist">
+        {%- for block in section.blocks -%}
+          {% if block.settings.name != blank and  block.settings.section_ID != blank %}
+            <a href="#{{ block.settings.section_ID }}" class="no-underline item-nav-page text-h5-v2 px-28 py-21 relative font-medium text-hush-black 2xl:text-h5 2xl:py-20" role="tab" aria-selected="false" aria-controls="{{ block.settings.section_ID }}" data-nav="{{ block.settings.section_ID }}" {{ block.shopify_attributes }}>
+              {{ block.settings.name }}
+            </a>
+          {% endif %}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Inner Page Nav",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+   "blocks": [
+    {
+      "type": "nav_item",
+      "name": "Nav Item",
+      "settings": [
+
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "section_ID",
+          "label": "Section ID"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Inner Page Nav",
+      "blocks": [
+        {
+          "type": "nav_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

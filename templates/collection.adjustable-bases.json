@@ -1,0 +1,460 @@
+{
+  "sections": {
+    "1664163849dda46c9d": {
+      "type": "text-center",
+      "blocks": {
+        "1664163849f77d540f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quest Series | Adjust to amazing",
+            "heading_size": "h1"
+          }
+        },
+        "1664163849f77d540f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our market-tested and customer-approved lineup of Quest adjustable bedframes are ready to turn your bedroom into a revitalizing sanctuary for greater health – day or night. Whether you're looking for an integrated smart home adjustable bed, or a simple and classic adjustable system, we have a sleep solution for just for you.<\/p><p>Below you'll find a wide variety of adjustable base products designed to find your unique&nbsp;lifestyle.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664163849f77d540f-0",
+        "1664163849f77d540f-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "9d65e79d-4ff1-4a24-8094-ec11666f4869": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 60,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 10
+      }
+    },
+    "1664164419eaa1e920": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Marie-NEWCATEGORY_IMAGE-scaled-e1644954379431.jpg",
+        "image_position": "object-left-bottom",
+        "image_position_mobile": "object-left-bottom",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=5zjJT9Lvzeo",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16641644490b0131fc": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166416446704a62aeb": {
+      "type": "large-features-banner",
+      "blocks": {
+        "6126f645-11a3-4809-8869-0409d778dc27": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
+            "content_new": "<p>10-year limited warranty<\/p>"
+          }
+        },
+        "376775cb-8a1d-4adf-80f4-d37d2688db78": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
+            "content_new": "<p>US Based - Call us at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1.888.550.3746<\/a><\/p>"
+          }
+        },
+        "9bb025b7-b099-43e9-9b9c-85f0b549c2ca": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Truck_Icon.svg?v=1665539537",
+            "content_new": "<p>Free, no contact delivery<\/p>"
+          }
+        },
+        "16641644672cbf6dd2-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
+            "content_new": "<p>Pay over time with Affirm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6126f645-11a3-4809-8869-0409d778dc27",
+        "376775cb-8a1d-4adf-80f4-d37d2688db78",
+        "9bb025b7-b099-43e9-9b9c-85f0b549c2ca",
+        "16641644672cbf6dd2-0"
+      ],
+      "settings": {
+        "heading": "10 million+ adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "<p><\/p>",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "166416457096fa6d2f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "heading": "Meet the Quest products",
+        "heading_size": "h3",
+        "label_link": "Compare all Quest adjustable bases",
+        "link_url": "shopify:\/\/pages\/compare-bases",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "bc288ef4-70c5-4132-a998-d2da67f4c042": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 30,
+        "padding_bottom_tablet": 30,
+        "padding_bottom_mb": 75
+      }
+    },
+    "16641646325f673c51": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "166416463197dd7546-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover our latest products",
+            "heading_size": "h2"
+          }
+        },
+        "166416463197dd7546-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your wellness journey starts with an Ergomotion adjustable bed. Explore our restorative products and find your perfect fit today.<\/p>"
+          }
+        },
+        "166416463197dd7546-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "See products",
+            "button_link": "\/collections",
+            "target": false,
+            "hiddenText": ""
+          }
+        }
+      },
+      "block_order": [
+        "166416463197dd7546-0",
+        "166416463197dd7546-1",
+        "166416463197dd7546-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "166416468177526004": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 65,
+        "padding_bottom_mb": 65
+      }
+    },
+    "60670adb-6823-4e41-88b7-12c024152eed": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 30,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664164705aa7653ea": {
+      "type": "feature-benefit",
+      "blocks": {
+        "1664164705493fac4a-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/LifeBenefit.jpg",
+            "headline_benefit": "Lifestyle Benefits",
+            "content_benefit": "<p>It's time to live a lifestyle unrestrained by limits and conformity. Read more, relax more, meditate more – watch movies without a million pillows at your back.<\/p>",
+            "label_benefit": "Lifestyle Benefits",
+            "link_benefit": "shopify:\/\/pages\/lifestyle-benefits"
+          }
+        },
+        "285b388c-68a5-41d7-b042-917fc9c20403": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/Health-Benefits.jpg",
+            "headline_benefit": "Health Benefits",
+            "content_benefit": "<p>An adjustable base is more than just a convenience tool, it's a tested and proven solution to improving sleep health. At the core, our products offer you pressure relief across all parts of the body.<\/p>",
+            "label_benefit": "Health Benefits",
+            "link_benefit": "shopify:\/\/pages\/health-benefits"
+          }
+        },
+        "c9cbfaa8-712c-4bcc-b909-fe8457fba44f": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/Sleep-Benefits.jpg",
+            "headline_benefit": "Sleep Benefits",
+            "content_benefit": "<p>Our adjustable bases allow people to customize the position of their beds to meet every desire – optimizing sleep, meditation, reading, time alone or with kids, and watching your favorite movie.<\/p>",
+            "label_benefit": "Sleep Benefits",
+            "link_benefit": "shopify:\/\/pages\/sleep-benefits"
+          }
+        }
+      },
+      "block_order": [
+        "1664164705493fac4a-0",
+        "285b388c-68a5-41d7-b042-917fc9c20403",
+        "c9cbfaa8-712c-4bcc-b909-fe8457fba44f"
+      ],
+      "settings": {
+        "heading": "Key benefits of an adjustable bed",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "0140757d-db33-43df-ada5-6e59aba7c170": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "2547fc00-1f86-4c40-a00a-d19ed977f4bb": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 75
+      }
+    },
+    "166416476426587e53": {
+      "type": "half-text-image",
+      "blocks": {
+        "1664164764a407b859-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "See what our customers are saying",
+            "heading_size": "h2"
+          }
+        },
+        "1664164764a407b859-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergomotion is not just your next bed, it's the start of a new lifestyle. Learn more about how we've helped customers find greater wellness with adjustable bed technology.<\/p>"
+          }
+        },
+        "1664164764a407b859-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "View customer testimonials",
+            "button_link": "shopify:\/\/pages\/reviews"
+          }
+        }
+      },
+      "block_order": [
+        "1664164764a407b859-0",
+        "1664164764a407b859-1",
+        "1664164764a407b859-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/See-what-our-customers-are-saying.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style1",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "45e8816b-6f87-41e7-94e1-687fc7609deb": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 75
+      }
+    },
+    "166416482047abb5c0": {
+      "type": "help-banner",
+      "blocks": {
+        "1664164820150e85b7-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "663e8f18-8f4f-445c-88ec-032726e687b3": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. Call us - we’re here to help.<\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:+1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "f5abda70-4397-4622-afad-891ace293205": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product Support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "1664164820150e85b7-0",
+        "663e8f18-8f4f-445c-88ec-032726e687b3",
+        "f5abda70-4397-4622-afad-891ace293205"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664164976b3cbf803": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166416547908fdc202": {
+      "type": "two-column-banner",
+      "blocks": {
+        "1664165479b449fc2d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Enhace-your-health-through-innovation-top.jpg"
+          }
+        },
+        "1664165479b449fc2d-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>“Quest Connect bed base [brings] smart home technology to the bed itself by communicating with other smart devices so you can make the most of your sleep environment for optimal nightly rest.”<\/p>"
+          }
+        },
+        "1664165479b449fc2d-2": {
+          "type": "icon",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/reviewed_logo.svg?v=1666837553"
+          }
+        }
+      },
+      "block_order": [
+        "1664165479b449fc2d-0",
+        "1664165479b449fc2d-1",
+        "1664165479b449fc2d-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "2ec6f784-9b91-4c45-b7c6-22214a15670b": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16671866187d80c82c": {
+      "type": "apps",
+      "blocks": {
+        "fc67ac28-944d-476c-bcb9-513ca0e42e42": {
+          "type": "shopify:\/\/apps\/store-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
+          "settings": {
+            "heading": "FAQs",
+            "heading_text_type": "h2",
+            "heading_alignment": "left",
+            "faq_embed_code": "<div class=\"ef-faqs-plus-app-cats-content\" data-category=\"Adjustable Bases\" id=\"ef-faqs-635f40a33965cd0b6e10ae68\"><\/div>",
+            "faqs_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "fc67ac28-944d-476c-bcb9-513ca0e42e42"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "49411f4b-db79-4857-b0e1-47ebff98c6f4": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "a762ec6d-d1f8-4d5f-a155-1c0f41a6436d": {
+      "type": "schema",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "1664163849dda46c9d",
+    "9d65e79d-4ff1-4a24-8094-ec11666f4869",
+    "1664164419eaa1e920",
+    "16641644490b0131fc",
+    "166416446704a62aeb",
+    "166416457096fa6d2f",
+    "product-grid",
+    "bc288ef4-70c5-4132-a998-d2da67f4c042",
+    "16641646325f673c51",
+    "166416468177526004",
+    "60670adb-6823-4e41-88b7-12c024152eed",
+    "1664164705aa7653ea",
+    "0140757d-db33-43df-ada5-6e59aba7c170",
+    "2547fc00-1f86-4c40-a00a-d19ed977f4bb",
+    "166416476426587e53",
+    "45e8816b-6f87-41e7-94e1-687fc7609deb",
+    "166416482047abb5c0",
+    "1664164976b3cbf803",
+    "166416547908fdc202",
+    "2ec6f784-9b91-4c45-b7c6-22214a15670b",
+    "16671866187d80c82c",
+    "49411f4b-db79-4857-b0e1-47ebff98c6f4",
+    "a762ec6d-d1f8-4d5f-a155-1c0f41a6436d"
+  ]
+}

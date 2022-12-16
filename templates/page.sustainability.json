@@ -1,0 +1,287 @@
+{
+  "sections": {
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Operational sustainability meets eco&minus;conscious product development",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With the help of our expert engineering staff, we've developed sustainable production workflows that reduce raw material waste without hindering time&minus;to&minus;market for our retailers. And with an efficient global supply chain feeding our manufacturing facilities with materials in as little as four hours, we're able to spend more time testing product quality, functionality, and long&minus;term durability.<\/p><p>Every Ergomotion product that hits retailer stores is not only proven to perform 100% as advertised, but also to uphold the industry's highest standards for adjustable bed sustainability and safety.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-center",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "e8d79f7b-8d77-47ae-aade-e2e05b88bc4f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "7a7e671e-4a42-4ff7-9a9c-1e12e87ba8f7": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588400001245__7a7e671e-4a42-4ff7-9a9c-1e12e87ba8f7-166660502233dc9f9a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Creating a near−zero carbon footprint",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588400001245__7a7e671e-4a42-4ff7-9a9c-1e12e87ba8f7-166660502233dc9f9a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe that quality materials are at the heart of holistic wellness. That’s why we use ethically sourced and environmentally conscious materials like expanded polyethylene and eucalyptus plywood, with additional eco&minus;smart materials in testing.<\/p>"
+          }
+        },
+        "template--16588400001245__7a7e671e-4a42-4ff7-9a9c-1e12e87ba8f7-166660502233dc9f9a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588400001245__7a7e671e-4a42-4ff7-9a9c-1e12e87ba8f7-166660502233dc9f9a-0",
+        "template--16588400001245__7a7e671e-4a42-4ff7-9a9c-1e12e87ba8f7-166660502233dc9f9a-1",
+        "template--16588400001245__7a7e671e-4a42-4ff7-9a9c-1e12e87ba8f7-166660502233dc9f9a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/eucalyptus_Plywood.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f8811e3f-e5e9-45e6-a57a-177a0423af6a": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 80
+      }
+    },
+    "231b508b-2ee1-4ced-9073-db0918122b58": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588400001245__231b508b-2ee1-4ced-9073-db0918122b58-1666605097baacda38-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eco−smart materials",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588400001245__231b508b-2ee1-4ced-9073-db0918122b58-1666605097baacda38-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most Ergomotion® adjustable beds are constructed with eucalyptus plywood – an advanced and durable arbor material classified as “hardwood”, which is versatile and extremely sustainable. Eucalyptus crops can produce up to 30 times more volume per year than the average trees used to obtain carpentry wood. The density and nature of eucalyptus make it one of the most structurally sound hardwoods available, which can be impregnated with fire retardant (that does not wash off) through the pressure treatment process.<\/p><p>Pallets for material handling and racks\/bins for material storage in production facilities are made of excess eucalyptus woodcuts, which minimizes scrap & waste.<\/p>"
+          }
+        },
+        "template--16588400001245__231b508b-2ee1-4ced-9073-db0918122b58-1666605097baacda38-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588400001245__231b508b-2ee1-4ced-9073-db0918122b58-1666605097baacda38-0",
+        "template--16588400001245__231b508b-2ee1-4ced-9073-db0918122b58-1666605097baacda38-1",
+        "template--16588400001245__231b508b-2ee1-4ced-9073-db0918122b58-1666605097baacda38-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/81c392ee54247a777b847db8f356c72a.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "e3accca8-a8a6-48de-8fe7-db0990e90a50": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "dff42d48-7df9-45e4-8ba2-3bceaceeb160": {
+      "type": "large-features-banner",
+      "blocks": {
+        "template--16588400001245__dff42d48-7df9-45e4-8ba2-3bceaceeb160-1666605216ebc1574e-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_5.svg?v=1670382696",
+            "content_new": "<p>Ergomotion adjustable beds are some of the most energy−efficient on the market.<\/p>"
+          }
+        },
+        "296ead4d-823a-4865-a4de-0cd718a7f8c4": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_6.svg?v=1670382696",
+            "content_new": "<p>During full operation, our adjustable bed system has a maximum 24−volt output<\/p>"
+          }
+        },
+        "e6afd73b-1d53-4520-9d39-5b5f020ba6b0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Asset_7_e250f81b-f624-4f7e-9746-36573f50f6d9.svg?v=1670382696",
+            "content_new": "<p>When idle, there is a max .05 draw from the outlet (equivalent to illuminating the clock on your oven)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588400001245__dff42d48-7df9-45e4-8ba2-3bceaceeb160-1666605216ebc1574e-0",
+        "296ead4d-823a-4865-a4de-0cd718a7f8c4",
+        "e6afd73b-1d53-4520-9d39-5b5f020ba6b0"
+      ],
+      "settings": {
+        "heading": "Energy−efficient products",
+        "heading_size": "h2",
+        "content": "<p>We've designed our adjustable bed products to operate with low energy consumption to further reduce the impacts of each individual carbon footprint. Regardless of the extent of use per product, and per customer, our adjustable bases will never have a significant impact on monthly energy usage.<\/p>",
+        "columns": "3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f804c28b-f03f-42ef-b494-8a376a7178ea": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 60
+      }
+    },
+    "9559f641-8ad3-4763-b544-46661568e908": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16588400001245__9559f641-8ad3-4763-b544-46661568e908-1666605851eb9b0356-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Solar sustainability for the future",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588400001245__9559f641-8ad3-4763-b544-46661568e908-1666605851eb9b0356-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With advanced, large&minus;scale manufacturing facilities designed with natural&minus;curving roofs, leveraging solar energy is effortless. Currently, Clean Photovoltaic solar energy supports 30% of our manufacturing operations, and we are working with top engineers and environmental leaders to increase solar utilization in years to come.<\/p>"
+          }
+        },
+        "template--16588400001245__9559f641-8ad3-4763-b544-46661568e908-1666605851eb9b0356-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588400001245__9559f641-8ad3-4763-b544-46661568e908-1666605851eb9b0356-0",
+        "template--16588400001245__9559f641-8ad3-4763-b544-46661568e908-1666605851eb9b0356-1",
+        "template--16588400001245__9559f641-8ad3-4763-b544-46661568e908-1666605851eb9b0356-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Solar-sustainability_416ffe7e-1012-45a5-affe-3c2eaacad358.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style1",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "ff7f11d1-3506-4539-b77f-c8e0c9595a29": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 60
+      }
+    },
+    "b7c97445-d323-4c10-9ac0-b2c91b1cfd4c": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16588400001245__b7c97445-d323-4c10-9ac0-b2c91b1cfd4c-1666605925763308b6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Essential health benefits you've been waiting for",
+            "heading_size": "h2"
+          }
+        },
+        "template--16588400001245__b7c97445-d323-4c10-9ac0-b2c91b1cfd4c-1666605925763308b6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An adjustable bed is more than just a nice&minus;to&minus;have upgrade, it's a tested and proven solution to improving your sleep health.<\/p>"
+          }
+        },
+        "template--16588400001245__b7c97445-d323-4c10-9ac0-b2c91b1cfd4c-1666605925763308b6-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Adjustable Base Benefits",
+            "button_link": "shopify:\/\/pages\/adjustable-base-benefits",
+            "target": false,
+            "hiddenText": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588400001245__b7c97445-d323-4c10-9ac0-b2c91b1cfd4c-1666605925763308b6-0",
+        "template--16588400001245__b7c97445-d323-4c10-9ac0-b2c91b1cfd4c-1666605925763308b6-1",
+        "template--16588400001245__b7c97445-d323-4c10-9ac0-b2c91b1cfd4c-1666605925763308b6-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "98ba58d1-6254-4221-a600-f92e025f6ff1": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "16637401650be15f32",
+    "e8d79f7b-8d77-47ae-aade-e2e05b88bc4f",
+    "7a7e671e-4a42-4ff7-9a9c-1e12e87ba8f7",
+    "f8811e3f-e5e9-45e6-a57a-177a0423af6a",
+    "231b508b-2ee1-4ced-9073-db0918122b58",
+    "e3accca8-a8a6-48de-8fe7-db0990e90a50",
+    "dff42d48-7df9-45e4-8ba2-3bceaceeb160",
+    "f804c28b-f03f-42ef-b494-8a376a7178ea",
+    "9559f641-8ad3-4763-b544-46661568e908",
+    "ff7f11d1-3506-4539-b77f-c8e0c9595a29",
+    "b7c97445-d323-4c10-9ac0-b2c91b1cfd4c",
+    "98ba58d1-6254-4221-a600-f92e025f6ff1"
+  ]
+}

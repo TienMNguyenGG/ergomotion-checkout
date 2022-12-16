@@ -1,0 +1,198 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding mod-large-image overflow-hidden animation">
+    <div class="xl:container xl:px-10 1k8:max-w-1910 1k8:pl-64 1k8:pr-27">
+      <div class="bg-blue-50 pt-6 overflow-hidden md:pt-0 xl:pt-84 xl:pb-0 1k8:pt-123">
+        <div class="row">
+          <div class="col w-full pb-41p5 pt-27 md:pt-22 md:pb-46p5 xl:w-1/2 xl:flex xl:items-center order-1 xl:order-0 1k8:pt-45p5 1k8:pt-48">
+            <div class="relative pl-12p5 pr-9 last-mb-none text-left md:pl-26p5 md:pr-86 md:leading-6 xl:max-w-469 xl:pl-0 xl:pr-50 xl:ml-auto xl:-mr-5 xl:leading-1-8 xl:py-10 2xl:max-w-none 2xl:ml-52 1k8:ml-121 1k8:pt-3p5">
+            <div class="relative z-2">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'heading' -%}
+                  {% if block.settings.heading != blank %}
+                    <{{block.settings.heading_size}} {{ block.shopify_attributes }} >{{ block.settings.heading }}</{{block.settings.heading_size}}>
+                  {% endif %}
+                {%- when 'text' -%}
+                  {% if block.settings.text != blank %}
+                    <div class="mb-25 mt-12p5" {{ block.shopify_attributes }} >
+                      {{ block.settings.text }}
+                    </div>
+                  {% endif %}
+                {%- when 'buttons' -%}
+                  {% if block.settings.button_link != blank %}
+                    <div {{ block.shopify_attributes }}>
+                      <a href="{{ block.settings.button_link }}" {% if block.settings.target == true %} target="_blank" rel="noopener noreferrer" {% endif%} class="no-underline btn btn-primary">{{ block.settings.button_label }}
+                      {% if block.settings.hiddenText != blank %}<span class="sr-only">{{ block.settings.hiddenText }} </span> {% endif%}
+                      </a>
+                    </div>
+                  {% endif %}
+
+              {%- endcase -%}
+            {%- endfor -%}
+            </div>
+              <div class="ani-hello-ergo absolute -top-30 right-64 z-1 hidden xl:inline-block">
+                <img class="lazy w-80 h-40 relative z-3" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ 'hello_ergo.svg' | asset_url }}" alt="Hello Ergo Show ">
+                 <img class="overlay-rectangle" src="{{ 'rectangle.svg' | asset_url }}" alt="Mockup Gray">
+                <span class="circle-3-4 style-1 absolute -top-11 -right-16"></span>
+                <span class="circle-3-4 style-2 absolute -top-26 -right-34"></span>
+                <span class="circle-3-4 style-3 absolute -top-45 -right-52"></span>
+                <span class="circle-3-4 style-4 absolute -top-73 -right-80"></span>
+                <span class="circle-3-4 style-5 absolute -top-114 -right-119"></span>
+                <span class="circle-3-4 style-6 absolute -top-166 -right-173"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col w-full pb-0  xl:w-1/2 xl:flex xl:items-end order-0 xl:pb-85 xl:order-1 1k8:pb-71">
+            <div class="large-image-content relative -mx-8 overflow-hidden md:mt-24  xl:mx-0 xl:flex xl:items-end xl:flex-1 1k8:-mt-4"> 
+              {% if section.settings.image != blank %}
+                <div class="relative -ml-49p h-183 md:ml-9p5 md:h-194 lg:h-169 xl:-ml-40 xl:-mr-195 xl:overflow-hidden xl:w-full xl:flex-1 xl:h-230p5 2xl:h-178 2xl:ml-9p 1k8:h-348 1k8:-ml-8p 1k8:-mr-274">
+                  <img class="h-auto w-full max-w-none absolute bottom-0 right-auto lazy" src="{{ settings.IMAGE_BASE64 | escape }}" data-src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}">
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Overflow Large Image/Text",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+   "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Voice activation",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "h4",
+              "label": "h4"
+            }
+          ],
+          "default": "h3",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor sagittis, et, mattis et amet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pellentesque nibh cras ac. Arcu, urna faucibus cursus consectetur augue eleifend ornare pulvinar cras.</p>",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "target",
+          "label": "Open new tab"
+        },
+        {
+          "type": "text",
+          "id": "hiddenText",
+          "label": "Hidden Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Overflow Large Image/Text",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

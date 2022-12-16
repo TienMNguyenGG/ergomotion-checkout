@@ -1,0 +1,418 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+  <div class="module section-main mod-homepage-banner relative lg:flex items-center lg:min-h-banner-home-lg 2xl:min-h-banner-home-2xl animation overflow-hidden 2xl:px-24">
+    {% if section.settings.url_video == blank %}
+    <div class="relative lg:static overflow-hidden">
+      {% if section.settings.imagelarge != blank %}
+      <picture class="bg-banner">
+        {% if section.settings.imageMB != blank %}
+        <source media="(max-width: 767px)" srcset="{{ section.settings.imageMB | image_url }}">
+        {% endif %}
+        {% if section.settings.imageIpad != blank %}
+        <source media="(max-width: 992px)" srcset="{{ section.settings.imageIpad | image_url }}">
+        {% endif %}
+        {% if section.settings.imageLaptop != blank %}
+        <source media="(max-width: 1440px)" srcset="{{ section.settings.imageLaptop | image_url }}">
+        {% endif %}
+        {% if section.settings.image != blank %}
+        <source media="(max-width:1950px)" srcset="{{ section.settings.image | image_url }}">
+        {% endif %}
+        <img src="{{ section.settings.imagelarge | image_url }}" fetchpriority="high" alt="Banner Home"
+          class="top-0 left-0 w-full h-full absolute object-cover no-lazy {{ section.settings.image_position_mobile }} md:{{ section.settings.image_position_ipad }} lg:{{ section.settings.image_position_laptop }} 2xl:{{ section.settings.image_position }} 2k:{{ section.settings.image_position_large }}">
+      </picture>
+      {% endif %}
+      <div class="pb-youtube md:pb-youtube-md"></div>
+    </div>
+    {% else %}
+    <div class="relative lg:static overflow-hidden lg:hidden">
+       {% if section.settings.imagelarge != blank %}
+      <picture class="bg-banner">
+        {% if section.settings.imageMB != blank %}
+        <source media="(max-width: 767px)" srcset="{{ section.settings.imageMB | image_url }}">
+        {% endif %}
+        {% if section.settings.imageIpad != blank %}
+        <source media="(max-width: 992px)" srcset="{{ section.settings.imageIpad | image_url }}">
+        {% endif %}
+        {% if section.settings.imageLaptop != blank %}
+        <source media="(max-width: 1440px)" srcset="{{ section.settings.imageLaptop | image_url }}">
+        {% endif %}
+        {% if section.settings.image != blank %}
+        <source media="(max-width:1950px)" srcset="{{ section.settings.image | image_url }}">
+        {% endif %}
+        <img src="{{ section.settings.imagelarge | image_url }}" fetchpriority="high" alt="Banner Home"
+          class="top-0 left-0 w-full h-full absolute object-cover no-lazy {{ section.settings.image_position_mobile }} md:{{ section.settings.image_position_ipad }} lg:{{ section.settings.image_position_laptop }} 2xl:{{ section.settings.image_position }} 2k:{{ section.settings.image_position_large }}">
+      </picture>
+      {% endif %}
+      <div class="pb-youtube md:pb-youtube-md"></div>
+    </div>
+    <div class="video-container relative lg:absolute w-full hidden lg:block">
+      <iframe data-src="{{ section.settings.url_video }}" tabindex="-1" class="w-full absolute md:-z-1 top-0 left-0 h-full" title="Video Banner Home"></iframe>
+      <div class="pb-youtube-video"></div>
+    </div>
+    {% endif %}
+
+    <div class="container relative z-1 1k8:px-8">
+      <div class="wrap-content-home px-16 pt-32 pb-8 lg:pb-20 lg:pt-13 lg:px-52 2xl:px-0 2xl:pt-30 transition-transform" data-paroller-factor="0.2" data-paroller-type="foreground" data-paroller-direction="vertical">
+        <div class="anima-bottom">
+          <div class="content last-mb-none mb-20 lg:mb-24 lg:max-w-550 xl:max-w-400 2xl:max-w-660 h6 md:text-h5-md md:leading-1-6 text-dark-grey 2xl:-ml-1">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+             {%- when 'image_content' -%}
+             <div {{ block.shopify_attributes }} class="mb-8">
+                <h1>
+                  <img src="{{ block.settings.imageContent | image_url }}" class="block max-w-full md:max-w-60p xl:max-w-80p" alt="{{ block.settings.imageContent.alt | escape }}">
+                </h1>
+             </div>
+              {%- when 'heading' -%}
+                <h1 {{ block.shopify_attributes }} data-cy="heading">{{ block.settings.heading }}</h1>
+              {%- when 'text' -%}
+                <div {{ block.shopify_attributes }} data-cy="description">{{ block.settings.text }}</div>
+            {%- endcase -%}
+          {%- endfor -%}
+          </div>
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'buttons' -%}
+                <div {{ block.shopify_attributes }}>
+                {%- if block.settings.button_label != blank -%}
+                  <a {% if block.settings.button_link == blank %} role="link" aria-disabled="true" {% else %} href="{{ block.settings.button_link }}"{% endif %} class="no-underline btn {{ block.settings.button_style }}" data-cy="button">{{ block.settings.button_label }}</a>
+                {%- endif -%}
+                </div>
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Homepage Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+     {
+      "type": "image_picker",
+      "id": "imagelarge",
+      "label": "Image Screen Large"
+    },
+    {
+      "type": "select",
+      "id": "image_position_large",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-right-top",
+      "label": "Image Position Screen Large"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-right-top",
+      "label": "Image Position"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageLaptop",
+      "label": "Image Laptop"
+    },
+    {
+      "type": "select",
+      "id": "image_position_laptop",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-right-top",
+      "label": "Image Position Laptop"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageIpad",
+      "label": "Image Ipad"
+    },
+    {
+      "type": "select",
+      "id": "image_position_ipad",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-right-top",
+      "label": "Image Position Ipad"
+    },
+    {
+      "type": "image_picker",
+      "id": "imageMB",
+      "label": "Image Mobile"
+    },
+    {
+      "type": "select",
+      "id": "image_position_mobile",
+      "options": [
+        {
+          "value": "object-center",
+          "label": "Center"
+        },
+        {
+          "value": "object-left-top",
+          "label": "Top Left"
+        },
+        {
+          "value": "object-right-top",
+          "label": "Top Right"
+        },
+        {
+          "value": "object-left-bottom",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "object-right-bottom",
+          "label": "Bottom Right"
+        }
+      ],
+      "default": "object-right-top",
+      "label": "Image Position Mobile"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Left"
+        },
+        {
+          "value": "text-center mx-auto",
+          "label": "Center"
+        },
+        {
+          "value": "text-right mr-0",
+          "label": "Right"
+        }
+      ],
+      "default": "text-left",
+      "label": "Content alignment"
+    },
+     {
+      "type": "text",
+      "id": "url_video",
+      "label": "Video"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "t:sections.all.padding.padding_bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+  ],
+  "blocks": [
+     {
+      "type": "image_content",
+      "name": "Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "imageContent",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Homepage Banner",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.</p>",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Type Button",
+          "options": [
+            {
+              "value": "btn-primary",
+              "label": "Primary Button"
+            },
+            {
+              "value": "btn-outline-primary",
+              "label": "Outline Primary button"
+            },
+            {
+              "value": "btn-light",
+              "label": "Light button"
+            },
+            {
+              "value": "btn-outline-light",
+              "label": "Outline Light button"
+            }
+          ],
+          "default": "btn-primary"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Homepage Banner",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

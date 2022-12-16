@@ -1,0 +1,992 @@
+{
+  "sections": {
+    "166477609906791062": {
+      "type": "homepage-banner",
+      "blocks": {
+        "1664776099bbc495e3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Adjust to amazing"
+          }
+        },
+        "1664776099bbc495e3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.<\/p>"
+          }
+        },
+        "1664776099bbc495e3-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Primary Button",
+            "button_link": "#",
+            "button_style": "btn-primary"
+          }
+        }
+      },
+      "block_order": [
+        "1664776099bbc495e3-0",
+        "1664776099bbc495e3-1",
+        "1664776099bbc495e3-2"
+      ],
+      "settings": {
+        "imagelarge": "shopify:\/\/shop_images\/AdobeStock_439165234-2.jpg",
+        "image_position_large": "object-right-top",
+        "image": "shopify:\/\/shop_images\/AdobeStock_439165234-2.jpg",
+        "image_position": "object-right-top",
+        "imageLaptop": "shopify:\/\/shop_images\/AdobeStock_439165234_2.png",
+        "image_position_laptop": "object-right-top",
+        "imageIpad": "shopify:\/\/shop_images\/AdobeStock_439165234_2_94d18fae-f604-4f13-995b-62718a707e02.jpg",
+        "image_position_ipad": "object-right-top",
+        "imageMB": "shopify:\/\/shop_images\/Full-Image.jpg",
+        "image_position_mobile": "object-right-top",
+        "content_alignment": "text-left",
+        "url_video": "",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 75
+      }
+    },
+    "16637401650be15f32": {
+      "type": "text-center",
+      "blocks": {
+        "16637401659b657dd0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quest",
+            "heading_size": "h1"
+          }
+        },
+        "16637401659b657dd0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your bed should be an active part of a healthy lifestyle. Getting enough sleep is one factor. But so is turning your bedroom into a revitalizing sanctuary, a place that restores your mental health as well as your physical health. Ergomotion’s Quest adjustable bases help you do just that, and at a price point that’s conscious of your financial health too. With three models in our line, you’re sure to find one that’s right for you. Quest adjustable bases—they’ll help you turn your bedroom into your best room.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637401659b657dd0-0",
+        "16637401659b657dd0-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 25
+      }
+    },
+    "16647764064b695592": {
+      "type": "large-features-banner",
+      "blocks": {
+        "1664776406faec4c73-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_78_2.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "content": "Pay as little as $56.65\/mo for 12 months with Affirm."
+          }
+        },
+        "f087ee54-54a4-460b-8438-e25fb559a9fc": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_86_2.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "content": "10-year limited warranty"
+          }
+        },
+        "fe211371-6ffc-44c5-8d11-c544e6b82a65": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Headset_Icon_2.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "content": "24\/7, US-based customer service"
+          }
+        },
+        "296a0f5a-2049-4839-87b3-a62f1a52e3f9": {
+          "type": "item_features_banner",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Truck_Icon_18fe554d-8f98-4474-b3a6-5119486872dc.png",
+            "get_icon_url": false,
+            "url_icon": "",
+            "content": "Free, no contact delivery"
+          }
+        }
+      },
+      "block_order": [
+        "1664776406faec4c73-0",
+        "f087ee54-54a4-460b-8438-e25fb559a9fc",
+        "fe211371-6ffc-44c5-8d11-c544e6b82a65",
+        "296a0f5a-2049-4839-87b3-a62f1a52e3f9"
+      ],
+      "settings": {
+        "heading": "10 million + adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "",
+        "columns": "4",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664776545c7718781": {
+      "type": "overflow-content-blocks",
+      "blocks": {
+        "1664776545305f211a-0": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/large-banner.jpg",
+            "headline": "Lifestyle benefits headline",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Text button",
+            "link_url": "#"
+          }
+        },
+        "cfdd45db-b879-47dc-9e47-0b7fe9c8ef1a": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-slider-1.jpg",
+            "headline": "Headline",
+            "content": "<p>Description<\/p>",
+            "link_label": "Text button",
+            "link_url": ""
+          }
+        },
+        "c5cb7a22-2673-4934-aaa6-8bc1ade60729": {
+          "type": "item_overflow_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-slider-3.jpg",
+            "headline": "Headline",
+            "content": "<p>Description<\/p>",
+            "link_label": "Text button",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664776545305f211a-0",
+        "cfdd45db-b879-47dc-9e47-0b7fe9c8ef1a",
+        "c5cb7a22-2673-4934-aaa6-8bc1ade60729"
+      ],
+      "settings": {
+        "heading": "Turn your bedroom into your best room",
+        "heading_size": "h2",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664776752193b8621": {
+      "type": "product-2-columns",
+      "settings": {
+        "heading": "Meet the Quest product line headline",
+        "heading_size": "h3",
+        "label_link": "Compare all Quest adjustable bases",
+        "link_url": "#",
+        "product": "adjustable-bases",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 80
+      }
+    },
+    "3fb9e4c4-4ab4-46e0-b5e5-f161b710b07f": {
+      "type": "testimonials-slider",
+      "blocks": {
+        "template--16532576600285__3fb9e4c4-4ab4-46e0-b5e5-f161b710b07f-16672003379a3d2135-0": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Love my Ergomotion Bed!",
+            "content": "<p>We are very happy with the customer service we received from start to finish with Ergomotion and the bed we ordered with them. Never thought we'd use an adjustable bed frame but now that we've had ours for almost 6 months now we can't believe we went so long without it. It was a great investment we made for our quality of sleep and our rest time. I'd highly recommend Ergomotion.<\/p>",
+            "author": "Randee"
+          }
+        },
+        "43cc043a-9ba8-425a-b170-060945f1e590": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Drap flanelle",
+            "content": "<p>Je me suis procurée les draps de flanelle et je suis entièrement satisfaite. Leur douceur exceptionnelle les rendent confortable pour une nuit de sommeil toute en douceur. Merci<\/p>",
+            "author": "Linda"
+          }
+        },
+        "a55c9f1b-d53c-423f-b6c4-8a52f7940ce4": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "I should have got this sooner",
+            "content": "<p>Now that I have a Quest 2.5 from Ergomotion, I can say this is an AMAZING bed! I am getting sleep better than I have had for years. Playing hard for years I have a pretty roughed up body and this gives me the ability for a good nights sleep. Thank you! It was super easy to assemble and this could not have been a better experience!<\/p>",
+            "author": "Eric G"
+          }
+        },
+        "eda8b838-22fa-49aa-b98c-b97890e5081b": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Find a Quest retailer",
+            "content": "<p>Now that I have a Quest 2.5 from Ergomotion, I can say this is an AMAZING bed! I am getting sleep better than I have had for years. Playing hard for years I have a pretty roughed up body and this gives me the ability for a good nights sleep. Thank you! It was super easy to assemble and this could not have been a better experience!<\/p>",
+            "author": "Eric G"
+          }
+        },
+        "39326c0f-9af5-4e68-b6a9-da0c2b4af89c": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Find a Quest retailer",
+            "content": "<p>Now that I have a Quest 2.5 from Ergomotion, I can say this is an AMAZING bed! I am getting sleep better than I have had for years. Playing hard for years I have a pretty roughed up body and this gives me the ability for a good nights sleep. Thank you! It was super easy to assemble and this could not have been a better experience!<\/p>",
+            "author": "Eric G"
+          }
+        },
+        "e095099d-b83f-4061-b849-845d03665790": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Find a Quest retailer",
+            "content": "<p>Now that I have a Quest 2.5 from Ergomotion, I can say this is an AMAZING bed! I am getting sleep better than I have had for years. Playing hard for years I have a pretty roughed up body and this gives me the ability for a good nights sleep. Thank you! It was super easy to assemble and this could not have been a better experience!<\/p>",
+            "author": "Eric G"
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__3fb9e4c4-4ab4-46e0-b5e5-f161b710b07f-16672003379a3d2135-0",
+        "43cc043a-9ba8-425a-b170-060945f1e590",
+        "a55c9f1b-d53c-423f-b6c4-8a52f7940ce4",
+        "eda8b838-22fa-49aa-b98c-b97890e5081b",
+        "39326c0f-9af5-4e68-b6a9-da0c2b4af89c",
+        "e095099d-b83f-4061-b849-845d03665790"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "heading_size": "h2",
+        "link_label": "View all reviews",
+        "link_url": "",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664813043ec3dab87": {
+      "type": "two-column-banner",
+      "blocks": {
+        "1664813043abca23c6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_298bc19a-d326-42bb-bec2-84a65be362b1.jpg"
+          }
+        },
+        "1664813043abca23c6-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>“If you’re a “bells sand whistles” kind of person, think of this high-tech wonder as the Cadillac of platform bed frames.”<\/p>"
+          }
+        },
+        "1664813043abca23c6-2": {
+          "type": "icon",
+          "settings": {
+            "get_icon_url": false,
+            "url_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664813043abca23c6-0",
+        "1664813043abca23c6-1",
+        "1664813043abca23c6-2"
+      ],
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664813134577cfac4": {
+      "type": "featured-blogs",
+      "blocks": {
+        "16648131349dd9fbda-0": {
+          "type": "blog_item",
+          "settings": {
+            "blog_item": "blog\/a-feature-benefit-of-an-ergomotion-product-2"
+          }
+        },
+        "e0b8aca3-f22e-4d27-8fa5-b96c7b97e7e5": {
+          "type": "blog_item",
+          "settings": {
+            "blog_item": "blog\/a-feature-benefit-of-an-ergomotion-product-1"
+          }
+        },
+        "f6eb571f-6ce0-457a-a5b0-e8ea9016a1db": {
+          "type": "blog_item",
+          "settings": {
+            "blog_item": "blog\/a-feature-benefit-of-an-ergomotion-product"
+          }
+        }
+      },
+      "block_order": [
+        "16648131349dd9fbda-0",
+        "e0b8aca3-f22e-4d27-8fa5-b96c7b97e7e5",
+        "f6eb571f-6ce0-457a-a5b0-e8ea9016a1db"
+      ],
+      "settings": {
+        "heading": "The latest from the blog headline",
+        "heading_size": "h3",
+        "label_link": "View all blog posts",
+        "link_url": "#",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16648132686b5c137d": {
+      "type": "instafeed-feed",
+      "settings": {
+        "heading": "Connect with us",
+        "heading_size_2": "h3",
+        "label_link": "@ergomotion",
+        "link_url": "#",
+        "target": false,
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "cf68549f-fdfe-41a3-b59e-3e9c16e409ec": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16532576600285__cf68549f-fdfe-41a3-b59e-3e9c16e409ec-1667200598a07e4b63-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Text based call to action.",
+            "heading_size": "h2"
+          }
+        },
+        "template--16532576600285__cf68549f-fdfe-41a3-b59e-3e9c16e409ec-1667200598a07e4b63-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit.<\/p>"
+          }
+        },
+        "template--16532576600285__cf68549f-fdfe-41a3-b59e-3e9c16e409ec-1667200598a07e4b63-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "\/",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__cf68549f-fdfe-41a3-b59e-3e9c16e409ec-1667200598a07e4b63-0",
+        "template--16532576600285__cf68549f-fdfe-41a3-b59e-3e9c16e409ec-1667200598a07e4b63-1",
+        "template--16532576600285__cf68549f-fdfe-41a3-b59e-3e9c16e409ec-1667200598a07e4b63-2"
+      ],
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "32466410-17e8-436f-b164-7935a3a209b9": {
+      "type": "internal-banner-animation",
+      "blocks": {
+        "template--16532576600285__32466410-17e8-436f-b164-7935a3a209b9-166608438484f520b8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Setup Videos",
+            "heading_size": "h2"
+          }
+        },
+        "template--16532576600285__32466410-17e8-436f-b164-7935a3a209b9-166608438484f520b8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum id sed aenean porta lorem malesuada vitae rhoncus quis. Mattis id ac risus arcu lectus eget posuere vitae consectetur. Lacus velit pharetra, ultricies turpis eget placerat ac ac. Ante donec morbi fermentum mauris adipiscing volutpat augue.<\/p>"
+          }
+        },
+        "template--16532576600285__32466410-17e8-436f-b164-7935a3a209b9-166608438484f520b8-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__32466410-17e8-436f-b164-7935a3a209b9-166608438484f520b8-0",
+        "template--16532576600285__32466410-17e8-436f-b164-7935a3a209b9-166608438484f520b8-1",
+        "template--16532576600285__32466410-17e8-436f-b164-7935a3a209b9-166608438484f520b8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/quest-2-9.png",
+        "imageMB": "shopify:\/\/shop_images\/quest-2-9-mb.png",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "59afe58e-a16b-46bf-8d67-5a57bdb174af": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blog_detail.jpg",
+        "image_position": "object-left-bottom",
+        "image_position_mobile": "object-left-bottom",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 75
+      }
+    },
+    "94f0e538-7d7c-4dde-8e83-d9d38e02bb45": {
+      "type": "feature-benefit",
+      "blocks": {
+        "template--16532576600285__94f0e538-7d7c-4dde-8e83-d9d38e02bb45-1667200822de071384-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/image1-1280px.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "Call to action",
+            "link_benefit": "\/"
+          }
+        },
+        "0707fdb9-d809-4b03-aabe-6189179aae87": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/blog_detail.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "Call to action",
+            "link_benefit": "\/"
+          }
+        },
+        "ecbb0727-5811-4904-844f-24f5b5306724": {
+          "type": "featured_benefit",
+          "settings": {
+            "image_benefit": "shopify:\/\/shop_images\/cmp_3Qtr_A_bed_210323_2_1.jpg",
+            "headline_benefit": "A feature benefit of an Ergomotion product",
+            "content_benefit": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "label_benefit": "Call to action",
+            "link_benefit": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__94f0e538-7d7c-4dde-8e83-d9d38e02bb45-1667200822de071384-0",
+        "0707fdb9-d809-4b03-aabe-6189179aae87",
+        "ecbb0727-5811-4904-844f-24f5b5306724"
+      ],
+      "settings": {
+        "heading": "Feature benefit section",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 75
+      }
+    },
+    "4f4fbdc8-94f5-4d31-867e-8b4e53a04fff": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16532576600285__4f4fbdc8-94f5-4d31-867e-8b4e53a04fff-16672009412ff896e4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "See all of our reviews headline",
+            "heading_size": "h2"
+          }
+        },
+        "template--16532576600285__4f4fbdc8-94f5-4d31-867e-8b4e53a04fff-16672009412ff896e4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pellentesque nibh cras ac. <\/p>"
+          }
+        },
+        "template--16532576600285__4f4fbdc8-94f5-4d31-867e-8b4e53a04fff-16672009412ff896e4-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__4f4fbdc8-94f5-4d31-867e-8b4e53a04fff-16672009412ff896e4-0",
+        "template--16532576600285__4f4fbdc8-94f5-4d31-867e-8b4e53a04fff-16672009412ff896e4-1",
+        "template--16532576600285__4f4fbdc8-94f5-4d31-867e-8b4e53a04fff-16672009412ff896e4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image1-1280px.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style1",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "fc69b627-5e90-495c-ab2e-f8faea902d03": {
+      "type": "half-text-image",
+      "blocks": {
+        "template--16532576600285__fc69b627-5e90-495c-ab2e-f8faea902d03-1667200973d1dcff2b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "See all of our reviews headline",
+            "heading_size": "h2"
+          }
+        },
+        "template--16532576600285__fc69b627-5e90-495c-ab2e-f8faea902d03-1667200973d1dcff2b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pellentesque nibh cras ac. <\/p>"
+          }
+        },
+        "template--16532576600285__fc69b627-5e90-495c-ab2e-f8faea902d03-1667200973d1dcff2b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__fc69b627-5e90-495c-ab2e-f8faea902d03-1667200973d1dcff2b-0",
+        "template--16532576600285__fc69b627-5e90-495c-ab2e-f8faea902d03-1667200973d1dcff2b-1",
+        "template--16532576600285__fc69b627-5e90-495c-ab2e-f8faea902d03-1667200973d1dcff2b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image1-1280px.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style1",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 75
+      }
+    },
+    "28c31b63-e999-48f0-bd72-0abc534802af": {
+      "type": "help-banner",
+      "blocks": {
+        "template--16532576600285__28c31b63-e999-48f0-bd72-0abc534802af-1667201008f7cb40a2-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "5a1817c8-29d1-4824-bfeb-ddf8f9f2575b": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "088a52ed-c049-48aa-a671-74f46770cb24": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product Support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__28c31b63-e999-48f0-bd72-0abc534802af-1667201008f7cb40a2-0",
+        "5a1817c8-29d1-4824-bfeb-ddf8f9f2575b",
+        "088a52ed-c049-48aa-a671-74f46770cb24"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166720114821351c95": {
+      "type": "apps",
+      "blocks": {
+        "749928f4-f62c-437c-839c-5bb262127f7b": {
+          "type": "shopify:\/\/apps\/easy-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
+          "settings": {
+            "heading": "Frequently Asked Questions",
+            "heading_text_type": "h2",
+            "heading_alignment": "left",
+            "faq_embed_code": "<div class=\"ef-faqs-plus-app-cats-content\" data-category=\"Adjustable Bases\" id=\"ef-faqs-635f40a33965cd0b6e10ae68\"><\/div>",
+            "faqs_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "749928f4-f62c-437c-839c-5bb262127f7b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "efbf8697-ff2d-4f32-898c-838bb7aabbd0": {
+      "type": "product-detail",
+      "blocks": {
+        "template--16532576600285__efbf8697-ff2d-4f32-898c-838bb7aabbd0-1667201222be46e138-0": {
+          "type": "item_accordion",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet elits helu adiustacom",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__efbf8697-ff2d-4f32-898c-838bb7aabbd0-1667201222be46e138-0"
+      ],
+      "settings": {
+        "heading": "All the details",
+        "heading_size": "h3",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166481405076ea4254": {
+      "type": "product_details_accordion",
+      "blocks": {
+        "16648140505c07e2e8-0": {
+          "type": "item_accordion",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet elits helu adiustacom",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. <\/p>"
+          }
+        },
+        "eaef286b-1e1c-4a66-aea8-66de18d12839": {
+          "type": "item_accordion",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet elits helu adiustacom",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. <\/p>"
+          }
+        },
+        "652fac16-d4d2-48f1-aa62-5f75b45fc21e": {
+          "type": "item_accordion",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet elits helu adiustacom",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. <\/p>"
+          }
+        },
+        "f5cf6913-172c-48f8-af30-a0e7428e50fe": {
+          "type": "item_accordion",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet elits helu adiustacom",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. <\/p>"
+          }
+        },
+        "8f5177e9-ba45-4520-af7e-a18ce3b36157": {
+          "type": "item_accordion",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet elits helu adiustacom",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Lustomer service we received from start to finish with Ergomotion and the bed we ordered with them. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16648140505c07e2e8-0",
+        "eaef286b-1e1c-4a66-aea8-66de18d12839",
+        "652fac16-d4d2-48f1-aa62-5f75b45fc21e",
+        "f5cf6913-172c-48f8-af30-a0e7428e50fe",
+        "8f5177e9-ba45-4520-af7e-a18ce3b36157"
+      ],
+      "settings": {
+        "heading": "All the details",
+        "heading_size": "h3",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166481417094626d29": {
+      "type": "content-slider",
+      "blocks": {
+        "1664814170942e489e-0": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/content-slider-1.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/content-slider-2.jpg",
+            "imageThird": "shopify:\/\/shop_images\/content-slider-3.jpg",
+            "image_position": "object-center",
+            "title": "Lifestyle benefits of your ergomotion bed",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit. Pulvinar dolor, proin faucibus aliquam id arcu pretium.<\/p>",
+            "button_label": "Read more",
+            "button_link": ""
+          }
+        },
+        "b28e0cf9-7506-46d6-9e53-8ae93724d81b": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/collage-banner-img.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/content-slider-1.jpg",
+            "imageThird": "shopify:\/\/shop_images\/image_10.jpg",
+            "image_position": "object-center",
+            "title": "Lifestyle benefits of your ergomotion bed",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit. Pulvinar dolor, proin faucibus aliquam id arcu pretium.<\/p>",
+            "button_label": "Read more",
+            "button_link": "#"
+          }
+        },
+        "9affa416-b6df-4d14-b331-a401e36a7c89": {
+          "type": "text_image_item",
+          "settings": {
+            "imageFirst": "shopify:\/\/shop_images\/image1-1280px.jpg",
+            "imageSecond": "shopify:\/\/shop_images\/image2-1280px.jpg",
+            "imageThird": "shopify:\/\/shop_images\/AdobeStock_439165234_3.jpg",
+            "image_position": "object-center",
+            "title": "Lifestyle benefits of your ergomotion bed",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit. Pulvinar dolor, proin faucibus aliquam id arcu pretium.<\/p>",
+            "button_label": "Read more",
+            "button_link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "1664814170942e489e-0",
+        "b28e0cf9-7506-46d6-9e53-8ae93724d81b",
+        "9affa416-b6df-4d14-b331-a401e36a7c89"
+      ],
+      "settings": {
+        "sub_heading": "Quest 2.5 Adjustable Base",
+        "heading": "Core benefits of Quest 1.0",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 75
+      }
+    },
+    "a4e66387-d9ce-4354-85fd-c9aced4f785a": {
+      "type": "grid",
+      "blocks": {
+        "template--16532576600285__a4e66387-d9ce-4354-85fd-c9aced4f785a-1667201375078116ba-0": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        },
+        "7f241f77-0524-40b8-b9c0-51b985594ab9": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        },
+        "f0364915-3186-44fd-9942-e2cf12c07043": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        },
+        "3a8e97e9-91d5-4321-afab-58b671bfadcf": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        },
+        "7ddb858a-40dc-4178-8911-eedab6d4ba54": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        },
+        "20ef338d-3c82-450f-bbd1-b993a4b6c8d7": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        },
+        "f3660b3f-4882-4790-8949-ef8df96a4065": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        },
+        "bf76f09b-f7e5-4083-b286-5919c726ffac": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        },
+        "0bd9bc20-18d8-4701-8348-7790caa7b29f": {
+          "type": "item_grid",
+          "settings": {
+            "get_image_url": true,
+            "url_image_update": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Gravity Release",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sag ittis, et, mat tis etet. Mauris enim sd suscipit pretium feugiat turpis. Libero ultricies as aliquet fames tortor pellentesque nibh cras ac.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__a4e66387-d9ce-4354-85fd-c9aced4f785a-1667201375078116ba-0",
+        "7f241f77-0524-40b8-b9c0-51b985594ab9",
+        "f0364915-3186-44fd-9942-e2cf12c07043",
+        "3a8e97e9-91d5-4321-afab-58b671bfadcf",
+        "7ddb858a-40dc-4178-8911-eedab6d4ba54",
+        "20ef338d-3c82-450f-bbd1-b993a4b6c8d7",
+        "f3660b3f-4882-4790-8949-ef8df96a4065",
+        "bf76f09b-f7e5-4083-b286-5919c726ffac",
+        "0bd9bc20-18d8-4701-8348-7790caa7b29f"
+      ],
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "3751151d-ab87-4d17-bcc1-62f8498bf6ce": {
+      "type": "store-locator",
+      "blocks": {
+        "template--16532576600285__3751151d-ab87-4d17-bcc1-62f8498bf6ce-16650494018be26af1-0": {
+          "type": "store_locator_item",
+          "settings": {
+            "script": "<div id=\"storepoint-container\" data-tags=\"quest\" data-map-id=\"16217c1144f39d\"><\/div><script>(function(){var a=document.createElement('script');a.type='text\/javascript';a.async=!0;a.src='https:\/\/cdn.storepoint.co\/api\/v1\/js\/16217c1144f39d.js';var b=document.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);}());<\/script><style>#storepoint-tag-dropdown,#storepoint-clear-search{display:none!important;}<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__3751151d-ab87-4d17-bcc1-62f8498bf6ce-16650494018be26af1-0"
+      ],
+      "settings": {
+        "heading": "Find a Quest retailer",
+        "heading_size": "h3",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "fba38dca-9b1d-4dd0-b16f-6ebcc16bd028": {
+      "type": "text-block",
+      "blocks": {
+        "template--16532576600285__fba38dca-9b1d-4dd0-b16f-6ebcc16bd028-166683504365f5c68f-0": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We power the adjustable base and smart bed induestries."
+          }
+        },
+        "519504b7-5714-4ced-b66b-474e2b61f9a7": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We are the world’s largest produce of adjustable bases with propietary ergonomic technology."
+          }
+        },
+        "985b2898-47ac-47da-90a2-f104b12807aa": {
+          "type": "text_block_item",
+          "settings": {
+            "title": "We follow a simple guiding principle: create holistic wellness through design, comfort, and technology."
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__fba38dca-9b1d-4dd0-b16f-6ebcc16bd028-166683504365f5c68f-0",
+        "519504b7-5714-4ced-b66b-474e2b61f9a7",
+        "985b2898-47ac-47da-90a2-f104b12807aa"
+      ],
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "ce670b54-1f53-4e6c-b3d6-aaf0b70fd07a": {
+      "type": "quest-feature",
+      "blocks": {
+        "template--16532576600285__ce670b54-1f53-4e6c-b3d6-aaf0b70fd07a-1667201534a6838fda-0": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Adjusted-Base.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Head Articulation",
+            "content": "<p>Quest 1.0 offers the flexibility to elevate the head of your adjustable bedframe to read, watch television, relieve back pain, reduce snoring, and meditate in your own relaxation zone.<\/p>"
+          }
+        },
+        "2d49fd0a-7fbc-48e6-8dcf-3bbad9baf5fc": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flat-Base-2.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Head Articulation",
+            "content": "<p>Quest 1.0 offers the flexibility to elevate the head of your adjustable bedframe to read, watch television, relieve back pain, reduce snoring, and meditate in your own relaxation zone.<\/p>"
+          }
+        },
+        "e4a858af-26b7-40f8-8b07-7e760ac9c272": {
+          "type": "item_text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flat-Base_10a20dd4-b4ad-49e4-aaab-e77973c854a7.png",
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Gravity_Release.svg?v=1665135019",
+            "title": "Head Articulation",
+            "content": "<p>Quest 1.0 offers the flexibility to elevate the head of your adjustable bedframe to read, watch television, relieve back pain, reduce snoring, and meditate in your own relaxation zone.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16532576600285__ce670b54-1f53-4e6c-b3d6-aaf0b70fd07a-1667201534a6838fda-0",
+        "2d49fd0a-7fbc-48e6-8dcf-3bbad9baf5fc",
+        "e4a858af-26b7-40f8-8b07-7e760ac9c272"
+      ],
+      "settings": {
+        "section_ID": "",
+        "heading": "Full-featured wireless remote",
+        "heading_size": "h3",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis lorem orci fringilla nisl eget ut mi velit. Pulvinar dolor, proin faucibus aliquam id arcu pretium.<\/p>",
+        "button_label": "Label link",
+        "button_link": "\/",
+        "padding_bottom": 100,
+        "padding_bottom_mb": 70
+      }
+    },
+    "fd5e0f62-5312-4c42-b660-6b585202a77c": {
+      "type": "review-module",
+      "settings": {
+        "product_id": "1105",
+        "product_name": "Quest 2.5 - Queen",
+        "padding_bottom": 75,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "166477609906791062",
+    "16637401650be15f32",
+    "16647764064b695592",
+    "1664776545c7718781",
+    "1664776752193b8621",
+    "3fb9e4c4-4ab4-46e0-b5e5-f161b710b07f",
+    "1664813043ec3dab87",
+    "1664813134577cfac4",
+    "16648132686b5c137d",
+    "cf68549f-fdfe-41a3-b59e-3e9c16e409ec",
+    "32466410-17e8-436f-b164-7935a3a209b9",
+    "59afe58e-a16b-46bf-8d67-5a57bdb174af",
+    "94f0e538-7d7c-4dde-8e83-d9d38e02bb45",
+    "4f4fbdc8-94f5-4d31-867e-8b4e53a04fff",
+    "fc69b627-5e90-495c-ab2e-f8faea902d03",
+    "28c31b63-e999-48f0-bd72-0abc534802af",
+    "166720114821351c95",
+    "efbf8697-ff2d-4f32-898c-838bb7aabbd0",
+    "166481405076ea4254",
+    "166481417094626d29",
+    "a4e66387-d9ce-4354-85fd-c9aced4f785a",
+    "3751151d-ab87-4d17-bcc1-62f8498bf6ce",
+    "fba38dca-9b1d-4dd0-b16f-6ebcc16bd028",
+    "ce670b54-1f53-4e6c-b3d6-aaf0b70fd07a",
+    "fd5e0f62-5312-4c42-b660-6b585202a77c"
+  ]
+}

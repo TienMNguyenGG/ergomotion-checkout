@@ -1,0 +1,671 @@
+{
+  "sections": {
+    "4ca2893b-ea64-446a-8743-e6988f775c82": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 55,
+        "padding_bottom_mb": 50
+      }
+    },
+    "166477183981b89f89": {
+      "type": "text-center",
+      "blocks": {
+        "166477183967e201be-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Customer Reviews & Testimonials",
+            "heading_size": "h1"
+          }
+        },
+        "166477183967e201be-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With over 10 million adjustable beds sold globally with millions of satisfied customers, Ergomotion manufacture highly rated and reviewed products . Read what our customers are saying about their Ergomotion adjustable bed base.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166477183967e201be-0",
+        "166477183967e201be-1"
+      ],
+      "settings": {
+        "frenchContent": false,
+        "content_alignment": "text-left",
+        "fullWidth": false,
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16648483689fb7622c": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 60,
+        "padding_bottom_mb": 60
+      }
+    },
+    "1664772500317a5a22": {
+      "type": "banner-image-collage",
+      "blocks": {
+        "16647725001e94a58f-0": {
+          "type": "banner_image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ergomotion-Batch1-V2-2.jpg",
+            "image_position": "object-center"
+          }
+        },
+        "0c1d0311-089b-4305-ad40-ca6147e7ffea": {
+          "type": "banner_image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ergomotion-Batch1-V1-8_4bbee306-44e7-43ae-af54-2366d0752d41.jpg",
+            "image_position": "object-center"
+          }
+        },
+        "402d94cc-f0e5-4421-8380-200645052daa": {
+          "type": "banner_image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10_87de9a81-31f4-401e-bbed-a1ce7b5465a6.jpg",
+            "image_position": "object-center"
+          }
+        }
+      },
+      "block_order": [
+        "16647725001e94a58f-0",
+        "0c1d0311-089b-4305-ad40-ca6147e7ffea",
+        "402d94cc-f0e5-4421-8380-200645052daa"
+      ],
+      "settings": {
+        "padding_bottom": 70,
+        "padding_bottom_mb": 40
+      }
+    },
+    "16648484477391efc2": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664848497b7e34c9a": {
+      "type": "two-column-banner",
+      "disabled": true,
+      "blocks": {
+        "16648484972b6d7ded-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/large-banner.jpg"
+          }
+        },
+        "16648484972b6d7ded-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>“If you’re a “bells and whistles” kind of person, think of this high-tech wonder as the Cadillac of platform bed frames.”<\/p>"
+          }
+        },
+        "16648484972b6d7ded-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/scary-momy.png",
+            "get_icon_url": false,
+            "url_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "16648484972b6d7ded-0",
+        "16648484972b6d7ded-1",
+        "16648484972b6d7ded-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664848556bb02013b": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 60,
+        "padding_bottom_mb": 60
+      }
+    },
+    "1664848573f959e6c7": {
+      "type": "testimonials-slider",
+      "blocks": {
+        "89e4f173-f121-41ff-81ce-e7561e39b297": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Simple Gift",
+            "content": "<p>My mom needed a way to prop her head-up and this is the best solution. <\/p>",
+            "author": "Louise"
+          }
+        },
+        "131ba390-6880-4970-a5b1-4fc77910a4a1": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Exactly What I Needed",
+            "content": "<p>Easy set-up, lets me sleep with my head slightly elevated, does exactly what I needed. Never lose the wired remote.<\/p>",
+            "author": "Mike"
+          }
+        },
+        "6fdfd68a-b49a-4ae5-b382-aac317479ba9": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Perfect Solution",
+            "content": "<p>Perfect solution for my bedroom, I use it as my bed frame - just added my mattress. Very simple set-up.<\/p>",
+            "author": "Julie"
+          }
+        },
+        "f592807d-7171-4d4c-bcde-508586f14f33": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Love My Ergomotion Bed!",
+            "content": "<p>We are very happy with the customer service we received from start to finish with Ergomotion and the bed we ordered with them.<\/p>",
+            "author": "Randee"
+          }
+        },
+        "300aba11-952a-4741-a347-052101a8fa4e": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "I Should Have Got This Sooner",
+            "content": "<p>Now that I have a Quest 2.5 from Ergomotion, I can say this is an AMAZING bed! I am getting sleep better than I have had for years. <\/p>",
+            "author": "Eric"
+          }
+        },
+        "eec6815a-e740-471b-bda8-da3a950174b7": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "So Easy To Setup And Use",
+            "content": "<p>Quest 2.5 was very easy to setup and use. We got it for our guest bedroom, works perfect as a bed, just added the mattress.<\/p>",
+            "author": "Thomas"
+          }
+        },
+        "52b9c6ac-ee4c-4116-9ab0-b44fcd155a7d": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Makes My Mattress More Comfortable",
+            "content": "<p>So happy it was delivered to my front door - need two people but set up was simple. Just placed it in my bed frame. Love all of the settings!<\/p>",
+            "author": "Carol"
+          }
+        },
+        "99e4651d-859f-432b-846b-f226186278d3": {
+          "type": "testimonials_slider_item",
+          "settings": {
+            "rate": 5,
+            "heading": "Absolutely Recommend!",
+            "content": "<p>Overall great, it's a true game-changer.... It has cool presets and the zero-G option feels AMAZING on your back . I find myself working on it now mainly. Very cool, 10\/10 recommend the Quest 2.5<\/p>",
+            "author": "Jorge"
+          }
+        }
+      },
+      "block_order": [
+        "89e4f173-f121-41ff-81ce-e7561e39b297",
+        "131ba390-6880-4970-a5b1-4fc77910a4a1",
+        "6fdfd68a-b49a-4ae5-b382-aac317479ba9",
+        "f592807d-7171-4d4c-bcde-508586f14f33",
+        "300aba11-952a-4741-a347-052101a8fa4e",
+        "eec6815a-e740-471b-bda8-da3a950174b7",
+        "52b9c6ac-ee4c-4116-9ab0-b44fcd155a7d",
+        "99e4651d-859f-432b-846b-f226186278d3"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "heading_size": "h3",
+        "link_label": "",
+        "link_url": "",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664848607faf7d11f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 80,
+        "padding_bottom_tablet": 70,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16648488212cb718e1": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "1664848821f156abd8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore the Quest product line",
+            "heading_size": "h2"
+          }
+        },
+        "1664848821f156abd8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience restorative adjustable bed technology with Ergomotion.<\/p>"
+          }
+        },
+        "1664848821f156abd8-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/collections\/adjustable-bases",
+            "target": false,
+            "hiddenText": "Explore the Quest product line"
+          }
+        }
+      },
+      "block_order": [
+        "1664848821f156abd8-0",
+        "1664848821f156abd8-1",
+        "1664848821f156abd8-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664848396e99b588f": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166452592192d9b588": {
+      "type": "press-mentions",
+      "disabled": true,
+      "blocks": {
+        "1664525921c9616a1b-0": {
+          "type": "item_press_mentions",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/press-mentions-1.jpg",
+            "image_position_large": "object-center",
+            "title": "8 Best Adjustable Beds for the Most Comfortable Sleep Ever",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Outbound Link",
+            "link_url": "#"
+          }
+        },
+        "f9c6be56-4ac8-4a3a-816c-31f050516d3d": {
+          "type": "item_press_mentions",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/press-mentions-2.jpg",
+            "image_position_large": "object-center",
+            "title": "Ergomotion Expands What a Sleep System can Do",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Outbound Link",
+            "link_url": "#"
+          }
+        },
+        "8814d25f-8ee3-4ad8-8c8a-9b665f5bf19f": {
+          "type": "item_press_mentions",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_19_1.jpg",
+            "image_position_large": "object-left-top",
+            "title": "Innovation in the Sleep Industry",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Outbound Link",
+            "link_url": "#"
+          }
+        },
+        "c55a5abc-7edf-468c-ab82-bbde9ae3d009": {
+          "type": "item_press_mentions",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_18_1.jpg",
+            "image_position_large": "object-center",
+            "title": "The 10 Best Beds to Add Comfort and Style to Your Bedroom",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet velit ridiculus molestie vel augue dui ipsum, sed.<\/p>",
+            "link_label": "Outbound Link",
+            "link_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1664525921c9616a1b-0",
+        "f9c6be56-4ac8-4a3a-816c-31f050516d3d",
+        "8814d25f-8ee3-4ad8-8c8a-9b665f5bf19f",
+        "c55a5abc-7edf-468c-ab82-bbde9ae3d009"
+      ],
+      "settings": {
+        "heading": "In the Press",
+        "heading_size": "h3",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664780401823dec70": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664764848c11fb89c": {
+      "type": "video-slider",
+      "disabled": true,
+      "blocks": {
+        "1664764848f5e06adb-0": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer 1",
+            "content": "<p>Test Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/www.youtube.com\/watch?v=cEaaKUPlxWA"
+          }
+        },
+        "8102b387-cc6d-4f0a-bd75-aff9fcafbf84": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10_87de9a81-31f4-401e-bbed-a1ce7b5465a6.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer 2",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/vimeo.com\/669928253"
+          }
+        },
+        "7c5aaf56-b074-4000-8a6f-e57a695ce230": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/press-mentions-3.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer 3",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/www.youtube.com\/watch?v=cEaaKUPlxWA"
+          }
+        },
+        "60eb8459-bf76-4e68-92c4-4741575b5729": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/press-mentions-1.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer 4",
+            "content": "<p>Lorem Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/www.youtube.com\/watch?v=cEaaKUPlxWA"
+          }
+        },
+        "f0dc81bc-333f-4d69-8dd9-a8db500e1d52": {
+          "type": "video_gallery_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GirlInBed.jpg",
+            "image_position": "object-center",
+            "title": "Social Influencer 5",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Auctor sagittis, et, mattis etet. Mauris enim suscipit pretium feugiat turpis. Libero ultricies aliquet fames tortor pelle ntesque nibh cras ac.<\/p>",
+            "video": "https:\/\/vimeo.com\/669928253"
+          }
+        }
+      },
+      "block_order": [
+        "1664764848f5e06adb-0",
+        "8102b387-cc6d-4f0a-bd75-aff9fcafbf84",
+        "7c5aaf56-b074-4000-8a6f-e57a695ce230",
+        "60eb8459-bf76-4e68-92c4-4741575b5729",
+        "f0dc81bc-333f-4d69-8dd9-a8db500e1d52"
+      ],
+      "settings": {
+        "heading": "Social Influencer Videos",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "1664781245362c5273": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16648489148ff97328": {
+      "type": "help-banner",
+      "disabled": true,
+      "blocks": {
+        "1664848914f4b4c72c-0": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/map.svg?v=1666661989",
+            "headline_help": "Find us in store",
+            "content_help": "<p>Want to check out our adjustable bases in person? Find a local store near you.<\/p>",
+            "lable_link": "Find a store",
+            "link_help": "shopify:\/\/pages\/stores",
+            "link_phone": false
+          }
+        },
+        "3b99a691-ec95-479d-933a-795bbdc28160": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/headphone.svg?v=1666661989",
+            "headline_help": "Call us",
+            "content_help": "<p>Sometimes it’s just easier to talk it out. We’re here to help.<\/p>",
+            "lable_link": "1.888.550.3746",
+            "link_help": "tel:1.888.550.3746",
+            "link_phone": true
+          }
+        },
+        "56427825-5974-4605-aaa1-49f5b12744e3": {
+          "type": "help_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/flower.svg?v=1666661807",
+            "headline_help": "Product Support",
+            "content_help": "<p>Set up videos, FAQ’s and replacement parts. We’ve got you covered.<\/p>",
+            "lable_link": "Get support",
+            "link_help": "shopify:\/\/pages\/support",
+            "link_phone": false
+          }
+        }
+      },
+      "block_order": [
+        "1664848914f4b4c72c-0",
+        "3b99a691-ec95-479d-933a-795bbdc28160",
+        "56427825-5974-4605-aaa1-49f5b12744e3"
+      ],
+      "settings": {
+        "heading": "Let us help you",
+        "heading_size": "h2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16648491379767b350": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "16648493431d22ef30": {
+      "type": "half-text-image",
+      "blocks": {
+        "1664849343aacbfa27-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find us in a store near you",
+            "heading_size": "h2"
+          }
+        },
+        "1664849343aacbfa27-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find Ergomotion adjustable bed bases at a retailer near you! Use our store locator to find a Quest retailer. <\/p>"
+          }
+        },
+        "1664849343aacbfa27-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Store Locator",
+            "button_link": "shopify:\/\/pages\/stores"
+          }
+        }
+      },
+      "block_order": [
+        "1664849343aacbfa27-0",
+        "1664849343aacbfa27-1",
+        "1664849343aacbfa27-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_1716989011-2.jpg",
+        "image_position": "bg-center",
+        "image_placement": "left",
+        "desktop_columns": "style2",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "1664863398a71fe969": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 90,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "1664849567aefba9fb": {
+      "type": "half-text-image",
+      "blocks": {
+        "1664849567bf11429c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the 7,000,000+ Happy Sleepers with an Ergomotion Adjustable Base",
+            "heading_size": "h2"
+          }
+        },
+        "1664849567bf11429c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore our extensive product features that make each Ergomotion adjustable bed unique and transformative for your sleep wellness.<\/p>"
+          }
+        },
+        "1664849567bf11429c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Adjustable Bed Features",
+            "button_link": "shopify:\/\/pages\/features"
+          }
+        }
+      },
+      "block_order": [
+        "1664849567bf11429c-0",
+        "1664849567bf11429c-1",
+        "1664849567bf11429c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_11.jpg",
+        "image_position": "bg-center",
+        "image_placement": "right",
+        "desktop_columns": "style2",
+        "padding_bottom": 40,
+        "padding_bottom_mb": 40
+      }
+    },
+    "166484974268a0b19d": {
+      "type": "space",
+      "disabled": true,
+      "settings": {
+        "padding_bottom": 100,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    },
+    "166484975725a9e26f": {
+      "type": "large-features-banner",
+      "disabled": true,
+      "blocks": {
+        "16648497578ce3def3-0": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
+            "content_new": ""
+          }
+        },
+        "841ef657-ba6d-4014-8aa5-ec3eb0cb20ff": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
+            "content_new": ""
+          }
+        },
+        "0c5a06ca-121d-42eb-a083-980c8525e293": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
+            "content_new": ""
+          }
+        },
+        "5b7fb029-4aab-4394-903d-8122c6c1f8af": {
+          "type": "item_features_banner",
+          "settings": {
+            "get_icon_url": true,
+            "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Truck_Icon.svg?v=1665539537",
+            "content_new": ""
+          }
+        }
+      },
+      "block_order": [
+        "16648497578ce3def3-0",
+        "841ef657-ba6d-4014-8aa5-ec3eb0cb20ff",
+        "0c5a06ca-121d-42eb-a083-980c8525e293",
+        "5b7fb029-4aab-4394-903d-8122c6c1f8af"
+      ],
+      "settings": {
+        "heading": "10 million + adjustable bases sold worldwide",
+        "heading_size": "h2",
+        "content": "",
+        "columns": "4",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "16648498634c6905fc": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "4ca2893b-ea64-446a-8743-e6988f775c82",
+    "166477183981b89f89",
+    "16648483689fb7622c",
+    "1664772500317a5a22",
+    "16648484477391efc2",
+    "1664848497b7e34c9a",
+    "1664848556bb02013b",
+    "1664848573f959e6c7",
+    "1664848607faf7d11f",
+    "16648488212cb718e1",
+    "1664848396e99b588f",
+    "166452592192d9b588",
+    "1664780401823dec70",
+    "1664764848c11fb89c",
+    "1664781245362c5273",
+    "16648489148ff97328",
+    "16648491379767b350",
+    "16648493431d22ef30",
+    "1664863398a71fe969",
+    "1664849567aefba9fb",
+    "166484974268a0b19d",
+    "166484975725a9e26f",
+    "16648498634c6905fc"
+  ]
+}

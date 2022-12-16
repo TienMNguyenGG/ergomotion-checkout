@@ -1,0 +1,218 @@
+{{section.settings.html_area}}
+{%- style -%}
+.section-{{ section.id }}-padding {
+padding-bottom: {{ section.settings.padding_bottom_mb }}px;
+}
+
+@media screen and (min-width: 768px) {
+.section-{{ section.id }}-padding {
+padding-bottom: {{ section.settings.padding_bottom }}px;
+}
+}
+{%- endstyle -%}
+<style>
+  #insta-feed {
+    margin-top: 0;
+  }
+
+  .instafeed-shopify a {
+    position: absolute;
+  }
+</style>
+
+{% unless section.settings.html_area contains "feed-" %}
+<div class="section-{{ section.id }}-padding">
+  <div class="module mod-instagram-feed overflow-hidden bg-gray-600 pt-40 pb-59 md:pt-32 md:pb-32 2xl:pt-55 2xl:pb-35">
+    <div id="insta-feed" class="h-0 overflow-hidden"></div>
+    <div class="container max-w-1040 2xl:max-w-1344 md:px-24 xl:flex 2xl:px-3">
+      <div class="col-left mb-20 pl-20 md:pl-0 md:-mb-3 flex-none xl:w-118 xl:mr-4p5 2xl:w-138p5 2xl:mt-43 2xl:-mr-4 transition-transform" data-paroller-factor="0.05" data-paroller-type="foreground">
+        <h3 class="{{ section.settings.heading_size_2 }} mb-2 md:-mb-1p5 xl:mb-5 title" data-cy="heading">
+          {{ section.settings.heading }}</h3>
+        {% if section.settings.link_url != blank %}
+        <div id="insta-feed-link">
+          <a href="{{ section.settings.link_url }}" {% if section.settings.target == true %} target="_blank" rel="noopener noreferrer" {% endif%} class="text-midnight-blue no-underline font-bold text-btn"
+            data-cy="subhead">{{ section.settings.label_link }}{% if section.settings.hiddenText != blank %}<span class="sr-only">{{ section.settings.hiddenText}} </span> {% endif%}</a>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="wrap-instagram-image min-w-744 md:min-w-0 flex-1 xl:mt-14p5 2xl:mt-0 transition-transform" data-paroller-factor="0.075" data-paroller-type="foreground">
+        <div class="row -mx-4">
+          <div class="relative w-1/4 p-2 md:p-4">
+            <div class="img-item relative">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4 instafeed-shopify" data-cy="image-link-1">
+            <div class="img-item relative instafeed-container">
+              <a class="instagram-link link-full z-1 w-full h-full text-black" href="javascript:;">Instagram</a>
+              <div class="instafeed-overlay w-full h-full z-1"></div>
+              <img alt="Instagram Image" src="{{ settings.IMAGE_BASE64 | escape }}"
+                class="full-absolute-img img-item-instagram lazy">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4 instafeed-shopify" data-cy="image-link-2">
+            <div class="img-item relative instafeed-container">
+              <a class="instagram-link link-full z-1 w-full h-full text-black" href="javascript:;">Instagram</a>
+              <div class="instafeed-overlay w-full h-full z-1"></div>
+              <img alt="Instagram Image" src="{{ settings.IMAGE_BASE64 | escape }}"
+                class="full-absolute-img img-item-instagram lazy">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4">
+            <div class="img-item relative">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4 instafeed-shopify" data-cy="image-link-3">
+            <div class="img-item relative instafeed-container">
+              <a class="instagram-link link-full z-1 w-full h-full text-black" href="javascript:;">Instagram</a>
+              <div class="instafeed-overlay w-full h-full z-1"></div>
+              <img alt="Instagram Image" src="{{ settings.IMAGE_BASE64 | escape }}"
+                class="full-absolute-img img-item-instagram lazy">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4 instafeed-shopify" data-cy="image-link-4">
+            <div class="img-item relative instafeed-container">
+              <a class="instagram-link link-full z-1 w-full h-full text-black" href="javascript:;">Instagram</a>
+              <div class="instafeed-overlay w-full h-full z-1"></div>
+              <img alt="Instagram Image" src="{{ settings.IMAGE_BASE64 | escape }}"
+                class="full-absolute-img img-item-instagram lazy">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4 instafeed-shopify" data-cy="image-link-5">
+            <div class="img-item relative instafeed-container">
+              <a class="instagram-link link-full z-1 w-full h-full text-black" href="javascript:;">Instagram</a>
+              <div class="instafeed-overlay w-full h-full z-1"></div>
+              <img alt="Instagram Image" src="{{ settings.IMAGE_BASE64 | escape }}"
+                class="full-absolute-img img-item-instagram lazy">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4 instafeed-shopify" data-cy="image-link-6">
+            <div class="img-item relative instafeed-container">
+              <a class="instagram-link link-full z-1 w-full h-full text-black" href="javascript:;">Instagram</a>
+              <div class="instafeed-overlay w-full h-full z-1"></div>
+              <img alt="Instagram Image" src="{{ settings.IMAGE_BASE64 | escape }}"
+                class="full-absolute-img img-item-instagram lazy">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4">
+            <div class="img-item relative">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4 hidden md:block">
+            <div class="img-item relative">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+
+          <div class="relative w-1/4 p-2 md:p-4 instafeed-shopify" data-cy="image-link-7">
+            <div class="img-item relative instafeed-container">
+              <a class="instagram-link link-full z-1 w-full h-full text-black" href="javascript:;">Instagram</a>
+              <div class="instafeed-overlay w-full h-full z-1"></div>
+              <img alt="Instagram Image" src="{{ settings.IMAGE_BASE64 | escape }}"
+                class="full-absolute-img img-item-instagram lazy">
+              <div class="pb-100p"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endunless  %}
+{% schema %}
+{
+  "name":"IG Feed",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Connect with us"
+    },
+    {
+      "type": "select",
+      "id": "heading_size_2",
+      "options": [
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        }
+      ],
+      "default": "h3",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "label_link",
+      "label": "Label Link"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    },
+    {
+      "type": "checkbox",
+      "id": "target",
+      "label": "Open new tab"
+    },
+    {
+      "type": "text",
+      "id": "hiddenText",
+      "label": "Hidden Text"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mb",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40,
+      "label": "Bottom padding mobile"
+    }
+    ],
+    "presets":[{
+      "name":"IG Feed",
+      "category":"Instagram Feed"
+    }
+  ]
+}
+{%endschema%}

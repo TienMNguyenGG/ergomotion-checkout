@@ -1,0 +1,39 @@
+.title-feature-col {
+  h3,
+  .h3 {
+    @apply text-black md:text-font-24-38 xl:text-h3-lg 2xl:text-h3-2xl;
+  }
+}
+
+.title-feature-item {
+  h4,
+  .h4 {
+    @apply text-font-26-36 text-gray-300 font-medium md:text-quote-md-lg xl:text-font-24-38 2xl:text-tel-footer;
+  }
+}
+.pb-feature-col-v2,
+.pb-feature-col {
+  padding-bottom: 63.4%;
+}
+
+@screen md {
+  .pb-feature-col {
+    padding-bottom: 68.7%;
+  }
+  .pb-feature-col-v2 {
+    padding-bottom: 91.7%;
+  }
+}
+
+@screen lg {
+  .pb-feature-col {
+    padding-bottom: 59%;
+  }
+}
+
+@screen xl {
+  .pb-feature-col-v2,
+  .pb-feature-col {
+    padding-bottom: 61%;
+  }
+}

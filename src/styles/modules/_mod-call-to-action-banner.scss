@@ -1,0 +1,34 @@
+.wrap-cta {
+  p,
+  h2,
+  li {
+    @apply text-white;
+  }
+}
+
+.mod-call-to-action-banner {
+  .link-arrow:focus:not(.mouse) {
+    outline-color: #fff;
+  }
+}
+@screen xl {
+  .title-cta {
+    h2,
+    .h2 {
+      @apply leading-tight;
+    }
+    &.no-text {
+      > * {
+        max-width: 610px;
+      }
+    }
+  }
+
+  .mod-call-to-action-banner {
+    .link-arrow {
+      .icomoon {
+        @apply ml-3p5;
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "c0861243-3874-43fb-9c76-995aaeb27bd9": {
+      "type": "text-center",
+      "blocks": {
+        "template--16592104653021__c0861243-3874-43fb-9c76-995aaeb27bd9-16680459025a2c281e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Support",
+            "heading_size": "h1"
+          }
+        },
+        "template--16592104653021__c0861243-3874-43fb-9c76-995aaeb27bd9-16680459025a2c281e-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16592104653021__c0861243-3874-43fb-9c76-995aaeb27bd9-16680459025a2c281e-0",
+        "template--16592104653021__c0861243-3874-43fb-9c76-995aaeb27bd9-16680459025a2c281e-1"
+      ],
+      "settings": {
+        "content_alignment": "text-center",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "582304bd-f8e9-45dc-9e5e-b2cbf3f3106e": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 40,
+        "padding_bottom_tablet": 30,
+        "padding_bottom_mb": 25
+      }
+    },
+    "c765908c-ece2-4f14-80b6-b2bec4b8c815": {
+      "type": "feature-benefit",
+      "blocks": {
+        "template--16592104653021__c765908c-ece2-4f14-80b6-b2bec4b8c815-1666912038b51c5526-0": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Customer Support",
+            "content_benefit": "<p>Our US-based team is ready to answer your questions and concerns. Call or send us a message today.<\/p>",
+            "label_benefit": "Contact us",
+            "link_benefit": "shopify:\/\/pages\/contact"
+          }
+        },
+        "0c04b860-ee6e-49cd-ad8f-ecd499cef8f9": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Track Your Order",
+            "content_benefit": "<p>Excited to receive your new Ergomotion product? Track its progress through our shipping portal.<\/p>",
+            "label_benefit": "See progress",
+            "link_benefit": "\/account"
+          }
+        },
+        "4f929688-b472-49ea-b1bb-7f8e32cde5da": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Fulfillment + Returns",
+            "content_benefit": "<p>View our shipping time estimates and return policies should there be any fulfillment issues or product concerns.<\/p>",
+            "label_benefit": "Learn more",
+            "link_benefit": "shopify:\/\/pages\/fulfillment-returns"
+          }
+        },
+        "c530c74d-32bb-4f13-8a13-6ac1eae69e6c": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Warranties",
+            "content_benefit": "<p>Our extensive three-tier product warranties ensure you get the peace of mind you deserve with each purchase.<\/p>",
+            "label_benefit": "See warranties",
+            "link_benefit": "shopify:\/\/pages\/product-warranties"
+          }
+        },
+        "d4c98267-67ec-439e-bce1-b5435426ed56": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Setup Videos",
+            "content_benefit": "<p>Streamline setup at home with our 10-minute installation tutorials for each adjustable base product.<\/p>",
+            "label_benefit": "See videos",
+            "link_benefit": "shopify:\/\/pages\/set-up-video"
+          }
+        },
+        "4f4c6bc4-30fe-4958-b080-e2e90af74755": {
+          "type": "featured_benefit",
+          "settings": {
+            "headline_benefit": "Replacement Parts",
+            "content_benefit": "<p>Learn more about ordering replacement parts and view our warranties for full coverage of costs.<\/p>",
+            "label_benefit": "Learn more",
+            "link_benefit": "shopify:\/\/pages\/replacement-parts"
+          }
+        }
+      },
+      "block_order": [
+        "template--16592104653021__c765908c-ece2-4f14-80b6-b2bec4b8c815-1666912038b51c5526-0",
+        "0c04b860-ee6e-49cd-ad8f-ecd499cef8f9",
+        "4f929688-b472-49ea-b1bb-7f8e32cde5da",
+        "c530c74d-32bb-4f13-8a13-6ac1eae69e6c",
+        "d4c98267-67ec-439e-bce1-b5435426ed56",
+        "4f4c6bc4-30fe-4958-b080-e2e90af74755"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "columns": "3",
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "8a32fef5-7132-4d92-b240-412c15eba550": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 20,
+        "padding_bottom_mb": 10
+      }
+    },
+    "5f84280a-7882-4dc8-8c82-7d3ecdcf58fa": {
+      "type": "call-to-action-banner",
+      "blocks": {
+        "template--16592104653021__5f84280a-7882-4dc8-8c82-7d3ecdcf58fa-16674630193d9fcb16-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our FAQs",
+            "heading_size": "h2"
+          }
+        },
+        "template--16592104653021__5f84280a-7882-4dc8-8c82-7d3ecdcf58fa-16674630193d9fcb16-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find a list of commonly asked questions and answers about Ergomotion adjustable bases.<\/p>"
+          }
+        },
+        "template--16592104653021__5f84280a-7882-4dc8-8c82-7d3ecdcf58fa-16674630193d9fcb16-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "\/community\/faq",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16592104653021__5f84280a-7882-4dc8-8c82-7d3ecdcf58fa-16674630193d9fcb16-0",
+        "template--16592104653021__5f84280a-7882-4dc8-8c82-7d3ecdcf58fa-16674630193d9fcb16-1",
+        "template--16592104653021__5f84280a-7882-4dc8-8c82-7d3ecdcf58fa-16674630193d9fcb16-2"
+      ],
+      "settings": {
+        "padding_bottom": 0,
+        "padding_bottom_mb": 0
+      }
+    },
+    "f6c7f55c-2242-4bcf-8b9f-a9b33ef22ea6": {
+      "type": "space",
+      "settings": {
+        "padding_bottom": 50,
+        "padding_bottom_tablet": 80,
+        "padding_bottom_mb": 70
+      }
+    }
+  },
+  "order": [
+    "c0861243-3874-43fb-9c76-995aaeb27bd9",
+    "582304bd-f8e9-45dc-9e5e-b2cbf3f3106e",
+    "c765908c-ece2-4f14-80b6-b2bec4b8c815",
+    "8a32fef5-7132-4d92-b240-412c15eba550",
+    "5f84280a-7882-4dc8-8c82-7d3ecdcf58fa",
+    "f6c7f55c-2242-4bcf-8b9f-a9b33ef22ea6"
+  ]
+}
