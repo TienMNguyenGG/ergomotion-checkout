@@ -116,13 +116,13 @@ class ProductDetail {
     })
   }
   disableBtn () {
-    this.$el.find('.product-form__buttons button').addClass('disable-click')
-    const inter = setInterval(() => {
-      if(typeof window.affirm !== 'undefined' && typeof window.affirm.jsReady !== 'undefined' && window.affirm.jsReady() === true) {
-        this.$el.find('.product-form__buttons button').removeClass('disable-click')
-        clearTimeout(inter)
-      }
-    }, 100)
+    // this.$el.find('.product-form__buttons button').addClass('disable-click')
+    // const inter = setInterval(() => {
+    //   if(typeof window.affirm !== 'undefined' && typeof window.affirm.jsReady !== 'undefined' && window.affirm.jsReady() === true) {
+    //     this.$el.find('.product-form__buttons button').removeClass('disable-click')
+    //     clearTimeout(inter)
+    //   }
+    // }, 100)
   }
 }
 
