@@ -1,0 +1,24 @@
+
+<script type="application/json" data-type="recycling">
+  {%- liquid
+    echo '{'
+      for variant in product.metafields.custom.product_recycling.value.variants
+        echo variant.title | json
+        echo ':'
+        echo variant.id | json
+        unless forloop.last
+          echo ','
+        endunless
+      endfor
+    echo '}'
+  -%}
+</script>
+
+{% schema %}
+{
+  "name": "t:sections.utility-product.name",
+  "templates": [
+    "product"
+  ]
+}
+{% endschema %}
