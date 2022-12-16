@@ -19,8 +19,6 @@
         "818edab0-5d99-43ed-97c8-684a354cbfda": {
           "type": "review_stamped",
           "settings": {
-            "product_id": "",
-            "product_name": ""
           }
         },
         "379c2216-5f85-463b-a78a-dac87adc2743": {
@@ -47,7 +45,6 @@
           "type": "link",
           "settings": {
             "button_label": "Buy now on amazon",
-            "image_link": "shopify:\/\/shop_images\/CITYPNG_1_1.png",
             "get_image_url": true,
             "url_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Buy_on_amazon.svg?v=1665633553",
             "link_url": "\/",
@@ -63,6 +60,14 @@
             "link_url": "\/",
             "target": false
           }
+        },
+        "cf410a33-98cb-494e-9d42-7c82dc1b5589": {
+          "type": "related_products",
+          "settings": {
+            "title_related_products": "Add to Your Base",
+            "show_description_related": true,
+            "show_description_add_ons": false
+          }
         }
       },
       "block_order": [
@@ -73,7 +78,8 @@
         "23744576-06eb-422a-8381-950b68502efd",
         "5aa48e63-93fb-4bb7-8c13-94b6e25f5d5f",
         "762c57e4-fce2-4eb5-b3bd-9f5ba15b9f1f",
-        "8dd73344-a0cd-4179-9bce-60aba4ee43dc"
+        "8dd73344-a0cd-4179-9bce-60aba4ee43dc",
+        "cf410a33-98cb-494e-9d42-7c82dc1b5589"
       ],
       "settings": {
         "padding_bottom": 0,
@@ -94,7 +100,6 @@
         "16638080174807cfa3-0": {
           "type": "help_banner",
           "settings": {
-            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_6.png",
             "get_icon_url": false,
             "url_icon": "",
             "headline_help": "Find us in store",
@@ -107,7 +112,6 @@
         "24383217-0420-45b7-81a0-5ca4fe2f9981": {
           "type": "help_banner",
           "settings": {
-            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_7.png",
             "get_icon_url": false,
             "url_icon": "",
             "headline_help": "Call us",
@@ -120,7 +124,6 @@
         "4f52fadd-20d1-46ea-858c-e795e669aef9": {
           "type": "help_banner",
           "settings": {
-            "image_help": "shopify:\/\/shop_images\/MicrosoftTeams-image_8.png",
             "get_icon_url": false,
             "url_icon": "",
             "headline_help": "Product support",
@@ -155,10 +158,6 @@
       "type": "review-module",
       "disabled": true,
       "settings": {
-        "product_id": "1105",
-        "product_name": "Quest 2.5 - Queen",
-        "padding_bottom": 0,
-        "padding_bottom_mb": 0
       }
     },
     "f9e7efcc-366d-4db5-991b-9992743865f3": {
