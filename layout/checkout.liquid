@@ -71,4 +71,18 @@
     </div>
     {{ tracking_code }}
   </body>
+  <script>
+      window.routes = {
+        cart_url: '{{ routes.cart_url }}',
+        cart_add_url: '{{ routes.cart_add_url }}',
+        cart_change_url: '{{ routes.cart_change_url }}',
+        cart_update_url: '{{ routes.cart_update_url }}',
+        predictive_search_url: '{{ routes.predictive_search_url }}'
+        data_source: {
+          handle: {{ settings.cart_bed_collection | default: "" | json }},
+          render: {{ 'utility-product' | json }}
+        };
+      };
+     
+    </script>
 </html>
