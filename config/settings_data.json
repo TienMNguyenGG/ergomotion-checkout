@@ -80,7 +80,7 @@
     "link_help_HelpFAQs3": "shopify:\/\/pages\/support",
     "urlShopSchema": "shop.ergomotion.com",
     "phoneSchema": "+1.888.550.3746",
-    "cart_bed_collection": "adjustable-bases",
+    "cart_bed_collection": "accessories",
     "cart_recycling_product": "state-mandated-recycle-fee",
     "checkout_logo_image": "shopify:\/\/shop_images\/logo-blue.png",
     "checkout_logo_position": "left",
@@ -182,7 +182,6 @@
               "mega_link": "1",
               "title_sub_menu": "Quest Adjustable Bases",
               "style_sub_menu": "mt-10 xl:columns-2 xl:wrap-menu-item",
-              "image": "shopify:\/\/shop_images\/shutterstock_716883061_1abffe02-3d52-4df5-b922-11849523d562.jpg",
               "label_link": "Compare Quest Bases",
               "link_url": "shopify:\/\/pages\/compare-bases"
             }
@@ -193,7 +192,6 @@
               "mega_link": "2",
               "title_sub_menu": "Adjustable Base Accessories",
               "style_sub_menu": "mt-10 xl:wrap-menu-item xl:mb-9",
-              "image": "shopify:\/\/shop_images\/Ergomotion-Batch1-V1-8_3ebc15e0-981c-4693-9a0a-08bc5fb8a0e2.jpg",
               "label_link": "",
               "link_url": ""
             }
@@ -204,7 +202,6 @@
               "mega_link": "3",
               "title_sub_menu": "Bedding & Pillows",
               "style_sub_menu": "mt-10 xl:wrap-menu-item xl:mb-9",
-              "image": "shopify:\/\/shop_images\/pillow_20e82ad5-1ba0-49e0-896f-facc4e1604b8.jpg",
               "label_link": "",
               "link_url": ""
             }
