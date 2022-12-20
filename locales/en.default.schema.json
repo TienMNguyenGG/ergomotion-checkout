@@ -248,6 +248,18 @@
         }
       }
     },
+    "cart-management": {
+      "name": "Cart Management",
+      "settings": {
+        "cart_bed_collection": {
+          "label": "Component Collection",
+          "info": "The collection that holds all of the components for the bed."
+        },
+        "cart_recycling_product": {
+          "label": "Recycling Fee Product"
+        }
+      }
+    },
     "search_input": {
       "name": "Search behavior",
       "settings": {

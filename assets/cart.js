@@ -77,6 +77,7 @@ class CartItems extends HTMLElement {
       })
       .then((state) => {
         const parsedState = JSON.parse(state);
+        document.dispatchEvent(new CustomEvent('cart:quantity', {bubbles:true, detail:parsedState}));
         this.classList.toggle('is-empty', parsedState.item_count === 0);
         const cartDrawerWrapper = document.querySelector('cart-drawer');
         const cartFooter = document.getElementById('main-cart-footer');
@@ -108,7 +109,42 @@ class CartItems extends HTMLElement {
         this.disableLoading();
       });
   }
+  refreshCart(lines, cart) {
+    lines.forEach((line) => {
+      this.enableLoading(line);
+    }, this);
 
+    const qs = new URLSearchParams({"sections": this.getSectionsToRender().map((section) => section.section)});
+
+    fetch(`/?${qs.toString()}`, {headers: { 'Content-Type': 'application/json', 'Accept': `application/json` }})
+      .then((response) => {
+        return response.text();
+      })
+      .then((state) => {
+        const parsedState = JSON.parse(state);
+        this.classList.toggle('is-empty', cart.item_count === 0);
+        const cartFooter = document.getElementById('main-cart-footer');
+
+        if (cartFooter) cartFooter.classList.toggle('is-empty', cart.item_count === 0);
+        
+        this.getSectionsToRender().forEach(section => {
+          const elementToReplace =
+            document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+
+          elementToReplace.innerHTML =
+            this.getSectionInnerHTML(parsedState[section.section], section.selector);
+        }, this);
+
+        lines.forEach((line) => {
+          this.updateLiveRegions(line, cart.item_count);
+        }, this);
+        this.disableLoading();
+      }).catch(() => {
+        this.querySelectorAll('.loading-overlay').forEach((overlay) => overlay.classList.add('hidden'));
+        document.getElementById('cart-errors').textContent = window.cartStrings.error;
+        this.disableLoading();
+      });
+  }
   updateLiveRegions(line, itemCount) {
     if (this.currentItemCount === itemCount) {
       const lineItemError = document.getElementById(`Line-item-error-${line}`) || document.getElementById(`CartDrawer-LineItemError-${line}`);

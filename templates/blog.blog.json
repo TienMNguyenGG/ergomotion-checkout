@@ -91,6 +91,7 @@
         "label_link": "@ergomotion",
         "link_url": "https:\/\/www.instagram.com\/ergomotion\/",
         "target": true,
+        "hiddenText": "",
         "padding_bottom": 0,
         "padding_bottom_mb": 0
       }

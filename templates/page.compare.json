@@ -250,7 +250,6 @@
           "settings": {
             "get_icon_url": true,
             "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/10_year.svg?v=1665539538",
-            "content": "10-year limited warranty",
             "content_new": "<p>10-year limited warranty<\/p>"
           }
         },
@@ -259,7 +258,6 @@
           "settings": {
             "get_icon_url": true,
             "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Headset_Icon.svg?v=1665539537",
-            "content": "US Based - Call us at 1.888.550.3746",
             "content_new": "<p>US Based - Call us at <a href=\"tel:+1.888.550.3746\" title=\"tel:+1.888.550.3746\">1.888.550.3746<\/a><\/p>"
           }
         },
@@ -268,7 +266,6 @@
           "settings": {
             "get_icon_url": true,
             "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/Truck_Icon.svg?v=1665539537",
-            "content": "Courier-friendly shipping",
             "content_new": "<p>Courier-friendly shipping<\/p>"
           }
         },
@@ -277,7 +274,6 @@
           "settings": {
             "get_icon_url": true,
             "url_icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0662\/9516\/9245\/files\/affirm_71e6e16b-a9fb-457e-b6d8-7ad0cc3bfb15.svg?v=1665539537",
-            "content": "Pay over 12 months with Affirm",
             "content_new": "<p>Pay over 12 months with Affirm<\/p>"
           }
         }

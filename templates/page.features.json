@@ -34,8 +34,8 @@
         "template--16563249676509__1acd42ad-4215-4608-972b-9d36740dc14b-1665456717cf40cd15-2": {
           "type": "buttons",
           "settings": {
-            "button_label": "See all features Test",
-            "button_link": ""
+            "button_label": "Button",
+            "button_link": "#"
           }
         }
       },

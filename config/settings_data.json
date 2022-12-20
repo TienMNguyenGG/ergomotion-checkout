@@ -80,6 +80,8 @@
     "link_help_HelpFAQs3": "shopify:\/\/pages\/support",
     "urlShopSchema": "shop.ergomotion.com",
     "phoneSchema": "+1.888.550.3746",
+    "cart_bed_collection": "adjustable-bases",
+    "cart_recycling_product": "state-mandated-recycle-fee",
     "checkout_logo_image": "shopify:\/\/shop_images\/logo-blue.png",
     "checkout_logo_position": "left",
     "checkout_accent_color": "#043673",
@@ -285,6 +287,36 @@
             "settings": {
               "menu_privacy": "terms-conditions"
             }
+          },
+          "6604e449-e327-49d2-bdb9-a60076d9bf5e": {
+            "type": "list_link_privacy",
+            "settings": {
+              "menu_privacy": ""
+            }
+          },
+          "f2a20d9f-75b2-46eb-b9d0-3d4b7d50d5f4": {
+            "type": "list_link_privacy",
+            "settings": {
+              "menu_privacy": ""
+            }
+          },
+          "2e12eaee-d45c-4a97-babd-6cffb48a499b": {
+            "type": "list_link_privacy",
+            "settings": {
+              "menu_privacy": ""
+            }
+          },
+          "1405d309-c9df-4ba0-8258-512381d65a07": {
+            "type": "list_link_privacy",
+            "settings": {
+              "menu_privacy": ""
+            }
+          },
+          "f978116d-a80d-4a95-8a4e-c6084ec94c5f": {
+            "type": "list_link_privacy",
+            "settings": {
+              "menu_privacy": ""
+            }
           }
         },
         "block_order": [
@@ -292,7 +324,12 @@
           "new-footer-0",
           "e13b4f89-93e5-4e48-b7cd-411e7fe70186",
           "e65693b5-8397-411a-bfbf-8a675a1cacb7",
-          "3d091efa-da47-4b22-8ddb-514269d0be9e"
+          "3d091efa-da47-4b22-8ddb-514269d0be9e",
+          "6604e449-e327-49d2-bdb9-a60076d9bf5e",
+          "f2a20d9f-75b2-46eb-b9d0-3d4b7d50d5f4",
+          "2e12eaee-d45c-4a97-babd-6cffb48a499b",
+          "1405d309-c9df-4ba0-8258-512381d65a07",
+          "f978116d-a80d-4a95-8a4e-c6084ec94c5f"
         ],
         "settings": {
           "menu_privacy_policy": "terms-conditions",

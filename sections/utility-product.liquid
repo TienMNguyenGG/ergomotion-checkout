@@ -1,11 +1,21 @@
-
-<script type="application/json" data-type="recycling">
+{% assign collect = settings.cart_bed_collection.handle | default: "" %}
+<script type="application/json" data-type="products">
   {%- liquid
     echo '{'
-      for variant in product.metafields.custom.product_recycling.value.variants
-        echo variant.title | json
-        echo ':'
-        echo variant.id | json
+      for product in collection.products
+        for variant in product.variants
+          echo variant.id | json | append: '"' | prepend: '"'
+          echo ":{"
+            echo '"recycle":'
+            echo variant.metafields.recycling.fee_count | default: 0 | json
+            echo ','
+            echo '"price":'
+            echo variant.price
+          echo "}"
+          unless forloop.last
+            echo ","
+          endunless
+        endfor
         unless forloop.last
           echo ','
         endunless
@@ -13,12 +23,26 @@
     echo '}'
   -%}
 </script>
+<script type="application/json" data-type="recycling">
+  {%- liquid
+    echo '{'
+      for variant in settings.cart_recycling_product.variants
+        echo variant.metafields.recycling.state_code | json
+        echo ':'
+        echo variant.id | json
+        unless forloop.last
+          echo ','
+        endunless
+      endfor
 
+    echo '}'
+  -%}
+</script>
 {% schema %}
 {
   "name": "t:sections.utility-product.name",
   "templates": [
-    "product"
+    "collection"
   ]
 }
 {% endschema %}

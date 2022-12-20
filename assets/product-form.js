@@ -51,7 +51,7 @@ if (!customElements.get('product-form')) {
           }
 
           const title = response.title
-
+          this.dispatchEvent(new CustomEvent('cart:update', {bubbles: true, detail:{context:'bundle', cartResponse:response}}));
           this.error = false;
           const quickAddModal = this.closest('quick-add-modal');
           if (quickAddModal) {

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
     <meta name="referrer" content="origin">
+
     <title>{{ page_title }}</title>
 
     {{ content_for_header }}
@@ -30,7 +31,6 @@
         });
       }
     </script>
-    <script src="{{ 'checkout.bundle.js' | asset_url }}" defer="defer"></script>
     {% include 'dataLayer-allPages' %}
   </head>
   <body>
@@ -77,12 +77,12 @@
         cart_add_url: '{{ routes.cart_add_url }}',
         cart_change_url: '{{ routes.cart_change_url }}',
         cart_update_url: '{{ routes.cart_update_url }}',
-        predictive_search_url: '{{ routes.predictive_search_url }}'
+        predictive_search_url: '{{ routes.predictive_search_url }}',
         data_source: {
           handle: {{ settings.cart_bed_collection | default: "" | json }},
-          render: {{ 'utility-product' | json }}
-        };
-      };
-     
+          render: 'utility-product'
+        }
+      }
     </script>
+    <script src="{{ 'checkout.bunder.js' | asset_url }}"></script>
 </html>

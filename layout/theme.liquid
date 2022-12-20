@@ -546,6 +546,20 @@
         }
       </script>
       {%- endunless -%}
+      <script>
+      window.routes = {
+        cart_url: '{{ routes.cart_url }}',
+        cart_add_url: '{{ routes.cart_add_url }}',
+        cart_change_url: '{{ routes.cart_change_url }}',
+        cart_update_url: '{{ routes.cart_update_url }}',
+        predictive_search_url: '{{ routes.predictive_search_url }}',
+        data_source: {
+          handle: {{ settings.cart_bed_collection.handle | default: "" | json }},
+          render: 'utility-product'
+        }
+      }
+    </script>
+     <script src="{{ 'main.bundle.js' | asset_url }}" defer="defer"></script>
     {{ settings.code_in_body_close }}
 </body>
 </html>

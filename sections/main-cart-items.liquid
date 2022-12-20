@@ -60,12 +60,26 @@
 
             <tbody>
               {%- for item in cart.items -%}
+              {%- liquid
+                  if item.product.tags contains "No Qty Update" 
+                    assign no_quantity_update = true
+                  else
+                    assign no_quantity_update = false
+                  endif
+
+                  if item.product.tags contains "No Remove"
+                    assign no_remove = true
+                  else
+                    assign no_remove = false
+                  endif
+
+                -%}
                 <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                   <td class="cart-item__media">
-                    {% if item.image %}
                       {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
                       <a href="{{ item.url }}" class="cart-item__link" aria-hidden="true" tabindex="-1"> </a>
                         <div class="cart-item__image-container gradient global-media-settings">
+                          {% if item.image %}
                           <img src="{{ item.image | image_url: width: 300 }}"
                             class="cart-item__image"
                             alt="{{ item.image.alt | escape }}"
@@ -73,8 +87,16 @@
                             width="150"
                             height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
                           >
+                          {% else %}
+                            <img src="{{  'product-detail.jpg' | asset_url }}"
+                              class="cart-item__image"
+                              alt="{{ item.product.title | escape }}"
+                              loading="lazy"
+                              width="150"
+                              height="150"
+                            >
+                          {% endif %}
                         </div>
-                    {% endif %}
                   </td>
 
                   <td class="cart-item__details">
@@ -201,7 +223,7 @@
                         {{ 'products.product.quantity.label' | t }}
                       </label>
                       <quantity-input class="quantity relative">
-                        <button class="quantity__button no-js-hidden absolute left-0" name="minus" type="button">
+                        <button class="quantity__button no-js-hidden absolute left-0" name="minus" type="button" {%- if no_quantity_update -%}disabled{%- endif -%}>
                           <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: item.product.title | escape }}</span>
                           {% render 'icon-minus' %}
                         </button>
@@ -213,18 +235,20 @@
                           aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
                           id="Quantity-{{ item.index | plus: 1 }}"
                           data-index="{{ item.index | plus: 1 }}"
+                          {%- if no_quantity_update -%}disabled{%- endif -%}
                         >
-                        <button class="quantity__button no-js-hidden absolute right-0" name="plus" type="button">
+                        <button class="quantity__button no-js-hidden absolute right-0" name="plus" type="button" {%- if no_quantity_update -%}disabled{%- endif -%}>
                           <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: item.product.title | escape }}</span>
                           {% render 'icon-plus' %}
                         </button>
                       </quantity-input>
-
-                      <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
-                        <a href="{{ item.url_to_remove }}" class="button button--tertiary flex items-center" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
-                          {% render 'icon-remove' %}
-                        </a>
-                      </cart-remove-button>
+                      {%- unless no_remove -%}
+                        <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
+                          <a href="{{ item.url_to_remove }}" class="button button--tertiary flex items-center" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
+                            {% render 'icon-remove' %}
+                          </a>
+                        </cart-remove-button>
+                      {%- endunless -%}
                     </div>
                     <div class="cart-item__error" id="Line-item-error-{{ item.index | plus: 1 }}" role="alert">
                       <small class="cart-item__error-text"></small>

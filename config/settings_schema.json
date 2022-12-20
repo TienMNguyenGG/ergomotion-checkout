@@ -951,5 +951,21 @@
         "default": "+1.888.550.3746"
       }
     ]
+  },
+  {
+    "name": "t:settings_schema.cart-management.name",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "cart_bed_collection",
+        "label": "t:settings_schema.cart-management.settings.cart_bed_collection.label",
+        "info": "t:settings_schema.cart-management.settings.cart_bed_collection.info"
+      },
+      {
+        "type": "product",
+        "id": "cart_recycling_product",
+        "label": "t:settings_schema.cart-management.settings.cart_recycling_product.label"
+      }
+    ]
   }
 ]
